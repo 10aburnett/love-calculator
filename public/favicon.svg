@@ -1,0 +1,30 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#F96798;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#EE608E;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#E05782;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#D7517A;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#D04D74;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CA486F;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .favicon-text {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        fill: white;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background circle with gradient -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGradient)" stroke="white" stroke-width="2"/>
+  
+  <!-- Main text "LC" -->
+  <text x="32" y="32" class="favicon-text" font-size="28">LC</text>
+  
+  <!-- Small heart accent -->
+  <path d="M45 20 C47 18, 51 18, 53 22 C55 18, 59 18, 61 20 C63 22, 63 26, 56 32 C55 33, 54 33, 53 32 C46 26, 45 22, 45 20 Z" fill="white" opacity="0.8"/>
+</svg> 

@@ -1,0 +1,17 @@
+{
+  "name": "Love Calculator",
+  "short_name": "Love Calc",
+  "description": "Free Love Calculator - Test Your Name Compatibility & Relationship Quiz",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#EC4899",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+} 
