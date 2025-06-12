@@ -28,9 +28,6 @@ export default function Footer() {
       links: [
         { href: '/date-of-birth-calculator', label: 'Date of Birth Compatibility Calculator' },
         { href: '/zodiac-compatibility-calculator', label: 'Zodiac Compatibility Calculator' },
-        { href: '/name-compatibility', label: 'Name Compatibility' },
-        { href: '/love-compatibility-test', label: 'Love Compatibility Test' },
-        { href: '/fun-love-test', label: 'Fun Love Test' },
       ],
       isMinor: true,
     },
