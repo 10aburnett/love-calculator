@@ -1,0 +1,2586 @@
+{
+  "landing": {
+    "headline": "Calculateur d'Amour",
+    "intro": "Découvrez le calculateur de compatibilité amoureuse le plus sophistiqué au monde, alimenté par notre algorithme exclusif Quotient d'Affinité (QA). Obtenez une analyse scientifique avec des répartitions détaillées de votre compatibilité sur plusieurs dimensions.",
+    "subtitle": "Testez Votre Compatibilité Amoureuse",
+    "description": "Entrez vos noms pour découvrir votre pourcentage d'amour!",
+    "getStarted": "Commencer",
+    "newAlgorithmBadge": "🔬 NOUVEAU: Alimenté par l'Algorithme Quotient d'Affinité",
+    "poweredByAQTitle": "🧬 Alimenté par la Technologie Quotient d'Affinité",
+    "poweredByAQDescription": "Contrairement aux calculateurs d'amour simples, notre algorithme QA avancé analyse votre compatibilité à travers cinq dimensions scientifiques incluant l'harmonie phonétique, les motifs de fréquence des lettres, la compatibilité numérologique, l'équilibre des voyelles et les premières impressions psychologiques.",
+    "howAlgorithmWorksTitle": "Comment Fonctionne Notre Algorithme Avancé",
+    "algorithmDescription1": "Notre algorithme exclusif Quotient d'Affinité (QA) représente une percée dans l'analyse de compatibilité. Contrairement aux calculateurs de noms basiques qui utilisent des fonctions de hachage simples, notre système applique la recherche académique en linguistique, psychologie et numérologie.",
+    "algorithmDescription2": "Nous analysons les noms à travers cinq dimensions scientifiques pour créer un profil de compatibilité complet qui considère non seulement les lettres, mais les motifs linguistiques, l'harmonie phonétique et la signification numérologique.",
+    "academicFoundation": "Fondement Académique",
+    "academicFoundationDescription": "Notre algorithme incorpore des principes de la recherche linguistique publiée, de l'analyse phonétique et de la théorie mathématique de compatibilité.",
+    "analysisProcessTitle": "Processus d'Analyse",
+    "step1": "Analyse de l'harmonie phonétique",
+    "step2": "Motifs de fréquence des lettres",
+    "step3": "Compatibilité numérologique",
+    "step4": "Calcul de l'équilibre des voyelles",
+    "step5": "Premières impressions psychologiques",
+    "fivePillarsTitle": "Les Cinq Piliers de l'Analyse de Compatibilité",
+    "fivePillarsDescription": "Nous analysons les noms à travers cinq dimensions scientifiques pour créer un profil de compatibilité complet qui considère non seulement les lettres, mais les motifs linguistiques, l'harmonie phonétique et la signification numérologique.",
+    "pillar1Title": "Similarité Initiale",
+    "pillar1Description": "Psychologie de la première lettre et compatibilité d'impression instantanée",
+    "pillar2Title": "Fréquence des Lettres",
+    "pillar2Description": "Analyse vectorielle à 26 dimensions des motifs linguistiques",
+    "pillar3Title": "Harmonie Phonétique",
+    "pillar3Description": "Correspondance basée sur le son et compatibilité auditive",
+    "pillar4Title": "Numérologique",
+    "pillar4Description": "Numérologie ancienne avec précision mathématique",
+    "pillar5Title": "Équilibre des Voyelles",
+    "pillar5Description": "Analyse du rythme, du flux et de l'harmonie auditive",
+    "nameCompatibilityExplainedTitle": "Compatibilité des Noms Expliquée",
+    "funEntertainmentTitle": "Divertissement Amusant",
+    "funEntertainmentDescription": "Notre approche ludique crée des scores de compatibilité divertissants parfaits pour le partage social.",
+    "consistentResultsTitle": "Résultats Cohérents",
+    "consistentResultsDescription": "La même combinaison de noms produira toujours le même pourcentage d'amour pour la fiabilité.",
+    "shareableFunTitle": "Amusement Partageable",
+    "shareableFunDescription": "Générez de belles images de vos résultats à partager sur les réseaux sociaux et avec des amis.",
+    "nameCompatibilityDescription": "La compatibilité des noms est une façon ludique et divertissante de tester les relations et de susciter des conversations. C'est un excellent brise-glace et outil de divertissement pour les fêtes, les réseaux sociaux et les moments amusants avec des amis!",
+    "keyFeaturesTitle": "Pourquoi Choisir Notre Calculateur d'Amour?",
+    "relationshipQuizTitle": "Quiz de Relation – Êtes-Vous un Couple Parfait?",
+    "relationshipQuizDescription": "Vous voulez plus qu'un simple calculateur d'amour? Faites notre quiz de relation complet pour approfondir votre compatibilité et découvrir ce qui rend votre relation unique.",
+    "takeTheQuiz": "Faire le Quiz",
+    "loveCompatibilityTestOnlineTitle": "Test de Compatibilité Amoureuse En Ligne",
+    "loveCompatibilityTestOnlineDescription": "Prêt à découvrir votre compatibilité amoureuse? Notre calculateur d'amour en ligne est complètement gratuit et fournit des résultats instantanés. Testez votre compatibilité relationnelle maintenant et voyez ce que les étoiles vous réservent!",
+    "calculateYourLoveScoreNow": "Calculez Votre Score d'Amour Maintenant",
+    "funLoveTestToShareTitle": "Test d'Amour Amusant à Partager avec des Amis",
+    "funLoveTestDescription": "Notre calculateur d'amour n'est pas seulement amusant pour vous – il est parfait pour partager! Générez de belles images de résultats qui ont l'air superbes sur Instagram, TikTok, Twitter et autres plateformes sociales.",
+    "downloadShareableImages": "Télécharger des images partageables",
+    "shareDirectlyToSocialMedia": "Partager directement sur les réseaux sociaux",
+    "perfectForTikTokContent": "Parfait pour le contenu TikTok",
+    "startConversationsWithFriends": "Commencer des conversations avec des amis",
+    "features": {
+      "literatureBased": "Algorithme Basé sur la Littérature",
+      "visualBreakdown": "Analyse de Répartition Visuelle",
+      "fiveMetricScoring": "Notation Scientifique à 5 Métriques",
+      "visual": {
+        "title": "Répartition Visuelle",
+        "description": "Voyez exactement comment votre score est calculé avec des graphiques interactifs"
+      },
+      "scientificMethod": {
+        "title": "Méthode Scientifique",
+        "description": "Basé sur la recherche linguistique et les études de compatibilité"
+      },
+      "precisionAnalysis": {
+        "title": "Analyse de Précision",
+        "description": "Notation multi-métrique pour des insights complets"
+          }
+  },
+  "entertainmentDisclaimer": "Divertissement Seulement : Il s'agit d'une activité amusante conçue pour le divertissement et le partage social, pas pour de vrais conseils de rencontres ou de relations !",
+  "aqDifferenceTitle": "La Différence AQ",
+  "aqDifferenceSubtitle": "Analyser → Visualiser → Comprendre",
+  "shareYourResultsTitle": "Partagez Vos Résultats",
+  "shareYourResultsDescription": "Transformez votre score d'amour en contenu viral !"
+},
+  "common": {
+    "calculate": "Calculer",
+    "tryAgain": "Réessayer",
+    "yourName": "Votre Nom",
+    "theirName": "Leur Nom",
+    "enterYourName": "Entrez votre nom",
+    "enterTheirName": "Entrez leur nom",
+    "yourBirthDate": "Votre Date de Naissance",
+    "theirBirthDate": "Leur Date de Naissance",
+    "dateFormat": "jj/mm/aaaa",
+    "ghostDateFormat": "jj/mm/aaaa",
+    "datePlaceholder": "jj/mm/aaaa",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "selectLanguage": "Sélectionner la langue",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "menu": "Menu",
+    "navigation": "Navigation",
+    "notFound": "Page Non Trouvée",
+    "notFoundDescription": "Désolé, nous n'avons pas pu trouver la page que vous recherchiez.",
+    "backToHome": "Retour à l'accueil",
+    "yourZodiacSign": "Votre Signe du Zodiaque",
+    "theirZodiacSign": "Leur Signe du Zodiaque",
+    "selectSign": "Sélectionnez votre signe",
+    "selectTheirSign": "Sélectionnez leur signe",
+    "ruledBy": "Gouverné par {{ruler1}} et {{ruler2}}"
+  },
+  "loveCalculator": {
+    "title": "Calculateur d'Amour",
+    "description": "Découvrez le calculateur de compatibilité amoureuse le plus sophistiqué au monde, alimenté par notre algorithme exclusif Quotient d'Affinité (QA). Obtenez une analyse scientifique avec des répartitions détaillées de votre compatibilité sur plusieurs dimensions.",
+    "enterNames": "Entrez vos noms pour découvrir votre pourcentage d'amour!",
+    "loading": "Calcul de votre compatibilité amoureuse...",
+    "calculateLove": "Calculer le Score d'Amour",
+    "shareResult": "Partager le Résultat",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer.",
+    "nameRequired": "Veuillez entrer les deux noms",
+    "easterEggHint": "Psst... 100+ couples cachés de célébrités, mèmes et icônes déclencheront des scores d'amour spéciaux. Combien pouvez-vous débloquer? 🎭✨",
+    "tryOtherTools": "Pourquoi ne pas essayer nos autres outils amusants?",
+    "dobCalculator": "Calculateur de Compatibilité de Date de Naissance",
+    "zodiacCalculator": "Calculateur de Compatibilité Zodiacale",
+    "breakdown": {
+      "title": "Répartition de Compatibilité",
+      "nameHarmony": "Harmonie des Noms",
+      "letterSynergy": "Synergie des Lettres",
+      "vocalBalance": "Équilibre Vocal",
+      "energyAlignment": "Alignement Énergétique",
+      "cosmicConnection": "Connexion Cosmique"
+    },
+    "whyThisScore": "Pourquoi ce score ?",
+    "scienceBehindScore": "La Science Derrière Votre Score :",
+    "initialSimilarity": "Similarité Initiale (0-100) :",
+    "initialSimilarityDescription": "Distance alphabétique entre les premières lettres - les lettres plus proches marquent plus haut",
+    "letterFrequency": "Fréquence des Lettres (0-100) :",
+    "letterFrequencyDescription": "À quel point les modèles de lettres dans vos noms sont similaires (compatibilité linguistique)",
+    "phoneticSimilarity": "Similarité Phonétique (0-100) :",
+    "phoneticSimilarityDescription": "Comment vos noms sonnent quand ils sont prononcés (harmonie auditive)",
+    "numerologicalCompatibility": "Compatibilité Numérologique (0-100) :",
+    "numerologicalCompatibilityDescription": "Basé sur les principes de numérologie ancienne et les nombres du destin",
+    "vowelBalance": "Équilibre des Voyelles (0-100) :",
+    "vowelBalanceDescription": "Le rythme et le flux créés par les rapports voyelle-consonne",
+    "algorithmExplanation": "Cet algorithme combine plusieurs facteurs linguistiques et psychologiques de la recherche académique sur la compatibilité des noms. Toutes les métriques sont notées 0-100 pour une analyse précise.",
+    "shareResultsTitle": "Partagez Vos Résultats",
+    "shareResultsDescription": "Transformez votre score d'amour en contenu viral !",
+    "downloadImage": "Télécharger l'Image",
+    "copyResults": "Copier les Résultats",
+    "copied": "Copié !",
+    "beautifulLoveStory": "Belle histoire d'amour en cours ! 🌹💖",
+    "messages": {
+      "perfectMatch": "Parfaite harmonie ! Votre histoire d'amour est unique ! 💖✨",
+      "soulmates": "Âmes sœurs — vous deux étiez écrits dans les étoiles ! 🌠❤️",
+      "trueLove": "Vrai amour à son apogée — vous vous complétez ! 💕🔥",
+      "legendaryLove": "Amour légendaire ! Vous êtes destinés à être ensemble pour toujours ! 👑💫",
+      "powerCouple": "Couple de pouvoir ultime ! Votre amour conquiert tout ! 💪❤️",
+      "matchMadeInHeaven": "Alerte amour vrai — vous êtes un couple fait au paradis ! ✨💕",
+      "heartsAsOne": "Connexion incroyable ! Vos cœurs battent à l'unisson ! 💓🎵",
+      "beautifulStory": "Belle histoire d'amour en cours ! 🌹💖",
+      "incredibleChemistry": "Chimie incroyable ! Les étincelles volent ! ⚡💘",
+      "loveGoals": "Objectifs d'amour ! Vous inspirez les autres avec votre connexion ! 🎯💝"
+    }
+  },
+  "dobCalculator": {
+    "title": "Calculateur de Compatibilité par Date de Naissance",
+    "description": "Découvrez votre compatibilité romantique basée sur vos dates de naissance! Notre algorithme analyse les motifs d'anniversaire, les différences d'âge et les facteurs numérologiques pour révéler des insights fascinants sur les relations.",
+    "calculate": "Calculer la Compatibilité par Date de Naissance",
+    "whyChooseOurDOBCalculatorTitle": "Pourquoi choisir notre Calculateur de Date de Naissance ?",
+    "whyChooseOurBirthdayCalculatorTitle": "Pourquoi Choisir Notre Calculateur d'Anniversaire ?",
+    "scientificFoundationTitle": "Fondement Scientifique",
+    "scientificFoundationDescription": "Basé sur la recherche numérologique, l'analyse des motifs de dates et les études de compatibilité d'âge utilisées par les experts en relations du monde entier.",
+    "detailedBreakdownTitle": "Analyse Détaillée",
+    "detailedBreakdownDescription": "Notre algorithme analyse la synchronisation des cycles de vie, les différences d'âge, les numéros de vie et les motifs de dates pour des insights de compatibilité profonds.",
+    "socialShareFunTitle": "Partage Social Amusant",
+    "socialSharingTitle": "Partage Social Amusant",
+    "socialShareFunDescription": "Une façon amusante et engageante d'explorer les traits de personnalité et la dynamique relationnelle à travers l'analyse des dates de naissance.",
+    "socialSharingDescription": "Une façon amusante et engageante d'explorer les traits de personnalité et la dynamique relationnelle à travers l'analyse des dates de naissance.",
+    "dobCompatibilityDescription": "Que vous soyez nés la même année ou séparés par des décennies, que vos anniversaires tombent dans le même mois ou soient séparés par les saisons, notre calculateur de compatibilité par date de naissance offre divertissement et aperçus sur les connexions temporelles des relations.",
+    "birthdayCompatibilityDescription": "Que vous soyez nés la même année ou séparés par des décennies, que vos anniversaires tombent dans le même mois ou soient séparés par les saisons, notre calculateur de compatibilité d'anniversaire offre divertissement et aperçus sur les connexions temporelles des relations.",
+    "howAlgorithmWorksTitle": "Comment Fonctionne Notre Algorithme de Compatibilité par Date de Naissance",
+    "exclusiveDateHarmonyAlgorithm": "Notre algorithme exclusif d'Harmonie des Dates combine les principes de numérologie traditionnelle avec l'analyse de compatibilité moderne pour vous fournir des scores de compatibilité par date de naissance précis et divertissants.",
+    "algorithmFoundationDescription": "Notre algorithme exclusif d'Harmonie des Dates combine les principes de numérologie traditionnelle avec l'analyse de compatibilité moderne pour vous fournir des scores de compatibilité d'anniversaire précis et divertissants.",
+    "systemAppliesNumerological": "Le système applique des méthodes numérologiques traditionnelles, analysant les numéros de vie, les différences d'âge, les motifs d'anniversaire et les cycles temporels pour déterminer la compatibilité temporelle.",
+    "comprehensiveCompatibilityProfile": "Le système applique des méthodes numérologiques traditionnelles, analysant les numéros de vie, les différences d'âge, les motifs d'anniversaire et les cycles temporels pour déterminer la compatibilité temporelle.",
+    "numerologicalFoundation": "Fondement Numérologique",
+    "academicFoundation": "Fondement Académique",
+    "algorithmIncorporates": "Notre algorithme incorpore les principes numérologiques classiques, y compris les calculs de numéros de vie, l'analyse des différences d'âge, les motifs d'anniversaire saisonniers et les relations de cycles temporels entre les dates de naissance.",
+    "dobAnalysisProcessTitle": "Processus d'Analyse de Date de Naissance",
+    "birthDateAnalysisProcessTitle": "Processus d'Analyse de Date de Naissance",
+    "analyzeLifePathNumbers": "Analyser les numéros de chemin de vie et les motifs de compatibilité numérologique",
+    "extractTemporalPatterns": "Extraire les motifs temporels et les influences saisonnières",
+    "calculateAgeDifferences": "Calculer les différences d'âge et l'harmonie des cycles de vie",
+    "calculateNumerologicalPaths": "Calculer les chemins numérologiques et les alignements de vie",
+    "evaluateBirthdayPatterns": "Évaluer les motifs d'anniversaire et la synchronisation saisonnière",
+    "analyzeSeasonalPersonalityAlignment": "Analyser l'alignement de personnalité saisonnière",
+    "assessTemporalAlignment": "Évaluer l'alignement temporel et les influences de cycle de vie",
+    "evaluateGenerationalHarmony": "Évaluer l'harmonie générationnelle",
+    "calculateDateNumerology": "Calculer la numérologie des dates et les motifs de résonance temporelle",
+    "generateComprehensiveCompatibilityScore": "Générer un score de compatibilité complet",
+    "fivePillarsTitle": "Les Cinq Piliers de l'Analyse de Compatibilité par Date de Naissance",
+    "lifePathHarmony": "Harmonie du Chemin de Vie",
+    "lifePathNumberCompatibilityPatterns": "Motifs de compatibilité des numéros de chemin de vie et alignement numérologique",
+    "ageBalance": "Équilibre d'Âge",
+    "ageHarmony": "Harmonie d'Âge",
+    "ageDifferenceHarmonyAnalysis": "Analyse de l'harmonie des différences d'âge et synchronisation des cycles de vie",
+    "ageHarmonyDescription": "Analyse des différences d'âge et synchronisation des cycles de vie",
+    "birthdaySync": "Synchronisation d'Anniversaire",
+    "seasonalPatterns": "Motifs Saisonniers",
+    "birthdayPatternSeasonalAlignment": "Alignement saisonnier des motifs d'anniversaire et harmonie temporelle",
+    "seasonalPatternsDescription": "Alignement saisonnier des motifs d'anniversaire et harmonie temporelle",
+    "temporalAlignment": "Alignement Temporel",
+    "numerologicalPaths": "Chemins Numérologiques",
+    "lifeCyclePhaseMatching": "Correspondance des phases de cycle de vie et compatibilité développementale",
+    "numerologicalPathsDescription": "Motifs de compatibilité des numéros de chemin de vie et alignement numérologique",
+    "numericalResonance": "Résonance Numérique",
+    "cosmicSync": "Synchronisation Cosmique",
+    "dateNumerologyVibrationSynchronization": "Synchronisation vibratoire de numérologie des dates et harmonie numérique",
+    "cosmicSyncDescription": "Synchronisation vibratoire de numérologie des dates et harmonie numérique",
+    "generationalEnergy": "Énergie Générationnelle",
+    "generationalEnergyDescription": "Correspondance des phases de cycle de vie et compatibilité développementale",
+    "whyDOBCompatibilityMattersTitle": "Pourquoi la Compatibilité par Date de Naissance Importe",
+    "whyBirthdayCompatibilityMattersTitle": "Pourquoi la Compatibilité d'Anniversaire Importe",
+    "numerologicalWisdom": "Sagesse Numérologique",
+    "numerologicalWisdomDescription": "Des milliers d'années de tradition numérologique suggèrent que les dates de naissance influencent les traits de personnalité et la dynamique relationnelle, fournissant des aperçus sur les motifs de compatibilité.",
+    "temporalPsychology": "Psychologie Temporelle",
+    "temporalPsychologyDescription": "Des milliers d'années de tradition numérologique suggèrent que les dates de naissance influencent les traits de personnalité et la dynamique relationnelle, fournissant des aperçus sur les motifs de compatibilité.",
+    "lifeCycleInfluences": "Influences de Cycle de Vie",
+    "lifeCycleInfluencesDescription": "Les différences d'âge et les étapes de cycle de vie affectent les styles de communication, les priorités de vie et les expressions émotionnelles dans les relations.",
+    "lifeStageSynchronization": "Synchronisation des Étapes de Vie",
+    "lifeStageSynchronizationDescription": "Les différences d'âge et les étapes de cycle de vie affectent les styles de communication, les priorités de vie et les expressions émotionnelles dans les relations.",
+    "temporalChemistry": "Chimie Temporelle",
+    "temporalChemistryDescription": "Les motifs d'anniversaire et l'alignement saisonnier créent des motifs d'attraction naturelle et de compatibilité qui peuvent améliorer la compréhension entre partenaires.",
+    "seasonalInfluences": "Influences Saisonnières",
+    "seasonalInfluencesDescription": "Les motifs d'anniversaire et l'alignement saisonnier créent des motifs d'attraction naturelle et de compatibilité qui peuvent améliorer la compréhension entre partenaires.",
+    "numericalSynchronicity": "Synchronicité Numérique",
+    "numericalSynchronicityDescription": "La compatibilité par date de naissance peut fournir des aperçus sur le timing des relations, les défis et les opportunités de croissance et d'harmonie.",
+    "poweredByAlgorithmTitle": "📊 Alimenté par l'Algorithme d'Harmonie des Dates",
+    "advancedAlgorithmDescription": "Notre algorithme avancé combine la sagesse numérologique traditionnelle avec l'analyse de compatibilité moderne, évaluant les numéros de vie, les différences d'âge et les motifs temporels pour fournir des aperçus personnalisés de compatibilité par date de naissance.",
+    "traditionalNumerologyBased": "Basé sur la Numérologie Traditionnelle",
+    "numerologyBasedAnalysis": "Analyse Basée sur la Numérologie",
+    "ageLifeCycleAnalysis": "Analyse d'Âge et de Cycle de Vie",
+    "seasonalPsychologyPatterns": "Motifs de Psychologie Saisonnière",
+    "5FactorDateScoring": "Score de Date à 5 Facteurs",
+    "fiveFactorTemporalScoring": "Score Temporel à 5 Facteurs",
+    "numerologicalInsightsTitle": "Aperçus Numérologiques et Sagesse Temporelle",
+    "numerologicalInsights": {
+      "item1": "La compatibilité des numéros de chemin de vie révèle des motifs naturels d'alignement des objectifs de vie et des buts",
+      "item2": "Les différences d'âge affectent les styles de communication et l'expression émotionnelle dans les relations",
+      "item3": "Les motifs d'anniversaire saisonniers influencent la dynamique relationnelle et les approches de célébration de la vie",
+      "item4": "L'alignement traditionnel des cycles de vie fournit des aperçus sur les défis potentiels et les connexions harmonieuses",
+      "item5": "La synchronisation temporelle et les motifs numérologiques peuvent améliorer la compréhension des étapes relationnelles et des opportunités de croissance"
+    },
+    "entertainmentOnlyTitle": "🎭 Divertissement Seulement",
+    "important": "Important",
+    "entertainmentOnlyDescription": "Ce calculateur de compatibilité par date de naissance est conçu à des fins de divertissement uniquement. Bien qu'il soit basé sur des principes numérologiques traditionnels, les résultats ne doivent pas être utilisés comme seule base pour des décisions relationnelles importantes. La numérologie est un système de croyance, et la compatibilité dépend de nombreux facteurs personnels au-delà des dates de naissance.",
+    "dobCompatibilityTestOnlineTitle": "Test de Compatibilité par Date de Naissance en Ligne",
+    "dobCompatibilityTestOnlineDescription": "Expérimentez la magie de la compatibilité numérologique avec notre calculateur de date de naissance complet. Découvrez les connexions temporelles, explorez l'harmonie des cycles de vie et obtenez des aperçus sur votre histoire d'amour numérologique.",
+    "birthdayCompatibilityTestOnlineTitle": "Test de Compatibilité d'Anniversaire en Ligne",
+    "birthdayCompatibilityTestOnlineDescription": "Expérimentez la magie de la compatibilité numérologique avec notre calculateur d'anniversaire complet. Découvrez les connexions temporelles, explorez l'harmonie des cycles de vie et obtenez des aperçus sur votre histoire d'amour numérologique.",
+    "calculateYourDOBCompatibilityNow": "Calculez Votre Compatibilité par Date de Naissance Maintenant",
+    "calculateYourBirthdayCompatibilityNow": "Calculez Votre Compatibilité d'Anniversaire Maintenant",
+    "enterYourBirthDatesTitle": "Entrez Vos Dates de Naissance",
+    "enterYourBirthDatesDescription": "Découvrez votre compatibilité cosmique grâce à l'analyse de date de naissance!",
+    "calculateCompatibility": "Calculer la Compatibilité",
+    "yourName": "Votre Nom",
+    "theirName": "Leur Nom",
+    "enterYourName": "Entrez votre nom",
+    "enterTheirName": "Entrez leur nom",
+    "yourBirthDate": "Votre Date de Naissance",
+    "theirBirthDate": "Leur Date de Naissance",
+    "ddmmyyyy": "JJ/MM/AAAA",
+    "analyzingBirthDates": "Analyse des Dates de Naissance...",
+    "tryAgain": "Réessayer",
+    "whyNotTryOtherTools": "Pourquoi ne pas essayer nos autres outils amusants?",
+    "loveCalculator": "Calculateur d'Amour",
+    "zodiacCompatibilityCalculator": "Calculateur de Compatibilité Zodiacale",
+    "birthdayCompatibilityBreakdown": "Répartition de Compatibilité d'Anniversaire",
+    "age": "Âge",
+    "season": "Saison",
+    "numbers": "Nombres",
+    "cosmic": "Cosmique",
+    "generation": "Génération",
+    "ageHarmonyFull": "Harmonie d'Âge",
+    "seasonalPatternsFull": "Motifs Saisonniers",
+    "numerologicalPathsFull": "Chemins Numérologiques",
+    "cosmicSyncFull": "Synchronisation Cosmique",
+    "generationalEnergyFull": "Énergie Générationnelle",
+    "whyThisScore": "Pourquoi ce score?",
+    "scienceBehindScore": "La Science Derrière Votre Score d'Anniversaire:",
+    "ageHarmonyDescription": "Analyse les différences d'âge et la compatibilité des étapes de vie - les âges plus proches obtiennent des scores plus élevés",
+    "seasonPatternsDescription": "Traits de personnalité du mois de naissance et correspondance d'énergie saisonnière basée sur la recherche psychologique",
+    "numbersDescription": "Compatibilité de chemin de vie numérologique utilisant des méthodes de calcul anciennes et des nombres du destin",
+    "cosmicSyncDescription": "Motifs de jour de naissance, timing céleste et analyse de connexion cosmique",
+    "generationDescription": "Analyse de cohorte d'année de naissance et évaluation d'harmonie énergétique générationnelle",
+    "algorithmExplanation": "Cet algorithme combine la recherche chronobiologique, les principes numérologiques et la psychologie saisonnière pour analyser les motifs de compatibilité temporelle. Toutes les métriques notées 0-100 pour une analyse précise d'harmonie d'anniversaire.",
+    "lifeStageAnalysis": "Analyse d'Étape de Vie",
+    "seasonalHarmony": "Harmonie Saisonnière",
+    "numerologicalInsight": "Perspective Numérologique",
+    "shareYourResults": "Partagez Vos Résultats",
+    "shareYourResultsDescription": "Transformez votre score d'anniversaire en contenu viral!",
+    "downloadImage": "Télécharger l'Image",
+    "copyResults": "Copier les Résultats",
+    "copied": "Copié!",
+    "shareYourBirthdayScore": "Partagez Votre Score d'Anniversaire! 🎂",
+    "choosePlatform": "Choisissez votre plateforme préférée pour partager vos résultats de compatibilité de date de naissance",
+    "xTwitter": "X/Twitter",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "snapchat": "Snapchat",
+    "tiktok": "TikTok",
+    "moreApps": "Plus d'Apps",
+    "close": "Fermer",
+    "seasons": {
+      "spring": "Printemps",
+      "summer": "Été",
+      "autumn": "Automne",
+      "winter": "Hiver"
+    },
+    "lifeStageMessages": {
+      "perfectSync": "Synchronisation parfaite - vous êtes dans la même étape de vie!",
+      "greatAlignment": "Excellent alignement - expériences de vie similaires",
+      "complementaryStages": "Étapes complémentaires - apprenez l'un de l'autre",
+      "differentPerspectives": "Perspectives différentes - dynamique unique"
+    },
+    "seasonalMatchMessages": {
+      "bothSame": "Tous les deux bébés de {{season}} - harmonie naturelle!",
+      "different": "{{season1}} rencontre {{season2}} - beau contraste!"
+    },
+    "numerologyMessages": {
+      "lifePaths": "Chemins de vie {{path1}} et {{path2}} - {{message}}",
+      "twinSouls": "Âmes jumelles!",
+      "complementaryEnergies": "Énergies complémentaires"
+    },
+    "overallMessages": {
+      "cosmicSoulmates": "Âmes sœurs cosmiques! Vos dates de naissance révèlent une compatibilité incroyable 💫",
+      "writtenInStars": "Écrit dans les étoiles! Harmonie d'anniversaire incroyable ⭐",
+      "beautifulConnection": "Belle connexion! Vos dates s'alignent merveilleusement 🌟",
+      "goodVibes": "Bonnes vibrations! Compatibilité d'anniversaire solide 🎂",
+      "uniquePairing": "Couple unique! Les opposés peuvent s'attirer magnifiquement 🎭"
+    }
+  },
+  "zodiacSigns": {
+    "aries": "Bélier",
+    "taurus": "Taureau", 
+    "gemini": "Gémeaux",
+    "cancer": "Cancer",
+    "leo": "Lion",
+    "virgo": "Vierge",
+    "libra": "Balance",
+    "scorpio": "Scorpion",
+    "sagittarius": "Sagittaire",
+    "capricorn": "Capricorne",
+    "aquarius": "Verseau",
+    "pisces": "Poissons"
+  },
+  "zodiacElements": {
+    "fire": "Feu",
+    "earth": "Terre",
+    "air": "Air",
+    "water": "Eau"
+  },
+  "zodiacModalities": {
+    "cardinal": "Cardinal",
+    "fixed": "Fixe",
+    "mutable": "Mutable"
+  },
+  "zodiacPlanets": {
+    "mars": "Mars",
+    "venus": "Vénus",
+    "mercury": "Mercure",
+    "moon": "Lune",
+    "sun": "Soleil",
+    "pluto": "Pluton",
+    "jupiter": "Jupiter",
+    "saturn": "Saturne",
+    "uranus": "Uranus",
+    "neptune": "Neptune"
+  },
+  "zodiacUI": {
+    "selectYourZodiacSigns": "Sélectionnez Vos Signes du Zodiaque",
+    "discoverCosmicCompatibility": "Découvrez votre compatibilité cosmique à travers la sagesse des étoiles!",
+    "yourName": "Votre Nom",
+    "theirName": "Leur Nom", 
+    "enterYourName": "Entrez votre nom",
+    "enterTheirName": "Entrez leur nom",
+    "yourZodiacSign": "Votre Signe du Zodiaque",
+    "theirZodiacSign": "Leur Signe du Zodiaque",
+    "selectYourSign": "Sélectionnez votre signe",
+    "selectTheirSign": "Sélectionnez leur signe",
+    "calculateCosmicCompatibility": "Calculer la Compatibilité Cosmique",
+    "readingTheStars": "Lecture des Étoiles...",
+    "tryAgain": "Réessayer",
+    "astrologicalCompatibilityBreakdown": "Répartition de la Compatibilité Astrologique",
+    "whyThisScore": "Pourquoi ce score?",
+    "scienceBehindScore": "La Science Derrière Votre Score Zodiacal:",
+    "signs": "Signes",
+    "elements": "Éléments", 
+    "modality": "Modalité",
+    "planets": "Planètes",
+    "aspects": "Aspects",
+    "signHarmony": "Harmonie des Signes",
+    "elementalBalance": "Équilibre Élémentaire",
+    "modalityMatching": "Correspondance de Modalité",
+    "planetarySync": "Synchronisation Planétaire",
+    "cosmicAspects": "Aspects Cosmiques",
+    "signHarmonyDescription": "Modèles de compatibilité zodiacale traditionnels basés sur les relations astrologiques classiques",
+    "elementsDescription": "Interactions des éléments Feu, Terre, Air et Eau et compatibilité harmonique naturelle",
+    "modalityDescription": "Synchronisation des modèles d'énergie Cardinal, Fixe et Mutable et équilibre dynamique",
+    "planetsDescription": "Relations des planètes dirigeantes et harmonie d'influence céleste entre vos signes",
+    "cosmicAspectsDescription": "Relations angulaires (trigone, sextile, opposition, carré) et dynamiques énergétiques",
+    "algorithmExplanation": "Cet algorithme combine les principes astrologiques traditionnels, la théorie élémentaire, les régences planétaires et les relations d'aspects cosmiques pour une analyse authentique de compatibilité astrologique. Toutes les métriques notées 0-100 pour une évaluation précise de l'harmonie céleste.",
+    "elementalHarmony": "Harmonie Élémentaire",
+    "energyPatterns": "Modèles d'Énergie",
+    "planetaryInfluence": "Influence Planétaire",
+    "astrologicalPattern": "Modèle Astrologique",
+    "shareYourResults": "Partagez Vos Résultats",
+    "turnZodiacScore": "Transformez votre score zodiacal en contenu viral!",
+    "downloadImage": "Télécharger l'Image",
+    "copyResults": "Copier les Résultats",
+    "copied": "Copié!",
+    "shareYourZodiacScore": "Partagez Votre Score Zodiacal! ⭐",
+    "choosePlatform": "Choisissez votre plateforme préférée pour partager vos résultats de compatibilité astrologique",
+    "close": "Fermer",
+    "moreApps": "Plus d'Apps",
+    "whyNotTryOtherTools": "Pourquoi ne pas essayer nos autres outils amusants ?",
+    "loveCalculator": "Calculateur d'Amour",
+    "dobCalculator": "Calculateur de Compatibilité par Date de Naissance"
+  },
+  "zodiacMessages": {
+    "writtenInStars": "Écrit dans les étoiles! Âmes sœurs célestes avec harmonie cosmique ✨",
+    "stellarConnection": "Connexion stellaire! Les étoiles s'alignent magnifiquement pour vous ⭐",
+    "cosmicChemistry": "Chimie cosmique! Grande compatibilité astrologique 🌟",
+    "starlitRomance": "Romance étoilée! Bonne harmonie zodiacale avec potentiel 💫",
+    "uniqueConstellation": "Constellation unique! Différentes énergies peuvent créer de la magie 🔮",
+    "cosmicChemistryGreat": "Chimie cosmique! Grande compatibilité astrologique ⭐"
+  },
+  "zodiacElementMessages": {
+    "fireEarth": "Le Feu rencontre la Terre - des énergies complémentaires créent l'équilibre!",
+    "fireAir": "énergique et inspirant!",
+    "earthWater": "ancrant et nourrissant!",
+    "complementary": "des énergies complémentaires créent l'équilibre!",
+    "sameElement": "Les deux signes de {{element}} - harmonie et compréhension naturelles!"
+  },
+  "zodiacModalityMessages": {
+    "sameModality": "Les deux signes {{modality}} - approche partagée de la vie!",
+    "different": "L'énergie {{modality1}} rencontre le style {{modality2}} - différent mais compatible!"
+  },
+  "zodiacPlanetaryMessages": {
+    "samePlanet": "jumeaux cosmiques avec énergie planétaire partagée!",
+    "different": "influences planétaires uniques créent une attraction dynamique!"
+  },
+  "zodiacPatterns": {
+    "twinSouls": "Âmes Jumelles - compréhension parfaite",
+    "oppositeAttraction": "Attraction Opposée - attraction magnétique", 
+    "harmonicTrine": "Trigone Harmonique - flux sans effort",
+    "supportiveSextile": "Sextile de Soutien - amitié naturelle",
+    "uniqueDynamic": "Dynamique Unique - connexion spéciale"
+  },
+  "zodiacCalculator": {
+    "title": "Calculateur de Compatibilité Zodiacale",
+    "description": "Découvrez la connexion cosmique entre vous et votre partenaire avec notre calculateur avancé de compatibilité zodiacale. Testez vos signes astrologiques et explorez les correspondances amoureuses astrologiques avec des perspectives célestes.",
+    "whyChooseOurZodiacCalculatorTitle": "Pourquoi choisir notre Calculateur Zodiacal ?",
+    "traditionalAstrologyTitle": "Astrologie Traditionnelle",
+    "traditionalAstrologyDescription": "Basé sur la sagesse astrologique séculaire et les modèles de compatibilité zodiacale traditionnels utilisés par les astrologues du monde entier.",
+    "comprehensiveAnalysisTitle": "Analyse Complète",
+    "comprehensiveAnalysisDescription": "Notre algorithme analyse l'harmonie élémentaire, les régents planétaires, les modalités et les aspects cosmiques pour des aperçus de compatibilité profonds.",
+    "cosmicEntertainmentTitle": "Divertissement Cosmique",
+    "cosmicEntertainmentDescription": "Façon amusante et engageante d'explorer les traits de personnalité et les dynamiques relationnelles à travers le prisme de l'astrologie.",
+    "zodiacCompatibilityDescription": "Que vous soyez un ardent Bélier cherchant l'harmonie avec un Taureau terre-à-terre, ou un rêveur Poissons se connectant avec une Vierge analytique, notre calculateur de compatibilité zodiacale offre divertissement et aperçus sur la danse cosmique des relations.",
+    "howAlgorithmWorksTitle": "Comment Fonctionne Notre Algorithme de Compatibilité Zodiacale",
+    "exclusiveCelestialHarmonyAlgorithm": "Notre Algorithme d'Harmonie Céleste exclusif combine les principes astrologiques traditionnels avec l'analyse de compatibilité moderne pour vous fournir des scores de compatibilité zodiacale précis et divertissants.",
+    "systemAppliesTraditionalAstrology": "Le système applique les méthodes astrologiques traditionnelles, analysant les relations fondamentales entre les signes zodiacaux, leurs planètes dirigeantes, propriétés élémentaires et caractéristiques modales pour déterminer la compatibilité cosmique.",
+    "astrologicalFoundation": "Fondement Astrologique",
+    "algorithmIncorporates": "Notre algorithme incorpore les principes astrologiques classiques incluant les interactions élémentaires, les régences planétaires, les énergies modales et les relations d'aspect traditionnelles entre les signes zodiacaux.",
+    "zodiacAnalysisProcessTitle": "Processus d'Analyse Zodiacale",
+    "analyzeTraditionalSignCompatibilityPatterns": "Analyser les modèles de compatibilité de signes traditionnels et les relations astrologiques historiques",
+    "calculateElementalHarmony": "Calculer l'harmonie élémentaire entre les signes de Feu, Terre, Air et Eau",
+    "evaluateModalitySynchronization": "Évaluer la synchronisation de modalité (énergies Cardinales, Fixes, Mutables)",
+    "assessPlanetaryRulerRelationships": "Évaluer les relations des régents planétaires et les influences cosmiques",
+    "calculateCosmicAspectDynamics": "Calculer les dynamiques d'aspects cosmiques et les modèles de résonance astrologique",
+    "fivePillarsTitle": "Cinq Piliers de l'Analyse de Compatibilité Zodiacale",
+    "signHarmonyTitle": "Harmonie des Signes",
+    "traditionalZodiacCompatibilityPatterns": "Modèles de compatibilité zodiacale traditionnels et relations astrologiques",
+    "elementalBalance": "Équilibre Élémentaire",
+    "fireEarthAirWaterElementInteractions": "Interactions des éléments Feu, Terre, Air, Eau et harmonie cosmique",
+    "modalityMatching": "Correspondance de Modalité",
+    "cardinalFixedMutableEnergyPatternSynchronization": "Synchronisation des modèles d'énergie Cardinale, Fixe, Mutable",
+    "planetarySyncTitle": "Synchronisation Planétaire",
+    "rulingPlanetRelationships": "Relations des planètes dirigeantes et influences célestes",
+    "cosmicAspects": "Aspects Cosmiques",
+    "trineSextileOppositionSquareRelationshipDynamics": "Dynamiques relationnelles Trigone, Sextile, Opposition, Carré",
+    "whyZodiacCompatibilityMattersTitle": "Pourquoi la Compatibilité Zodiacale Importe",
+    "astrologicalWisdom": "Sagesse Astrologique",
+    "astrologicalWisdomDescription": "Des milliers d'années de tradition astrologique suggèrent que les corps célestes influencent les traits de personnalité et les dynamiques relationnelles, offrant des aperçus sur les modèles de compatibilité.",
+    "planetaryInfluences": "Influences Planétaires",
+    "planetaryInfluencesDescription": "Chaque signe zodiacal est régi par des planètes spécifiques qui influencent les caractéristiques, styles de communication et expressions émotionnelles dans les relations.",
+    "elementalChemistry": "Chimie Élémentaire",
+    "elementalChemistryDescription": "Les quatre éléments (Feu, Terre, Air, Eau) créent des modèles naturels d'attraction et de compatibilité qui peuvent améliorer la compréhension entre partenaires.",
+    "cosmicTiming": "Timing Cosmique",
+    "cosmicTimingDescription": "La compatibilité astrologique peut fournir des aperçus sur le timing relationnel, les défis et les opportunités de croissance et d'harmonie.",
+    "poweredByAlgorithmTitle": "🌟 Alimenté par l'Algorithme d'Harmonie Céleste",
+    "advancedAlgorithmDescription": "Notre algorithme avancé combine la sagesse astrologique traditionnelle avec l'analyse de compatibilité moderne, évaluant les interactions élémentaires, les relations planétaires et les aspects cosmiques pour livrer des aperçus personnalisés de compatibilité zodiacale.",
+    "traditionalAstrologyBased": "Basé sur l'Astrologie Traditionnelle",
+    "elementalPlanetaryAnalysis": "Analyse Élémentaire et Planétaire",
+    "5FactorCosmicScoring": "Notation Cosmique à 5 Facteurs",
+    "astrologicalInsightsTitle": "Aperçus Astrologiques et Sagesse Cosmique",
+    "astrologicalInsights": {
+      "item1": "La compatibilité élémentaire révèle les modèles d'attraction naturelle entre les signes de Feu, Terre, Air et Eau",
+      "item2": "Les régences planétaires influencent les styles de communication et l'expression émotionnelle dans les relations",
+      "item3": "Les énergies modales (Cardinale, Fixe, Mutable) affectent les dynamiques relationnelles et les approches de prise de décision",
+      "item4": "Les aspects astrologiques traditionnels fournissent des aperçus sur les défis potentiels et les connexions harmonieuses",
+      "item5": "Le timing cosmique et les cycles célestes peuvent améliorer la compréhension des phases relationnelles et des opportunités de croissance"
+    },
+    "entertainmentOnlyTitle": "🎭 Divertissement Seulement",
+    "important": "Important",
+    "entertainmentOnlyDescription": "Ce calculateur de compatibilité zodiacale est conçu uniquement à des fins de divertissement. Bien qu'il soit basé sur des principes astrologiques traditionnels, les résultats ne doivent pas être utilisés comme seule base pour des décisions relationnelles importantes. L'astrologie est un système de croyances, et la compatibilité dépend de nombreux facteurs personnels au-delà des signes zodiacaux.",
+    "zodiacCompatibilityTestOnlineTitle": "Test de Compatibilité Zodiacale en Ligne",
+    "zodiacCompatibilityTestOnlineDescription": "Expérimentez la magie de la compatibilité astrologique avec notre calculateur zodiacal complet. Découvrez les connexions cosmiques, explorez l'harmonie élémentaire et obtenez des aperçus sur votre histoire d'amour céleste.",
+    "calculateYourZodiacCompatibilityNow": "Calculez Votre Compatibilité Zodiacale Maintenant"
+  },
+  "relationshipQuiz": {
+    "title": "Quiz de Compatibilité Relationnelle",
+    "subtitle": "Découvrez À Quel Point Votre Relation Est Vraiment Solide",
+    "description": "Répondez à notre quiz complet de 8 questions pour obtenir des informations sur la force et la compatibilité de votre relation.",
+    "questions": {
+      "q1": {
+        "question": "À quelle fréquence vous et votre partenaire avez-vous des conversations significatives?",
+        "options": {
+          "opt1": "Quotidiennement",
+          "opt2": "Quelques fois par semaine",
+          "opt3": "Hebdomadairement",
+          "opt4": "Rarement"
+        }
+      },
+      "q2": {
+        "question": "Quand vous n'êtes pas d'accord, comment résolvez-vous typiquement les conflits?",
+        "options": {
+          "opt1": "Nous en parlons calmement",
+          "opt2": "Nous avons besoin de temps mais nous résolvons",
+          "opt3": "Nous nous disputons mais nous réconcilions rapidement",
+          "opt4": "Nous évitons le sujet"
+        }
+      },
+      "q3": {
+        "question": "À quel point vos objectifs et rêves futurs sont-ils alignés?",
+        "options": {
+          "opt1": "Parfaitement alignés",
+          "opt2": "Principalement similaires",
+          "opt3": "Quelques différences",
+          "opt4": "Très différents"
+        }
+      },
+      "q4": {
+        "question": "Combien de temps de qualité passez-vous ensemble?",
+        "options": {
+          "opt1": "Beaucoup, et nous l'apprécions",
+          "opt2": "Une bonne quantité",
+          "opt3": "Cela pourrait être plus",
+          "opt4": "Pas assez"
+        }
+      },
+      "q5": {
+        "question": "Comment gérez-vous les amis et la famille de l'autre?",
+        "options": {
+          "opt1": "Nous les adorons tous",
+          "opt2": "Nous nous entendons bien",
+          "opt3": "Quelques défis",
+          "opt4": "Problèmes fréquents"
+        }
+      },
+      "q6": {
+        "question": "À quel point communiquez-vous bien vos besoins et sentiments?",
+        "options": {
+          "opt1": "Très ouvertement",
+          "opt2": "Assez bien",
+          "opt3": "Parfois nous avons des difficultés",
+          "opt4": "Nous les exprimons rarement"
+        }
+      },
+      "q7": {
+        "question": "Comment vous soutenez-vous mutuellement pendant les moments difficiles?",
+        "options": {
+          "opt1": "Nous sommes toujours là l'un pour l'autre",
+          "opt2": "Nous nous soutenons habituellement",
+          "opt3": "Parfois",
+          "opt4": "Nous avons du mal avec cela"
+        }
+      },
+      "q8": {
+        "question": "À quel point vos préférences de style de vie sont-elles compatibles?",
+        "options": {
+          "opt1": "Très compatibles",
+          "opt2": "Principalement compatibles",
+          "opt3": "Quelques différences",
+          "opt4": "Assez différentes"
+        }
+      }
+    },
+    "results": {
+      "perfectMatch": {
+        "title": "Couple Parfait! 💖",
+        "message": "Vous deux êtes des objectifs relationnels! Votre compatibilité est exceptionnelle."
+      },
+      "greatCompatibility": {
+        "title": "Grande Compatibilité! 💕",
+        "message": "Vous avez une relation solide avec un excellent potentiel."
+      },
+      "goodFoundation": {
+        "title": "Bonne Base! 💛",
+        "message": "Vous avez une relation solide avec de l'espace pour grandir."
+      },
+      "workInProgress": {
+        "title": "Travail en Cours! 💪",
+        "message": "Toute relation peut s'améliorer avec des efforts et de la communication."
+      }
+    }
+  },
+  "communicationStyleQuiz": {
+    "title": "Quiz de Style de Communication",
+    "subtitle": "Découvrez Vos Modèles de Communication Uniques",
+    "description": "Comprenez comment vous et votre partenaire communiquez différemment et apprenez à combler les lacunes pour une meilleure connexion.",
+    "questions": {
+      "q1": {
+        "question": "Quand votre partenaire est contrarié, quel est votre premier instinct?",
+        "options": {
+          "opt1": "Écouter attentivement et poser des questions pour comprendre",
+          "opt2": "Offrir des solutions pratiques pour résoudre le problème",
+          "opt3": "Leur donner un câlin et un soutien émotionnel",
+          "opt4": "Leur donner de l'espace jusqu'à ce qu'ils soient prêts à parler"
+        }
+      },
+      "q2": {
+        "question": "Comment préférez-vous discuter des décisions importantes de la relation?",
+        "options": {
+          "opt1": "Face à face avec beaucoup de discussion et d'émotion",
+          "opt2": "Calmement, avec des faits et des avantages/inconvénients exposés",
+          "opt3": "Avec le temps, avec des conversations douces et des révisions",
+          "opt4": "Directement et efficacement pour arriver à une conclusion"
+        }
+      },
+      "q3": {
+        "question": "Quand vous n'êtes pas d'accord avec votre partenaire, vous tendez à:",
+        "options": {
+          "opt1": "Exprimer vos sentiments immédiatement et avec passion",
+          "opt2": "Y réfléchir avant de présenter des arguments logiques",
+          "opt3": "Vous concentrer sur comprendre leur perspective d'abord",
+          "opt4": "Exposer votre position clairement et attendre la même chose"
+        }
+      },
+      "q4": {
+        "question": "Votre façon idéale de partager de bonnes nouvelles est:",
+        "options": {
+          "opt1": "Les appeler immédiatement, plein d'émotion et d'enthousiasme",
+          "opt2": "Planifier comment le partager de manière organisée et claire",
+          "opt3": "Le leur dire dans un moment calme avec chaleur et connexion",
+          "opt4": "Partager les faits directement et continuer"
+        }
+      },
+      "q5": {
+        "question": "Quand vous donnez des retours à votre partenaire, vous:",
+        "options": {
+          "opt1": "Partagez vos sentiments ouvertement sur comment leurs actions vous ont affecté",
+          "opt2": "Présentez des exemples spécifiques et suggérez des améliorations concrètes",
+          "opt3": "Mettez l'accent sur leurs forces d'abord, puis mentionnez doucement les domaines d'amélioration",
+          "opt4": "Êtes direct sur ce qui doit changer sans l'édulcorer"
+        }
+      },
+      "q6": {
+        "question": "Pendant les conflits, qu'est-ce qui est le plus important pour vous?",
+        "options": {
+          "opt1": "Que vous puissiez tous les deux exprimer vos vrais sentiments",
+          "opt2": "Trouver une solution logique qui a du sens",
+          "opt3": "Maintenir la connexion et la compréhension tout au long du processus",
+          "opt4": "Résoudre le problème rapidement et clairement"
+        }
+      },
+      "q7": {
+        "question": "Comment montrez-vous l'amour à travers la communication?",
+        "options": {
+          "opt1": "À travers des mots sincères et des expressions émotionnelles",
+          "opt2": "En me rappelant des détails et en tenant mes promesses",
+          "opt3": "Avec des encouragements doux et en validant leurs sentiments",
+          "opt4": "En étant honnête et direct sur mon engagement"
+        }
+      },
+      "q8": {
+        "question": "Quand votre partenaire a besoin de se défouler, vous préférez:",
+        "options": {
+          "opt1": "Égaler leur énergie et partager des expériences similaires",
+          "opt2": "Poser des questions clarifiantes pour les aider à réfléchir",
+          "opt3": "Écouter tranquillement et offrir du réconfort et de la réassurance",
+          "opt4": "Écouter brièvement puis les aider vers des solutions"
+        }
+      },
+      "q9": {
+        "question": "Votre style de communication s'énergise le plus avec:",
+        "options": {
+          "opt1": "Des conversations émotionnelles profondes sur les sentiments et les rêves",
+          "opt2": "Des discussions intéressantes sur les idées, plans et possibilités",
+          "opt3": "Des conversations de cœur à cœur qui construisent l'intimité et la connexion",
+          "opt4": "Des échanges efficaces qui atteignent les objectifs et résolvent les problèmes"
+        }
+      },
+      "q10": {
+        "question": "Quand vous avez besoin de soutien de votre partenaire, vous préférez qu'ils:",
+        "options": {
+          "opt1": "Vous laissent exprimer tout ce que vous ressentez sans jugement",
+          "opt2": "Vous aident à analyser la situation et à faire du brainstorming",
+          "opt3": "Vous offrent du réconfort, de la validation et de la réassurance",
+          "opt4": "Vous donnent des conseils clairs et les prochaines étapes"
+        }
+      }
+    },
+    "results": {
+      "expressive": {
+        "title": "Communicateur Expressif 🎭",
+        "description": "Vous communiquez avec passion, émotion et enthousiasme. Vous valorisez les conversations profondes et la connexion émotionnelle.",
+        "strengths": [
+          "Excellent à partager les sentiments",
+          "Émotionnellement solidaire",
+          "Crée des connexions profondes",
+          "Passionné et engageant"
+        ],
+        "tips": [
+          "Pratiquez l'écoute active",
+          "Donnez du temps aux autres pour traiter",
+          "Considérez le rythme de communication de votre partenaire"
+        ]
+      },
+      "analytical": {
+        "title": "Communicateur Analytique 🧠",
+        "description": "Vous préférez la communication logique et structurée. Vous valorisez l'information claire et les solutions pratiques.",
+        "strengths": [
+          "Clair et organisé",
+          "Excellent résolveur de problèmes",
+          "Suivi fiable",
+          "Réponses réfléchies"
+        ],
+        "tips": [
+          "Montrez plus de chaleur émotionnelle",
+          "Validez les sentiments avant d'offrir des solutions",
+          "Ayez de la patience avec les expressions émotionnelles"
+        ]
+      },
+      "supportive": {
+        "title": "Communicateur Solidaire 🤗",
+        "description": "Vous priorisez la compréhension, l'empathie et le maintien de l'harmonie dans vos communications.",
+        "strengths": [
+          "Excellent auditeur",
+          "Très empathique",
+          "Crée des espaces sûrs",
+          "Excellent en validation"
+        ],
+        "tips": [
+          "N'évitez pas les conversations difficiles nécessaires",
+          "Exprimez vos propres besoins clairement",
+          "C'est normal d'être en désaccord parfois"
+        ]
+      },
+      "direct": {
+        "title": "Communicateur Direct ⚡",
+        "description": "Vous valorisez l'efficacité, l'honnêteté et la communication directe. Vous allez droit au but rapidement.",
+        "strengths": [
+          "Clair et honnête",
+          "Communicateur efficace",
+          "Bon à prendre des décisions",
+          "Pas de messages confus"
+        ],
+        "tips": [
+          "Ajoutez plus de chaleur à votre ton",
+          "Prenez du temps pour les vérifications émotionnelles",
+          "Ayez de la patience avec le temps de traitement"
+        ]
+      }
+    }
+  },
+  "loveLanguageAssessment": {
+    "title": "Évaluation des Langages d'Amour",
+    "subtitle": "Découvrez Comment Vous Donnez et Recevez l'Amour",
+    "description": "Apprenez votre langage d'amour principal et comment vous pouvez communiquer l'amour plus efficacement avec votre partenaire.",
+    "questions": {
+      "q1": {
+        "question": "Qu'est-ce qui vous fait vous sentir le plus aimé?",
+        "options": {
+          "opt1": "Quand mon partenaire me dit combien il m'aime",
+          "opt2": "Quand mon partenaire m'aide avec les tâches ou responsabilités",
+          "opt3": "Quand je reçois des cadeaux réfléchis de mon partenaire",
+          "opt4": "Quand mon partenaire passe du temps de qualité avec moi",
+          "opt5": "Quand mon partenaire me câline ou me touche physiquement"
+        }
+      },
+      "q2": {
+        "question": "Qu'est-ce qui vous dérange le plus dans une relation?",
+        "options": {
+          "opt1": "Commentaires blessants ou manque d'encouragement",
+          "opt2": "Quand mon partenaire n'aide pas quand j'en ai besoin",
+          "opt3": "Oublier les occasions spéciales ou ne pas être attentionné",
+          "opt4": "Ne pas passer assez de temps ensemble ou les distractions",
+          "opt5": "Manque d'affection physique ou distance"
+        }
+      },
+      "q3": {
+        "question": "Comment préférez-vous célébrer votre anniversaire?",
+        "options": {
+          "opt1": "Avec de beaux mots et affirmations de mes proches",
+          "opt2": "Avec quelqu'un qui organise la fête parfaite pour moi",
+          "opt3": "Avec des cadeaux réfléchis qui montrent qu'ils me connaissent",
+          "opt4": "Avec du temps de qualité ininterrompu avec ma personne préférée",
+          "opt5": "Avec beaucoup de câlins, baisers et contact physique"
+        }
+      },
+      "q4": {
+        "question": "Quel type d'excuse valorisez-vous le plus?",
+        "options": {
+          "opt1": "Des mots sincères qui expliquent ce qu'ils ressentent et leur engagement à changer",
+          "opt2": "Des actions qui démontrent qu'ils travaillent pour s'améliorer",
+          "opt3": "Un cadeau réfléchi qui montre qu'ils pensaient à moi",
+          "opt4": "Du temps dédié à parler et se reconnecter",
+          "opt5": "Un câlin chaleureux et un contact physique réconfortant"
+        }
+      },
+      "q5": {
+        "question": "Quand vous sentez-vous le plus connecté avec votre partenaire?",
+        "options": {
+          "opt1": "Quand nous parlons profondément et partageons nos sentiments",
+          "opt2": "Quand nous travaillons ensemble sur des projets ou tâches",
+          "opt3": "Quand nous échangeons des cadeaux ou petites surprises",
+          "opt4": "Quand nous avons du temps ininterrompu pour nous concentrer l'un sur l'autre",
+          "opt5": "Quand nous sommes physiquement proches et nous touchons"
+        }
+      },
+      "q6": {
+        "question": "Qu'est-ce qui vous fait vous sentir le plus apprécié?",
+        "options": {
+          "opt1": "Entendre des mots spécifiques sur ce que mon partenaire aime chez moi",
+          "opt2": "Voir que mon partenaire remarque et reconnaît les choses que je fais",
+          "opt3": "Recevoir de petits cadeaux inattendus",
+          "opt4": "Avoir l'attention complète de mon partenaire pendant notre temps ensemble",
+          "opt5": "Contact physique décontracté tout au long de la journée"
+        }
+      },
+      "q7": {
+        "question": "Si votre partenaire est stressé, comment préférez-vous l'aider?",
+        "options": {
+          "opt1": "En offrant des mots d'encouragement et d'affirmation",
+          "opt2": "En m'occupant des tâches pour réduire leur charge de travail",
+          "opt3": "En leur achetant quelque chose de spécial pour les remonter le moral",
+          "opt4": "En libérant du temps pour seulement nous concentrer sur eux",
+          "opt5": "En leur donnant des massages ou câlins réconfortants"
+        }
+      },
+      "q8": {
+        "question": "Quel type de message texte vous rendrait le plus heureux?",
+        "options": {
+          "opt1": "'Je t'aime tellement et je suis si fier de toi'",
+          "opt2": "'J'ai récupéré ton pressing et préparé le dîner'",
+          "opt3": "'J'ai vu ça et j'ai pensé à toi, je rentre à la maison avec une surprise'",
+          "opt4": "'Pouvons-nous éteindre nos téléphones ce soir et juste être ensemble?'",
+          "opt5": "'J'ai hâte de te serrer dans mes bras quand tu rentreras à la maison'"
+        }
+      },
+      "q9": {
+        "question": "Quelle est votre idée du rendez-vous parfait?",
+        "options": {
+          "opt1": "N'importe où nous pouvons avoir des conversations profondes et significatives",
+          "opt2": "Un où mon partenaire a soigneusement planifié tous les détails",
+          "opt3": "Un qui inclut un cadeau réfléchi ou une surprise",
+          "opt4": "Du temps ininterrompu ensemble sans distractions",
+          "opt5": "Tout ce qui implique beaucoup de contact physique et de proximité"
+        }
+      },
+      "q10": {
+        "question": "Qu'est-ce qui vous manquerait le plus si votre partenaire voyageait pour le travail pendant une semaine?",
+        "options": {
+          "opt1": "Nos conversations quotidiennes et ses mots d'amour",
+          "opt2": "Son aide avec les responsabilités et tâches quotidiennes",
+          "opt3": "Les petites surprises et cadeaux réfléchis",
+          "opt4": "Notre temps de qualité ensemble chaque jour",
+          "opt5": "Son toucher physique, câlins et proximité"
+        }
+      }
+    },
+    "results": {
+      "words": {
+        "title": "Mots d'Affirmation 💬",
+        "description": "Vous vous sentez le plus aimé à travers des mots encourageants, des compliments et des expressions verbales d'amour.",
+        "characteristics": [
+          "Vous valorisez la communication profonde",
+          "Vous appréciez les compliments sincères",
+          "Vous êtes motivé par les mots d'encouragement",
+          "Vous aimez exprimer l'amour verbalement"
+        ],
+        "tips": [
+          "Dites à votre partenaire exactement ce que vous appréciez chez lui",
+          "Envoyez des messages encourageants",
+          "Utilisez des mots spécifiques en donnant des compliments",
+          "Évitez les critiques dures ou le sarcasme"
+        ]
+      },
+      "wordsOfAffirmation": {
+        "title": "Mots d'Affirmation 💬",
+        "description": "Vous vous sentez le plus aimé à travers des mots encourageants, des compliments et des expressions verbales d'amour.",
+        "strengths": [
+          "Vous valorisez la communication profonde",
+          "Vous appréciez les compliments sincères",
+          "Vous êtes motivé par les mots d'encouragement",
+          "Vous aimez exprimer l'amour verbalement"
+        ],
+        "tips": [
+          "Dites à votre partenaire exactement ce que vous appréciez chez lui",
+          "Envoyez des messages encourageants",
+          "Utilisez des mots spécifiques en donnant des compliments",
+          "Évitez les critiques dures ou le sarcasme"
+        ]
+      },
+      "service": {
+        "title": "Actes de Service 🤝",
+        "description": "Vous vous sentez le plus aimé quand votre partenaire vous aide avec les tâches et responsabilités.",
+        "characteristics": [
+          "Vous valorisez les actions plus que les mots",
+          "Vous appréciez quand les autres réduisent votre charge",
+          "Vous montrez l'amour à travers l'aide",
+          "Vous êtes pratique dans la démonstration du soin"
+        ],
+        "tips": [
+          "Offrez d'aider sans qu'on vous le demande",
+          "Faites attention aux tâches que votre partenaire n'aime pas",
+          "Tenez vos promesses de manière cohérente",
+          "Les petits actes de service comptent autant que les grands"
+        ]
+      },
+      "actsOfService": {
+        "title": "Actes de Service 🤝",
+        "description": "Vous vous sentez le plus aimé quand votre partenaire vous aide avec les tâches et responsabilités.",
+        "strengths": [
+          "Vous valorisez les actions plus que les mots",
+          "Vous appréciez quand les autres réduisent votre charge",
+          "Vous montrez l'amour à travers l'aide",
+          "Vous êtes pratique dans la démonstration du soin"
+        ],
+        "tips": [
+          "Offrez d'aider sans qu'on vous le demande",
+          "Faites attention aux tâches que votre partenaire n'aime pas",
+          "Tenez vos promesses de manière cohérente",
+          "Les petits actes de service comptent autant que les grands"
+        ]
+      },
+      "gifts": {
+        "title": "Recevoir des Cadeaux 🎁",
+        "description": "Vous vous sentez le plus aimé à travers des cadeaux réfléchis et des symboles tangibles d'amour.",
+        "characteristics": [
+          "Vous appréciez les gestes réfléchis",
+          "Vous valorisez le symbolisme dans les cadeaux",
+          "Vous vous souvenez des occasions spéciales",
+          "Vous aimez donner et recevoir des surprises"
+        ],
+        "tips": [
+          "Les cadeaux n'ont pas besoin d'être chers - c'est l'intention qui compte",
+          "Faites attention aux choses que votre partenaire mentionne vouloir",
+          "Souvenez-vous des anniversaires, anniversaires de mariage et jours spéciaux",
+          "Les cadeaux faits maison peuvent être très significatifs"
+        ]
+      },
+      "receivingGifts": {
+        "title": "Recevoir des Cadeaux 🎁",
+        "description": "Vous vous sentez le plus aimé à travers des cadeaux réfléchis et des symboles tangibles d'amour.",
+        "strengths": [
+          "Vous appréciez les gestes réfléchis",
+          "Vous valorisez le symbolisme dans les cadeaux",
+          "Vous vous souvenez des occasions spéciales",
+          "Vous aimez donner et recevoir des surprises"
+        ],
+        "tips": [
+          "Les cadeaux n'ont pas besoin d'être chers - c'est l'intention qui compte",
+          "Faites attention aux choses que votre partenaire mentionne vouloir",
+          "Souvenez-vous des anniversaires, anniversaires de mariage et jours spéciaux",
+          "Les cadeaux faits maison peuvent être très significatifs"
+        ]
+      },
+      "quality": {
+        "title": "Temps de Qualité ⏰",
+        "description": "Vous vous sentez le plus aimé quand votre partenaire vous donne son attention complète et du temps ininterrompu.",
+        "characteristics": [
+          "Vous valorisez la présence plus que les cadeaux",
+          "Vous appréciez l'attention focalisée",
+          "Vous aimez créer des souvenirs ensemble",
+          "Vous priorisez la connexion un-à-un"
+        ],
+        "tips": [
+          "Éteignez les distractions pendant le temps ensemble",
+          "Planifiez des activités que vous appréciez tous les deux",
+          "Ayez des conversations significatives régulièrement",
+          "Même 15 minutes d'attention focalisée peuvent être puissantes"
+        ]
+      },
+      "qualityTime": {
+        "title": "Temps de Qualité ⏰",
+        "description": "Vous vous sentez le plus aimé quand votre partenaire vous donne son attention complète et du temps ininterrompu.",
+        "strengths": [
+          "Vous valorisez la présence plus que les cadeaux",
+          "Vous appréciez l'attention focalisée",
+          "Vous aimez créer des souvenirs ensemble",
+          "Vous priorisez la connexion un-à-un"
+        ],
+        "tips": [
+          "Éteignez les distractions pendant le temps ensemble",
+          "Planifiez des activités que vous appréciez tous les deux",
+          "Ayez des conversations significatives régulièrement",
+          "Même 15 minutes d'attention focalisée peuvent être puissantes"
+        ]
+      },
+      "touch": {
+        "title": "Toucher Physique 🤗",
+        "description": "Vous vous sentez le plus aimé à travers le contact physique, les câlins, les baisers et la proximité.",
+        "characteristics": [
+          "Vous exprimez l'amour à travers le toucher",
+          "Vous valorisez la proximité physique",
+          "Vous êtes réconforté par les câlins et caresses",
+          "Vous utilisez le toucher pour vous connecter émotionnellement"
+        ],
+        "tips": [
+          "Le toucher décontracté tout au long de la journée est important",
+          "Respectez les préférences de votre partenaire sur le toucher public",
+          "Les câlins peuvent être très réconfortants pendant les moments difficiles",
+          "Le contact physique n'a pas toujours besoin d'être romantique"
+        ]
+      },
+      "physicalTouch": {
+        "title": "Toucher Physique 🤗",
+        "description": "Vous vous sentez le plus aimé à travers le contact physique, les câlins, les baisers et la proximité.",
+        "strengths": [
+          "Vous exprimez l'amour à travers le toucher",
+          "Vous valorisez la proximité physique",
+          "Vous êtes réconforté par les câlins et caresses",
+          "Vous utilisez le toucher pour vous connecter émotionnellement"
+        ],
+        "tips": [
+          "Le toucher décontracté tout au long de la journée est important",
+          "Respectez les préférences de votre partenaire sur le toucher public",
+          "Les câlins peuvent être très réconfortants pendant les moments difficiles",
+          "Le contact physique n'a pas toujours besoin d'être romantique"
+        ]
+      }
+    }
+  },
+  "futureGoalsCompatibility": {
+    "title": "Compatibilité des Objectifs Futurs",
+    "subtitle": "Vos Rêves Sont-Ils Alignés?",
+    "description": "Évaluez à quel point vos objectifs à long terme et aspirations s'alignent avec ceux de votre partenaire.",
+    "questions": {
+      "q1": {
+        "question": "À quel point est-il important pour vous de vivre dans la même ville que votre famille?",
+        "options": {
+          "opt1": "Extrêmement important - j'ai besoin d'être proche",
+          "opt2": "Important mais je peux être flexible",
+          "opt3": "Quelque peu important mais pas décisif",
+          "opt4": "Pas important - je suis ouvert à déménager loin"
+        }
+      },
+      "q2": {
+        "question": "Quels sont vos objectifs professionnels pour les 10 prochaines années?",
+        "options": {
+          "opt1": "Gravir l'échelle corporative dans mon domaine actuel",
+          "opt2": "Démarrer ma propre entreprise ou initiative",
+          "opt3": "Équilibrer le travail avec la vie personnelle/familiale",
+          "opt4": "Explorer différentes carrières et expériences"
+        }
+      },
+      "q3": {
+        "question": "Comment vous sentez-vous à propos d'avoir des enfants?",
+        "options": {
+          "opt1": "Je veux définitivement des enfants bientôt",
+          "opt2": "Je veux des enfants mais plus tard",
+          "opt3": "Je pourrais vouloir des enfants mais je ne suis pas sûr",
+          "opt4": "Je ne veux pas d'enfants"
+        }
+      },
+      "q4": {
+        "question": "Quelle est votre approche idéale des finances en couple?",
+        "options": {
+          "opt1": "Combiner complètement toutes les finances",
+          "opt2": "Partager les dépenses principales mais garder des comptes séparés",
+          "opt3": "Garder les finances principalement séparées avec des contributions équitables",
+          "opt4": "Finances complètement séparées"
+        }
+      },
+      "q5": {
+        "question": "À quel point est-il important pour vous de voyager et explorer le monde?",
+        "options": {
+          "opt1": "Extrêmement important - c'est une priorité principale",
+          "opt2": "Très important - je veux voyager régulièrement",
+          "opt3": "Quelque peu important - voyages occasionnels",
+          "opt4": "Pas important - je préfère rester près de chez moi"
+        }
+      },
+      "q6": {
+        "question": "Comment voyez-vous l'équilibre travail-vie dans votre relation?",
+        "options": {
+          "opt1": "Tous deux axés sur la carrière avec soutien mutuel",
+          "opt2": "Une personne priorise la carrière, l'autre la famille",
+          "opt3": "Tous deux priorisent la famille sur les carrières",
+          "opt4": "Approche flexible qui change selon les besoins"
+        }
+      },
+      "q7": {
+        "question": "À quel point voulez-vous que votre style de vie soit aventureux?",
+        "options": {
+          "opt1": "Très aventureux - sports extrêmes, relocalisations, nouvelles expériences",
+          "opt2": "Modérément aventureux - voyages réguliers et nouvelles activités",
+          "opt3": "Quelque peu aventureux - aventures occasionnelles",
+          "opt4": "Je préfère la stabilité et la routine"
+        }
+      },
+      "q8": {
+        "question": "Quels sont vos objectifs pour acheter une maison?",
+        "options": {
+          "opt1": "Acheter bientôt et s'installer dans une communauté",
+          "opt2": "Épargner pour une maison dans les 3-5 prochaines années",
+          "opt3": "Peut-être acheter éventuellement, pas pressé",
+          "opt4": "Préfère louer et garder la flexibilité"
+        }
+      }
+    },
+    "results": {
+      "perfectAlignment": {
+        "title": "Alignement Parfait! 🎯",
+        "message": "Vos objectifs futurs sont incroyablement bien alignés! Vous êtes sur la même longueur d'onde pour construire la vie de vos rêves ensemble."
+      },
+      "strongCompatibility": {
+        "title": "Forte Compatibilité! 💪",
+        "message": "Vous partagez la plupart des mêmes visions pour l'avenir. Quelques petites différences peuvent enrichir votre parcours ensemble."
+      },
+      "goodFoundation": {
+        "title": "Bonne Base! 🌟",
+        "message": "Vous avez une base solide avec de l'espace pour grandir. La communication sera clé pour aligner vos rêves."
+      },
+      "workTogether": {
+        "title": "Travaillez Ensemble! 🤝",
+        "message": "Vous avez quelques différences dans vos objectifs futurs, mais avec effort et compromis, vous pouvez créer un chemin partagé."
+      }
+    }
+  },
+  "conflictResolutionQuiz": {
+    "title": "Quiz de Style de Résolution de Conflit",
+    "subtitle": "Comment Gérez-Vous les Désaccords?",
+    "description": "Découvrez votre approche naturelle pour résoudre les conflits et apprendre des stratégies pour une communication plus saine.",
+    "questions": {
+      "q1": {
+        "question": "Quand un conflit commence, votre première réaction est généralement:",
+        "options": {
+          "opt1": "L'affronter de front et en parler immédiatement",
+          "opt2": "Prendre du temps pour me calmer et réfléchir d'abord",
+          "opt3": "Essayer de trouver un terrain d'entente immédiatement",
+          "opt4": "Éviter le conflit et espérer qu'il se résoudra"
+        }
+      },
+      "q2": {
+        "question": "Pendant un désaccord, vous êtes le plus susceptible de:",
+        "options": {
+          "opt1": "Exprimer vos émotions clairement et avec passion",
+          "opt2": "Vous concentrer sur les faits et la logique",
+          "opt3": "Essayer de maintenir la paix et l'harmonie",
+          "opt4": "Vous retirer jusqu'à ce que les choses se calment"
+        }
+      },
+      "q3": {
+        "question": "Votre objectif principal lors de la résolution d'un conflit est:",
+        "options": {
+          "opt1": "Gagner et prouver que vous avez raison",
+          "opt2": "Trouver la meilleure solution logique",
+          "opt3": "Maintenir la relation et la connexion",
+          "opt4": "Éviter plus de confrontation"
+        }
+      },
+      "q4": {
+        "question": "Quand votre partenaire est en colère contre vous, vous:",
+        "options": {
+          "opt1": "Restez ferme sur votre position",
+          "opt2": "Écoutez et analysez leurs points",
+          "opt3": "Vous excusez pour maintenir la paix",
+          "opt4": "Leur donnez de l'espace jusqu'à ce qu'ils se calment"
+        }
+      },
+      "q5": {
+        "question": "Après un désaccord, vous préférez:",
+        "options": {
+          "opt1": "Discuter de ce qui s'est passé et pourquoi",
+          "opt2": "Analyser ce qui a mal tourné et comment l'améliorer",
+          "opt3": "Vous réconcilier et passer à autre chose rapidement",
+          "opt4": "Prétendre que ça ne s'est jamais passé"
+        }
+      },
+      "q6": {
+        "question": "Votre plus grande force en résolution de conflit est:",
+        "options": {
+          "opt1": "Votre passion et détermination",
+          "opt2": "Votre capacité à rester calme et logique",
+          "opt3": "Votre empathie et désir d'harmonie",
+          "opt4": "Votre capacité à rester flexible"
+        }
+      },
+      "q7": {
+        "question": "Ce qui vous frustre le plus pendant les conflits est quand:",
+        "options": {
+          "opt1": "L'autre personne ne veut pas s'engager",
+          "opt2": "L'autre personne est émotionnelle au lieu d'être logique",
+          "opt3": "L'autre personne est agressive ou méchante",
+          "opt4": "Le conflit traîne en longueur"
+        }
+      },
+      "q8": {
+        "question": "Votre approche idéale pour résoudre un gros désaccord serait:",
+        "options": {
+          "opt1": "Une discussion franche où tout est mis sur la table",
+          "opt2": "Une conversation structurée avec des points clairs",
+          "opt3": "Une discussion douce axée sur les sentiments",
+          "opt4": "Laisser du temps passer puis aborder doucement le sujet"
+        }
+      }
+    },
+    "results": {
+      "assertive": {
+        "title": "Résolveur Assertif 💪",
+        "description": "Vous affrontez les conflits de face avec confiance et détermination. Vous n'avez pas peur d'exprimer vos opinions.",
+        "strengths": [
+          "Direct et honnête",
+          "Ne laisse pas les problèmes non résolus",
+          "Passionné pour trouver des solutions",
+          "Bon défenseur de vos besoins"
+        ],
+        "tips": [
+          "Faites attention à votre ton et volume",
+          "Écoutez les perspectives des autres avant de répondre",
+          "Montrez de l'empathie même en désaccord"
+        ]
+      },
+      "analytical": {
+        "title": "Résolveur Analytique 🧠",
+        "description": "Vous abordez les conflits avec logique et raison. Vous préférez rester calme et trouver des solutions pratiques.",
+        "strengths": [
+          "Reste calme sous pression",
+          "Se concentre sur les solutions",
+          "Objectif et équitable",
+          "Bon à analyser les problèmes"
+        ],
+        "tips": [
+          "Reconnaissez les émotions même si vous les gérez différemment",
+          "Montrez plus de chaleur dans votre communication",
+          "Rappelez-vous que les sentiments sont aussi des faits"
+        ]
+      },
+      "harmonious": {
+        "title": "Résolveur Harmonieux 🕊️",
+        "description": "Vous priorisez la paix et la connexion. Vous travaillez dur pour maintenir l'harmonie et comprendre tous les côtés.",
+        "strengths": [
+          "Très empathique",
+          "Bon médiateur",
+          "Se concentre sur la préservation des relations",
+          "Crée un environnement sûr pour la discussion"
+        ],
+        "tips": [
+          "N'évitez pas les conversations difficiles nécessaires",
+          "Défendez vos propres besoins aussi",
+          "Rappelez-vous qu'un conflit sain peut renforcer les relations"
+        ]
+      },
+      "avoiding": {
+        "title": "Résolveur Évitant 🌊",
+        "description": "Vous préférez donner de l'espace et du temps aux conflits. Vous croyez que beaucoup de problèmes se résolvent naturellement.",
+        "strengths": [
+          "Garde son calme",
+          "Flexible et adaptable",
+          "Réduit l'escalade des tensions",
+          "Bon à choisir ses batailles"
+        ],
+        "tips": [
+          "Certains problèmes ont besoin d'être résolus directement",
+          "Communiquez même si c'est juste pour dire que vous avez besoin de temps",
+          "Revenez aux problèmes une fois que vous êtes prêt"
+        ]
+             }
+     }
+   },
+   "conflictResolutionStyle": {
+     "title": "Quiz de Style de Résolution de Conflit",
+     "subtitle": "Découvrez Comment Vous Gérez les Désaccords",
+     "description": "Apprenez votre approche naturelle du conflit et comment mieux travailler avec votre partenaire pendant les désaccords.",
+     "questions": {
+       "q1": {
+         "question": "Quand vous et votre partenaire n'êtes pas d'accord sur quelque chose d'important, votre premier instinct est de:",
+         "options": {
+           "opt1": "Trouver une solution qui fonctionne pour vous deux",
+           "opt2": "Argumenter votre point jusqu'à ce qu'ils comprennent que vous avez raison",
+           "opt3": "Céder pour maintenir la paix et éviter le conflit",
+           "opt4": "Changer de sujet ou partir de la conversation",
+           "opt5": "Se rencontrer à mi-chemin et chacun faire des compromis"
+         }
+       },
+       "q2": {
+         "question": "Pendant une dispute houleuse, vous typiquement:",
+         "options": {
+           "opt1": "Essayez de comprendre leur perspective et trouver un terrain d'entente",
+           "opt2": "Devenez plus fort et plus insistant sur votre position",
+           "opt3": "Reculez et vous excusez même si vous n'êtes pas d'accord",
+           "opt4": "Vous fermez émotionnellement et arrêtez de participer",
+           "opt5": "Suggérez une pause et trouvez un terrain d'entente plus tard"
+         }
+       },
+       "q3": {
+         "question": "Votre approche pour gagner des arguments est:",
+         "options": {
+           "opt1": "Les arguments devraient être sur trouver la vérité, pas gagner",
+           "opt2": "Je gagne habituellement parce que je suis bien préparé et persistant",
+           "opt3": "Je n'aime pas gagner des arguments, ça fait mal aux relations",
+           "opt4": "J'essaie d'éviter complètement les arguments",
+           "opt5": "Je suis prêt à en gagner quelques-uns et en perdre quelques-uns"
+         }
+       },
+       "q4": {
+         "question": "Quand vous avez clairement raison sur quelque chose mais votre partenaire n'est pas d'accord:",
+         "options": {
+           "opt1": "Je me concentre sur les aider à comprendre ma perspective",
+           "opt2": "Je continue à argumenter jusqu'à ce qu'ils admettent que j'ai raison",
+           "opt3": "Je les laisse penser qu'ils ont raison pour maintenir l'harmonie",
+           "opt4": "Je laisse tomber et passe à autre chose",
+           "opt5": "Je présente mon cas une fois puis je laisse tomber"
+         }
+       },
+       "q5": {
+         "question": "Après une dispute, vous typiquement:",
+         "options": {
+           "opt1": "Voulez en parler complètement jusqu'à ce que vous compreniez tous les deux",
+           "opt2": "Attendez une reconnaissance que votre point était valide",
+           "opt3": "Vous excusez en premier pour restaurer l'harmonie",
+           "opt4": "Espérez que ça passe et que les choses reviennent à la normale",
+           "opt5": "Suggérez de trouver un compromis qui fonctionne pour les deux"
+         }
+       },
+       "q6": {
+         "question": "Quand votre partenaire apporte une plainte à votre sujet:",
+         "options": {
+           "opt1": "Écoutez attentivement et travaillez ensemble sur des solutions",
+           "opt2": "Vous défendez et expliquez pourquoi vous avez agi ainsi",
+           "opt3": "Vous excusez et essayez de les faire se sentir mieux",
+           "opt4": "Vous sentez dépassé et avez besoin d'espace pour traiter",
+           "opt5": "Reconnaissez leur point et offrez de vous rencontrer à mi-chemin"
+         }
+       },
+       "q7": {
+         "question": "Votre plus grande peur pendant les conflits est:",
+         "options": {
+           "opt1": "Que vous ne pourrez pas résoudre le problème ensemble",
+           "opt2": "Que votre partenaire ne respectera pas votre perspective",
+           "opt3": "Que le conflit endommagera votre relation",
+           "opt4": "Que les émotions deviendront trop intenses et accablantes",
+           "opt5": "Qu'aucun de vous ne sera satisfait du résultat"
+         }
+       },
+       "q8": {
+         "question": "Quand vous discutez d'un problème, vous préférez:",
+         "options": {
+           "opt1": "Prendre autant de temps que nécessaire pour explorer complètement le problème",
+           "opt2": "Présenter votre cas clairement et attendre la même chose d'eux",
+           "opt3": "Vous concentrer sur les sentiments et maintenir la connexion",
+           "opt4": "Garder les discussions brèves et axées sur les solutions",
+           "opt5": "Trouver des compromis rapides pour résoudre les choses efficacement"
+         }
+       },
+       "q9": {
+         "question": "Votre force de résolution de conflit est:",
+         "options": {
+           "opt1": "Trouver des solutions créatives qui fonctionnent pour tout le monde",
+           "opt2": "Rester ferme sur les principes et valeurs importants",
+           "opt3": "Maintenir l'amour et la connexion à travers les moments difficiles",
+           "opt4": "Rester calme et ne pas escalader les situations émotionnelles",
+           "opt5": "Être juste et trouver un terrain d'entente rapidement"
+         }
+       },
+       "q10": {
+         "question": "Quand vous avez blessé les sentiments de votre partenaire, vous:",
+         "options": {
+           "opt1": "Voulez comprendre exactement comment et pourquoi, puis travailler sur des solutions",
+           "opt2": "Expliquez vos intentions et attendez qu'ils comprennent",
+           "opt3": "Vous excusez immédiatement et vous concentrez sur les faire se sentir mieux",
+           "opt4": "Vous sentez mal mais avez besoin de temps pour traiter avant d'en discuter",
+           "opt5": "Vous excusez et suggérez des moyens d'empêcher que cela se reproduise"
+         }
+       }
+     },
+     "results": {
+       "collaborative": {
+         "title": "Résolveur de Problèmes Collaboratif 🤝",
+         "description": "Vous croyez à travailler ensemble pour trouver des solutions gagnant-gagnant. Vous valorisez autant vos besoins que ceux de votre partenaire.",
+         "strengths": [
+           "Excellent à trouver des solutions créatives",
+           "Valorise les deux perspectives",
+           "Construit des relations plus fortes",
+           "Aborde les causes profondes"
+         ],
+         "challenges": [
+           "Peut prendre plus de temps",
+           "Peut éviter les décisions rapides",
+           "Nécessite la coopération du partenaire",
+           "Peut être épuisant"
+         ],
+         "tips": [
+           "Continuez à nourrir cette approche saine",
+           "Soyez patient quand votre partenaire a besoin de temps",
+           "Ne forcez pas la collaboration quand des décisions rapides sont nécessaires"
+         ],
+         "partnerAdvice": [
+           "Appréciez leur engagement envers l'équité",
+           "Engagez-vous ouvertement dans la résolution de problèmes",
+           "Donnez-leur du temps pour travailler les problèmes ensemble"
+         ]
+       },
+       "competing": {
+         "title": "Compétiteur Direct 🏆",
+         "description": "Vous préférez rester ferme sur vos positions et plaider fortement pour votre point de vue. Vous valorisez avoir raison et gagner.",
+         "strengths": [
+           "Clair sur vos besoins",
+           "Décisif dans les situations difficiles",
+           "Défend les valeurs importantes",
+           "Obtient des résultats rapidement"
+         ],
+         "challenges": [
+           "Peut endommager l'harmonie relationnelle",
+           "Peut escalader les conflits",
+           "Le partenaire peut se sentir non entendu",
+           "Peut manquer les opportunités de compromis"
+         ],
+         "tips": [
+           "Pratiquez l'écoute active",
+           "Considérez les sentiments de votre partenaire",
+           "Choisissez vos batailles sagement",
+           "Posez des questions au lieu de juste argumenter"
+         ],
+         "partnerAdvice": [
+           "Tenez bon sur les questions importantes",
+           "Aidez-les à voir votre perspective",
+           "Appréciez leur passion et engagement"
+         ]
+       },
+       "accommodating": {
+         "title": "Gardien de l'Harmonie 🕊️",
+         "description": "Vous priorisez la paix relationnelle et le bonheur de votre partenaire. Vous êtes prêt à sacrifier vos préférences pour l'harmonie.",
+         "strengths": [
+           "Maintient la paix relationnelle",
+           "Montre l'amour à travers le sacrifice",
+           "Évite les conflits destructeurs",
+           "Crée un espace émotionnel sûr"
+         ],
+         "challenges": [
+           "Vos besoins peuvent ne pas être satisfaits",
+           "Peut construire du ressentiment avec le temps",
+           "Les problèmes peuvent ne pas être complètement résolus",
+           "Le partenaire peut ne pas connaître vos vrais sentiments"
+         ],
+         "tips": [
+           "Pratiquez l'expression de vos besoins",
+           "Établissez des limites saines",
+           "Abordez les problèmes avant qu'ils s'accumulent",
+           "Rappelez-vous que vos opinions comptent aussi"
+         ],
+         "partnerAdvice": [
+           "Encouragez-les à partager leurs vrais sentiments",
+           "Vérifiez leurs besoins régulièrement",
+           "Ne profitez pas de leur accommodation"
+         ]
+       },
+       "avoiding": {
+         "title": "Éviteur de Conflit 🚪",
+         "description": "Vous préférez vous éloigner des conflits et laisser les tensions se résoudre naturellement. Vous avez besoin d'espace pour traiter les émotions.",
+         "strengths": [
+           "Prévient l'escalade",
+           "Donne du temps aux émotions pour se calmer",
+           "Évite de dire des choses blessantes",
+           "Peut fournir une perspective précieuse"
+         ],
+         "challenges": [
+           "Les problèmes peuvent ne pas être résolus",
+           "Le partenaire peut se sentir ignoré",
+           "Les problèmes peuvent s'accumuler avec le temps",
+           "Peut manquer les opportunités de croissance"
+         ],
+         "tips": [
+           "Programmez des moments spécifiques pour discuter des problèmes",
+           "Pratiquez rester présent pour de courtes périodes",
+           "Communiquez votre besoin d'espace",
+           "Revenez aborder les problèmes après vous être calmé"
+         ],
+         "partnerAdvice": [
+           "Donnez-leur de l'espace quand ils en ont besoin",
+           "Programmez des moments calmes pour discuter des problèmes",
+           "Soyez patient avec leur temps de traitement"
+         ]
+       },
+       "compromising": {
+         "title": "Négociateur Équitable ⚖️",
+         "description": "Vous croyez en l'équité et à trouver un terrain d'entente. Vous êtes prêt à donner un peu pour recevoir un peu dans la plupart des situations.",
+         "strengths": [
+           "Crée des résultats équitables",
+           "Résolution rapide",
+           "Les deux parties obtiennent quelque chose",
+           "Pratique et réaliste"
+         ],
+         "challenges": [
+           "Peut ne pas aborder les problèmes plus profonds",
+           "Les deux parties peuvent se sentir insatisfaites",
+           "Peut devenir routinier plutôt que réfléchi",
+           "Peut éviter de traiter les problèmes fondamentaux"
+         ],
+         "tips": [
+           "Parfois creusez plus profond pour des solutions gagnant-gagnant",
+           "Assurez-vous que les compromis semblent équitables pour les deux",
+           "Abordez les besoins sous-jacents, pas seulement les problèmes de surface"
+         ],
+         "partnerAdvice": [
+           "Appréciez leur équité",
+           "Exprimez-vous quand les compromis ne semblent pas équilibrés",
+           "Travaillez ensemble sur des solutions plus collaboratives parfois"
+         ]
+       }
+     },
+     "yourChallenges": "Vos Défis",
+     "tipsForYou": "Conseils pour Vous",
+     "adviceForPartner": "Conseils pour Votre Partenaire"
+   },
+      "quizzes": {
+    "common": {
+      "question": "Question {{current}} sur {{total}}",
+      "tryAgain": "Réessayer",
+      "shareResults": "Partager les Résultats",
+      "yourStrengths": "Vos Forces",
+      "growthTips": "Conseils de Croissance",
+      "yourScore": "Votre Score",
+      "percentage": "{{percentage}}% Compatibilité",
+      "primaryStyle": "Style Principal",
+      "primary": "Principal",
+      "exploreOtherQuizzes": "Explorer d'Autres Quiz",
+      "communicationStyleQuiz": "Quiz de Style de Communication",
+      "loveLanguageAssessment": "Évaluation des Langages d'Amour",
+      "futureGoalsCompatibility": "Compatibilité des Objectifs Futurs",
+      "conflictResolutionQuiz": "Quiz de Style de Résolution de Conflit",
+      "relationshipQuiz": "Quiz de Relation",
+      "discoverYourPatterns": "Découvrez vos modèles de communication",
+      "discoverYourLoveLanguages": "Découvrez vos langages d'amour principaux",
+      "discoverYourLoveLanguage": "Découvrez votre langage d'amour",
+      "seeHowAligned": "Voyez à quel point vos objectifs de vie sont alignés",
+      "learnYourApproach": "Apprenez votre approche de résolution de conflit",
+      "answerQuestions": "Répondez aux questions sur votre relation",
+      "learnYourCommunicationStyle": "Apprenez votre style de communication",
+      "alignYourFutureGoals": "Alignez vos objectifs futurs",
+      "whatYoullDiscoverConflict": "Ce Que Vous Découvrirez Sur la Résolution de Conflit",
+      "conflictFocus": "Focus Conflit",
+      "transformDisagreements": "Transformez les désaccords en croissance",
+      "yourConflictStyleBreakdown": "Décomposition de Votre Style de Conflit",
+      "identifyYourPrimaryApproach": "Identifiez votre approche principale pour gérer les désaccords",
+      "learnEffectiveTechniques": "Apprenez des techniques efficaces pour une meilleure résolution de conflit",
+      "discoverHowToBuild": "Découvrez comment construire une communication plus forte pendant les conflits",
+      "collaborative": "Collaboratif",
+      "competing": "Compétitif",
+      "accommodating": "Accommodant",
+      "avoiding": "Évitant",
+      "compromising": "Compromis",
+      "loveCalculator": "Calculateur d'Amour",
+      "yourConflictStyle": "Votre Style de Conflit",
+      "resolutionStrategies": "Stratégies de Résolution",
+      "relationshipImprovement": "Amélioration de Relation",
+      "yourLoveLanguageScores": "Vos Scores de Langages d'Amour",
+      "loveFocus": "Focus Amour",
+      "understandHowYouExpress": "Comprenez comment vous exprimez et recevez l'amour le mieux",
+      "communicationFocus": "Focus Communication",
+      "understandYourPatterns": "Comprenez vos modèles de communication et construisez des connexions plus profondes",
+      "whyCommunicationMatters": "Pourquoi le Style de Communication Importe",
+      "betterUnderstanding": "Meilleure Compréhension",
+      "learnHowYouCommunicate": "Apprenez comment vous communiquez naturellement et comment votre partenaire peut recevoir vos messages",
+      "reduceConflicts": "Réduire les Conflits",
+      "understandingDifferentStyles": "Comprendre différents styles de communication aide à prévenir les malentendus et les disputes",
+      "strongerConnection": "Connexion Plus Forte",
+      "adaptYourCommunication": "Adaptez votre communication pour créer plus d'intimité et de connexion avec votre partenaire",
+      "relationshipFocus": "Focus Relation",
+      "whyTakeOurQuiz": "Pourquoi Faire Notre Quiz?",
+      "selfAwareness": "Conscience de Soi",
+      "gainInsights": "Obtenez des aperçus sur vos modèles de relation et les domaines d'amélioration",
+      "communication": "Communication",
+      "startMeaningfulConversations": "Commencez des conversations significatives sur votre relation avec votre partenaire",
+      "growth": "Croissance",
+      "identifyStrengths": "Identifiez les forces à célébrer et les domaines où vous pouvez grandir ensemble",
+      "whatYoullLearn": "Ce Que Vous Apprendrez de l'Évaluation des Langages d'Amour",
+      "yourPrimaryLoveLanguage": "Votre Langage d'Amour Principal",
+      "discoverWhichLoveLanguage": "Découvrez lequel des 5 langages d'amour vous parle le plus profondément et résonne avec votre cœur",
+      "howToExpressLove": "Comment Exprimer l'Amour",
+      "learnBestWaysToShow": "Apprenez les meilleures façons de montrer l'amour à votre partenaire basées sur leurs préférences uniques de langage d'amour",
+      "relationshipGrowthTips": "Conseils de Croissance de Relation",
+      "getPersonalizedAdvice": "Obtenez des conseils personnalisés pour renforcer votre relation grâce à une meilleure compréhension du langage d'amour",
+      "goalsFocus": "Focus Objectifs",
+      "alignYourDreams": "Alignez vos rêves et construisez un avenir partagé ensemble",
+      "whatFutureGoalsWillReveal": "Ce Que le Quiz de Compatibilité des Objectifs Futurs Révélera",
+      "goalAlignmentScore": "Score d'Alignement des Objectifs",
+      "seeHowCloselyGoals": "Voyez à quel point vos objectifs de vie et rêves correspondent à la vision de votre partenaire pour l'avenir",
+      "sharedPathPlanning": "Planification de Chemin Partagé",
+      "learnHowToCreate": "Apprenez comment créer une feuille de route partagée pour votre avenir ensemble et aligner vos rêves individuels",
+      "compromiseStrategies": "Stratégies de Compromis",
+      "getTipsOnNavigating": "Obtenez des conseils sur la navigation des différences d'objectifs et trouvez des solutions gagnant-gagnant pour votre relation",
+      "compatible": "Compatible",
+      "yourStrongestAreas": "Vos Domaines les Plus Forts",
+      "areasForDiscussion": "Domaines à Discuter",
+      "detailedCompatibilityBreakdown": "Décomposition Détaillée de Compatibilité",
+      "careerGoals": "Objectifs de Carrière",
+      "familyPlans": "Plans Familiaux",
+      "lifestyle": "Style de Vie",
+      "financialGoals": "Objectifs Financiers",
+      "personalGrowth": "Croissance Personnelle"
+    },
+     "communicationStyleQuiz": {
+       "title": "Quiz de Style de Communication",
+       "subtitle": "Découvrez Vos Modèles de Communication Uniques",
+       "description": "Comprenez comment vous et votre partenaire communiquez différemment et apprenez à combler les lacunes pour une meilleure connexion.",
+       "questions": {
+         "q1": {
+           "question": "Quand votre partenaire est contrarié, quel est votre premier instinct?",
+           "options": {
+             "opt1": "Écouter attentivement et poser des questions pour comprendre",
+             "opt2": "Offrir des solutions pratiques pour résoudre le problème",
+             "opt3": "Leur donner un câlin et un soutien émotionnel",
+             "opt4": "Leur donner de l'espace jusqu'à ce qu'ils soient prêts à parler"
+           }
+         },
+         "q2": {
+           "question": "Comment préférez-vous discuter des décisions importantes de la relation?",
+           "options": {
+             "opt1": "Face à face avec beaucoup de discussion et d'émotion",
+             "opt2": "Calmement, avec des faits et des avantages/inconvénients exposés",
+             "opt3": "Avec le temps, avec des conversations douces et des révisions",
+             "opt4": "Directement et efficacement pour arriver à une conclusion"
+           }
+         },
+         "q3": {
+           "question": "Quand vous n'êtes pas d'accord avec votre partenaire, vous tendez à:",
+           "options": {
+             "opt1": "Exprimer vos sentiments immédiatement et avec passion",
+             "opt2": "Y réfléchir avant de présenter des arguments logiques",
+             "opt3": "Vous concentrer sur comprendre leur perspective d'abord",
+             "opt4": "Exposer votre position clairement et attendre la même chose"
+           }
+         },
+         "q4": {
+           "question": "Votre façon idéale de partager de bonnes nouvelles est:",
+           "options": {
+             "opt1": "Les appeler immédiatement, plein d'émotion et d'enthousiasme",
+             "opt2": "Planifier comment le partager de manière organisée et claire",
+             "opt3": "Le leur dire dans un moment calme avec chaleur et connexion",
+             "opt4": "Partager les faits directement et continuer"
+           }
+         },
+         "q5": {
+           "question": "Quand vous donnez des retours à votre partenaire, vous:",
+           "options": {
+             "opt1": "Partagez vos sentiments ouvertement sur comment leurs actions vous ont affecté",
+             "opt2": "Présentez des exemples spécifiques et suggérez des améliorations concrètes",
+             "opt3": "Mettez l'accent sur leurs forces d'abord, puis mentionnez doucement les domaines d'amélioration",
+             "opt4": "Êtes direct sur ce qui doit changer sans l'édulcorer"
+           }
+         },
+         "q6": {
+           "question": "Pendant les conflits, qu'est-ce qui est le plus important pour vous?",
+           "options": {
+             "opt1": "Que vous puissiez tous les deux exprimer vos vrais sentiments",
+             "opt2": "Trouver une solution logique qui a du sens",
+             "opt3": "Maintenir la connexion et la compréhension tout au long du processus",
+             "opt4": "Résoudre le problème rapidement et clairement"
+           }
+         },
+         "q7": {
+           "question": "Comment montrez-vous l'amour à travers la communication?",
+           "options": {
+             "opt1": "À travers des mots sincères et des expressions émotionnelles",
+             "opt2": "En me rappelant des détails et en tenant mes promesses",
+             "opt3": "Avec des encouragements doux et en validant leurs sentiments",
+             "opt4": "En étant honnête et direct sur mon engagement"
+           }
+         },
+         "q8": {
+           "question": "Quand votre partenaire a besoin de se défouler, vous préférez:",
+           "options": {
+             "opt1": "Égaler leur énergie et partager des expériences similaires",
+             "opt2": "Poser des questions clarifiantes pour les aider à réfléchir",
+             "opt3": "Écouter tranquillement et offrir du réconfort et de la réassurance",
+             "opt4": "Écouter brièvement puis les aider vers des solutions"
+           }
+         },
+         "q9": {
+           "question": "Votre style de communication s'énergise le plus avec:",
+           "options": {
+             "opt1": "Des conversations émotionnelles profondes sur les sentiments et les rêves",
+             "opt2": "Des discussions intéressantes sur les idées, plans et possibilités",
+             "opt3": "Des conversations de cœur à cœur qui construisent l'intimité et la connexion",
+             "opt4": "Des échanges efficaces qui atteignent les objectifs et résolvent les problèmes"
+           }
+         },
+         "q10": {
+           "question": "Quand vous avez besoin de soutien de votre partenaire, vous préférez qu'ils:",
+           "options": {
+             "opt1": "Vous laissent exprimer tout ce que vous ressentez sans jugement",
+             "opt2": "Vous aident à analyser la situation et à faire du brainstorming",
+             "opt3": "Vous offrent du réconfort, de la validation et de la réassurance",
+             "opt4": "Vous donnent des conseils clairs et les prochaines étapes"
+           }
+         }
+       },
+       "results": {
+         "expressive": {
+           "title": "Communicateur Expressif 🎭",
+           "description": "Vous communiquez avec passion, émotion et enthousiasme. Vous valorisez les conversations profondes et la connexion émotionnelle.",
+           "strengths": [
+             "Excellent à partager les sentiments",
+             "Émotionnellement solidaire",
+             "Crée des connexions profondes",
+             "Passionné et engageant"
+           ],
+           "tips": [
+             "Pratiquez l'écoute active",
+             "Donnez du temps aux autres pour traiter",
+             "Considérez le rythme de communication de votre partenaire"
+           ]
+         },
+         "analytical": {
+           "title": "Communicateur Analytique 🧠",
+           "description": "Vous préférez la communication logique et structurée. Vous valorisez l'information claire et les solutions pratiques.",
+           "strengths": [
+             "Clair et organisé",
+             "Excellent résolveur de problèmes",
+             "Suivi fiable",
+             "Réponses réfléchies"
+           ],
+           "tips": [
+             "Montrez plus de chaleur émotionnelle",
+             "Validez les sentiments avant d'offrir des solutions",
+             "Ayez de la patience avec les expressions émotionnelles"
+           ]
+         },
+         "supportive": {
+           "title": "Communicateur Solidaire 🤗",
+           "description": "Vous priorisez la compréhension, l'empathie et le maintien de l'harmonie dans vos communications.",
+           "strengths": [
+             "Excellent auditeur",
+             "Très empathique",
+             "Crée des espaces sûrs",
+             "Excellent en validation"
+           ],
+           "tips": [
+             "N'évitez pas les conversations difficiles nécessaires",
+             "Exprimez vos propres besoins clairement",
+             "C'est normal d'être en désaccord parfois"
+           ]
+         },
+         "direct": {
+           "title": "Communicateur Direct ⚡",
+           "description": "Vous valorisez l'efficacité, l'honnêteté et la communication directe. Vous allez droit au but rapidement.",
+           "strengths": [
+             "Clair et honnête",
+             "Communicateur efficace",
+             "Bon à prendre des décisions",
+             "Pas de messages confus"
+           ],
+           "tips": [
+             "Ajoutez plus de chaleur à votre ton",
+             "Prenez du temps pour les vérifications émotionnelles",
+             "Ayez de la patience avec le temps de traitement"
+           ]
+         }
+       }
+     },
+     "relationshipQuiz": {
+       "title": "Quiz de Compatibilité Relationnelle",
+       "subtitle": "Découvrez À Quel Point Votre Relation Est Vraiment Solide",
+       "description": "Répondez à notre quiz complet de 8 questions pour obtenir des informations sur la force et la compatibilité de votre relation.",
+       "questions": {
+         "q1": {
+           "question": "À quelle fréquence vous et votre partenaire avez-vous des conversations significatives?",
+           "options": {
+             "opt1": "Quotidiennement",
+             "opt2": "Quelques fois par semaine",
+             "opt3": "Hebdomadairement",
+             "opt4": "Rarement"
+           }
+         },
+         "q2": {
+           "question": "Quand vous n'êtes pas d'accord, comment résolvez-vous typiquement les conflits?",
+           "options": {
+             "opt1": "Nous en parlons calmement",
+             "opt2": "Nous avons besoin de temps mais nous résolvons",
+             "opt3": "Nous nous disputons mais nous réconcilions rapidement",
+             "opt4": "Nous évitons le sujet"
+           }
+         },
+         "q3": {
+           "question": "À quel point vos objectifs et rêves futurs sont-ils alignés?",
+           "options": {
+             "opt1": "Parfaitement alignés",
+             "opt2": "Principalement similaires",
+             "opt3": "Quelques différences",
+             "opt4": "Très différents"
+           }
+         },
+         "q4": {
+           "question": "Combien de temps de qualité passez-vous ensemble?",
+           "options": {
+             "opt1": "Beaucoup, et nous l'apprécions",
+             "opt2": "Une bonne quantité",
+             "opt3": "Cela pourrait être plus",
+             "opt4": "Pas assez"
+           }
+         },
+         "q5": {
+           "question": "Comment gérez-vous les amis et la famille de l'autre?",
+           "options": {
+             "opt1": "Nous les adorons tous",
+             "opt2": "Nous nous entendons bien",
+             "opt3": "Quelques défis",
+             "opt4": "Problèmes fréquents"
+           }
+         },
+         "q6": {
+           "question": "À quel point communiquez-vous bien vos besoins et sentiments?",
+           "options": {
+             "opt1": "Très ouvertement",
+             "opt2": "Assez bien",
+             "opt3": "Parfois nous avons des difficultés",
+             "opt4": "Nous les exprimons rarement"
+           }
+         },
+         "q7": {
+           "question": "Comment vous soutenez-vous mutuellement pendant les moments difficiles?",
+           "options": {
+             "opt1": "Nous sommes toujours là l'un pour l'autre",
+             "opt2": "Nous nous soutenons habituellement",
+             "opt3": "Parfois",
+             "opt4": "Nous avons du mal avec cela"
+           }
+         },
+         "q8": {
+           "question": "À quel point vos préférences de style de vie sont-elles compatibles?",
+           "options": {
+             "opt1": "Très compatibles",
+             "opt2": "Principalement compatibles",
+             "opt3": "Quelques différences",
+             "opt4": "Assez différentes"
+           }
+         }
+       },
+       "results": {
+         "perfectMatch": {
+           "title": "Couple Parfait! 💖",
+           "message": "Vous deux êtes des objectifs relationnels! Votre compatibilité est exceptionnelle."
+         },
+         "greatCompatibility": {
+           "title": "Grande Compatibilité! 💕",
+           "message": "Vous avez une relation solide avec un excellent potentiel."
+         },
+         "goodFoundation": {
+           "title": "Bonne Base! 💛",
+           "message": "Vous avez une relation solide avec de l'espace pour grandir."
+         },
+         "workInProgress": {
+           "title": "Travail en Cours! 💪",
+           "message": "Toute relation peut s'améliorer avec des efforts et de la communication."
+         }
+       }
+     },
+     "conflictResolutionQuiz": {
+       "title": "Quiz de Style de Résolution de Conflit",
+       "subtitle": "Comment Gérez-Vous les Désaccords?",
+       "description": "Découvrez votre approche naturelle pour résoudre les conflits et apprendre des stratégies pour une communication plus saine.",
+       "questions": {
+         "q1": {
+           "question": "Quand un conflit commence, votre première réaction est généralement:",
+           "options": {
+             "opt1": "L'affronter de front et en parler immédiatement",
+             "opt2": "Prendre du temps pour me calmer et réfléchir d'abord",
+             "opt3": "Essayer de trouver un terrain d'entente immédiatement",
+             "opt4": "Éviter le conflit et espérer qu'il se résoudra"
+           }
+         },
+         "q2": {
+           "question": "Pendant un désaccord, vous êtes le plus susceptible de:",
+           "options": {
+             "opt1": "Exprimer vos émotions clairement et avec passion",
+             "opt2": "Vous concentrer sur les faits et la logique",
+             "opt3": "Essayer de maintenir la paix et l'harmonie",
+             "opt4": "Vous retirer jusqu'à ce que les choses se calment"
+           }
+         },
+         "q3": {
+           "question": "Votre objectif principal lors de la résolution d'un conflit est:",
+           "options": {
+             "opt1": "Gagner et prouver que vous avez raison",
+             "opt2": "Trouver la meilleure solution logique",
+             "opt3": "Maintenir la relation et la connexion",
+             "opt4": "Éviter plus de confrontation"
+           }
+         },
+         "q4": {
+           "question": "Quand votre partenaire est en colère contre vous, vous:",
+           "options": {
+             "opt1": "Restez ferme sur votre position",
+             "opt2": "Écoutez et analysez leurs points",
+             "opt3": "Vous excusez pour maintenir la paix",
+             "opt4": "Leur donnez de l'espace jusqu'à ce qu'ils se calment"
+           }
+         },
+         "q5": {
+           "question": "Après un désaccord, vous préférez:",
+           "options": {
+             "opt1": "Discuter de ce qui s'est passé et pourquoi",
+             "opt2": "Analyser ce qui a mal tourné et comment l'améliorer",
+             "opt3": "Vous réconcilier et passer à autre chose rapidement",
+             "opt4": "Prétendre que ça ne s'est jamais passé"
+           }
+         },
+         "q6": {
+           "question": "Votre plus grande force en résolution de conflit est:",
+           "options": {
+             "opt1": "Votre passion et détermination",
+             "opt2": "Votre capacité à rester calme et logique",
+             "opt3": "Votre empathie et désir d'harmonie",
+             "opt4": "Votre capacité à rester flexible"
+           }
+         },
+         "q7": {
+           "question": "Ce qui vous frustre le plus pendant les conflits est quand:",
+           "options": {
+             "opt1": "L'autre personne ne veut pas s'engager",
+             "opt2": "L'autre personne est émotionnelle au lieu d'être logique",
+             "opt3": "L'autre personne est agressive ou méchante",
+             "opt4": "Le conflit traîne en longueur"
+           }
+         },
+         "q8": {
+           "question": "Votre approche idéale pour résoudre un gros désaccord serait:",
+           "options": {
+             "opt1": "Une discussion franche où tout est mis sur la table",
+             "opt2": "Une conversation structurée avec des points clairs",
+             "opt3": "Une discussion douce axée sur les sentiments",
+             "opt4": "Laisser du temps passer puis aborder doucement le sujet"
+           }
+         }
+       },
+       "results": {
+         "assertive": {
+           "title": "Résolveur Assertif 💪",
+           "description": "Vous affrontez les conflits de face avec confiance et détermination. Vous n'avez pas peur d'exprimer vos opinions.",
+           "strengths": [
+             "Direct et honnête",
+             "Ne laisse pas les problèmes non résolus",
+             "Passionné pour trouver des solutions",
+             "Bon défenseur de vos besoins"
+           ],
+           "tips": [
+             "Faites attention à votre ton et volume",
+             "Écoutez les perspectives des autres avant de répondre",
+             "Montrez de l'empathie même en désaccord"
+           ]
+         },
+         "analytical": {
+           "title": "Résolveur Analytique 🧠",
+           "description": "Vous abordez les conflits avec logique et raison. Vous préférez rester calme et trouver des solutions pratiques.",
+           "strengths": [
+             "Reste calme sous pression",
+             "Se concentre sur les solutions",
+             "Objectif et équitable",
+             "Bon à analyser les problèmes"
+           ],
+           "tips": [
+             "Reconnaissez les émotions même si vous les gérez différemment",
+             "Montrez plus de chaleur dans votre communication",
+             "Rappelez-vous que les sentiments sont aussi des faits"
+           ]
+         },
+         "harmonious": {
+           "title": "Résolveur Harmonieux 🕊️",
+           "description": "Vous priorisez la paix et la connexion. Vous travaillez dur pour maintenir l'harmonie et comprendre tous les côtés.",
+           "strengths": [
+             "Très empathique",
+             "Bon médiateur",
+             "Se concentre sur la préservation des relations",
+             "Crée un environnement sûr pour la discussion"
+           ],
+           "tips": [
+             "N'évitez pas les conversations difficiles nécessaires",
+             "Défendez vos propres besoins aussi",
+             "Rappelez-vous qu'un conflit sain peut renforcer les relations"
+           ]
+         },
+         "avoiding": {
+           "title": "Résolveur Évitant 🌊",
+           "description": "Vous préférez donner de l'espace et du temps aux conflits. Vous croyez que beaucoup de problèmes se résolvent naturellement.",
+           "strengths": [
+             "Garde son calme",
+             "Flexible et adaptable",
+             "Réduit l'escalade des tensions",
+             "Bon à choisir ses batailles"
+           ],
+           "tips": [
+             "Certains problèmes ont besoin d'être résolus directement",
+             "Communiquez même si c'est juste pour dire que vous avez besoin de temps",
+             "Revenez aux problèmes une fois que vous êtes prêt"
+           ]
+         }
+       }
+     },
+     "futureGoalsCompatibility": {
+       "title": "Compatibilité des Objectifs Futurs",
+       "subtitle": "Vos Rêves Sont-Ils Alignés?",
+       "description": "Évaluez à quel point vos objectifs à long terme et aspirations s'alignent avec ceux de votre partenaire.",
+       "questions": {
+         "q1": {
+           "question": "À quel point est-il important pour vous de vivre dans la même ville que votre famille?",
+           "options": {
+             "opt1": "Extrêmement important - j'ai besoin d'être proche",
+             "opt2": "Important mais je peux être flexible",
+             "opt3": "Quelque peu important mais pas décisif",
+             "opt4": "Pas important - je suis ouvert à déménager loin"
+           }
+         },
+         "q2": {
+           "question": "Quels sont vos objectifs professionnels pour les 10 prochaines années?",
+           "options": {
+             "opt1": "Gravir l'échelle corporative dans mon domaine actuel",
+             "opt2": "Démarrer ma propre entreprise ou initiative",
+             "opt3": "Équilibrer le travail avec la vie personnelle/familiale",
+             "opt4": "Explorer différentes carrières et expériences"
+           }
+         },
+         "q3": {
+           "question": "Comment vous sentez-vous à propos d'avoir des enfants?",
+           "options": {
+             "opt1": "Je veux définitivement des enfants bientôt",
+             "opt2": "Je veux des enfants mais plus tard",
+             "opt3": "Je pourrais vouloir des enfants mais je ne suis pas sûr",
+             "opt4": "Je ne veux pas d'enfants"
+           }
+         },
+         "q4": {
+           "question": "Quelle est votre approche idéale des finances en couple?",
+           "options": {
+             "opt1": "Combiner complètement toutes les finances",
+             "opt2": "Partager les dépenses principales mais garder des comptes séparés",
+             "opt3": "Garder les finances principalement séparées avec des contributions équitables",
+             "opt4": "Finances complètement séparées"
+           }
+         },
+         "q5": {
+           "question": "À quel point est-il important pour vous de voyager et explorer le monde?",
+           "options": {
+             "opt1": "Extrêmement important - c'est une priorité principale",
+             "opt2": "Très important - je veux voyager régulièrement",
+             "opt3": "Quelque peu important - voyages occasionnels",
+             "opt4": "Pas important - je préfère rester près de chez moi"
+           }
+         },
+         "q6": {
+           "question": "Comment voyez-vous l'équilibre travail-vie dans votre relation?",
+           "options": {
+             "opt1": "Tous deux axés sur la carrière avec soutien mutuel",
+             "opt2": "Une personne priorise la carrière, l'autre la famille",
+             "opt3": "Tous deux priorisent la famille sur les carrières",
+             "opt4": "Approche flexible qui change selon les besoins"
+           }
+         },
+         "q7": {
+           "question": "À quel point voulez-vous que votre style de vie soit aventureux?",
+           "options": {
+             "opt1": "Très aventureux - sports extrêmes, relocalisations, nouvelles expériences",
+             "opt2": "Modérément aventureux - voyages réguliers et nouvelles activités",
+             "opt3": "Quelque peu aventureux - aventures occasionnelles",
+             "opt4": "Je préfère la stabilité et la routine"
+           }
+         },
+         "q8": {
+           "question": "Quels sont vos objectifs pour acheter une maison?",
+           "options": {
+             "opt1": "Acheter bientôt et s'installer dans une communauté",
+             "opt2": "Épargner pour une maison dans les 3-5 prochaines années",
+             "opt3": "Peut-être acheter éventuellement, pas pressé",
+             "opt4": "Préfère louer et garder la flexibilité"
+           }
+         }
+       },
+       "results": {
+         "perfectAlignment": {
+           "title": "Alignement Parfait! 🎯",
+           "message": "Vos objectifs futurs sont incroyablement bien alignés! Vous êtes sur la même longueur d'onde pour construire la vie de vos rêves ensemble."
+         },
+         "strongCompatibility": {
+           "title": "Forte Compatibilité! 💪",
+           "message": "Vous partagez la plupart des mêmes visions pour l'avenir. Quelques petites différences peuvent enrichir votre parcours ensemble."
+         },
+         "goodFoundation": {
+           "title": "Bonne Base! 🌟",
+           "message": "Vous avez une base solide avec de l'espace pour grandir. La communication sera clé pour aligner vos rêves."
+         },
+         "workTogether": {
+           "title": "Travaillez Ensemble! 🤝",
+           "message": "Vous avez quelques différences dans vos objectifs futurs, mais avec effort et compromis, vous pouvez créer un chemin partagé."
+         }
+       }
+     },
+     "loveLanguageAssessment": {
+       "title": "Évaluation des Langages d'Amour",
+       "subtitle": "Découvrez Comment Vous Donnez et Recevez l'Amour",
+       "description": "Apprenez votre langage d'amour principal et comment vous pouvez communiquer l'amour plus efficacement avec votre partenaire.",
+       "questions": {
+         "q1": {
+           "question": "Qu'est-ce qui vous fait vous sentir le plus aimé?",
+           "options": {
+             "opt1": "Quand mon partenaire me dit combien il m'aime",
+             "opt2": "Quand mon partenaire m'aide avec les tâches ou responsabilités",
+             "opt3": "Quand je reçois des cadeaux réfléchis de mon partenaire",
+             "opt4": "Quand mon partenaire passe du temps de qualité avec moi",
+             "opt5": "Quand mon partenaire me câline ou me touche physiquement"
+           }
+         },
+         "q2": {
+           "question": "Qu'est-ce qui vous dérange le plus dans une relation?",
+           "options": {
+             "opt1": "Commentaires blessants ou manque d'encouragement",
+             "opt2": "Quand mon partenaire n'aide pas quand j'en ai besoin",
+             "opt3": "Oublier les occasions spéciales ou ne pas être attentionné",
+             "opt4": "Ne pas passer assez de temps ensemble ou les distractions",
+             "opt5": "Manque d'affection physique ou distance"
+           }
+         },
+         "q3": {
+           "question": "Comment préférez-vous célébrer votre anniversaire?",
+           "options": {
+             "opt1": "Avec de beaux mots et affirmations de mes proches",
+             "opt2": "Avec quelqu'un qui organise la fête parfaite pour moi",
+             "opt3": "Avec des cadeaux réfléchis qui montrent qu'ils me connaissent",
+             "opt4": "Avec du temps de qualité ininterrompu avec ma personne préférée",
+             "opt5": "Avec beaucoup de câlins, baisers et contact physique"
+           }
+         },
+         "q4": {
+           "question": "Quel type d'excuse valorisez-vous le plus?",
+           "options": {
+             "opt1": "Des mots sincères qui expliquent ce qu'ils ressentent et leur engagement à changer",
+             "opt2": "Des actions qui démontrent qu'ils travaillent pour s'améliorer",
+             "opt3": "Un cadeau réfléchi qui montre qu'ils pensaient à moi",
+             "opt4": "Du temps dédié à parler et se reconnecter",
+             "opt5": "Un câlin chaleureux et un contact physique réconfortant"
+           }
+         },
+         "q5": {
+           "question": "Quand vous sentez-vous le plus connecté avec votre partenaire?",
+           "options": {
+             "opt1": "Quand nous parlons profondément et partageons nos sentiments",
+             "opt2": "Quand nous travaillons ensemble sur des projets ou tâches",
+             "opt3": "Quand nous échangeons des cadeaux ou petites surprises",
+             "opt4": "Quand nous avons du temps ininterrompu pour nous concentrer l'un sur l'autre",
+             "opt5": "Quand nous sommes physiquement proches et nous touchons"
+           }
+         },
+         "q6": {
+           "question": "Qu'est-ce qui vous fait vous sentir le plus apprécié?",
+           "options": {
+             "opt1": "Entendre des mots spécifiques sur ce que mon partenaire aime chez moi",
+             "opt2": "Voir que mon partenaire remarque et reconnaît les choses que je fais",
+             "opt3": "Recevoir de petits cadeaux inattendus",
+             "opt4": "Avoir l'attention complète de mon partenaire pendant notre temps ensemble",
+             "opt5": "Contact physique décontracté tout au long de la journée"
+           }
+         },
+         "q7": {
+           "question": "Si votre partenaire est stressé, comment préférez-vous l'aider?",
+           "options": {
+             "opt1": "En offrant des mots d'encouragement et d'affirmation",
+             "opt2": "En m'occupant des tâches pour réduire leur charge de travail",
+             "opt3": "En leur achetant quelque chose de spécial pour les remonter le moral",
+             "opt4": "En libérant du temps pour seulement nous concentrer sur eux",
+             "opt5": "En leur donnant des massages ou câlins réconfortants"
+           }
+         },
+         "q8": {
+           "question": "Quel type de message texte vous rendrait le plus heureux?",
+           "options": {
+             "opt1": "'Je t'aime tellement et je suis si fier de toi'",
+             "opt2": "'J'ai récupéré ton pressing et préparé le dîner'",
+             "opt3": "'J'ai vu ça et j'ai pensé à toi, je rentre à la maison avec une surprise'",
+             "opt4": "'Pouvons-nous éteindre nos téléphones ce soir et juste être ensemble?'",
+             "opt5": "'J'ai hâte de te serrer dans mes bras quand tu rentreras à la maison'"
+           }
+         },
+         "q9": {
+           "question": "Quelle est votre idée du rendez-vous parfait?",
+           "options": {
+             "opt1": "N'importe où nous pouvons avoir des conversations profondes et significatives",
+             "opt2": "Un où mon partenaire a soigneusement planifié tous les détails",
+             "opt3": "Un qui inclut un cadeau réfléchi ou une surprise",
+             "opt4": "Du temps ininterrompu ensemble sans distractions",
+             "opt5": "Tout ce qui implique beaucoup de contact physique et de proximité"
+           }
+         },
+         "q10": {
+           "question": "Qu'est-ce qui vous manquerait le plus si votre partenaire voyageait pour le travail pendant une semaine?",
+           "options": {
+             "opt1": "Nos conversations quotidiennes et ses mots d'amour",
+             "opt2": "Son aide avec les responsabilités et tâches quotidiennes",
+             "opt3": "Les petites surprises et cadeaux réfléchis",
+             "opt4": "Notre temps de qualité ensemble chaque jour",
+             "opt5": "Son toucher physique, câlins et proximité"
+           }
+         }
+       },
+       "results": {
+         "words": {
+           "title": "Mots d'Affirmation 💬",
+           "description": "Vous vous sentez le plus aimé à travers des mots encourageants, des compliments et des expressions verbales d'amour.",
+           "characteristics": [
+             "Vous valorisez la communication profonde",
+             "Vous appréciez les compliments sincères",
+             "Vous êtes motivé par les mots d'encouragement",
+             "Vous aimez exprimer l'amour verbalement"
+           ],
+           "tips": [
+             "Dites à votre partenaire exactement ce que vous appréciez chez lui",
+             "Envoyez des messages encourageants",
+             "Utilisez des mots spécifiques en donnant des compliments",
+             "Évitez les critiques dures ou le sarcasme"
+           ]
+         },
+         "wordsOfAffirmation": {
+           "title": "Mots d'Affirmation 💬",
+           "description": "Vous vous sentez le plus aimé à travers des mots encourageants, des compliments et des expressions verbales d'amour.",
+           "strengths": [
+             "Vous valorisez la communication profonde",
+             "Vous appréciez les compliments sincères",
+             "Vous êtes motivé par les mots d'encouragement",
+             "Vous aimez exprimer l'amour verbalement"
+           ],
+           "tips": [
+             "Dites à votre partenaire exactement ce que vous appréciez chez lui",
+             "Envoyez des messages encourageants",
+             "Utilisez des mots spécifiques en donnant des compliments",
+             "Évitez les critiques dures ou le sarcasme"
+           ]
+         },
+         "service": {
+           "title": "Actes de Service 🤝",
+           "description": "Vous vous sentez le plus aimé quand votre partenaire vous aide avec les tâches et responsabilités.",
+           "characteristics": [
+             "Vous valorisez les actions plus que les mots",
+             "Vous appréciez quand les autres réduisent votre charge",
+             "Vous montrez l'amour à travers l'aide",
+             "Vous êtes pratique dans la démonstration du soin"
+           ],
+           "tips": [
+             "Offrez d'aider sans qu'on vous le demande",
+             "Faites attention aux tâches que votre partenaire n'aime pas",
+             "Tenez vos promesses de manière cohérente",
+             "Les petits actes de service comptent autant que les grands"
+           ]
+         },
+         "actsOfService": {
+           "title": "Actes de Service 🤝",
+           "description": "Vous vous sentez le plus aimé quand votre partenaire vous aide avec les tâches et responsabilités.",
+           "strengths": [
+             "Vous valorisez les actions plus que les mots",
+             "Vous appréciez quand les autres réduisent votre charge",
+             "Vous montrez l'amour à travers l'aide",
+             "Vous êtes pratique dans la démonstration du soin"
+           ],
+           "tips": [
+             "Offrez d'aider sans qu'on vous le demande",
+             "Faites attention aux tâches que votre partenaire n'aime pas",
+             "Tenez vos promesses de manière cohérente",
+             "Les petits actes de service comptent autant que les grands"
+           ]
+         },
+         "gifts": {
+           "title": "Recevoir des Cadeaux 🎁",
+           "description": "Vous vous sentez le plus aimé à travers des cadeaux réfléchis et des symboles tangibles d'amour.",
+           "characteristics": [
+             "Vous appréciez les gestes réfléchis",
+             "Vous valorisez le symbolisme dans les cadeaux",
+             "Vous vous souvenez des occasions spéciales",
+             "Vous aimez donner et recevoir des surprises"
+           ],
+           "tips": [
+             "Les cadeaux n'ont pas besoin d'être chers - c'est l'intention qui compte",
+             "Faites attention aux choses que votre partenaire mentionne vouloir",
+             "Souvenez-vous des anniversaires, anniversaires de mariage et jours spéciaux",
+             "Les cadeaux faits maison peuvent être très significatifs"
+           ]
+         },
+         "receivingGifts": {
+           "title": "Recevoir des Cadeaux 🎁",
+           "description": "Vous vous sentez le plus aimé à travers des cadeaux réfléchis et des symboles tangibles d'amour.",
+           "strengths": [
+             "Vous appréciez les gestes réfléchis",
+             "Vous valorisez le symbolisme dans les cadeaux",
+             "Vous vous souvenez des occasions spéciales",
+             "Vous aimez donner et recevoir des surprises"
+           ],
+           "tips": [
+             "Les cadeaux n'ont pas besoin d'être chers - c'est l'intention qui compte",
+             "Faites attention aux choses que votre partenaire mentionne vouloir",
+             "Souvenez-vous des anniversaires, anniversaires de mariage et jours spéciaux",
+             "Les cadeaux faits maison peuvent être très significatifs"
+           ]
+         },
+         "quality": {
+           "title": "Temps de Qualité ⏰",
+           "description": "Vous vous sentez le plus aimé quand votre partenaire vous donne son attention complète et du temps ininterrompu.",
+           "characteristics": [
+             "Vous valorisez la présence plus que les cadeaux",
+             "Vous appréciez l'attention focalisée",
+             "Vous aimez créer des souvenirs ensemble",
+             "Vous priorisez la connexion un-à-un"
+           ],
+           "tips": [
+             "Éteignez les distractions pendant le temps ensemble",
+             "Planifiez des activités que vous appréciez tous les deux",
+             "Ayez des conversations significatives régulièrement",
+             "Même 15 minutes d'attention focalisée peuvent être puissantes"
+           ]
+         },
+         "qualityTime": {
+           "title": "Temps de Qualité ⏰",
+           "description": "Vous vous sentez le plus aimé quand votre partenaire vous donne son attention complète et du temps ininterrompu.",
+           "strengths": [
+             "Vous valorisez la présence plus que les cadeaux",
+             "Vous appréciez l'attention focalisée",
+             "Vous aimez créer des souvenirs ensemble",
+             "Vous priorisez la connexion un-à-un"
+           ],
+           "tips": [
+             "Éteignez les distractions pendant le temps ensemble",
+             "Planifiez des activités que vous appréciez tous les deux",
+             "Ayez des conversations significatives régulièrement",
+             "Même 15 minutes d'attention focalisée peuvent être puissantes"
+           ]
+         },
+         "touch": {
+           "title": "Toucher Physique 🤗",
+           "description": "Vous vous sentez le plus aimé à travers le contact physique, les câlins, les baisers et la proximité.",
+           "characteristics": [
+             "Vous exprimez l'amour à travers le toucher",
+             "Vous valorisez la proximité physique",
+             "Vous êtes réconforté par les câlins et caresses",
+             "Vous utilisez le toucher pour vous connecter émotionnellement"
+           ],
+           "tips": [
+             "Le toucher décontracté tout au long de la journée est important",
+             "Respectez les préférences de votre partenaire sur le toucher public",
+             "Les câlins peuvent être très réconfortants pendant les moments difficiles",
+             "Le contact physique n'a pas toujours besoin d'être romantique"
+           ]
+         },
+         "physicalTouch": {
+           "title": "Toucher Physique 🤗",
+           "description": "Vous vous sentez le plus aimé à travers le contact physique, les câlins, les baisers et la proximité.",
+           "strengths": [
+             "Vous exprimez l'amour à travers le toucher",
+             "Vous valorisez la proximité physique",
+             "Vous êtes réconforté par les câlins et caresses",
+             "Vous utilisez le toucher pour vous connecter émotionnellement"
+           ],
+           "tips": [
+             "Le toucher décontracté tout au long de la journée est important",
+             "Respectez les préférences de votre partenaire sur le toucher public",
+             "Les câlins peuvent être très réconfortants pendant les moments difficiles",
+             "Le contact physique n'a pas toujours besoin d'être romantique"
+           ]
+         }
+       }
+     },
+     "common": {
+       "question": "Question {{current}} sur {{total}}",
+       "tryAgain": "Réessayer",
+       "loveCalculator": "Calculateur d'Amour",
+       "exploreOtherQuizzes": "Explorer d'Autres Quiz",
+       "relationshipFocus": "Focus Relationnel",
+       "discoverYourPatterns": "Découvrez vos modèles relationnels uniques",
+       "communicationFocus": "Focus Communication",
+       "understandYourPatterns": "Comprenez vos modèles de communication",
+       "loveFocus": "Focus Amour",
+       "understandHowYouExpress": "Comprenez comment vous exprimez et recevez l'amour",
+       "conflictFocus": "Focus Conflit",
+       "transformDisagreements": "Transformez les désaccords en croissance",
+       "goalsFocus": "Focus Objectifs",
+       "alignYourDreams": "Alignez vos rêves pour l'avenir",
+       "primary": "principal",
+       "primaryStyle": "style principal",
+       "percentage": "{{percentage}}%",
+       "whyTakeOurQuiz": "Pourquoi Faire Notre Quiz ?",
+       "selfAwareness": "Conscience de Soi",
+       "gainInsights": "Obtenez des aperçus sur vos forces et domaines de croissance",
+       "communication": "Communication",
+       "startMeaningfulConversations": "Commencez des conversations significatives avec votre partenaire",
+       "growth": "Croissance",
+       "identifyStrengths": "Identifiez les forces et les opportunités d'amélioration",
+       "relationshipQuiz": "Quiz de Relation",
+       "communicationStyleQuiz": "Quiz de Style de Communication",
+       "loveLanguageAssessment": "Évaluation des Langages d'Amour",
+       "futureGoalsCompatibility": "Compatibilité des Objectifs Futurs",
+       "conflictResolutionQuiz": "Quiz de Résolution de Conflit",
+       "answerQuestions": "Répondez aux questions sur votre relation",
+       "learnYourCommunicationStyle": "Apprenez votre style de communication",
+       "discoverYourLoveLanguage": "Découvrez votre langage d'amour",
+       "alignYourFutureGoals": "Alignez vos objectifs futurs",
+       "learnYourApproach": "Apprenez votre approche de résolution de conflits",
+       "yourLoveLanguageScores": "Vos Scores de Langages d'Amour",
+       "whatYoullLearn": "Ce Que Vous Apprendrez",
+       "yourPrimaryLoveLanguage": "Votre Langage d'Amour Principal",
+       "discoverWhichLoveLanguage": "Découvrez quel langage d'amour vous fait vous sentir le plus aimé",
+       "howToExpressLove": "Comment Exprimer l'Amour",
+       "learnBestWaysToShow": "Apprenez les meilleures façons de montrer l'amour à votre partenaire",
+       "relationshipGrowthTips": "Conseils de Croissance Relationnelle",
+       "getPersonalizedAdvice": "Obtenez des conseils personnalisés pour renforcer votre connexion",
+       "whyCommunicationMatters": "Pourquoi la Communication Importe",
+       "betterUnderstanding": "Meilleure Compréhension",
+       "learnHowYouCommunicate": "Apprenez comment vous communiquez et comment votre partenaire vous reçoit",
+       "reduceConflicts": "Réduire les Conflits",
+       "understandingDifferentStyles": "Comprendre les différents styles peut prévenir les malentendus",
+       "strongerConnection": "Connexion Plus Forte",
+       "adaptYourCommunication": "Adaptez votre communication pour créer une harmonie plus profonde",
+       "collaborative": "Collaboratif",
+       "competing": "Compétitif",
+       "accommodating": "Accommodant",
+       "avoiding": "Évitant",
+       "compromising": "Compromis",
+       "yourConflictStyleBreakdown": "Répartition de Votre Style de Conflit",
+       "whatYoullDiscoverConflict": "Ce Que Vous Découvrirez",
+       "yourConflictStyle": "Votre Style de Conflit",
+       "identifyYourPrimaryApproach": "Identifiez votre approche principale pour gérer les désaccords",
+       "resolutionStrategies": "Stratégies de Résolution",
+       "learnEffectiveTechniques": "Apprenez des techniques efficaces pour résoudre les conflits",
+       "relationshipImprovement": "Amélioration Relationnelle",
+       "discoverHowToBuild": "Découvrez comment construire des relations plus fortes à travers une meilleure résolution de conflits",
+       "careerGoals": "Objectifs de Carrière",
+       "familyPlans": "Plans Familiaux",
+       "lifestyle": "Style de Vie",
+       "financialGoals": "Objectifs Financiers",
+       "personalGrowth": "Croissance Personnelle"
+     },
+     "exploreOtherQuizzes": "Explorer d'Autres Quiz",
+     "communicationStyleQuiz": "Quiz de Style de Communication",
+     "communicationStyleQuizDescription": "Découvrez comment vous communiquez dans les relations",
+     "loveLanguageAssessment": "Évaluation des Langages d'Amour",
+     "loveLanguageAssessmentDescription": "Apprenez comment vous donnez et recevez l'amour",
+     "futureGoalsCompatibility": "Compatibilité des Objectifs Futurs",
+     "futureGoalsCompatibilityDescription": "Voyez à quel point vos objectifs de vie s'alignent",
+     "conflictResolutionQuiz": "Quiz de Résolution de Conflit",
+     "conflictResolutionQuizDescription": "Découvrez votre style de gestion des désaccords",
+     "relationshipQuiz": "Quiz de Relation",
+     "relationshipQuizDescription": "Évaluez la force de votre relation"
+   },
+  "results": {
+    "compatibilityScore": "Score de Compatibilité",
+    "perfectMatch": "Couple Parfait!",
+    "excellentMatch": "Excellent Couple!",
+    "goodMatch": "Bon Couple!",
+    "fairMatch": "Couple Correct",
+    "challenging": "Couple Difficile",
+    "description": {
+      "90": "Vous deux êtes absolument parfaits l'un pour l'autre! C'est une connexion unique dans une vie.",
+      "80": "Excellente compatibilité! Vous vous complétez magnifiquement.",
+      "70": "Très bon couple avec un grand potentiel pour une relation merveilleuse.",
+      "60": "Bonne compatibilité avec quelques domaines à travailler ensemble.",
+      "50": "Compatibilité modérée - l'amitié pourrait mieux fonctionner que la romance.",
+      "40": "Quelques défis à venir, mais l'amour peut surmonter les obstacles.",
+      "30": "Différences significatives, mais les opposés s'attirent parfois!",
+      "20": "Cela pourrait être un couple difficile, mais chaque relation est unique.",
+      "10": "Personnalités très différentes - procédez avec prudence!"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "zh": "中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी"
+  },
+  "meta": {
+    "title": "Calculateur d'Amour – Test Gratuit de Compatibilité des Noms et d'Amour",
+    "description": "Découvrez votre compatibilité amoureuse avec notre Calculateur d'Amour gratuit! Testez la compatibilité relationnelle, la correspondance des noms et obtenez des résultats personnalisés amusants à partager.",
+    "keywords": ["calculateur d'amour", "compatibilité des noms", "test de compatibilité amoureuse", "quiz de relation", "test d'amour amusant"],
+    "author": "Équipe Calculateur d'Amour",
+    "creator": "Calculateur d'Amour",
+    "publisher": "Calculateur d'Amour",
+    "siteName": "Calculateur d'Amour",
+    "ogImageAlt": "Calculateur d'Amour - Testez Votre Compatibilité"
+  },
+  "about": {
+    "title": "À Propos de Notre Calculateur d'Amour",
+    "description": "Découvrez la science et l'art derrière notre calculateur d'amour avancé, et comment notre algorithme Quotient d'Affinité crée des analyses de compatibilité uniques pour le divertissement et la connexion sociale."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "description": "Vous avez des questions sur notre calculateur d'amour ? Contactez notre équipe pour du support, des commentaires ou des demandes générales.",
+    "email": "Email",
+    "name": "Nom",
+    "message": "Message",
+    "send": "Envoyer",
+    "required": "Requis"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "description": "Apprenez comment nous protégeons votre vie privée et gérons vos données pendant que vous utilisez notre calculateur d'amour et nos quiz de compatibilité."
+  },
+  "terms": {
+    "title": "Conditions de Service",
+    "description": "Lisez nos conditions de service pour comprendre vos droits et responsabilités lors de l'utilisation de notre calculateur d'amour et de nos outils de compatibilité."
+  },
+  "header": {
+    "loveCalculator": "Calculateur d'Amour",
+    "moreTools": "Plus d'Outils",
+    "about": "À Propos",
+    "contact": "Contact",
+    "funQuizzes": "Quiz Amusants ✨",
+    "relationshipQuiz": "Quiz de Relation",
+    "communicationQuiz": "Quiz de Style de Communication",
+    "loveLanguageAssessment": "Évaluation du Langage Amoureux",
+    "futureGoalsCompatibility": "Compatibilité des Objectifs Futurs",
+    "conflictResolutionQuiz": "Quiz de Style de Résolution de Conflit",
+    "supportAndLegal": "Support et Légal 📋",
+    "contactUs": "Contactez-Nous",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions de Service",
+    "dateOfBirthCompatibilityCalculator": "Calculateur de Compatibilité par Date de Naissance",
+    "zodiacCompatibilityCalculator": "Calculateur de Compatibilité du Zodiaque",
+          "nameCompatibility": "Compatibilité des Noms",
+      "loveCompatibilityTest": "Test de Compatibilité Amoureuse",
+      "funLoveTest": "Test d'Amour Amusant",
+      "zodiacCalculator": "Calculateur de Compatibilité Zodiacale",
+      "dobCalculator": "Calculateur de Compatibilité de Date de Naissance",
+      "zodiacCalculatorDescription": "Testez la compatibilité amoureuse astrologique",
+      "dobCalculatorDescription": "Analysez les modèles de compatibilité de date de naissance",
+      "relationshipQuizDescription": "Répondez aux questions sur votre relation",
+      "communicationQuizDescription": "Découvrez vos modèles de communication",
+      "loveLanguageAssessmentDescription": "Découvrez vos langages d'amour principaux",
+      "futureGoalsCompatibilityDescription": "Voyez à quel point vos objectifs de vie sont alignés",
+      "conflictResolutionQuizDescription": "Apprenez votre approche de résolution de conflits"
+    },
+  "footer": {
+    "description": "Découvrez votre compatibilité amoureuse avec notre calculateur d'amour amusant et divertissant. Testez votre compatibilité relationnelle et partagez vos résultats avec des amis!",
+    "calculators": "Calculateurs d'Amour",
+    "company": "Entreprise",
+    "about": "À propos de nous",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "contact": "Contactez-nous",
+    "forLove": "pour l'amour",
+    "funQuizzes": "Quiz Amusants ✨",
+    "relationshipQuiz": "Quiz de Relation",
+    "relationshipQuizDescription": "Faites notre quiz amusant de 8 questions pour des insights relationnels divertissants",
+    "communicationQuiz": "Quiz de Style de Communication",
+    "communicationQuizDescription": "Découvrez comment vous et votre partenaire communiquez et où vous pouvez vous améliorer",
+    "loveLanguageAssessment": "Évaluation du Langage Amoureux",
+    "loveLanguageAssessmentDescription": "Découvrez vos langages amoureux primaires et apprenez à mieux exprimer l'amour",
+    "futureGoalsCompatibility": "Compatibilité des Objectifs Futurs",
+    "futureGoalsCompatibilityDescription": "Voyez à quel point vos objectifs de vie et rêves sont alignés pour l'avenir",
+    "conflictResolutionQuiz": "Quiz de Style de Résolution de Conflit",
+    "conflictResolutionQuizDescription": "Apprenez comment vous gérez les désaccords et comment mieux résoudre les conflits",
+    "supportAndLegal": "Support et Légal 📋",
+    "contactUs": "Contactez-Nous",
+    "contactUsDescription": "Contactez notre équipe pour des questions, commentaires ou support",
+    "privacyPolicy": "Politique de Confidentialité",
+    "privacyPolicyDescription": "Apprenez comment nous protégeons vos données et votre confidentialité pendant que vous vous amusez",
+    "termsOfService": "Conditions de Service",
+    "termsOfServiceDescription": "Termes et conditions pour utiliser nos services de divertissement",
+    "moreTools": "Plus d'Outils",
+    "dateOfBirthCompatibilityCalculator": "Calculateur de Compatibilité par Date de Naissance",
+    "zodiacCompatibilityCalculator": "Calculateur de Compatibilité du Zodiaque",
+    "nameCompatibility": "Compatibilité des Noms",
+    "loveCompatibilityTest": "Test de Compatibilité Amoureuse",
+    "funLoveTest": "Test d'Amour Amusant",
+    "allRightsReserved": "Tous droits réservés.",
+    "madeWithLove": "Fait avec ❤️ pour tous.",
+    "copyrightNotice": "© 2025 Calculateur d'Amour."
+  }
+} 

@@ -432,3 +432,144 @@ h1, h2, h3, h4, h5, h6 {
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+
+/* Universal pink border styling for all calculator fields - Override browser defaults */
+input[type="text"],
+input[type="date"], 
+input[type="search"],
+select {
+  border: 1px solid rgba(255, 107, 157, 0.2) !important;
+  border-radius: 0.5rem !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Background only for non-transparent inputs */
+input[type="text"]:not(.bg-transparent),
+input[type="date"]:not(.bg-transparent), 
+input[type="search"]:not(.bg-transparent),
+select {
+  background-color: white !important;
+}
+
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="search"]:hover,
+select:hover {
+  border-color: rgba(255, 107, 157, 0.4) !important;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="search"]:focus,
+select:focus {
+  border-color: var(--love-pink) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(255, 107, 157, 0.3) !important;
+  ring: 2px solid var(--love-pink) !important;
+}
+
+/* Override browser autocomplete styling - but not for transparent inputs */
+input:-webkit-autofill:not(.bg-transparent),
+input:-webkit-autofill:hover:not(.bg-transparent),
+input:-webkit-autofill:focus:not(.bg-transparent),
+input:-webkit-autofill:active:not(.bg-transparent) {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #374151 !important;
+  border: 1px solid rgba(255, 107, 157, 0.2) !important;
+  transition: all 0.2s ease !important;
+}
+
+input:-webkit-autofill:focus:not(.bg-transparent) {
+  border-color: var(--love-pink) !important;
+  box-shadow: 0 0 0 30px white inset, 0 0 0 2px rgba(255, 107, 157, 0.3) !important;
+}
+
+/* Transparent inputs should stay transparent even with autofill */
+input.bg-transparent:-webkit-autofill,
+input.bg-transparent:-webkit-autofill:hover,
+input.bg-transparent:-webkit-autofill:focus,
+input.bg-transparent:-webkit-autofill:active {
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+  border: 1px solid rgba(255, 107, 157, 0.2) !important;
+}
+
+/* Force pink focus ring on all calculator inputs */
+.calculator-input,
+input[data-form-type="search"],
+input[name*="search"] {
+  border: 1px solid rgba(255, 107, 157, 0.2) !important;
+}
+
+.calculator-input:focus,
+input[data-form-type="search"]:focus,
+input[name*="search"]:focus {
+  border-color: var(--love-pink) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(255, 107, 157, 0.3) !important;
+}
+
+/* Ensure transparent date inputs stay transparent */
+.calculator-input.bg-transparent,
+input[type="search"].bg-transparent {
+  background-color: transparent !important;
+}
+
+/* Ghost date template styling */
+.ghost-date-template {
+  color: #d1d5db !important;
+  pointer-events: none !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  user-select: none !important;
+  z-index: 1 !important;
+}
+
+/* Chart Visibility and Responsiveness Fixes */
+.recharts-responsive-container {
+  min-height: 200px !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.recharts-tooltip-wrapper {
+  z-index: 1000;
+}
+
+/* Prevent chart text overlap in longer languages */
+.recharts-cartesian-axis .recharts-cartesian-axis-tick {
+  font-size: 11px;
+}
+
+/* Ensure charts render properly in all languages */
+.recharts-wrapper {
+  direction: ltr; /* Always left-to-right for charts */
+}
+
+/* Enhanced Chart Text Readability Fixes */
+.recharts-cartesian-axis-tick {
+  font-size: 10px !important;
+  font-weight: 500 !important;
+}
+
+.recharts-cartesian-axis-tick text {
+  text-anchor: end !important;
+  dominant-baseline: ideographic !important;
+}
+
+/* Ensure bars are visible */
+.recharts-bar-rectangle {
+  opacity: 1 !important;
+}
+
+.recharts-bar {
+  opacity: 1 !important;
+}
+
+/* Better spacing for chart containers */
+.recharts-responsive-container {
+  min-height: 280px !important;
+}

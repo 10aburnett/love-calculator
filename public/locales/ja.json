@@ -1,0 +1,2218 @@
+{
+  "landing": {
+    "headline": "恋愛計算機",
+    "intro": "独自の親和性指数（AQ）アルゴリズムで動く世界最先端の恋愛相性計算機を体験してください。科学的分析により、複数の次元にわたってあなたの相性の詳細を把握できます。",
+    "subtitle": "あなたの恋愛相性をテストしてください",
+    "description": "お名前を入力して、あなたの恋愛パーセンテージを調べましょう！",
+    "getStarted": "始める",
+    "newAlgorithmBadge": "🔬 新機能：親和性指数アルゴリズムで動作",
+    "poweredByAQTitle": "🧬 親和性指数技術で動作",
+    "poweredByAQDescription": "シンプルな恋愛計算機とは異なり、私たちの高度なAQアルゴリズムは、音韻的調和、文字頻度パターン、数秘術的相性、母音バランス、心理的第一印象を含む5つの科学的次元を通じてあなたの相性を分析します。",
+    "howAlgorithmWorksTitle": "私たちの高度なアルゴリズムの仕組み",
+    "algorithmDescription1": "私たちの独自の親和性指数（AQ）アルゴリズムは、相性分析における革新を表しています。シンプルなハッシュ関数を使用する基本的な名前計算機とは異なり、私たちのシステムは言語学、心理学、数秘術における学術研究を適用しています。",
+    "algorithmDescription2": "5つの科学的次元を通じて名前を分析し、文字だけでなく、言語パターン、音韻的調和、数秘術的意味を考慮した包括的な相性プロファイルを作成します。",
+    "academicFoundation": "学術的基盤",
+    "academicFoundationDescription": "私たちのアルゴリズムは、発表された言語学研究、音韻分析、数学的相性理論の原理を取り入れています。",
+    "analysisProcessTitle": "分析プロセス",
+    "step1": "音韻的調和分析",
+    "step2": "文字頻度パターン",
+    "step3": "数秘術的相性",
+    "step4": "母音バランス計算",
+    "step5": "心理的第一印象",
+    "fivePillarsTitle": "相性分析の5つの柱",
+    "fivePillarsDescription": "5つの科学的次元を通じて名前を分析し、文字だけでなく、言語パターン、音韻的調和、数秘術的意味を考慮した包括的な相性プロファイルを作成します。",
+    "pillar1Title": "初期類似性",
+    "pillar1Description": "最初の文字の心理学と瞬間的印象の相性",
+    "pillar2Title": "文字頻度",
+    "pillar2Description": "言語パターンの26次元ベクトル分析",
+    "pillar3Title": "音韻的調和",
+    "pillar3Description": "音に基づくマッチングと聴覚的相性",
+    "pillar4Title": "数秘術",
+    "pillar4Description": "数学的精度を伴う古代の数秘術",
+    "pillar5Title": "母音バランス",
+    "pillar5Description": "リズム、フロー、聴覚的調和の分析",
+    "nameCompatibilityExplainedTitle": "名前の相性について説明",
+    "funEntertainmentTitle": "楽しいエンターテイメント",
+    "funEntertainmentDescription": "私たちの遊び心のあるアプローチは、ソーシャルシェアに最適な楽しい相性スコアを作り出します。",
+    "consistentResultsTitle": "一貫した結果",
+    "consistentResultsDescription": "同じ名前の組み合わせは、信頼性のために常に同じ恋愛パーセンテージを生成します。",
+    "shareableFunTitle": "シェア可能な楽しさ",
+    "shareableFunDescription": "ソーシャルメディアや友達と共有するための美しい結果画像を生成します。",
+    "nameCompatibilityDescription": "名前の相性は、関係をテストし、会話を引き起こす遊び心のある楽しい方法です。パーティー、ソーシャルメディア、友達との楽しい時間のための素晴らしいアイスブレーカーとエンターテイメントツールです！",
+    "keyFeaturesTitle": "なぜ私たちの恋愛計算機を選ぶのか？",
+    "relationshipQuizTitle": "関係クイズ - あなたたちは完璧なカップルですか？",
+    "relationshipQuizDescription": "単なる恋愛計算機以上のものが欲しいですか？包括的な関係クイズを受けて、あなたの相性をより深く探り、あなたの関係をユニークにするものを発見してください。",
+    "takeTheQuiz": "クイズを受ける",
+    "loveCompatibilityTestOnlineTitle": "オンライン恋愛相性テスト",
+    "loveCompatibilityTestOnlineDescription": "あなたの恋愛相性を発見する準備ができましたか？私たちのオンライン恋愛計算機は完全に無料で、即座に結果を提供します。今すぐあなたの関係相性をテストして、星があなたに何を用意しているかを見てみましょう！",
+    "calculateYourLoveScoreNow": "今すぐあなたの恋愛スコアを計算",
+    "funLoveTestToShareTitle": "友達と共有する楽しい恋愛テスト",
+    "funLoveTestDescription": "私たちの恋愛計算機はあなたにとって楽しいだけでなく、シェアにも最適です！Instagram、TikTok、Twitter、その他のソーシャルプラットフォームで素晴らしく見える美しい結果画像を生成します。",
+    "downloadShareableImages": "シェア可能な画像をダウンロード",
+    "shareDirectlyToSocialMedia": "ソーシャルメディアに直接シェア",
+    "perfectForTikTokContent": "TikTokコンテンツに最適",
+    "startConversationsWithFriends": "友達との会話を始める",
+    "shareYourResultsTitle": "結果をシェア",
+    "shareYourResultsDescription": "あなたの恋愛スコアをバイラルコンテンツに変換！",
+    "aqDifferenceTitle": "AQ の違い",
+    "aqDifferenceSubtitle": "分析 → 可視化 → 理解",
+    "entertainmentDisclaimer": "エンターテイメント専用：これは娯楽とソーシャルシェアリングのために設計された楽しい活動であり、実際のデートや関係のアドバイスではありません！",
+    "features": {
+      "literatureBased": "文献ベースアルゴリズム",
+      "visualBreakdown": "視覚的分解分析",
+      "fiveMetricScoring": "科学的5メトリック評価",
+      "visual": {
+        "title": "視覚的分解",
+        "description": "インタラクティブなチャートであなたのスコアがどのように計算されるかを正確に見る"
+      },
+      "scientificMethod": {
+        "title": "科学的方法",
+        "description": "言語学研究と相性研究に基づく"
+      },
+      "precisionAnalysis": {
+        "title": "精密分析",
+        "description": "包括的な洞察のためのマルチメトリック評価"
+      },
+      "communicationStyleQuiz": {
+        "title": "コミュニケーションスタイルクイズ",
+        "subtitle": "あなたのユニークなコミュニケーションパターンを発見",
+        "description": "あなたとパートナーがどのように異なってコミュニケーションを取るかを理解し、より良いつながりのためのギャップを埋める方法を学びましょう。",
+        "questions": {
+          "q1": {
+            "question": "パートナーが動揺している時、あなたの最初の直感は何ですか？",
+            "options": {
+              "opt1": "注意深く聞き、理解するために質問をする",
+              "opt2": "問題を解決するための実用的な解決策を提供する",
+              "opt3": "ハグや感情的なサポートを与える",
+              "opt4": "話す準備ができるまでスペースを与える"
+            }
+          },
+          "q2": {
+            "question": "重要な関係の決定を話し合う際、あなたはどのような方法を好みますか？",
+            "options": {
+              "opt1": "多くの議論と感情を伴う対面での話し合い",
+              "opt2": "事実、利点と欠点が整理された冷静な話し合い",
+              "opt3": "穏やかな会話とチェックインを重ねて時間をかけて",
+              "opt4": "結論に達するために直接的かつ効率的に"
+            }
+          },
+          "q3": {
+            "question": "パートナーと意見が合わない時、あなたは次の傾向があります：",
+            "options": {
+              "opt1": "感情を即座に情熱的に表現する",
+              "opt2": "論理的な議論を提示する前によく考える",
+              "opt3": "まず彼らの視点を理解することに焦点を当てる",
+              "opt4": "あなたの立場を明確に述べ、同じことを期待する"
+            }
+          },
+          "q4": {
+            "question": "良いニュースをシェアする理想的な方法は：",
+            "options": {
+              "opt1": "興奮と感情に満ちてすぐに電話する",
+              "opt2": "組織的で明確な方法でシェアする計画を立てる",
+              "opt3": "温かさとつながりを持って静かな瞬間に伝える",
+              "opt4": "事実を率直にシェアして先に進む"
+            }
+          },
+          "q5": {
+            "question": "パートナーにフィードバックを与える時、あなたは：",
+            "options": {
+              "opt1": "彼らの行動があなたにどう影響したかについて感情をオープンにシェアする",
+              "opt2": "具体的な例を提示し、具体的な改善を提案する",
+              "opt3": "まず彼らの強みを強調し、次に改善すべき領域を優しく言及する",
+              "opt4": "何を変える必要があるかについて包み隠さず直接的である"
+            }
+          },
+          "q6": {
+            "question": "対立中、あなたにとって最も重要なことは：",
+            "options": {
+              "opt1": "両方が真の感情を表現できること",
+              "opt2": "理にかなった論理的な解決策を見つけること",
+              "opt3": "全体を通してつながりと理解を維持すること",
+              "opt4": "問題を迅速かつ明確に解決すること"
+            }
+          },
+          "q7": {
+            "question": "コミュニケーションを通して愛をどのように示しますか？",
+            "options": {
+              "opt1": "心からの言葉と感情的な表現を通して",
+              "opt2": "詳細を覚え、約束を守ることによって",
+              "opt3": "優しい励ましと彼らの感情を認証することで",
+              "opt4": "あなたのコミットメントについて正直で率直であることによって"
+            }
+          },
+          "q8": {
+            "question": "パートナーが愚痴をこぼす必要がある時、あなたは次のことを好みます：",
+            "options": {
+              "opt1": "彼らのエネルギーに合わせ、似た経験をシェアする",
+              "opt2": "彼らがそれを考え抜くのを助ける明確化質問をする",
+              "opt3": "静かに聞き、快適さと安心を提供する",
+              "opt4": "短時間聞いてから解決策に向けて助ける"
+            }
+          },
+          "q9": {
+            "question": "あなたのコミュニケーションスタイルが最も活気づくのは：",
+            "options": {
+              "opt1": "感情と夢についての深い感情的な会話",
+              "opt2": "アイデア、計画、可能性についての興味深い議論",
+              "opt3": "親密さとつながりを築く心と心の会話",
+              "opt4": "目標を達成し問題を解決する効率的な交換"
+            }
+          },
+          "q10": {
+            "question": "パートナーからサポートが必要な時、次のことを好みます：",
+            "options": {
+              "opt1": "判断せずにあなたが感じていることすべてを表現させてくれること",
+              "opt2": "状況を分析し、解決策をブレインストーミングしてくれること",
+              "opt3": "快適さ、認証、安心を提供してくれること",
+              "opt4": "明確なアドバイスと次のステップを与えてくれること"
+            }
+          }
+        },
+        "results": {
+          "expressive": {
+            "title": "表現豊かなコミュニケーター 🎭",
+            "description": "あなたは情熱、感情、熱意でコミュニケーションを取ります。深い会話と感情的なつながりを大切にします。",
+            "strengths": [
+              "感情をシェアするのが得意",
+              "感情的にサポート的",
+              "深いつながりを作る",
+              "情熱的で魅力的"
+            ],
+            "tips": [
+              "積極的な傾聴を練習する",
+              "他の人に処理する時間を与える",
+              "パートナーのコミュニケーションペースを考慮する"
+            ]
+          },
+          "analytical": {
+            "title": "分析的コミュニケーター 🧠",
+            "description": "あなたは論理的で構造化されたコミュニケーションを好みます。明確な情報と実用的な解決策を大切にします。",
+            "strengths": [
+              "明確で組織的",
+              "優秀な問題解決者",
+              "信頼できるフォローアップ",
+              "思慮深い回答"
+            ],
+            "tips": [
+              "より多くの感情的な温かさを示す",
+              "解決策を提供する前に感情を認証する",
+              "感情的な表現に忍耐強くある"
+            ]
+          },
+          "supportive": {
+            "title": "サポート的コミュニケーター 🤗",
+            "description": "あなたは理解、共感、コミュニケーションでの調和の維持を優先します。",
+            "strengths": [
+              "優秀な聞き手",
+              "非常に共感的",
+              "安全な空間を作る",
+              "認証が得意"
+            ],
+            "tips": [
+              "必要な困難な会話を避けない",
+              "自分のニーズを明確に表現する",
+              "時々意見が合わないのは大丈夫"
+            ]
+          },
+          "direct": {
+            "title": "直接的コミュニケーター ⚡",
+            "description": "あなたは効率性、正直さ、率直なコミュニケーションを大切にします。要点を迅速に伝えます。",
+            "strengths": [
+              "明確で正直",
+              "効率的なコミュニケーター",
+              "決定を下すのが得意",
+              "混乱したメッセージがない"
+            ],
+            "tips": [
+              "トーンにより多くの温かさを加える",
+              "感情的なチェックインに時間を取る",
+              "処理時間に忍耐強くある"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "calculate": "計算",
+    "tryAgain": "再試行",
+    "yourName": "あなたの名前",
+    "theirName": "相手の名前",
+    "enterYourName": "あなたの名前を入力",
+    "enterTheirName": "相手の名前を入力",
+    "yourBirthDate": "あなたの生年月日",
+    "theirBirthDate": "相手の生年月日",
+    "dateFormat": "年年年年/月月/日日",
+    "ghostDateFormat": "年年年年/月月/日日",
+    "datePlaceholder": "年年年年/月月/日日",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "selectLanguage": "言語を選択",
+    "close": "閉じる",
+    "open": "開く",
+    "menu": "メニュー",
+    "navigation": "ナビゲーション",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "申し訳ございませんが、お探しのページが見つかりませんでした。",
+    "backToHome": "ホームに戻る",
+    "yourZodiacSign": "あなたの星座",
+    "theirZodiacSign": "相手の星座",
+    "selectSign": "あなたの星座を選択",
+    "selectTheirSign": "相手の星座を選択",
+    "ruledBy": "{{ruler1}}と{{ruler2}}に支配される",
+    "score": "スコア",
+    "chartScore": "スコア: {{score}}/100",
+    "chartTooltipScore": "スコア",
+    "compatibilityBreakdown": "相性詳細",
+    "loveLanguageBreakdown": "愛の言語詳細",
+    "communicationBreakdown": "コミュニケーションスタイル詳細",
+    "conflictStyleBreakdown": "対立解決詳細",
+    "futureGoalsBreakdown": "将来の目標詳細",
+    "share": {
+      "loveCompatibility": "{{name1}} + {{name2}} = {{score}}% 恋愛相性！",
+      "tryCalculator": "恋愛計算機を試してみて:",
+      "tryItYourself": "自分で試してみて:",
+      "imageDownloaded": "画像をダウンロードしました！",
+      "uploadToInstagram": "インスタグラムにアップロードして、このキャプションを使ってください:",
+      "createTikTok": "この画像でTikTok動画を作って、このキャプションを使ってください:",
+      "hashtags": "#恋愛計算機 #相性 #恋愛テスト",
+      "shareLoveCalculator": "恋愛計算機をシェア",
+      "copyToClipboard": "{{name1}} + {{name2}} = {{score}}% 恋愛相性！ {{shareText}} 自分で試してみて: {{url}}",
+      "loveCalculatorResult": "恋愛計算機の結果",
+      "relationshipScore": "{{name1}}と{{name2}}は恋愛クイズで{{score}}%を獲得しました！",
+      "discoveredLoveLanguage": "私の愛の言語は{{language}}だとわかりました！",
+      "communicationStyle": "私のコミュニケーションスタイルは{{style}}です！",
+      "conflictResolution": "私の対立解決スタイルは{{style}}です！",
+      "futureGoals": "私たちの将来の目標の相性: {{result}}！",
+      "zodiacCompatibility": "{{sign1}}と{{sign2}} = {{score}}% 星座相性！",
+      "dobCompatibility": "{{name1}} + {{name2}} = {{score}}% 誕生日相性！",
+      "tryOurQuiz": "クイズを受ける:",
+      "discoverYours": "あなたのを発見:",
+      "quizHashtags": "#恋愛クイズ #愛の言語 #コミュニケーションスタイル #相性",
+      "iScoredRelationship": "恋愛クイズを受けて{{score}}%を獲得しました！ {{result}}",
+      "iScoredLoveLanguage": "私の愛の言語は{{language}}だとわかりました！",
+      "loveLanguageFullShare": "私の愛の言語を発見しました：{{language}}（{{percentage}}%主要）！{{description}} 自分で試してみて：{{url}}",
+      "loveLanguageBasic": "私の愛の言語：{{language}}（{{percentage}}%主要）！{{description}}",
+      "loveLanguageInstagram": "私の愛の言語を発見しました：{{language}}（{{percentage}}%主要）！{{description}} {{url}}で試してみて 💕",
+      "loveLanguageTikTok": "私の愛の言語：{{language}}（{{percentage}}%主要）！{{description}} #愛の言語 #恋愛アドバイス #自己発見",
+      "loveLanguageRedditTitle": "私の愛の言語を発見しました：{{language}}！",
+      "loveLanguageRedditText": "{{description}} 愛の言語アセスメントを自分で試してみてください！",
+      "copyForInstagram": "このテキストをInstagramにコピー：",
+      "futureGoalsFullShare": "私の将来の目標相性を発見しました：{{title}}（{{percentage}}%相性良好）！{{description}} 自分で試してみて：{{url}}",
+      "futureGoalsBasic": "私の将来の目標相性：{{title}}（{{percentage}}%相性良好）！{{description}}",
+      "futureGoalsInstagram": "私の将来の目標相性を発見しました：{{title}}（{{percentage}}%相性良好）！{{description}} {{url}}で試してみて 🎯",
+      "futureGoalsTikTok": "私の将来の目標相性：{{title}}（{{percentage}}%相性良好）！{{description}} #将来の目標 #関係の目標 #性格テスト",
+      "futureGoalsRedditTitle": "私の将来の目標相性を発見しました：{{title}}！",
+      "futureGoalsRedditText": "{{description}} 将来の目標相性クイズを自分で試してみてください！",
+      "iScoredCommunication": "私のコミュニケーションスタイルは{{style}}です！",
+      "communicationStyleFullShare": "私のコミュニケーションスタイルを発見しました：{{style}}（{{percentage}}%支配的）！{{description}} 自分で試してみて：{{url}}",
+      "communicationStyleBasic": "私のコミュニケーションスタイル：{{style}}（{{percentage}}%支配的）！{{description}}",
+      "communicationStyleInstagram": "私のコミュニケーションスタイルを発見しました：{{style}}（{{percentage}}%支配的）！{{description}} {{url}}で試してみて 💬",
+      "communicationStyleTikTok": "私のコミュニケーションスタイル：{{style}}（{{percentage}}%支配的）！{{description}} #コミュニケーションスタイル #性格テスト #自己発見",
+      "communicationStyleRedditTitle": "私のコミュニケーションスタイルを発見しました：{{style}}！",
+      "communicationStyleRedditText": "{{description}} コミュニケーションスタイルクイズを自分で試してみてください！",
+      "iScoredConflict": "私の対立解決スタイルは{{style}}です！",
+      "iScoredFutureGoals": "私たちの将来の目標の相性は{{score}}%を獲得しました！ {{result}}",
+      "dobHashtags": "#誕生日相性 #生年月日 #恋愛テスト",
+      "shareYourResults": "結果をシェア",
+      "copyResults": "結果をコピー",
+      "copied": "コピー完了!",
+      "conflictResolutionBasic": "私の対立解決スタイルを発見しました：{{style}}（{{percentage}}%が主要）！{{description}}",
+      "conflictResolutionFullShare": "私の対立解決スタイルを発見しました：{{style}}（{{percentage}}%が主要）！{{description}} あなたも試してみてください：{{url}}",
+      "conflictResolutionInstagram": "私の対立解決スタイルを発見しました：{{style}}（{{percentage}}%が主要）！{{description}} {{url}}で試してみてください 🤝",
+      "conflictResolutionRedditTitle": "私の対立解決スタイルを発見しました：{{style}}！",
+      "conflictResolutionRedditText": "{{description}} 対立解決スタイルクイズを自分で試してみてください！",
+      "conflictResolutionTikTok": "私の対立解決スタイル：{{style}}（{{percentage}}%が主要）！{{description}} #対立解決 #人間関係スキル #性格クイズ"
+    }
+  },
+  "loveCalculator": {
+    "title": "恋愛計算機",
+    "description": "独自の親和性指数（AQ）アルゴリズムで動く世界最先端の恋愛相性計算機を体験してください。科学的分析により、複数の次元にわたってあなたの相性の詳細を把握できます。",
+    "enterNames": "お名前を入力して、あなたの恋愛パーセンテージを調べましょう！",
+    "loading": "あなたの恋愛相性を計算中...",
+    "calculateLove": "恋愛スコアを計算",
+    "shareResult": "結果をシェア",
+    "error": "何かが間違っています。もう一度試してください。",
+    "nameRequired": "両方の名前を入力してください",
+    "easterEggHint": "こっそり...100以上の隠れた有名人、ミーム、アイコンカップルが特別な恋愛スコアをトリガーします。いくつアンロックできますか？🎭✨",
+    "tryOtherTools": "他の楽しいツールも試してみませんか？",
+    "dobCalculator": "生年月日相性計算機",
+    "zodiacCalculator": "星座相性計算機",
+    "whyThisScore": "なぜこのスコア？",
+    "scienceBehindScore": "あなたのスコアの背後にある科学：",
+    "initialSimilarity": "初期類似性 (0-100)：",
+    "initialSimilarityDescription": "最初の文字間のアルファベット距離 - より近い文字ほど高いスコア",
+    "letterFrequency": "文字頻度 (0-100)：",
+    "letterFrequencyDescription": "あなたの名前の文字パターンがどれほど似ているか（言語的適合性）",
+    "phoneticSimilarity": "音韻類似性 (0-100)：",
+    "phoneticSimilarityDescription": "発音したときにあなたの名前がどのように聞こえるか（聴覚的調和）",
+    "numerologicalCompatibility": "数秘術適合性 (0-100)：",
+    "numerologicalCompatibilityDescription": "古代数秘術の原理と運命数に基づく",
+    "vowelBalance": "母音バランス (0-100)：",
+    "vowelBalanceDescription": "母音と子音の比率によって作られるリズムと流れ",
+    "algorithmExplanation": "このアルゴリズムは、名前の適合性に関する学術研究から複数の言語学的および心理学的要因を組み合わせます。すべてのメトリクスは正確な分析のため0-100で評価されます。",
+    "shareResultsTitle": "結果をシェア",
+    "shareResultsDescription": "あなたの恋愛スコアをバイラルコンテンツに変えましょう！",
+    "downloadImage": "画像をダウンロード",
+    "copyResults": "結果をコピー",
+    "copied": "コピー済み！",
+    "beautifulLoveStory": "美しい愛の物語が展開中！🌹💖",
+    "messages": {
+      "perfectMatch": "完璧なマッチ！あなた方の愛の物語は唯一無二です！💖✨",
+      "soulmates": "ソウルメイト — あなた方二人は星に書かれていました！🌠❤️",
+      "trueLove": "真実の愛の頂点 — あなた方は互いを完成させます！💕🔥",
+      "legendaryLove": "伝説の愛！あなた方は永遠に一緒にいる運命です！👑💫",
+      "powerCouple": "究極のパワーカップル！あなた方の愛がすべてを征服します！💪❤️",
+      "matchMadeInHeaven": "真実の愛警報 — あなた方は天国で作られたカップルです！✨💕",
+      "heartsAsOne": "信じられない繋がり！あなた方の心は一つとして鼓動します！💓🎵",
+      "beautifulStory": "美しい愛の物語が展開中！🌹💖",
+      "incredibleChemistry": "信じられない化学反応！火花が飛んでいます！⚡💘",
+      "loveGoals": "愛の目標！あなた方の繋がりで他の人を inspire します！🎯💝",
+      "soulmatesyoutwoMessage": "ソウルメイト — あなた達は星に書かれていた！🌠❤️",
+      "perfectmatchyourMessage": "完璧なマッチ！あなた達の愛の物語は永遠に残る！💖✨",
+      "trueloveatMessage": "最高の真実の愛 — あなた達はお互いを完成させる！💕🔥",
+      "legendaryloveyoureMessage": "伝説的な愛！あなた達は永遠に一緒にいる運命！👑💫",
+      "ultimatepowercoupleMessage": "究極のパワーカップル！あなた達の愛は全てを征服する！💪❤️",
+      "truelovealertMessage": "真実の愛の警報 — あなた達は天国で作られたカップル！✨💕",
+      "amazingconnectionyourMessage": "驚くべき繋がり！あなた達の心は一つとして鼓動する！💓🎵",
+      "beautifullovestoryMessage": "美しい愛の物語が生まれている！🌹💖",
+      "incrediblechemistrytheMessage": "信じられない化学反応！火花が散っている！⚡💘",
+      "lovegoalsyouMessage": "愛のゴール！あなた達の繋がりで他の人を刺激する！🎯💝",
+      "asolidconnectionMessage": "しっかりした繋がり — どこに向かうか見てみよう！🌷💫",
+      "goodpotentialloveMessage": "良い可能性！愛が芽生えているかも！🌸🌱",
+      "sweetcompatibilitytheresMessage": "甘い相性！ここには確実に何かがある！🍯💕",
+      "promisingmatchtimeMessage": "有望なマッチ！時間があなた達の物語を語るでしょう！⏰💖",
+      "cuteconnectiontheMessage": "可愛い繋がり！基礎はそこにある！🏗️💕",
+      "alittlesparkMessage": "小さな火花、でも炎は大きくなるだろうか？🔥🤞",
+      "somepotentialbutMessage": "いくらかの可能性、でも努力が必要！🛠️💕",
+      "mixedsignalscommunicationMessage": "混合シグナル — コミュニケーションが鍵！📱💭",
+      "friendshipvibesstrongMessage": "友情の雰囲気が強い — 多分愛が続くでしょう！👫❓",
+      "slowburnromanceMessage": "ゆっくり燃えるロマンス？時には最高の愛は時間がかかる！⏳🔥",
+      "oppositesmayattractMessage": "正反対は引き付け合うかもしれない...でも時々そうでもない。⚡💔",
+      "betterasfriendsMessage": "友達として？時にはそれでも良い！🤝💙",
+      "notquiteaMessage": "完全なマッチではないけれど、ねえ — 海にはたくさんの魚がいる！🐠🌊",
+      "differentwavelengthsbutMessage": "異なる波長、でもそれで大丈夫！📻🎵",
+      "notmeanttoMessage": "一緒になる運命ではない、でもあなた達両方とも素晴らしい！⭐🌟"
+    },
+    "breakdown": {
+      "title": "相性分解",
+      "nameHarmony": "名前の調和",
+      "letterSynergy": "文字のシナジー",
+      "vocalBalance": "声のバランス",
+      "energyAlignment": "エネルギーの整列",
+      "cosmicConnection": "宇宙的つながり"
+    }
+  },
+  "zodiacSigns": {
+    "aries": "牡羊座",
+    "taurus": "牡牛座",
+    "gemini": "双子座",
+    "cancer": "蟹座",
+    "leo": "獅子座",
+    "virgo": "乙女座",
+    "libra": "天秤座",
+    "scorpio": "蠍座",
+    "sagittarius": "射手座",
+    "capricorn": "山羊座",
+    "aquarius": "水瓶座",
+    "pisces": "魚座"
+  },
+  "zodiacElements": {
+    "fire": "火",
+    "earth": "地",
+    "air": "風",
+    "water": "水"
+  },
+  "zodiacModalities": {
+    "cardinal": "活動宮",
+    "fixed": "不動宮",
+    "mutable": "柔軟宮"
+  },
+  "zodiacPlanets": {
+    "mars": "火星",
+    "venus": "金星",
+    "mercury": "水星",
+    "moon": "月",
+    "sun": "太陽",
+    "pluto": "冥王星",
+    "jupiter": "木星",
+    "saturn": "土星",
+    "uranus": "天王星",
+    "neptune": "海王星"
+  },
+  "zodiacElementMessages": {
+    "perfect": "完璧なエレメント調和！あなたたちのエネルギーが合奏のように流れています。",
+    "excellent": "優秀なエレメントシナジーが強力な繋がりを創造しています。",
+    "good": "良いエレメント相性が有望な化学反応をもたらしています。",
+    "complementary": "補完的なエレメントが魅力的なダイナミクスを創造しています。",
+    "challenging": "異なるエレメントは調和のために理解が必要です。",
+    "conflicting": "衝突するエレメントは忍耐と妥協が必要です。",
+    "fireAir": "火と風のエレメントが活気あるダイナミックな関係を創造します。"
+  },
+  "zodiacModalityMessages": {
+    "same": "同一のモダリティが自然な理解とリズムを創造します。",
+    "compatible": "互換性のあるモダリティがバランスの取れたエネルギーを提供します。",
+    "complementary": "補完的なモダリティが美しい活動のバランスを創造します。",
+    "different": "異なるモダリティが関係に多様性と成長を加えます。",
+    "challenging": "対照的なモダリティはエネルギーアプローチで妥協が必要です。",
+    "sameModality": "同一のモダリティが自然な理解とリズムを創造します。"
+  },
+  "zodiacPlanetaryMessages": {
+    "same": "同じ惑星に支配されています——あなたたちは同じ宇宙の言語を話しています！",
+    "harmonious": "調和的な惑星影響が自然な親密さを創造します。",
+    "compatible": "互換性のある惑星が相互理解を促進します。",
+    "complementary": "補完的な惑星エネルギーが魅力的なダイナミクスを創造します。",
+    "different": "異なる惑星影響が豊かさと複雑さを加えます。",
+    "challenging": "挑戦的な惑星アスペクトは理解と忍耐が必要です。"
+  },
+  "zodiacPatterns": {
+    "perfectHarmony": "絶対的な星の調和——あなたたちは星に書かれています！",
+    "soulmates": "クラシックなソウルメイト——あなたたちのサインは完璧に補完し合います！",
+    "powerCouple": "ダイナミックデュオ——あなたたちのエネルギーが磁力を創造します！",
+    "complementaryOpposites": "補完的な対立——あなたたちの違いが完璧な統一を創造します！",
+    "cosmicBalance": "宇宙的バランス——あなたたちのエネルギーが調和的なダンスを創造します！",
+    "fieryPassion": "燃える情熱——一緒に星を点火します！",
+    "earthyStability": "地に足のついた安定性——あなたたちの繋がりは山のように強固です！",
+    "intellectualConnection": "知的な繋がり——あなたたちの心が完璧な同期でダンスします！",
+    "emotionalDepth": "感情的な深さ——あなたたちの心が深い水で共鳴します！",
+    "adventurousSpirit": "冒険的な精神——一緒に新しい地平線を征服します！",
+    "creativePartnership": "創造的なパートナーシップ——あなたたちのコラボレーションが美を誕生させます！",
+    "stabilizingForce": "安定化力——あなたたちは調和してお互いを安定させます！",
+    "growthCatalyst": "成長の触媒——あなたたちはお互いの進化を刺激します！",
+    "uniqueDynamic": "ユニークなダイナミクス——あなたたちの繋がりが独自の道を定義します！",
+    "karmicConnection": "カルマ的な繋がり——運命があなたたちを一緒にしました！",
+    "supportiveSextile": "支援的なセクスタイル——あなたたちの関係は相互支援と成長に基づいています！"
+  },
+  "zodiacMessages": {
+    "perfectMatch": "完璧なマッチ！星があなたたち二人のために整列しました！",
+    "excellentCompatibility": "優秀な相性！宇宙があなたたちの結合を承認しています！",
+    "strongConnection": "強い繋がり！あなたたちの星のエネルギーが美しく絡み合っています！",
+    "goodPotential": "良いポテンシャル！あなたたちのサインが有望な調和を創造しています！",
+    "interestingDynamic": "興味深いダイナミクス！あなたたちの違いが魅力的な錬金術を創造しています！",
+    "cosmicChemistry": "宇宙の化学！ユニークな惑星影響が動的な魅力を創造しています！",
+    "celestialJourney": "天体の旅！あなたたちの繋がりは成長と発見の道です！",
+    "stellarAdventure": "星の冒険！一緒に未知の領域を探索します！",
+    "cosmicChallenge": "宇宙の挑戦！あなたたちの違いが深い成長の機会を提供しています！",
+    "universalLearning": "宇宙的学習！すべての繋がりが貴重な人生の教訓を提供します！",
+    "stellarConnection": "星の繋がり！あなたたちの愛が宇宙に響いています。"
+  },
+  "zodiacUI": {
+    "selectYourZodiacSigns": "あなたの星座を選択してください",
+    "discoverCosmicCompatibility": "星の知恵を通してあなたの宇宙の相性を発見しましょう！",
+    "yourName": "あなたの名前",
+    "theirName": "相手の名前",
+    "enterYourName": "あなたの名前を入力",
+    "enterTheirName": "相手の名前を入力",
+    "yourZodiacSign": "あなたの星座",
+    "theirZodiacSign": "相手の星座",
+    "selectYourSign": "あなたの星座を選択",
+    "selectTheirSign": "相手の星座を選択",
+    "calculateCosmicCompatibility": "宇宙の相性を計算",
+    "readingTheStars": "星を読んでいます...",
+    "tryAgain": "再試行",
+    "astrologicalCompatibilityBreakdown": "占星術的相性の内訳",
+    "whyThisScore": "なぜこのスコア？",
+    "scienceBehindScore": "あなたの星座スコアの背後にある科学：",
+    "signHarmony": "星座の調和 (0-100)：",
+    "signHarmonyDescription": "星座間の関係に基づく伝統的な占星術相性パターン",
+    "elementalBalance": "エレメントバランス (0-100)：",
+    "elementalBalanceDescription": "火、地、風、水のエレメント間の相互作用",
+    "modalityMatching": "モダリティマッチング (0-100)：",
+    "modalityMatchingDescription": "活動宮、不動宮、柔軟宮エネルギーの同期",
+    "planetarySync": "惑星同期 (0-100)：",
+    "planetarySyncDescription": "あなたの星座の支配惑星間の調和",
+    "cosmicAspects": "宇宙的アスペクト (0-100)：",
+    "cosmicAspectsDescription": "伝統的な占星術アスペクトと天体角度関係",
+    "algorithmExplanation": "このアルゴリズムは数千年の占星術の知恵と現代の相性分析を組み合わせています。すべてのメトリクスは正確な占星術分析のために0-100で評価されます。",
+    "shareResultsTitle": "結果をシェア",
+    "shareResultsDescription": "あなたの星座スコアをバイラルコンテンツに変換しましょう！",
+    "downloadImage": "画像をダウンロード",
+    "copyResults": "結果をコピー",
+    "copied": "コピーしました！",
+    "signs": "星座",
+    "elements": "エレメント",
+    "modality": "モダリティ",
+    "planets": "惑星",
+    "aspects": "アスペクト",
+    "ruledBy": "{{ruler1}}と{{ruler2}}に支配される",
+    "elementsDescription": "火、地、風、水のエレメント間の相互作用",
+    "modalityDescription": "活動宮、不動宮、柔軟宮エネルギーの同期",
+    "planetsDescription": "あなたの星座の支配惑星間の調和",
+    "elementalHarmony": "エレメント調和",
+    "energyPatterns": "エネルギーパターン",
+    "planetaryInfluence": "惑星影響",
+    "astrologicalPattern": "占星術パターン",
+    "shareYourResults": "結果をシェア",
+    "turnZodiacScore": "あなたの星座スコアをバイラルコンテンツに変換しましょう！",
+    "whyNotTryOtherTools": "他の楽しいツールも試してみませんか？",
+    "loveCalculator": "相性診断",
+    "dobCalculator": "生年月日相性計算機"
+  },
+  "dobCalculator": {
+    "title": "生年月日相性計算機",
+    "description": "あなたの生年月日に基づいてロマンチックな相性を発見しましょう！私たちのアルゴリズムは誕生日パターン、年齢差、数秘術要因を分析して、魅力的な関係の洞察を明らかにします。",
+    "calculate": "生年月日相性を計算",
+    "whyChooseOurDOBCalculatorTitle": "なぜ私たちの生年月日計算機を選ぶのか？",
+    "whyChooseOurBirthdayCalculatorTitle": "なぜ私たちの誕生日計算機を選ぶのか？",
+    "scientificFoundationTitle": "科学的基盤",
+    "scientificFoundationDescription": "世界中の関係専門家が使用する数秘術研究、日付パターン分析、年齢相性研究に基づいています。",
+    "detailedBreakdownTitle": "詳細な分析",
+    "detailedBreakdownDescription": "私たちのアルゴリズムは、深い相性洞察のためのライフサイクル同期、年齢差、ライフナンバー、日付パターンを分析します。",
+    "socialShareFunTitle": "ソーシャルシェアの楽しさ",
+    "socialSharingTitle": "ソーシャルシェアの楽しさ",
+    "socialShareFunDescription": "生年月日分析を通じて性格特性と関係動態を探求する楽しく魅力的な方法。",
+    "socialSharingDescription": "生年月日分析を通じて性格特性と関係動態を探求する楽しく魅力的な方法。",
+    "dobCompatibilityDescription": "同じ年に生まれようと数十年離れていようと、誕生日が同じ月に落ちようと季節で分かれていようと、私たちの生年月日相性計算機は関係の時間的つながりについての娯楽と洞察を提供します。",
+    "birthdayCompatibilityDescription": "同じ年に生まれようと数十年離れていようと、誕生日が同じ月に落ちようと季節で分かれていようと、私たちの誕生日相性計算機は関係の時間的つながりについての娯楽と洞察を提供します。",
+    "howAlgorithmWorksTitle": "私たちの生年月日相性アルゴリズムの仕組み",
+    "exclusiveDateHarmonyAlgorithm": "私たちの独占日付ハーモニーアルゴリズムは、伝統的な数秘術原理と現代の相性分析を組み合わせて、正確で魅力的な生年月日相性評価を提供します。",
+    "algorithmFoundationDescription": "私たちの独占日付ハーモニーアルゴリズムは、伝統的な数秘術原理と現代の相性分析を組み合わせて、正確で魅力的な誕生日相性評価を提供します。",
+    "systemAppliesNumerological": "システムは伝統的な数秘術方法を適用し、ライフナンバー、年齢差、誕生日パターン、時間的サイクルを分析して時間的相性を決定します。",
+    "comprehensiveCompatibilityProfile": "システムは伝統的な数秘術方法を適用し、ライフナンバー、年齢差、誕生日パターン、時間的サイクルを分析して時間的相性を決定します。",
+    "numerologicalFoundation": "数秘術基盤",
+    "academicFoundation": "学術基盤",
+    "algorithmIncorporates": "私たちのアルゴリズムは、ライフナンバー計算、年齢差分析、季節の誕生日パターン、生年月日間の時間的サイクル関係を含む古典的な数秘術原理を組み込んでいます。",
+    "dobAnalysisProcessTitle": "生年月日分析プロセス",
+    "birthDateAnalysisProcessTitle": "生年月日分析プロセス",
+    "analyzeLifePathNumbers": "ライフパスナンバーと数秘術相性パターンを分析",
+    "extractTemporalPatterns": "時間的パターンと季節的影響を抽出",
+    "calculateAgeDifferences": "年齢差とライフサイクルハーモニーを計算",
+    "calculateNumerologicalPaths": "数秘術パスとライフアライメントを計算",
+    "evaluateBirthdayPatterns": "誕生日パターンと季節同期を評価",
+    "analyzeSeasonalPersonalityAlignment": "季節的性格アライメントを分析",
+    "assessTemporalAlignment": "時間的アライメントとライフサイクル影響を評価",
+    "evaluateGenerationalHarmony": "世代間ハーモニーを評価",
+    "calculateDateNumerology": "日付数秘術と時間的共鳴パターンを計算",
+    "generateComprehensiveCompatibilityScore": "包括的相性スコアを生成",
+    "fivePillarsTitle": "生年月日相性分析の5つの柱",
+    "lifePathHarmony": "ライフパスハーモニー",
+    "lifePathNumberCompatibilityPatterns": "ライフパスナンバー相性パターンと数秘術アライメント",
+    "ageBalance": "年齢バランス",
+    "ageHarmony": "年齢ハーモニー",
+    "ageDifferenceHarmonyAnalysis": "年齢差ハーモニー分析とライフサイクル同期",
+    "ageHarmonyDescription": "年齢差と人生段階の相性を分析 - より近い年齢がより高いスコアを獲得",
+    "birthdaySync": "誕生日同期",
+    "seasonalPatterns": "季節パターン",
+    "birthdayPatternSeasonalAlignment": "誕生日パターン季節アライメントと時間的ハーモニー",
+    "seasonalPatternsDescription": "誕生日パターン季節アライメントと時間的ハーモニー",
+    "temporalAlignment": "時間的アライメント",
+    "numerologicalPaths": "数秘術パス",
+    "lifeCyclePhaseMatching": "ライフサイクル段階マッチングと発達相性",
+    "numerologicalPathsDescription": "ライフパスナンバー相性パターンと数秘術アライメント",
+    "numericalResonance": "数値共鳴",
+    "cosmicSync": "宇宙同期",
+    "dateNumerologyVibrationSynchronization": "日付数秘術振動同期と数値ハーモニー",
+    "cosmicSyncDescription": "誕生日パターン、天体タイミング、宇宙接続分析",
+    "generationalEnergy": "世代エネルギー",
+    "generationalEnergyDescription": "ライフサイクル段階マッチングと発達相性",
+    "whyDOBCompatibilityMattersTitle": "なぜ生年月日相性が重要なのか",
+    "whyBirthdayCompatibilityMattersTitle": "なぜ誕生日相性が重要なのか",
+    "numerologicalWisdom": "数秘術の知恵",
+    "numerologicalWisdomDescription": "何千年もの数秘術の伝統は、生年月日が性格特性と関係動態に影響を与え、相性パターンへの洞察を提供することを示唆しています。",
+    "temporalPsychology": "時間心理学",
+    "temporalPsychologyDescription": "何千年もの数秘術の伝統は、生年月日が性格特性と関係動態に影響を与え、相性パターンへの洞察を提供することを示唆しています。",
+    "lifeCycleInfluences": "ライフサイクル影響",
+    "lifeCycleInfluencesDescription": "年齢差とライフサイクル段階は、関係におけるコミュニケーションスタイル、生活優先事項、感情表現に影響を与えます。",
+    "lifeStageSynchronization": "ライフステージ同期",
+    "lifeStageSynchronizationDescription": "年齢差とライフサイクル段階は、関係におけるコミュニケーションスタイル、生活優先事項、感情表現に影響を与えます。",
+    "temporalChemistry": "時間的ケミストリー",
+    "temporalChemistryDescription": "誕生日パターンと季節アライメントは、パートナー間の理解を深めることができる自然な魅力と相性パターンを作り出します。",
+    "seasonalInfluences": "季節影響",
+    "seasonalInfluencesDescription": "誕生日パターンと季節アライメントは、パートナー間の理解を深めることができる自然な魅力と相性パターンを作り出します。",
+    "numericalSynchronicity": "数値同期性",
+    "numericalSynchronicityDescription": "生年月日相性は、関係のタイミング、課題、成長とハーモニーの機会についての洞察を提供できます。",
+    "poweredByAlgorithmTitle": "📊 日付ハーモニーアルゴリズムで駆動",
+    "advancedAlgorithmDescription": "私たちの高度なアルゴリズムは、伝統的な数秘術の知恵と現代の相性分析を組み合わせ、ライフナンバー、年齢差、時間的パターンを評価して、パーソナライズされた生年月日相性洞察を提供します。",
+    "traditionalNumerologyBased": "伝統的数秘術に基づく",
+    "numerologyBasedAnalysis": "数秘術ベース分析",
+    "ageLifeCycleAnalysis": "年齢・ライフサイクル分析",
+    "seasonalPsychologyPatterns": "季節心理パターン",
+    "5FactorDateScoring": "5要因日付スコアリング",
+    "fiveFactorTemporalScoring": "5要因時間スコアリング",
+    "numerologicalInsightsTitle": "数秘術洞察と時間の知恵",
+    "numerologicalInsights": {
+      "item1": "ライフパスナンバー相性は、人生目的と目標の自然なアライメントパターンを明らかにします",
+      "item2": "年齢差は、関係におけるコミュニケーションスタイルと感情表現に影響を与えます",
+      "item3": "季節の誕生日パターンは、関係動態と人生祝賀へのアプローチに影響を与えます",
+      "item4": "伝統的なライフサイクルアライメントは、潜在的な課題と調和のとれたつながりへの洞察を提供します",
+      "item5": "時間同期と数秘術パターンは、関係段階と成長機会の理解を高めることができます"
+    },
+    "entertainmentOnlyTitle": "🎭 エンターテインメントのみ",
+    "important": "重要",
+    "entertainmentOnlyDescription": "この生年月日相性計算機は、エンターテインメント目的のみです。伝統的な数秘術原理に基づいていますが、結果は重要な関係決定の唯一の基準として使用すべきではありません。数秘術は信念体系であり、相性は生年月日以外の多くの個人的要因に依存します。",
+    "dobCompatibilityTestOnlineTitle": "オンライン生年月日相性テスト",
+    "dobCompatibilityTestOnlineDescription": "私たちの包括的な生年月日計算機で数秘術相性の魔法を体験してください。時間的つながりを明らかにし、ライフサイクルハーモニーを探求し、あなたの数秘術ラブストーリーへの洞察を得てください。",
+    "birthdayCompatibilityTestOnlineTitle": "オンライン誕生日相性テスト",
+    "birthdayCompatibilityTestOnlineDescription": "私たちの包括的な誕生日計算機で数秘術相性の魔法を体験してください。時間的つながりを明らかにし、ライフサイクルハーモニーを探求し、あなたの数秘術ラブストーリーへの洞察を得てください。",
+    "calculateYourDOBCompatibilityNow": "今すぐあなたの生年月日相性を計算",
+    "calculateYourBirthdayCompatibilityNow": "今すぐあなたの誕生日相性を計算",
+    "yourName": "あなたの名前",
+    "theirName": "相手の名前",
+    "enterYourName": "あなたの名前を入力",
+    "enterTheirName": "相手の名前を入力",
+    "yourBirthDate": "あなたの生年月日",
+    "theirBirthDate": "相手の生年月日",
+    "ddmmyyyy": "年年年年/月月/日日",
+    "analyzingBirthDates": "生年月日を分析中...",
+    "tryAgain": "再試行",
+    "whyNotTryOtherTools": "他の楽しいツールも試してみませんか？",
+    "loveCalculator": "恋愛計算機",
+    "zodiacCompatibilityCalculator": "星座相性計算機",
+    "birthdayCompatibilityBreakdown": "誕生日相性の内訳",
+    "age": "年齢",
+    "season": "季節",
+    "numbers": "数字",
+    "cosmic": "宇宙",
+    "generation": "世代",
+    "ageHarmonyFull": "年齢ハーモニー",
+    "seasonalPatternsFull": "季節パターン",
+    "numerologicalPathsFull": "数秘術パス",
+    "cosmicSyncFull": "宇宙同期",
+    "generationalEnergyFull": "世代エネルギー",
+    "whyThisScore": "なぜこのスコア？",
+    "scienceBehindScore": "あなたの誕生日スコアの背後にある科学：",
+    "seasonPatternsDescription": "心理学研究に基づく出生月の性格特性と季節エネルギーマッチング",
+    "numbersDescription": "古代計算方法と運命数を使用したライフパス数の相性",
+    "generationDescription": "出生年コホート分析と世代エネルギー調和評価",
+    "algorithmExplanation": "このアルゴリズムは時間生物学研究、数秘術原理、季節心理学を組み合わせて時間相性パターンを分析します。精密な誕生日調和分析のため、すべてのメトリクスが0-100でスコアリングされます。",
+    "lifeStageAnalysis": "人生段階分析",
+    "seasonalHarmony": "季節調和",
+    "numerologicalInsight": "数秘術洞察",
+    "shareYourResults": "結果をシェア",
+    "shareYourResultsDescription": "あなたの誕生日スコアをバイラルコンテンツに変換！",
+    "downloadImage": "画像をダウンロード",
+    "copyResults": "結果をコピー",
+    "copied": "コピーしました！",
+    "shareYourBirthdayScore": "あなたの誕生日スコアをシェア！🎂",
+    "choosePlatform": "あなたの生年月日相性結果をシェアするお気に入りのプラットフォームを選択",
+    "xTwitter": "X/Twitter",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "snapchat": "Snapchat",
+    "tiktok": "TikTok",
+    "moreApps": "その他のアプリ",
+    "close": "閉じる",
+    "seasons": {
+      "spring": "春",
+      "summer": "夏",
+      "autumn": "秋",
+      "winter": "冬"
+    },
+    "lifeStageMessages": {
+      "perfectSync": "完璧な同期 - あなたたちは同じ人生段階にいます！",
+      "greatAlignment": "素晴らしい整列 - 似た人生経験",
+      "complementaryStages": "補完的段階 - お互いから学ぶ",
+      "differentPerspectives": "異なる視点 - ユニークなダイナミクス"
+    },
+    "seasonalMatchMessages": {
+      "bothSame": "両方とも{{season}}生まれ - 自然な調和！",
+      "different": "{{season1}}と{{season2}}の出会い - 美しいコントラスト！"
+    },
+    "numerologyMessages": {
+      "lifePaths": "ライフパス{{path1}}と{{path2}} - {{message}}",
+      "twinSouls": "ツインソウル！",
+      "complementaryEnergies": "補完的エネルギー"
+    },
+    "overallMessages": {
+      "cosmicSoulmates": "宇宙のソウルメイト！あなたの生年月日は信じられない相性を示しています💫",
+      "writtenInStars": "星に書かれています！驚くべき誕生日調和⭐",
+      "beautifulConnection": "美しいつながり！あなたの日付は素晴らしく整列しています🌟",
+      "goodVibes": "良い雰囲気！堅実な誕生日相性🎂",
+      "uniquePairing": "ユニークなペアリング！正反対が美しく引き合うことができます🎭"
+    },
+    "compatibility": "相性",
+    "compatibilityScore": "相性スコア",
+    "viewAnalysisChart": "分析チャートを表示",
+    "analysisChart": "分析チャート",
+    "hideChart": "チャートを隠す",
+    "enterYourBirthDatesTitle": "あなたの生年月日を入力",
+    "enterYourBirthDatesDescription": "生年月日分析であなたの宇宙相性を発見！",
+    "calculateCompatibility": "相性を計算"
+  },
+  "zodiacCalculator": {
+    "title": "星座相性計算機",
+    "description": "私たちの高度な星座相性計算機であなたとパートナーの宇宙的つながりを発見してください。あなたの星座をテストし、天体の洞察で占星術の恋愛マッチを探索しましょう。",
+    "whyChooseOurZodiacCalculatorTitle": "なぜ私たちの星座計算機を選ぶのか？",
+    "traditionalAstrologyTitle": "伝統的占星術",
+    "traditionalAstrologyDescription": "世界中の占星術師が使用する何世紀にもわたる占星術の知恵と伝統的な星座相性パターンに基づいています。",
+    "comprehensiveAnalysisTitle": "包括的分析",
+    "comprehensiveAnalysisDescription": "私たちのアルゴリズムは、元素調和、惑星支配者、様式、宇宙的側面を分析して、深い相性の洞察を提供します。",
+    "cosmicEntertainmentTitle": "宇宙的エンターテイメント",
+    "cosmicEntertainmentDescription": "占星術のレンズを通して人格特性と関係の動態を探索する楽しく魅力的な方法。",
+    "zodiacCompatibilityDescription": "あなたが地に足のついた牡牛座との調和を求める熱い牡羊座であろうと、分析的な乙女座とつながる夢見がちな魚座であろうと、私たちの星座相性計算機は関係の宇宙的舞踊についてのエンターテイメントと洞察を提供します。",
+    "howAlgorithmWorksTitle": "私たちの星座相性アルゴリズムの仕組み",
+    "exclusiveCelestialHarmonyAlgorithm": "私たちの独占的天体調和アルゴリズムは、伝統的占星術原理と現代的相性分析を組み合わせて、正確で楽しい星座相性スコアを提供します。",
+    "systemAppliesTraditionalAstrology": "システムは伝統的占星術手法を適用し、星座間の基本的関係、それらの支配惑星、元素特性、様式特徴を分析して宇宙的相性を決定します。",
+    "astrologicalFoundation": "占星術的基盤",
+    "algorithmIncorporates": "私たちのアルゴリズムは、元素相互作用、惑星支配、様式エネルギー、星座間の伝統的アスペクト関係を含む古典的占星術原理を組み込んでいます。",
+    "zodiacAnalysisProcessTitle": "星座分析プロセス",
+    "analyzeTraditionalSignCompatibilityPatterns": "伝統的星座相性パターンと歴史的占星術関係を分析",
+    "calculateElementalHarmony": "火、地、風、水の星座間の元素調和を計算",
+    "evaluateModalitySynchronization": "様式同期を評価（活動宮、不動宮、柔軟宮エネルギー）",
+    "assessPlanetaryRulerRelationships": "惑星支配者関係と宇宙的影響を評価",
+    "calculateCosmicAspectDynamics": "宇宙的アスペクト動態と占星術共鳴パターンを計算",
+    "fivePillarsTitle": "星座相性分析の5つの柱",
+    "signHarmonyTitle": "星座調和",
+    "traditionalZodiacCompatibilityPatterns": "伝統的星座相性パターンと占星術関係",
+    "elementalBalance": "元素バランス",
+    "fireEarthAirWaterElementInteractions": "火、地、風、水元素相互作用と宇宙調和",
+    "modalityMatching": "様式マッチング",
+    "cardinalFixedMutableEnergyPatternSynchronization": "活動宮、不動宮、柔軟宮エネルギーパターン同期",
+    "planetarySyncTitle": "惑星同期",
+    "rulingPlanetRelationships": "支配惑星関係と天体影響",
+    "cosmicAspects": "宇宙的アスペクト",
+    "trineSextileOppositionSquareRelationshipDynamics": "トライン、セクスタイル、オポジション、スクエア関係動態",
+    "whyZodiacCompatibilityMattersTitle": "なぜ星座相性が重要なのか",
+    "astrologicalWisdom": "占星術の知恵",
+    "astrologicalWisdomDescription": "何千年もの占星術の伝統は、天体が人格特性と関係動態に影響を与え、相性パターンへの洞察を提供することを示唆しています。",
+    "planetaryInfluences": "惑星影響",
+    "planetaryInfluencesDescription": "各星座は特定の惑星に支配され、関係における特徴、コミュニケーションスタイル、感情表現に影響を与えます。",
+    "elementalChemistry": "元素化学",
+    "elementalChemistryDescription": "4つの元素（火、地、風、水）は、パートナー間の理解を高めることができる自然な引力と相性パターンを作り出します。",
+    "cosmicTiming": "宇宙的タイミング",
+    "cosmicTimingDescription": "占星術の相性は、関係のタイミング、課題、成長と調和の機会への洞察を提供できます。",
+    "poweredByAlgorithmTitle": "🌟 天体調和アルゴリズムで駆動",
+    "advancedAlgorithmDescription": "私たちの高度なアルゴリズムは伝統的占星術の知恵と現代的相性分析を組み合わせ、元素相互作用、惑星関係、宇宙的アスペクトを評価して、パーソナライズされた星座相性洞察を提供します。",
+    "traditionalAstrologyBased": "伝統的占星術ベース",
+    "elementalPlanetaryAnalysis": "元素・惑星分析",
+    "5FactorCosmicScoring": "5要素宇宙スコアリング",
+    "astrologicalInsightsTitle": "占星術洞察と宇宙的知恵",
+    "astrologicalInsights": {
+      "item1": "元素相性は火、地、風、水の星座間の自然な引力パターンを明らかにします",
+      "item2": "惑星支配は関係におけるコミュニケーションスタイルと感情表現に影響します",
+      "item3": "様式エネルギー（活動宮、不動宮、柔軟宮）は関係動態と意思決定アプローチに影響します",
+      "item4": "伝統的占星術アスペクトは潜在的課題と調和的つながりへの洞察を提供します",
+      "item5": "宇宙的タイミングと天体サイクルは関係段階と成長機会の理解を高めることができます"
+    },
+    "entertainmentOnlyTitle": "🎭 エンターテイメント専用",
+    "important": "重要",
+    "entertainmentOnlyDescription": "この星座相性計算機はエンターテイメント目的のみに設計されています。伝統的占星術原理に基づいているものの、結果は重要な関係決定の唯一の基盤として使用すべきではありません。占星術は信念体系であり、相性は星座を超えた多くの個人的要因に依存します。",
+    "zodiacCompatibilityTestOnlineTitle": "オンライン星座相性テスト",
+    "zodiacCompatibilityTestOnlineDescription": "私たちの包括的星座計算機で占星術相性の魔法を体験してください。宇宙的つながりを発見し、元素調和を探索し、あなたの天体ラブストーリーへの洞察を得ましょう。",
+    "calculateYourZodiacCompatibilityNow": "今すぐあなたの星座相性を計算"
+  },
+  "results": {
+    "compatibilityScore": "相性スコア",
+    "perfectMatch": "完璧なマッチ！",
+    "excellentMatch": "優秀なマッチ！",
+    "goodMatch": "良いマッチ！",
+    "fairMatch": "まあまあのマッチ",
+    "challenging": "挑戦的なマッチ",
+    "description": {
+      "10": "非常に異なる性格 - 慎重に進んでください！",
+      "20": "これは挑戦的なマッチかもしれませんが、すべての関係はユニークです。",
+      "30": "大きな違いがありますが、時には正反対が惹かれ合います！",
+      "40": "いくつかの課題が待っていますが、愛は障害を克服することができます。",
+      "50": "中程度の相性 - 友情がロマンスよりもうまくいくかもしれません。",
+      "60": "一緒に取り組むべきいくつかの領域がある良い相性です。",
+      "70": "素晴らしい関係に発展する大きな可能性を持つ、とても良いマッチです。",
+      "80": "優秀な相性！あなたたちは美しく補完し合います。",
+      "90": "あなたたち二人は絶対に完璧にお互いにぴったりです！これは一生に一度のつながりです。"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "zh": "中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी"
+  },
+  "meta": {
+    "title": "恋愛計算機 – 無料の名前と恋愛相性テスト",
+    "description": "私たちの無料恋愛計算機であなたの恋愛相性を発見しましょう！関係相性、名前マッチング、シェア用の楽しいパーソナライズされた結果をテストします。",
+    "keywords": [
+      "恋愛計算機",
+      "名前相性",
+      "恋愛相性テスト",
+      "関係クイズ",
+      "楽しい恋愛テスト"
+    ],
+    "author": "恋愛計算機チーム",
+    "creator": "恋愛計算機",
+    "publisher": "恋愛計算機",
+    "siteName": "恋愛計算機",
+    "ogImageAlt": "恋愛計算機 - あなたの相性をテスト"
+  },
+  "header": {
+    "loveCalculator": "恋愛計算機",
+    "moreTools": "その他のツール",
+    "about": "概要",
+    "contact": "お問い合わせ",
+    "funQuizzes": "楽しいクイズ ✨",
+    "relationshipQuiz": "関係クイズ",
+    "communicationQuiz": "コミュニケーションスタイルクイズ",
+    "loveLanguageAssessment": "愛の言語評価",
+    "futureGoalsCompatibility": "将来の目標相性",
+    "conflictResolutionQuiz": "対立解決スタイルクイズ",
+    "supportAndLegal": "サポートと法的事項 📋",
+    "contactUs": "お問い合わせ",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "dateOfBirthCompatibilityCalculator": "生年月日相性計算機",
+    "zodiacCompatibilityCalculator": "星座相性計算機",
+    "nameCompatibility": "名前相性",
+    "loveCompatibilityTest": "恋愛相性テスト",
+    "funLoveTest": "楽しい恋愛テスト",
+    "zodiacCalculator": "星座相性計算機",
+    "dobCalculator": "生年月日相性計算機",
+    "zodiacCalculatorDescription": "占星術の恋愛相性をテスト",
+    "dobCalculatorDescription": "生年月日相性パターンを分析",
+    "relationshipQuizDescription": "あなたの関係について質問に答える",
+    "communicationQuizDescription": "あなたのコミュニケーションパターンを発見",
+    "loveLanguageAssessmentDescription": "あなたの主要な愛の言語を発見",
+    "futureGoalsCompatibilityDescription": "あなたの人生目標がどれほど一致しているかを見る",
+    "conflictResolutionQuizDescription": "あなたの対立解決アプローチを学ぶ"
+  },
+  "footer": {
+    "description": "私たちの楽しく魅力的な恋愛計算機であなたの恋愛相性を発見しましょう。あなたの関係相性をテストし、友達と結果をシェアしましょう！",
+    "calculators": "恋愛計算機",
+    "company": "会社",
+    "about": "私たちについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
+    "forLove": "愛のために",
+    "funQuizzes": "楽しいクイズ ✨",
+    "relationshipQuiz": "関係クイズ",
+    "relationshipQuizDescription": "魅力的な関係の洞察のための楽しい8問クイズを受けましょう",
+    "communicationQuiz": "コミュニケーションスタイルクイズ",
+    "communicationQuizDescription": "あなたとパートナーがどのようにコミュニケーションを取り、どこで改善できるかを発見",
+    "loveLanguageAssessment": "愛の言語評価",
+    "loveLanguageAssessmentDescription": "あなたの主要な愛の言語を発見し、愛をより良く表現する方法を学ぶ",
+    "futureGoalsCompatibility": "将来の目標相性",
+    "futureGoalsCompatibilityDescription": "あなたの人生目標と将来の夢がどれほど一致しているかを見る",
+    "conflictResolutionQuiz": "対立解決スタイルクイズ",
+    "conflictResolutionQuizDescription": "不一致にどう対処し、対立をより良く解決する方法を学ぶ",
+    "supportAndLegal": "サポートと法的事項 📋",
+    "contactUs": "お問い合わせ",
+    "contactUsDescription": "質問、フィードバック、サポートについて私たちのチームに連絡",
+    "privacyPolicy": "プライバシーポリシー",
+    "privacyPolicyDescription": "楽しんでいる間に私たちがあなたのデータとプライバシーをどう保護するかを学ぶ",
+    "termsOfService": "利用規約",
+    "termsOfServiceDescription": "私たちのエンターテイメントサービス利用の条件",
+    "moreTools": "その他のツール",
+    "dateOfBirthCompatibilityCalculator": "生年月日相性計算機",
+    "zodiacCompatibilityCalculator": "星座相性計算機",
+    "nameCompatibility": "名前相性",
+    "loveCompatibilityTest": "恋愛相性テスト",
+    "funLoveTest": "楽しい恋愛テスト",
+    "allRightsReserved": "すべての権利が保護されています。",
+    "madeWithLove": "❤️ ですべての人のために作られました。",
+    "copyrightNotice": "© 2025 恋愛計算機。",
+    "shareText": "楽しくて面白い恋愛計算機で恋愛相性を発見しよう！関係の相性をテストして、結果を友達と共有しよう！ 💕",
+    "shareTextShort": "恋愛相性を発見しよう！ 💕 関係の相性をテストして、結果を友達と共有しよう！",
+    "copyForInstagram": "Instagramにこのテキストをコピー:",
+    "createTikTok": "このキャプションでTikTokを作成:",
+    "shareRedditTitle": "恋愛相性を発見しよう!",
+    "shareRedditText": "楽しくて面白い恋愛計算機 - 関係の相性をテストして、結果を友達と共有しよう!"
+  },
+  "quizzes": {
+    "common": {
+      "question": "質問 {{current}} / {{total}}",
+      "tryAgain": "再試行",
+      "shareResults": "結果をシェア",
+      "yourStrengths": "あなたの強み",
+      "growthTips": "成長のヒント",
+      "yourScore": "あなたのスコア",
+      "percentage": "{{percentage}}% マッチ",
+      "primaryStyle": "主要スタイル",
+      "primary": "主要",
+      "exploreOtherQuizzes": "他のクイズを探索",
+      "communicationStyleQuiz": "コミュニケーションスタイルクイズ",
+      "loveLanguageAssessment": "愛の言語評価",
+      "futureGoalsCompatibility": "将来の目標相性",
+      "conflictResolutionQuiz": "対立解決スタイルクイズ",
+      "relationshipQuiz": "関係クイズ",
+      "discoverYourPatterns": "あなたのコミュニケーションパターンを発見",
+      "discoverYourLoveLanguages": "あなたの主要な愛の言語を発見",
+      "discoverYourLoveLanguage": "あなたの愛の言語を発見",
+      "seeHowAligned": "あなたの人生目標がどれほど一致しているかを見る",
+      "learnYourApproach": "あなたの対立解決アプローチを学ぶ",
+      "answerQuestions": "あなたの関係について質問に答える",
+      "learnYourCommunicationStyle": "あなたのコミュニケーションスタイルを学ぶ",
+      "alignYourFutureGoals": "あなたの将来の目標を調整",
+      "whatYoullDiscoverConflict": "対立解決について発見すること",
+      "conflictFocus": "対立フォーカス",
+      "transformDisagreements": "意見の相違を成長の機会に変える",
+      "yourConflictStyleBreakdown": "あなたの対立スタイルの内訳",
+      "identifyYourPrimaryApproach": "意見の相違を扱うあなたの主要なアプローチを特定",
+      "learnEffectiveTechniques": "より良い対立解決のための効果的なテクニックを学ぶ",
+      "discoverHowToBuild": "対立中のより強いコミュニケーションを構築する方法を発見",
+      "collaborative": "協調的",
+      "competing": "競争的",
+      "accommodating": "迎合的",
+      "avoiding": "回避的",
+      "compromising": "妥協的",
+      "loveCalculator": "恋愛計算機",
+      "yourConflictStyle": "あなたの対立スタイル",
+      "resolutionStrategies": "解決戦略",
+      "relationshipImprovement": "関係改善",
+      "yourLoveLanguageScores": "あなたの愛の言語スコア",
+      "loveFocus": "愛フォーカス",
+      "understandHowYouExpress": "あなたがどのように愛を表現し受け取るかを理解",
+      "communicationFocus": "コミュニケーションフォーカス",
+      "understandYourPatterns": "あなたのコミュニケーションパターンを理解し、より深いつながりを築く",
+      "whyCommunicationMatters": "なぜコミュニケーションスタイルが重要なのか",
+      "betterUnderstanding": "より良い理解",
+      "learnHowYouCommunicate": "あなたが自然にコミュニケーションを取る方法と、パートナーがあなたのメッセージをどのように受け取るかを学ぶ",
+      "reduceConflicts": "対立を減らす",
+      "understandingDifferentStyles": "異なるコミュニケーションスタイルを理解することで、誤解や議論を防ぐ",
+      "strongerConnection": "より強いつながり",
+      "adaptYourCommunication": "パートナーとのより大きな親密さとつながりを作るためにコミュニケーションを適応させる",
+      "relationshipFocus": "関係フォーカス",
+      "strengthAndGrowth": "強さと成長",
+      "whyTakeOurQuiz": "なぜ私たちのクイズを受けるのか",
+      "selfAwareness": "自己認識",
+      "gainInsights": "あなたの関係パターンと改善領域への洞察を得る",
+      "communication": "コミュニケーション",
+      "startMeaningfulConversations": "パートナーとあなたの関係について意味のある会話を始める",
+      "growth": "成長",
+      "identifyStrengths": "祝うべき強みと一緒に成長できる領域を特定",
+      "whatYoullLearn": "愛の言語評価から学ぶこと",
+      "yourPrimaryLoveLanguage": "あなたの主要な愛の言語",
+      "discoverWhichLoveLanguage": "5つの愛の言語のうち、どれがあなたの心に最も深く響き、共鳴するかを発見",
+      "howToExpressLove": "愛を表現する方法",
+      "learnBestWaysToShow": "パートナーのユニークな愛の言語の好みに基づいて愛を示す最良の方法を学ぶ",
+      "relationshipGrowthTips": "関係成長のヒント",
+      "getPersonalizedAdvice": "より良い愛の言語理解を通じて関係を強化するためのパーソナライズされたアドバイスを得る",
+      "goalsFocus": "目標フォーカス",
+      "alignYourDreams": "あなたの夢を調整し、共有する未来を築く",
+      "whatFutureGoalsWillReveal": "将来の目標相性クイズが明らかにすること",
+      "goalAlignmentScore": "目標調整スコア",
+      "seeHowCloselyGoals": "あなたの人生目標と夢がパートナーの将来のビジョンとどれほど密接に一致するかを見る",
+      "sharedPathPlanning": "共有パス計画",
+      "learnHowToCreate": "一緒に将来の共有ロードマップを作成し、個人の夢を調整する方法を学ぶ",
+      "compromiseStrategies": "妥協戦略",
+      "getTipsOnNavigating": "目標の違いをナビゲートし、関係にとってウィンウィンの解決策を見つけるヒントを得る",
+      "compatible": "相性",
+      "yourStrongestAreas": "あなたの最強の領域",
+      "areasForDiscussion": "議論すべき領域",
+      "detailedCompatibilityBreakdown": "詳細な相性内訳",
+      "careerGoals": "キャリア目標",
+      "familyPlans": "家族計画",
+      "lifestyle": "ライフスタイル",
+      "financialGoals": "財務目標",
+      "personalGrowth": "個人的成長"
+    },
+    "relationshipQuiz": {
+      "title": "関係相性クイズ",
+      "subtitle": "あなたの関係がどれほど強いかを発見",
+      "description": "あなたの関係の強さと相性についての洞察を得るために、包括的な8問の関係クイズを受けてください。",
+      "questions": {
+        "q1": {
+          "question": "あなたとパートナーはどのくらいの頻度で意味のある会話をしますか？",
+          "options": {
+            "opt1": "毎日",
+            "opt2": "週に数回",
+            "opt3": "週1回",
+            "opt4": "めったにない"
+          }
+        },
+        "q2": {
+          "question": "意見が合わない時、通常どのように対立を解決しますか？",
+          "options": {
+            "opt1": "冷静に話し合う",
+            "opt2": "時間は必要だが解決に向かう",
+            "opt3": "言い争うがすぐに仲直りする",
+            "opt4": "その話題を避ける"
+          }
+        },
+        "q3": {
+          "question": "あなたたちの将来の目標や夢はどれほど一致していますか？",
+          "options": {
+            "opt1": "完璧に一致している",
+            "opt2": "ほとんど似ている",
+            "opt3": "いくつかの違いがある",
+            "opt4": "大きく異なる"
+          }
+        },
+        "q4": {
+          "question": "一緒にどのくらいの質の高い時間を過ごしますか？",
+          "options": {
+            "opt1": "十分で、楽しんでいる",
+            "opt2": "良い量",
+            "opt3": "もっと多くても良い",
+            "opt4": "十分ではない"
+          }
+        },
+        "q5": {
+          "question": "お互いの友人や家族とはどのように接していますか？",
+          "options": {
+            "opt1": "みんな大好き",
+            "opt2": "よく仲良くやっている",
+            "opt3": "いくつかの課題がある",
+            "opt4": "頻繁に問題がある"
+          }
+        },
+        "q6": {
+          "question": "あなたのニーズや感情をどれほどよくコミュニケーションしますか？",
+          "options": {
+            "opt1": "非常にオープンに",
+            "opt2": "かなりよく",
+            "opt3": "時々苦労する",
+            "opt4": "めったに表現しない"
+          }
+        },
+        "q7": {
+          "question": "困難な時期にお互いをどのようにサポートしますか？",
+          "options": {
+            "opt1": "いつもお互いのためにいる",
+            "opt2": "通常はサポート的",
+            "opt3": "時々",
+            "opt4": "これに苦労している"
+          }
+        },
+        "q8": {
+          "question": "あなたたちのライフスタイルの好みはどれほど相性が良いですか？",
+          "options": {
+            "opt1": "非常に相性が良い",
+            "opt2": "ほとんど相性が良い",
+            "opt3": "いくつかの違いがある",
+            "opt4": "かなり異なる"
+          }
+        }
+      },
+      "results": {
+        "perfectMatch": {
+          "title": "完璧なマッチ！💖",
+          "message": "あなたたち二人は関係の目標です！あなたの相性は最高レベルです。"
+        },
+        "greatCompatibility": {
+          "title": "素晴らしい相性！💕",
+          "message": "あなたは優秀な可能性を持つ強い関係を持っています。"
+        },
+        "goodFoundation": {
+          "title": "良い基盤！💛",
+          "message": "あなたは成長の余地がある堅実な関係を持っています。"
+        },
+        "workInProgress": {
+          "title": "進行中の作業！💪",
+          "message": "すべての関係は努力とコミュニケーションで改善できます。"
+        },
+        "excellent": {
+          "title": "素晴らしい関係！🌟",
+          "message": "あなたたち二人は理想的なカップルです！相性が抜群です。"
+        },
+        "good": {
+          "title": "良い関係！💫",
+          "message": "あなたたちは素晴らしい可能性を持つ強い関係を築いています。"
+        },
+        "needsWork": {
+          "title": "堅実な関係！🌱",
+          "message": "あなたたちは成長の余地がある堅実な関係を築いています。"
+        },
+        "growing": {
+          "title": "成長する関係！🚀",
+          "message": "どんな関係も努力とコミュニケーションで改善できます。"
+        }
+      }
+    },
+    "communicationStyleQuiz": {
+      "title": "コミュニケーションスタイルクイズ",
+      "subtitle": "あなたのユニークなコミュニケーションパターンを発見",
+      "description": "あなたとパートナーがどのように異なってコミュニケーションを取るかを理解し、より良いつながりのためのギャップを埋める方法を学びましょう。",
+      "questions": {
+        "q1": {
+          "question": "パートナーが動揺している時、あなたの最初の直感は何ですか？",
+          "options": {
+            "opt1": "注意深く聞き、理解するために質問をする",
+            "opt2": "問題を解決するための実用的な解決策を提供する",
+            "opt3": "ハグや感情的なサポートを与える",
+            "opt4": "話す準備ができるまでスペースを与える"
+          }
+        },
+        "q2": {
+          "question": "重要な関係の決定を話し合う際、あなたはどのような方法を好みますか？",
+          "options": {
+            "opt1": "多くの議論と感情を伴う対面での話し合い",
+            "opt2": "事実、利点と欠点が整理された冷静な話し合い",
+            "opt3": "穏やかな会話とチェックインを重ねて時間をかけて",
+            "opt4": "結論に達するために直接的かつ効率的に"
+          }
+        },
+        "q3": {
+          "question": "パートナーと意見が合わない時、あなたは次の傾向があります：",
+          "options": {
+            "opt1": "感情を即座に情熱的に表現する",
+            "opt2": "論理的な議論を提示する前によく考える",
+            "opt3": "まず彼らの視点を理解することに焦点を当てる",
+            "opt4": "あなたの立場を明確に述べ、同じことを期待する"
+          }
+        },
+        "q4": {
+          "question": "良いニュースをシェアする理想的な方法は：",
+          "options": {
+            "opt1": "興奮と感情に満ちてすぐに電話する",
+            "opt2": "組織的で明確な方法でシェアする計画を立てる",
+            "opt3": "温かさとつながりを持って静かな瞬間に伝える",
+            "opt4": "事実を率直にシェアして先に進む"
+          }
+        },
+        "q5": {
+          "question": "パートナーにフィードバックを与える時、あなたは：",
+          "options": {
+            "opt1": "彼らの行動があなたにどう影響したかについて感情をオープンにシェアする",
+            "opt2": "具体的な例を提示し、具体的な改善を提案する",
+            "opt3": "まず彼らの強みを強調し、次に改善すべき領域を優しく言及する",
+            "opt4": "何を変える必要があるかについて包み隠さず直接的である"
+          }
+        },
+        "q6": {
+          "question": "対立中、あなたにとって最も重要なことは：",
+          "options": {
+            "opt1": "両方が真の感情を表現できること",
+            "opt2": "理にかなった論理的な解決策を見つけること",
+            "opt3": "全体を通してつながりと理解を維持すること",
+            "opt4": "問題を迅速かつ明確に解決すること"
+          }
+        },
+        "q7": {
+          "question": "コミュニケーションを通して愛をどのように示しますか？",
+          "options": {
+            "opt1": "心からの言葉と感情的な表現を通して",
+            "opt2": "詳細を覚え、約束を守ることによって",
+            "opt3": "優しい励ましと彼らの感情を認証することで",
+            "opt4": "あなたのコミットメントについて正直で率直であることによって"
+          }
+        },
+        "q8": {
+          "question": "パートナーが愚痴をこぼす必要がある時、あなたは次のことを好みます：",
+          "options": {
+            "opt1": "彼らのエネルギーに合わせ、似た経験をシェアする",
+            "opt2": "彼らがそれを考え抜くのを助ける明確化質問をする",
+            "opt3": "静かに聞き、快適さと安心を提供する",
+            "opt4": "短時間聞いてから解決策に向けて助ける"
+          }
+        },
+        "q9": {
+          "question": "あなたのコミュニケーションスタイルが最も活気づくのは：",
+          "options": {
+            "opt1": "感情と夢についての深い感情的な会話",
+            "opt2": "アイデア、計画、可能性についての興味深い議論",
+            "opt3": "親密さとつながりを築く心と心の会話",
+            "opt4": "目標を達成し問題を解決する効率的な交換"
+          }
+        },
+        "q10": {
+          "question": "パートナーからサポートが必要な時、次のことを好みます：",
+          "options": {
+            "opt1": "判断せずにあなたが感じていることすべてを表現させてくれること",
+            "opt2": "状況を分析し、解決策をブレインストーミングしてくれること",
+            "opt3": "快適さ、認証、安心を提供してくれること",
+            "opt4": "明確なアドバイスと次のステップを与えてくれること"
+          }
+        }
+      },
+      "results": {
+        "expressive": {
+          "title": "表現豊かなコミュニケーター 🎭",
+          "description": "あなたは情熱、感情、熱意でコミュニケーションを取ります。深い会話と感情的なつながりを大切にします。",
+          "strengths": [
+            "感情をシェアするのが得意",
+            "感情的にサポート的",
+            "深いつながりを作る",
+            "情熱的で魅力的"
+          ],
+          "tips": [
+            "積極的な傾聴を練習する",
+            "他の人に処理する時間を与える",
+            "パートナーのコミュニケーションペースを考慮する"
+          ]
+        },
+        "analytical": {
+          "title": "分析的コミュニケーター 🧠",
+          "description": "あなたは論理的で構造化されたコミュニケーションを好みます。明確な情報と実用的な解決策を大切にします。",
+          "strengths": [
+            "明確で組織的",
+            "優秀な問題解決者",
+            "信頼できるフォローアップ",
+            "思慮深い回答"
+          ],
+          "tips": [
+            "より多くの感情的な温かさを示す",
+            "解決策を提供する前に感情を認証する",
+            "感情的な表現に忍耐強くある"
+          ]
+        },
+        "supportive": {
+          "title": "サポート的コミュニケーター 🤗",
+          "description": "あなたは理解、共感、コミュニケーションでの調和の維持を優先します。",
+          "strengths": [
+            "優秀な聞き手",
+            "非常に共感的",
+            "安全な空間を作る",
+            "認証が得意"
+          ],
+          "tips": [
+            "必要な困難な会話を避けない",
+            "自分のニーズを明確に表現する",
+            "時々意見が合わないのは大丈夫"
+          ]
+        },
+        "direct": {
+          "title": "直接的コミュニケーター ⚡",
+          "description": "あなたは効率性、正直さ、率直なコミュニケーションを大切にします。要点を迅速に伝えます。",
+          "strengths": [
+            "明確で正直",
+            "効率的なコミュニケーター",
+            "決定を下すのが得意",
+            "混乱したメッセージがない"
+          ],
+          "tips": [
+            "トーンにより多くの温かさを加える",
+            "感情的なチェックインに時間を取る",
+            "処理時間に忍耐強くある"
+          ]
+        }
+      }
+    },
+    "loveLanguageAssessment": {
+      "title": "愛の言語評価",
+      "subtitle": "あなたがどのように愛を与え受け取るかを発見",
+      "description": "この包括的な評価を通じて、愛を表現し受け取るあなたの主要な方法を発見しましょう。",
+      "questions": {
+        "q1": {
+          "question": "パートナーに最も愛されていると感じるのはどんな時ですか？",
+          "options": {
+            "opt1": "愛していて感謝していると言ってくれる時",
+            "opt2": "中断されない時間を一緒に過ごす時",
+            "opt3": "ハグをしてくれたり手を握ってくれる時",
+            "opt4": "仕事を手伝ってくれたり何かをしてくれる時",
+            "opt5": "思いやりのあるギフトでサプライズしてくれる時"
+          }
+        },
+        "q2": {
+          "question": "パートナーへの愛情を示したい時、通常あなたは：",
+          "options": {
+            "opt1": "心のこもったメモを書いたり甘いメッセージを送る",
+            "opt2": "特別なデートや活動を一緒に計画する",
+            "opt3": "ハグやキスなど身体的な愛情を与える",
+            "opt4": "料理や掃除など役に立つことをする",
+            "opt5": "彼らが欲しがっていたものを買ってあげる"
+          }
+        },
+        "q3": {
+          "question": "パートナーとの理想的な夜には次のことが含まれます：",
+          "options": {
+            "opt1": "あなたの思いや夢をシェアする深い会話",
+            "opt2": "携帯電話をしまって一緒に活動をする",
+            "opt3": "映画を見ながらソファでくつろぐ",
+            "opt4": "プロジェクトや家事を一緒に取り組む",
+            "opt5": "一緒に買い物をしたり小さなサプライズを交換する"
+          }
+        },
+        "q4": {
+          "question": "最も感謝されていると感じるジェスチャーはどれですか？",
+          "options": {
+            "opt1": "あなたがよくやったことについての心からの褒め言葉",
+            "opt2": "パートナーが携帯電話をしまって完全にあなたに集中してくれること",
+            "opt3": "自発的な背中のマッサージや手のマッサージ",
+            "opt4": "家に帰ったらパートナーがあなたの最も嫌いな家事をしてくれていること",
+            "opt5": "あなたのことを考えていたことを示す小さなギフト"
+          }
+        },
+        "q5": {
+          "question": "パートナーが離れている時、最も恋しく思うのは：",
+          "options": {
+            "opt1": "彼らの声と彼らが言う甘い言葉を聞くこと",
+            "opt2": "一緒に過ごす時間と共有する経験",
+            "opt3": "彼らの物理的な存在と愛情深いタッチ",
+            "opt4": "日常生活と責任を手伝ってくれる方法",
+            "opt5": "小さなサプライズと思いやりのあるジェスチャー"
+          }
+        },
+        "q6": {
+          "question": "身体的な愛情があなたにとって重要なのは：",
+          "options": {
+            "opt1": "言葉なしで愛を伝える方法だから",
+            "opt2": "一緒に質の高い時間を過ごす間につながりを感じるから",
+            "opt3": "安心感と愛されている感じを与えてくれるから",
+            "opt4": "パートナーがあなたの快適さと幸福を気にかけていることを示すから",
+            "opt5": "特別なものを与えたり受け取ったりすることと組み合わされることが多いから"
+          }
+        },
+        "q7": {
+          "question": "動揺している時、どのように慰められたいですか？",
+          "options": {
+            "opt1": "励ましと安心の言葉",
+            "opt2": "パートナーの分割されていない注意と存在",
+            "opt3": "ハグ、手つなぎ、抱擁などの身体的な慰め",
+            "opt4": "あなたのために実用的なことを世話してもらうこと",
+            "opt5": "あなたを元気づけるために何かでサプライズされること"
+          }
+        },
+        "q8": {
+          "question": "パートナーがあなたを助けてくれる時、最も愛されていると感じるのは：",
+          "options": {
+            "opt1": "あなたを助けることをどれほど楽しんでいるかを言ってくれる時",
+            "opt2": "忙しいスケジュールにもかかわらず助ける時間を作ってくれる時",
+            "opt3": "身体的な近さを保ちながら一緒に作業してくれる時",
+            "opt4": "頼まなくてもあなたが必要なことに気づいてくれる時",
+            "opt5": "作業を楽にするためのツールや用品を持ってきてくれる時"
+          }
+        },
+        "q9": {
+          "question": "あなたにとってより意味があるのは：",
+          "options": {
+            "opt1": "手書きのラブレター",
+            "opt2": "二人だけのために計画された日帰り旅行",
+            "opt3": "サプライズマッサージや長いハグ",
+            "opt4": "家に帰ったらきれいな家と作られた夕食",
+            "opt5": "あなたのことを思い出させてくれた思いやりのあるギフト"
+          }
+        },
+        "q10": {
+          "question": "誕生日に最も特別に感じることは：",
+          "options": {
+            "opt1": "あなたがパートナーにとって何を意味するかについての心からのスピーチ",
+            "opt2": "一日中パートナーの完全な注意を持つこと",
+            "opt3": "たくさんの愛情深いタッチと身体的な近さ",
+            "opt4": "すべてが計画され組織化されてリラックスできること",
+            "opt5": "彼らがあなたをどれほどよく知っているかを示す完璧なギフト"
+          }
+        }
+      },
+      "results": {
+        "wordsOfAffirmation": {
+          "title": "言葉による確認 💬",
+          "description": "あなたは言葉での感謝、褒め言葉、励ましの言葉で成長します。「愛している」と聞くことがあなたにとって世界を意味します。",
+          "characteristics": [
+            "言葉での感謝を大切にする",
+            "褒め言葉や賞賛を愛する",
+            "意味のある会話を楽しむ",
+            "厳しい言葉で傷つく"
+          ],
+          "tips": [
+            "言葉で感謝を表現する",
+            "愛のメモを残す",
+            "真の褒め言葉を提供する",
+            "批判を避ける"
+          ],
+          "partnerTips": [
+            "定期的に愛していると伝える",
+            "彼らの努力を声に出して認める",
+            "甘いテキストメッセージを送る",
+            "他の人の前で彼らを褒める"
+          ]
+        },
+        "qualityTime": {
+          "title": "質の高い時間 ⏰",
+          "description": "パートナーの分割されていない注意を受ける時に最も愛されていると感じます。一緒にいて思い出を作ることが最も重要です。",
+          "characteristics": [
+            "分割されていない注意を大切にする",
+            "共有活動を楽しむ",
+            "存在を通して愛を感じる",
+            "一緒の時間中の邪魔を嫌う"
+          ],
+          "tips": [
+            "完全な注意を与える",
+            "定期的なデートの夜を計画する",
+            "一緒にいる時はデバイスをしまう",
+            "新しい経験を作る"
+          ],
+          "partnerTips": [
+            "定期的な一対一の時間を予定する",
+            "邪魔なしに完全に存在する",
+            "両方が楽しむ活動を計画する",
+            "話している時に積極的に聞く"
+          ]
+        },
+        "physicalTouch": {
+          "title": "身体的タッチ 🤗",
+          "description": "身体的な愛情があなたを最もつながりを感じ愛されていると感じさせます。ハグ、キス、優しいタッチは言葉よりも大きな声で語ります。",
+          "characteristics": [
+            "定期的な身体的愛情が必要",
+            "タッチを通してつながりを感じる",
+            "非性的なタッチを大切にする",
+            "タッチが不足すると愛されていないと感じる"
+          ],
+          "tips": [
+            "適切な身体的接触を始める",
+            "頻繁に手を握る",
+            "ハグとキスを与える",
+            "身体的境界を尊重する"
+          ],
+          "partnerTips": [
+            "定期的なハグとキスを提供する",
+            "歩きながら手を握る",
+            "映画の間は近くに座る",
+            "背中のマッサージやマッサージを与える"
+          ]
+        },
+        "actsOfService": {
+          "title": "奉仕の行動 🛠️",
+          "description": "パートナーが仕事や責任を手伝ってくれる時に愛を感じます。あなたにとって行動は言葉よりも大きく語ります。",
+          "characteristics": [
+            "役に立つ行動を大切にする",
+            "仕事での援助を感謝する",
+            "実用的な助けを通して愛を感じる",
+            "助けが提供されない時に負担を感じるかもしれない"
+          ],
+          "tips": [
+            "日常の責任を手伝う",
+            "彼らのニーズを予想する",
+            "約束を守る",
+            "どのように助けられるかを尋ねる"
+          ],
+          "partnerTips": [
+            "家事を手伝う",
+            "彼らのために用事を実行する",
+            "好きな食事を作る",
+            "嫌いな仕事を世話する"
+          ]
+        },
+        "receivingGifts": {
+          "title": "ギフトを受け取る 🎁",
+          "description": "思いやりのあるギフトとジェスチャーがあなたを最も感謝されていると感じさせます。費用ではなく、その背後にある思いと努力です。",
+          "characteristics": [
+            "思いやりのあるジェスチャーを大切にする",
+            "象徴的なギフトを感謝する",
+            "特別な機会を覚えている",
+            "機会が忘れられると傷つく"
+          ],
+          "tips": [
+            "思いやりのある意味のあるギフトを与える",
+            "重要な日付を覚える",
+            "小さなサプライズを持参する",
+            "ギフト選択に思いを込める"
+          ],
+          "partnerTips": [
+            "誕生日と記念日を覚える",
+            "小さな予期しないギフトを持参する",
+            "彼らが欲しがることを言及することに注意を払う",
+            "手作りのギフトは特別な思いを示す"
+          ]
+        }
+      }
+    },
+    "futureGoalsCompatibility": {
+      "title": "将来の目標相性クイズ",
+      "subtitle": "あなたの人生の夢がどれほど一致しているかを見る",
+      "description": "パートナーとの将来の目標、ライフスタイルの好み、人生設計の相性を発見しましょう。",
+      "questions": {
+        "q1": {
+          "question": "5年後、キャリア面で最も重要なことは何ですか？",
+          "options": {
+            "opt1": "企業内で昇進し、リーダーシップ職に就くこと",
+            "opt2": "安定した充実した仕事でワークライフバランスを見つけること",
+            "opt3": "自分のボスになり、成功したビジネスを運営すること",
+            "opt4": "旅行やリモートワークの柔軟性を持つこと"
+          }
+        },
+        "q2": {
+          "question": "将来の理想的な勤務スケジュールは？",
+          "options": {
+            "opt1": "必要に応じて残業も含むフルタイムキャリア",
+            "opt2": "明確なワークライフ境界のある標準的なフルタイム",
+            "opt3": "家族・個人時間のためのパートタイムや柔軟なスケジュール",
+            "opt4": "時間を完全にコントロールできるフリーランスや起業"
+          }
+        },
+        "q3": {
+          "question": "子供を持つ予定は（もしあるなら）いつ頃ですか？",
+          "options": {
+            "opt1": "すでにいる、または今後2-3年以内に欲しい",
+            "opt2": "より確立された今後5-7年以内に",
+            "opt3": "いつかはそうかもしれないが、今は優先事項ではない",
+            "opt4": "子供は欲しくない、または確信がない"
+          }
+        },
+        "q4": {
+          "question": "家族の近くに住むことはどれほど重要ですか？",
+          "options": {
+            "opt1": "必須 - 両親・兄弟から車で30分以内",
+            "opt2": "好ましい - 同じ都市または数時間のドライブ圏内",
+            "opt3": "良いが必要ではない - 同じ州や地域なら良い",
+            "opt4": "重要ではない - 私たちにとって最良の場所に住める"
+          }
+        },
+        "q5": {
+          "question": "10年後はどこに住んでいると思いますか？",
+          "options": {
+            "opt1": "機会や刺激に満ちた大都市で",
+            "opt2": "良い学校のある素敵な家がある郊外で",
+            "opt3": "平和で静かな小さな町や田舎で",
+            "opt4": "頻繁に旅行したり異なる場所に住んだりして"
+          }
+        },
+        "q6": {
+          "question": "友情と社会生活についてのあなたのビジョンは？",
+          "options": {
+            "opt1": "頻繁な社交の集まりがある大きな友人の輪",
+            "opt2": "定期的だがバランスの取れた社交のある親密な友人グループ",
+            "opt3": "時折の集まりがある非常に親しい友人の小グループ",
+            "opt4": "一緒に静かな時間を過ごし、最小限の社会的義務"
+          }
+        },
+        "q7": {
+          "question": "将来の幸福にとって経済的安定はどれほど重要ですか？",
+          "options": {
+            "opt1": "必須 - 裕福で経済的に独立していたい",
+            "opt2": "とても重要 - 快適で借金がない状態でいたい",
+            "opt3": "ある程度重要 - 必要と希望をカバーするのに十分",
+            "opt4": "あまり重要ではない - お金では幸せは買えない"
+          }
+        },
+        "q8": {
+          "question": "大きな買い物や金銭的決定をどのように扱いたいですか？",
+          "options": {
+            "opt1": "100ドルを超えるすべてについて常に話し合い同意する",
+            "opt2": "500-1000ドルを超える主要な購入について一緒に話し合う",
+            "opt3": "少額については個人の自由、大きなものは話し合う",
+            "opt4": "時々のチェックインを伴うほぼ独立した金銭的決定"
+          }
+        },
+        "q9": {
+          "question": "重要な人生の決定に対するあなたのアプローチは？",
+          "options": {
+            "opt1": "詳細な戦略ですべてを慎重に計画する",
+            "opt2": "一般的な計画を持ちながら機会に対して柔軟でいる",
+            "opt3": "流れに任せて人生が何をもたらすかを見る",
+            "opt4": "何よりも心と直感に従う"
+          }
+        },
+        "q10": {
+          "question": "継続的な教育と個人的成長はどれほど重要ですか？",
+          "options": {
+            "opt1": "極めて重要 - 常に新しいスキルを学び成長している",
+            "opt2": "重要 - 追加の教育や認定資格の取得",
+            "opt3": "ある程度重要 - 機会が生じたときに学習",
+            "opt4": "優先事項ではない - 他の人生目標に焦点を当てる"
+          }
+        }
+      },
+      "results": {
+        "highlyCompatible": {
+          "title": "未来のソウルメイト！🌟",
+          "message": "あなたたちの将来の目標は信じられないほど一致しています！あなたたち両方が似たようなものを求め、夢を達成するための互換性のあるタイムラインを持っています。"
+        },
+        "wellMatched": {
+          "title": "素晴らしい人生のパートナー！💫",
+          "message": "将来の目標において強い相性を持っており、議論と妥協が必要ないくつかの領域があります。"
+        },
+        "someAlignment": {
+          "title": "良い基盤！🌱",
+          "message": "多くの似た目標を共有していますが、優先事項とタイムラインのいくつかの違いを解決する必要があるかもしれません。"
+        },
+        "significantDifferences": {
+          "title": "重要な会話が待っています！💬",
+          "message": "将来の目標にいくつかの重要な違いがあり、真剣な議論と妥協に値します。"
+        }
+      },
+      "categories": {
+        "career": "キャリア",
+        "family": "家族",
+        "lifestyle": "ライフスタイル",
+        "finances": "財務",
+        "personal": "個人的成長"
+      },
+      "strongestAreas": "最強の領域",
+      "growthAreas": "議論すべき領域"
+    },
+    "conflictResolutionQuiz": {
+      "title": "対立解決スタイルクイズ",
+      "subtitle": "あなたが意見の相違をどのように扱うかを発見",
+      "description": "対立に対するあなたの自然なアプローチを学び、意見の相違の間にパートナーとより良く協力する方法を学びましょう。",
+      "questions": {
+        "q1": {
+          "question": "パートナーと重要なことで意見が合わない時、あなたの最初の直感は：",
+          "options": {
+            "opt1": "両方にとって機能する解決策を見つける",
+            "opt2": "あなたが正しいと理解するまで論点を主張する",
+            "opt3": "平和を保ち対立を避けるために譲歩する",
+            "opt4": "話題を変えるか会話から離れる",
+            "opt5": "中間点で会い、それぞれが何かを妥協する"
+          }
+        },
+        "q2": {
+          "question": "激しい議論の最中、あなたは通常：",
+          "options": {
+            "opt1": "彼らの視点を理解し共通点を見つけようとする",
+            "opt2": "あなたの立場についてより大声でより主張的になる",
+            "opt3": "意見が合わなくても後退して謝る",
+            "opt4": "感情的にシャットダウンし参加をやめる",
+            "opt5": "休憩を取り後で中間点を見つけることを提案する"
+          }
+        },
+        "q3": {
+          "question": "議論に勝つことへのあなたのアプローチは：",
+          "options": {
+            "opt1": "議論は勝つことではなく真実を見つけることについてであるべき",
+            "opt2": "よく準備されて粘り強いので通常勝つ",
+            "opt3": "議論に勝つのは好きではない、関係を傷つける",
+            "opt4": "議論を完全に避けようとする",
+            "opt5": "いくつか勝ちいくつか負けることを受け入れる"
+          }
+        },
+        "q4": {
+          "question": "何かについて明らかに正しいがパートナーが反対する時：",
+          "options": {
+            "opt1": "彼らに私の視点を理解してもらうことに集中する",
+            "opt2": "私が正しいと認めるまで議論し続ける",
+            "opt3": "調和を保つために彼らが正しいと思わせる",
+            "opt4": "それを捨てて他のことに移る",
+            "opt5": "一度ケースを提示してから手放す"
+          }
+        },
+        "q5": {
+          "question": "喧嘩の後、あなたは通常：",
+          "options": {
+            "opt1": "両方が理解するまで完全に話し合いたい",
+            "opt2": "あなたの論点が妥当だったという承認を期待する",
+            "opt3": "調和を回復するために最初に謝る",
+            "opt4": "それが収まり物事が正常に戻ることを望む",
+            "opt5": "両方に機能する妥協を見つけることを提案する"
+          }
+        },
+        "q6": {
+          "question": "パートナーがあなたについて不満を持ち出した時：",
+          "options": {
+            "opt1": "注意深く聞き解決策について一緒に取り組む",
+            "opt2": "自分を守りなぜそうしたのかを説明する",
+            "opt3": "謝り彼らを気分良くしようとする",
+            "opt4": "圧倒され処理するためのスペースが必要",
+            "opt5": "彼らの論点を認め中間で会うことを申し出る"
+          }
+        },
+        "q7": {
+          "question": "対立中のあなたの最大の恐れは：",
+          "options": {
+            "opt1": "一緒に問題を解決できないこと",
+            "opt2": "パートナーがあなたの視点を尊重しないこと",
+            "opt3": "対立があなたの関係を損傷すること",
+            "opt4": "感情が激しくなりすぎて圧倒的になること",
+            "opt5": "どちらも結果に満足しないこと"
+          }
+        },
+        "q8": {
+          "question": "問題について話し合う時、あなたは次のことを好みます：",
+          "options": {
+            "opt1": "問題を完全に探求するのに必要なだけ時間をかける",
+            "opt2": "ケースを明確に提示し同じことを彼らに期待する",
+            "opt3": "感情とつながりの維持に焦点を当てる",
+            "opt4": "議論を簡潔で解決に焦点を当てたものにする",
+            "opt5": "効率的に物事を解決するための迅速な妥協を見つける"
+          }
+        },
+        "q9": {
+          "question": "あなたの対立解決の強みは：",
+          "options": {
+            "opt1": "すべての人に機能する創造的な解決策を見つける",
+            "opt2": "重要な原則と価値観に確固として立つ",
+            "opt3": "困難な時期を通して愛とつながりを維持する",
+            "opt4": "冷静でいて感情的な状況をエスカレートしない",
+            "opt5": "公平で迅速に中間点を見つける"
+          }
+        },
+        "q10": {
+          "question": "パートナーの感情を傷つけた時、あなたは：",
+          "options": {
+            "opt1": "どのように、なぜかを正確に理解し解決策に取り組みたい",
+            "opt2": "あなたの意図を説明し彼らに理解してもらうことを期待する",
+            "opt3": "すぐに謝り彼らを気分良くすることに集中する",
+            "opt4": "悪く感じるが話し合う前に処理する時間が必要",
+            "opt5": "謝り再発防止の方法を提案する"
+          }
+        }
+      },
+      "results": {
+        "collaborative": {
+          "title": "協調的問題解決者 🤝",
+          "description": "あなたはウィンウィンの解決策を見つけるために一緒に働くことを信じています。あなた自身のニーズとパートナーのニーズを等しく大切にします。",
+          "strengths": [
+            "創造的な解決策を見つけるのが得意",
+            "両方の視点を大切にする",
+            "より強い関係を築く",
+            "根本原因に対処する"
+          ],
+          "challenges": [
+            "より多くの時間がかかることがある",
+            "迅速な決定を避けるかもしれない",
+            "パートナーの協力が必要",
+            "疲れることがある"
+          ],
+          "tips": [
+            "この健康的なアプローチを育み続ける",
+            "パートナーが時間を必要とする時は忍耐強くある",
+            "迅速な決定が必要な時は協調を強制しない"
+          ],
+          "partnerAdvice": [
+            "彼らの公平性へのコミットメントを評価する",
+            "問題解決にオープンに関与する",
+            "一緒に問題を解決する時間を与える"
+          ]
+        },
+        "competing": {
+          "title": "直接的競争者 🏆",
+          "description": "あなたは自分の立場にしっかりと立ち、あなたの視点を強く主張することを好みます。正しくあり勝つことを大切にします。",
+          "strengths": [
+            "あなたのニーズについて明確",
+            "困難な状況で決定的",
+            "重要な価値観のために立ち上がる",
+            "迅速に結果を得る"
+          ],
+          "challenges": [
+            "関係の調和を損傷するかもしれない",
+            "対立をエスカレートする可能性",
+            "パートナーが聞かれていないと感じるかもしれない",
+            "妥協の機会を逃すかもしれない"
+          ],
+          "tips": [
+            "積極的な傾聴を練習する",
+            "パートナーの感情を考慮する",
+            "あなたの戦いを賢く選ぶ",
+            "ただ議論するのではなく質問する"
+          ],
+          "partnerAdvice": [
+            "重要な問題で自分の立場を守る",
+            "彼らにあなたの視点を見てもらう手助けをする",
+            "彼らの情熱とコミットメントを評価する"
+          ]
+        },
+        "accommodating": {
+          "title": "調和の守り手 🕊️",
+          "description": "あなたは関係の平和とパートナーの幸福を優先します。調和のために自分の好みを犠牲にすることを厭わないです。",
+          "strengths": [
+            "関係の平和を維持する",
+            "犠牲を通して愛を示す",
+            "破壊的な対立を避ける",
+            "安全な感情的空間を作る"
+          ],
+          "challenges": [
+            "あなたのニーズが満たされないかもしれない",
+            "時間が経つにつれて憤りを築くことがある",
+            "問題が完全に解決されないかもしれない",
+            "パートナーがあなたの本当の感情を知らないかもしれない"
+          ],
+          "tips": [
+            "あなたのニーズを表現することを練習する",
+            "健康的な境界を設定する",
+            "問題が積み重なる前に対処する",
+            "あなたの意見も重要であることを覚えておく"
+          ],
+          "partnerAdvice": [
+            "彼らに本当の感情を分かち合うよう励ます",
+            "彼らのニーズを定期的にチェックする",
+            "彼らの迎合を利用しない"
+          ]
+        },
+        "avoiding": {
+          "title": "対立回避者 🚪",
+          "description": "あなたは対立から離れ、緊張が自然に解決されることを好みます。感情を処理するためのスペースが必要です。",
+          "strengths": [
+            "エスカレーションを防ぐ",
+            "感情を冷ます時間を与える",
+            "傷つくことを言うのを避ける",
+            "貴重な視点を提供できる"
+          ],
+          "challenges": [
+            "問題が解決されないかもしれない",
+            "パートナーが無視されていると感じるかもしれない",
+            "問題が時間が経つにつれて積み重なることがある",
+            "成長の機会を逃すかもしれない"
+          ],
+          "tips": [
+            "問題を話し合う特定の時間をスケジュールする",
+            "短期間現在にとどまることを練習する",
+            "スペースが必要なことを伝える",
+            "冷静になった後問題に対処するために戻る"
+          ],
+          "partnerAdvice": [
+            "彼らが必要な時にスペースを与える",
+            "問題を話し合う穏やかな時間をスケジュールする",
+            "彼らの処理時間に忍耐強くある"
+          ]
+        },
+        "compromising": {
+          "title": "公正な交渉者 ⚖️",
+          "description": "あなたは公平性と中間点を見つけることを信じています。ほとんどの状況で何かを得るために何かを与えることを厭わないです。",
+          "strengths": [
+            "公正な結果を作る",
+            "迅速な解決",
+            "両当事者が何かを得る",
+            "実用的で現実的"
+          ],
+          "challenges": [
+            "より深い問題に対処しないかもしれない",
+            "両当事者が不満を感じるかもしれない",
+            "思慮深いよりもルーチンになることがある",
+            "核心問題を扱うことを避けるかもしれない"
+          ],
+          "tips": [
+            "時々ウィンウィンの解決策をより深く掘り下げる",
+            "妥協が両方に公正に感じられることを確認する",
+            "表面的な問題だけでなく根本的なニーズに対処する"
+          ],
+          "partnerAdvice": [
+            "彼らの公平性を評価する",
+            "妥協がバランスが取れていないと感じる時は発言する",
+            "時々より協調的な解決策について一緒に取り組む"
+          ]
+        }
+      },
+      "yourChallenges": "あなたの課題",
+      "tipsForYou": "あなたへのヒント",
+      "adviceForPartner": "パートナーへのアドバイス"
+    }
+  },
+  "charts": {
+    "score": "スコア",
+    "chartScore": "スコア: {{score}}/100",
+    "chartTooltipScore": "スコア",
+    "compatibilityBreakdown": "相性詳細",
+    "loveLanguageBreakdown": "愛の言語詳細",
+    "communicationBreakdown": "コミュニケーションスタイル詳細",
+    "conflictStyleBreakdown": "対立解決詳細",
+    "futureGoalsBreakdown": "将来の目標詳細"
+  },
+  "easterEggs": {
+    "celebrities": {
+      "taylorswifttraviskelce": {
+        "message": "スーパーボウル級の恋愛 🏈🎤",
+        "shareText": "スーパーボウル級の恋愛! 🏈🎤"
+      },
+      "willsmithjadapinkettsmith": {
+        "message": "まるで映画のような結婚劇 🎬💔",
+        "shareText": "映画のような結婚劇! 🎬💔"
+      },
+      "blakelivelyryanreynolds": {
+        "message": "ハリウッド最強の毒舌カップル 😏🎭",
+        "shareText": "ハリウッド最強毒舌カップル! 😏🎭"
+      },
+      "johnnydeppamberheard": {
+        "message": "愛と法廷の激突 ⚖️💣",
+        "shareText": "愛と法廷の激突! ⚖️💣"
+      },
+      "barackobamamichelleobama": {
+        "message": "大統領クラスの愛 🇺🇸❤️",
+        "shareText": "大統領クラスの愛! 🇺🇸❤️"
+      },
+      "tomhollandzendaya": {
+        "message": "マルチバースでの恋 🕸️💞",
+        "shareText": "マルチバースでの恋! 🕸️💞"
+      },
+      "jayzbeyonce": {
+        "message": "億万長者の音楽愛 💰🎶",
+        "shareText": "億万長者の音楽愛! 💰🎶"
+      },
+      "cristianoronaldogeorginarodriguez": {
+        "message": "ゴール直撃の恋 ⚽❤️",
+        "shareText": "ゴール直撃の恋! ⚽❤️"
+      },
+      "harrystylesoliviawilde": {
+        "message": "ファッション誌に出そうな恋人達 🕶️🗞️",
+        "shareText": "ファッション誌に出そうな恋人達! 🕶️🗞️"
+      },
+      "willsmithmargotrobbie": {
+        "message": "映画よりも燃える関係 🎬🔥",
+        "shareText": "映画よりも燃える関係! 🎬🔥"
+      },
+      "kanyewestkimkardashian": {
+        "message": "カオスと美の融合 💥🖤",
+        "shareText": "カオスと美の融合! 💥🖤"
+      },
+      "bradpittangelinajolie": {
+        "message": "おとぎ話から修羅場へ 🎞️🔥",
+        "shareText": "おとぎ話から修羅場へ! 🎞️🔥"
+      },
+      "elonmuskgrimes": {
+        "message": "ロケット、赤ちゃん、そして混乱 👶🚀",
+        "shareText": "ロケット、赤ちゃん、そして混乱! 👶🚀"
+      },
+      "shakiragerardpique": {
+        "message": "リズムは完璧、感情は欠けてる 💃⚽",
+        "shareText": "リズムは完璧、感情は欠けてる! 💃⚽"
+      }
+    },
+    "youtubers": {
+      "mrbeastpewdiepie": {
+        "message": "YouTube界の夢のコラボ 💸📦",
+        "shareText": "YouTube界の夢のコラボ! 💸📦"
+      },
+      "loganpaulksi": {
+        "message": "リングでも心でもぶつかる 🥊💥",
+        "shareText": "リングでも心でもぶつかる! 🥊💥"
+      },
+      "dreamgeorgenotfound": {
+        "message": "ブロックから始まる恋 🎮💘",
+        "shareText": "ブロックから始まる恋! 🎮💘"
+      },
+      "charlidameliollilhuddy": {
+        "message": "踊って泣いてバズる恋 💃📸",
+        "shareText": "踊って泣いてバズる恋! 💃📸"
+      },
+      "pokimanexqc": {
+        "message": "配信中に恋が始まる 🎮🔥",
+        "shareText": "配信中に恋が始まる! 🎮🔥"
+      },
+      "ninjatfue": {
+        "message": "スナイプよりドキドキ 🎯❤️",
+        "shareText": "スナイプよりドキドキ! 🎯❤️"
+      },
+      "valkyraeeludwig": {
+        "message": "マイクと恋のダブルプレイ 🎙️💞",
+        "shareText": "マイクと恋のダブルプレイ! 🎙️💞"
+      },
+      "hasanabiaoc": {
+        "message": "政治×配信＝まさかの恋 💬🗳️",
+        "shareText": "政治×配信＝まさかの恋! 💬🗳️"
+      },
+      "khabylamesilence": {
+        "message": "沈黙だけで世界を虜に 🤫📱",
+        "shareText": "沈黙だけで世界を虜に! 🤫📱"
+      },
+      "jamescharlestatiwestbrook": {
+        "message": "コスメと修羅場のYouTube 💄🔥",
+        "shareText": "コスメと修羅場のYouTube! 💄🔥"
+      },
+      "mrbeastchandler": {
+        "message": "億再生ブロマンス 💰😂",
+        "shareText": "億再生ブロマンス! 💰😂"
+      },
+      "loganpauljakepaul": {
+        "message": "兄弟ゲンカは世界配信 💣🧬",
+        "shareText": "兄弟ゲンカは世界配信! 💣🧬"
+      }
+    },
+    "controversialFigures": {
+      "andrewtatergretathunberg": {
+        "message": "フェミvsマッチョ、恋の戦争 💢♀️♂️",
+        "shareText": "フェミvsマッチョ、恋の戦争! 💢♀️♂️"
+      },
+      "elonmuskmarkzuckerberg": {
+        "message": "テック界のケンカップル 🤖🥊",
+        "shareText": "テック界のケンカップル! 🤖🥊"
+      }
+    },
+    "tvMovieCharacters": {
+      "rossgellerrachelgreen": {
+        "message": "名作ドラマの恋の波 📺❤️😡",
+        "shareText": "名作ドラマの恋の波! 📺❤️😡"
+      },
+      "rossrachel": {
+        "message": "名作ドラマの恋の波 📺❤️😡",
+        "shareText": "名作ドラマの恋の波! 📺❤️😡"
+      },
+      "jackrose": {
+        "message": "タイタニックでも沈まぬ愛 🚢💔",
+        "shareText": "タイタニックでも沈まぬ愛! 🚢💔"
+      },
+      "jonsnowdaenerystargaryen": {
+        "message": "氷と炎のラブストーリー 🐉❄️",
+        "shareText": "氷と炎のラブストーリー! 🐉❄️"
+      },
+      "katnisseverdeenpeetamellark": {
+        "message": "革命と愛が交差する 🍞🔥",
+        "shareText": "革命と愛が交差する! 🍞🔥"
+      },
+      "sherlockholmesdrwatson": {
+        "message": "名探偵同士の心の絆 🕵️‍♂️❤️",
+        "shareText": "名探偵同士の心の絆! 🕵️‍♂️❤️"
+      },
+      "watsonsherlock": {
+        "message": "名探偵同士の心の絆 🕵️‍♂️❤️",
+        "shareText": "名探偵同士の心の絆! 🕵️‍♂️❤️"
+      },
+      "johnwatsonsherlockholmes": {
+        "message": "名探偵同士の心の絆 🕵️‍♂️❤️",
+        "shareText": "名探偵同士の心の絆! 🕵️‍♂️❤️"
+      },
+      "homersimpsonmargesimpson": {
+        "message": "ドーナツと核家族の愛 🍩💛",
+        "shareText": "ドーナツと核家族の愛! 🍩💛"
+      },
+      "shaggyvelma": {
+        "message": "サンドイッチとスパイごっこ 🥪🔍",
+        "shareText": "サンドイッチとスパイごっこ! 🥪🔍"
+      }
+    },
+    "superheroes": {
+      "batmanjoker": {
+        "message": "ゴッサムの禁断ラブ 🦇❤️‍🔥",
+        "shareText": "ゴッサムの禁断ラブ! 🦇❤️‍🔥"
+      },
+      "tonystarkpepperpotts": {
+        "message": "アイアンハートな恋 💘🛠️",
+        "shareText": "アイアンハートな恋! 💘🛠️"
+      },
+      "wandamaximoffvision": {
+        "message": "未来視と悲恋のはざま 💔🔮",
+        "shareText": "未来視と悲恋のはざま! 💔🔮"
+      },
+      "lokithor": {
+        "message": "神の兄弟が暴走中 ⚡😈",
+        "shareText": "神の兄弟が暴走中! ⚡😈"
+      },
+      "batmansuperman": {
+        "message": "ヒーロー同士の複雑な関係 🦇🦸❤️",
+        "shareText": "ヒーロー同士の複雑な関係! 🦇🦸❤️"
+      },
+      "spidermandeadpool": {
+        "message": "世界線を超えた凸凹カップル 🕷️😆",
+        "shareText": "世界線を超えた凸凹カップル! 🕷️😆"
+      },
+      "jokerharleyquinn": {
+        "message": "クレイジー＆セクシー 🔫💋",
+        "shareText": "クレイジー＆セクシー! 🔫💋"
+      }
+    },
+    "gamingCharacters": {
+      "marioprincesspeach": {
+        "message": "ステージクリアで愛ゲット 🍄💘",
+        "shareText": "ステージクリアで愛ゲット! 🍄💘"
+      },
+      "marioluigi": {
+        "message": "配管兄弟の恋と冒険 🔧👬",
+        "shareText": "配管兄弟の恋と冒険! 🔧👬"
+      },
+      "linkzelda": {
+        "message": "伝説のヒーローカップル 🗡️💚",
+        "shareText": "伝説のヒーローカップル! 🗡️💚"
+      },
+      "masterchiefcortana": {
+        "message": "AIと兵士のデジタルラブ 💻❤️",
+        "shareText": "AIと兵士のデジタルラブ! 💻❤️"
+      },
+      "kratosatreus": {
+        "message": "神話級の親子関係 🪓🔥",
+        "shareText": "神話級の親子関係! 🪓🔥"
+      },
+      "elliedina": {
+        "message": "ゾンビの中のキス 🧟‍♀️💋",
+        "shareText": "ゾンビの中のキス! 🧟‍♀️💋"
+      },
+      "gokuvegeta": {
+        "message": "激突しつつも通じ合う 👊🔥",
+        "shareText": "激突しつつも通じ合う! 👊🔥"
+      },
+      "ashketchummisty": {
+        "message": "ピカチュウが祝福してる⚡💘",
+        "shareText": "ピカチュウが祝福してる! ⚡💘"
+      }
+    },
+    "fantasyCharacters": {
+      "shrekfiona": {
+        "message": "層が深すぎる恋愛物語 🧅💚",
+        "shareText": "層が深すぎる恋愛物語! 🧅💚"
+      },
+      "hansoloprincessleia": {
+        "message": "銀河を超えた口ゲンカカップル 🌌💋",
+        "shareText": "銀河を超えた口ゲンカカップル! 🌌💋"
+      },
+      "voldemortharrypotter": {
+        "message": "魔法界の禁断の愛 🧙‍♂️⚡",
+        "shareText": "魔法界の禁断の愛! 🧙‍♂️⚡"
+      },
+      "harryvoldemort": {
+        "message": "魔法界の禁断の愛 🧙‍♂️⚡",
+        "shareText": "魔法界の禁断の愛! 🧙‍♂️⚡"
+      },
+      "hermioneron": {
+        "message": "図書館ラブ、ハーマイオニー編 📚💘",
+        "shareText": "図書館ラブ、ハーマイオニー編! 📚💘"
+      },
+      "dumbledoregrindelwald": {
+        "message": "昔の火花が今も燃える 🔮🔥",
+        "shareText": "昔の火花が今も燃える! 🔮🔥"
+      },
+      "gandalfsaruman": {
+        "message": "杖バトルで再燃する友情 ✨🧙‍♂️",
+        "shareText": "杖バトルで再燃する友情! ✨🧙‍♂️"
+      },
+      "frodosam": {
+        "message": "モルドールまで友情フルパワー 💍👣",
+        "shareText": "モルドールまで友情フルパワー! 💍👣"
+      },
+      "geraltyennefer": {
+        "message": "魔物も倒すけど、キスもする ⚔️🔥",
+        "shareText": "魔物も倒すけど、キスもする! ⚔️🔥"
+      },
+      "fionashrek": {
+        "message": "層が深すぎる恋愛物語 🧅💚",
+        "shareText": "層が深すぎる恋愛物語! 🧅💚"
+      }
+    },
+    "cartoonCharacters": {
+      "spongebobpatrick": {
+        "message": "海底のブロマンス 🧽💛",
+        "shareText": "海底のブロマンス! 🧽💛"
+      },
+      "phineasferb": {
+        "message": "発明×友情＝感動アニメ 🧠💡",
+        "shareText": "発明×友情＝感動アニメ! 🧠💡"
+      }
+    },
+    "musicians": {
+      "drakerihanna": {
+        "message": "ビートも愛もトップチャート 🎤🔥",
+        "shareText": "ビートも愛もトップチャート! 🎤🔥"
+      },
+      "cardiboffset": {
+        "message": "うるさくて熱いカップル 💥🎶",
+        "shareText": "うるさくて熱いカップル! 💥🎶"
+      },
+      "btsjungkooklisablackpink": {
+        "message": "K-POP界の夢カップル 🌸🎶",
+        "shareText": "K-POP界の夢カップル! 🌸🎶"
+      },
+      "oliviarodrigojoshuabassett": {
+        "message": "バラードのような恋 🎶💔",
+        "shareText": "バラードのような恋! 🎶💔"
+      },
+      "dualipajackharlow": {
+        "message": "TikTokで急上昇 💄📱",
+        "shareText": "TikTokで急上昇! 💄📱"
+      },
+      "shawnmendescamilacabello": {
+        "message": "SNS越しのラブストーリー 📱💘",
+        "shareText": "SNS越しのラブストーリー! 📱💘"
+      }
+    },
+    "chefs": {
+      "saltbaesteak": {
+        "message": "塩加減も愛も完璧 🧂🥩",
+        "shareText": "塩加減も愛も完璧! 🧂🥩"
+      },
+      "saltbaegordonramsay": {
+        "message": "キッチンの火花は止まらない 🔥🍳",
+        "shareText": "キッチンの火花は止まらない! 🔥🍳"
+      }
+    },
+    "memes": {
+      "bigshaqthetingoesskrrra": {
+        "message": "音とノイズと無意味の愛 🎶🤪",
+        "shareText": "音とノイズと無意味の愛! 🎶🤪"
+      },
+      "dogecheems": {
+        "message": "ミーム界最かわカップル 🐶😂",
+        "shareText": "ミーム界最かわカップル! 🐶😂"
+      },
+      "rickastleynevergonnagiveyouup": {
+        "message": "決して君を離さない…かも 🎶🚫",
+        "shareText": "決して君を離さない…かも! 🎶🚫"
+      },
+      "grumpycatnyancat": {
+        "message": "ブサカワ＆虹でカオス発生 🐱🌈",
+        "shareText": "ブサカワ＆虹でカオス発生! 🐱🌈"
+      },
+      "therockkevinhart": {
+        "message": "筋肉とギャグの最強コンビ 💪🎭",
+        "shareText": "筋肉とギャグの最強コンビ! 💪🎭"
+      }
+    },
+    "alternatives": {
+      "blakeryan": {
+        "message": "ハリウッド最強の毒舌カップル 😏🎭",
+        "shareText": "ハリウッド最強の毒舌カップル! 😏🎭"
+      }
+    }
+  }
+}

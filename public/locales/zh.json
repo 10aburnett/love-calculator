@@ -1,0 +1,1935 @@
+{
+  "landing": {
+    "headline": "爱情计算器",
+    "intro": "体验世界上最先进的爱情兼容性计算器，由我们独有的亲和力商数（AQ）算法驱动。获得科学分析，详细了解您在多个维度上的兼容性。",
+    "subtitle": "测试您的爱情兼容性",
+    "description": "输入您的姓名，看看您的爱情百分比！",
+    "getStarted": "开始",
+    "newAlgorithmBadge": "🔬 新功能：由亲和力商数算法驱动",
+    "poweredByAQTitle": "🧬 由亲和力商数技术驱动",
+    "poweredByAQDescription": "与简单的爱情计算器不同，我们先进的AQ算法通过五个科学维度分析您的兼容性，包括语音和谐、字母频率模式、数字兼容性、元音平衡和心理第一印象。",
+    "howAlgorithmWorksTitle": "我们的先进算法如何工作",
+    "algorithmDescription1": "我们独有的亲和力商数（AQ）算法代表了兼容性分析的突破。与使用简单哈希函数的基本姓名计算器不同，我们的系统应用语言学、心理学和数字学的学术研究。",
+    "algorithmDescription2": "我们通过五个科学维度分析姓名，创建一个全面的兼容性档案，不仅考虑字母，还考虑语言模式、语音和谐和数字学意义。",
+    "academicFoundation": "学术基础",
+    "academicFoundationDescription": "我们的算法结合了已发表的语言学研究、语音分析和数学兼容性理论的原理。",
+    "analysisProcessTitle": "分析过程",
+    "step1": "语音和谐分析",
+    "step2": "字母频率模式",
+    "step3": "数字兼容性",
+    "step4": "元音平衡计算",
+    "step5": "心理第一印象",
+    "fivePillarsTitle": "兼容性分析的五大支柱",
+    "fivePillarsDescription": "我们通过五个科学维度分析姓名，创建一个全面的兼容性档案，不仅考虑字母，还考虑语言模式、语音和谐和数字学意义。",
+    "pillar1Title": "初始相似性",
+    "pillar1Description": "首字母心理学和即时印象兼容性",
+    "pillar2Title": "字母频率",
+    "pillar2Description": "语言模式的26维向量分析",
+    "pillar3Title": "语音和谐",
+    "pillar3Description": "基于声音的匹配和听觉兼容性",
+    "pillar4Title": "数字学",
+    "pillar4Description": "古代数字学与数学精度",
+    "pillar5Title": "元音平衡",
+    "pillar5Description": "节奏、流动和听觉和谐分析",
+    "nameCompatibilityExplainedTitle": "姓名兼容性解释",
+    "funEntertainmentTitle": "有趣娱乐",
+    "funEntertainmentDescription": "我们的游戏性方法创造出完美适合社交分享的有趣兼容性分数。",
+    "consistentResultsTitle": "一致结果",
+    "consistentResultsDescription": "相同的姓名组合将始终产生相同的爱情百分比，确保可靠性。",
+    "shareableFunTitle": "可分享的乐趣",
+    "shareableFunDescription": "生成您结果的精美图片，在社交媒体和朋友圈分享。",
+    "nameCompatibilityDescription": "姓名兼容性是测试关系和引发对话的有趣而好玩的方式。它是聚会、社交媒体和与朋友度过愉快时光的绝佳破冰工具和娱乐工具！",
+    "keyFeaturesTitle": "为什么选择我们的爱情计算器？",
+    "relationshipQuizTitle": "关系测验 – 你们是完美的一对吗？",
+    "relationshipQuizDescription": "想要不仅仅是爱情计算器？参加我们的综合关系测验，深入了解您的兼容性，发现是什么让您的关系独特。",
+    "takeTheQuiz": "参加测验",
+    "loveCompatibilityTestOnlineTitle": "在线爱情兼容性测试",
+    "loveCompatibilityTestOnlineDescription": "准备发现您的爱情兼容性了吗？我们的在线爱情计算器完全免费，提供即时结果。现在就测试您的关系兼容性，看看星星为您准备了什么！",
+    "calculateYourLoveScoreNow": "立即计算您的爱情分数",
+    "funLoveTestToShareTitle": "与朋友分享的有趣爱情测试",
+    "funLoveTestDescription": "我们的爱情计算器不仅对您有趣 - 它非常适合分享！生成在Instagram、TikTok、Twitter和其他社交平台上看起来很棒的精美结果图片。",
+    "downloadShareableImages": "下载可分享图片",
+    "shareDirectlyToSocialMedia": "直接分享到社交媒体",
+    "perfectForTikTokContent": "非常适合TikTok内容",
+    "startConversationsWithFriends": "与朋友开始对话",
+    "shareYourResultsTitle": "分享您的结果",
+    "shareYourResultsDescription": "将您的爱情分数转化为病毒式内容！",
+    "aqDifferenceTitle": "AQ 差异",
+    "aqDifferenceSubtitle": "分析 → 可视化 → 理解",
+    "entertainmentDisclaimer": "仅供娱乐：这是一个为娱乐和社交分享而设计的有趣活动，不是真正的约会或关系建议！",
+    "features": {
+      "literatureBased": "基于文献的算法",
+      "visualBreakdown": "可视化分解分析",
+      "fiveMetricScoring": "科学5指标评分",
+      "visual": {
+        "title": "可视化分解",
+        "description": "通过交互式图表准确了解您的分数是如何计算的"
+      },
+      "scientificMethod": {
+        "title": "科学方法",
+        "description": "基于语言学研究和兼容性研究"
+      },
+      "precisionAnalysis": {
+        "title": "精确分析",
+        "description": "多指标评分系统，提供全面洞察"
+      }
+    }
+  },
+  "common": {
+    "calculate": "计算",
+    "tryAgain": "重试",
+    "yourName": "您的姓名",
+    "theirName": "他们的姓名",
+    "enterYourName": "输入您的姓名",
+    "enterTheirName": "输入他们的姓名",
+    "yourBirthDate": "您的出生日期",
+    "theirBirthDate": "他们的出生日期",
+    "dateFormat": "年年年年/月月/日日",
+    "ghostDateFormat": "年年年年/月月/日日",
+    "datePlaceholder": "年年年年/月月/日日",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试",
+    "selectLanguage": "选择语言",
+    "close": "关闭",
+    "open": "打开",
+    "menu": "菜单",
+    "navigation": "导航",
+    "notFound": "页面未找到",
+    "notFoundDescription": "抱歉，我们找不到您要找的页面。",
+    "backToHome": "返回首页",
+    "yourZodiacSign": "您的星座",
+    "theirZodiacSign": "他们的星座",
+    "selectSign": "选择您的星座",
+    "selectTheirSign": "选择他们的星座",
+    "ruledBy": "由{{ruler1}}和{{ruler2}}主宰",
+    "score": "得分",
+    "chartScore": "得分: {{score}}/100",
+    "chartTooltipScore": "得分",
+    "compatibilityBreakdown": "兼容性分析",
+    "loveLanguageBreakdown": "爱的语言分析",
+    "communicationBreakdown": "沟通风格分析",
+    "conflictStyleBreakdown": "冲突解决分析",
+    "futureGoalsBreakdown": "未来目标分析",
+    "share": {
+      "loveCompatibility": "{{name1}} + {{name2}} = {{score}}% 爱情相配度！",
+      "tryCalculator": "试试爱情计算器:",
+      "tryItYourself": "自己试试:",
+      "imageDownloaded": "图片已下载！",
+      "uploadToInstagram": "上传到Instagram并使用这个说明:",
+      "createTikTok": "用这张图片制作TikTok视频并使用这个说明:",
+      "hashtags": "#爱情计算器 #相配度 #爱情测试",
+      "shareLoveCalculator": "分享爱情计算器",
+      "copyToClipboard": "{{name1}} + {{name2}} = {{score}}% 爱情相配度！ {{shareText}} 自己试试: {{url}}",
+      "loveCalculatorResult": "爱情计算器结果",
+      "relationshipScore": "{{name1}}和{{name2}}在我们的恋爱测验中得了{{score}}%！",
+      "discoveredLoveLanguage": "我发现我的爱之语是{{language}}！",
+      "communicationStyle": "我的沟通风格是{{style}}！",
+      "conflictResolution": "我的冲突解决风格是{{style}}！",
+      "futureGoals": "我们的未来目标相配度: {{result}}！",
+      "zodiacCompatibility": "{{sign1}}和{{sign2}} = {{score}}% 星座相配度！",
+      "dobCompatibility": "{{name1}} + {{name2}} = {{score}}% 生日相配度！",
+      "tryOurQuiz": "参加测验:",
+      "discoverYours": "发现你的:",
+      "quizHashtags": "#恋爱测验 #爱之语 #沟通风格 #相配度",
+      "iScoredRelationship": "我刚刚参加了恋爱测验并得了{{score}}%！ {{result}}",
+      "iScoredLoveLanguage": "我发现我的爱之语是{{language}}！",
+      "copyForInstagram": "复制此文本到Instagram：",
+      "futureGoalsFullShare": "我发现了我的未来目标兼容性：{{title}}（{{percentage}}%兼容）！{{description}} 自己试试：{{url}}",
+      "futureGoalsBasic": "我的未来目标兼容性：{{title}}（{{percentage}}%兼容）！{{description}}",
+      "futureGoalsInstagram": "我发现了我的未来目标兼容性：{{title}}（{{percentage}}%兼容）！{{description}} 在{{url}}试试 🎯",
+      "futureGoalsTikTok": "我的未来目标兼容性：{{title}}（{{percentage}}%兼容）！{{description}} #未来目标 #关系目标 #性格测试",
+      "futureGoalsRedditTitle": "我发现了我的未来目标兼容性：{{title}}！",
+      "futureGoalsRedditText": "{{description}} 自己试试未来目标兼容性测验！",
+      "iScoredCommunication": "我的沟通风格是{{style}}！",
+      "communicationStyleFullShare": "我发现了我的沟通风格：{{style}}（{{percentage}}%主导）！{{description}} 自己试试：{{url}}",
+      "communicationStyleBasic": "我的沟通风格：{{style}}（{{percentage}}%主导）！{{description}}",
+      "communicationStyleInstagram": "我发现了我的沟通风格：{{style}}（{{percentage}}%主导）！{{description}} 在{{url}}试试 💬",
+      "communicationStyleTikTok": "我的沟通风格：{{style}}（{{percentage}}%主导）！{{description}} #沟通风格 #性格测试 #自我发现",
+      "communicationStyleRedditTitle": "我发现了我的沟通风格：{{style}}！",
+      "communicationStyleRedditText": "{{description}} 自己试试沟通风格测验！",
+      "iScoredConflict": "我的冲突解决风格是{{style}}！",
+      "iScoredFutureGoals": "我们的未来目标相配度得了{{score}}%！ {{result}}",
+      "dobHashtags": "#生日相配度 #出生日期 #爱情测试",
+      "loveLanguageFullShare": "我发现了我的爱之语：{{language}}（{{percentage}}%主要）！{{description}} 自己试试：{{url}}",
+      "loveLanguageBasic": "我的爱之语：{{language}}（{{percentage}}%主要）！{{description}}",
+      "loveLanguageInstagram": "我发现了我的爱之语：{{language}}（{{percentage}}%主要）！{{description}} 在{{url}}试试 💕",
+      "loveLanguageTikTok": "我的爱之语：{{language}}（{{percentage}}%主要）！{{description}} #爱之语 #恋爱建议 #自我发现",
+      "loveLanguageRedditTitle": "我发现了我的爱之语：{{language}}！",
+      "loveLanguageRedditText": "{{description}} 自己试试爱之语评估！",
+      "shareYourResults": "分享您的结果",
+      "copyResults": "复制结果",
+      "copied": "已复制！",
+      "conflictResolutionBasic": "我发现了我的冲突解决风格：{{style}}（{{percentage}}%主要）！{{description}}",
+      "conflictResolutionFullShare": "我发现了我的冲突解决风格：{{style}}（{{percentage}}%主要）！{{description}} 您也试试：{{url}}",
+      "conflictResolutionInstagram": "我发现了我的冲突解决风格：{{style}}（{{percentage}}%主要）！{{description}} 在{{url}}试试 🤝",
+      "conflictResolutionRedditTitle": "我发现了我的冲突解决风格：{{style}}！",
+      "conflictResolutionRedditText": "{{description}} 自己试试冲突解决风格测试！",
+      "conflictResolutionTikTok": "我的冲突解决风格：{{style}}（{{percentage}}%主要）！{{description}} #冲突解决 #关系技能 #性格测试"
+    }
+  },
+  "loveCalculator": {
+    "title": "爱情计算器",
+    "description": "体验世界上最先进的爱情兼容性计算器，由我们独有的亲和力商数（AQ）算法驱动。获得科学分析，详细了解您在多个维度上的兼容性。",
+    "enterNames": "输入您的姓名，看看您的爱情百分比！",
+    "loading": "正在计算您的爱情兼容性...",
+    "calculateLove": "计算爱情分数",
+    "shareResult": "分享结果",
+    "error": "出现问题。请重试。",
+    "nameRequired": "请输入两个姓名",
+    "easterEggHint": "嘘...100+隐藏的名人、表情包和图标情侣将触发特殊的爱情分数。您能解锁多少个？🎭✨",
+    "tryOtherTools": "为什么不尝试我们其他有趣的工具？",
+    "dobCalculator": "出生日期兼容性计算器",
+    "zodiacCalculator": "星座兼容性计算器",
+    "breakdown": {
+      "title": "兼容性分解",
+      "nameHarmony": "姓名和谐",
+      "letterSynergy": "字母协同",
+      "vocalBalance": "声音平衡",
+      "energyAlignment": "能量对齐",
+      "cosmicConnection": "宇宙连接"
+    },
+    "whyThisScore": "为什么是这个分数？",
+    "scienceBehindScore": "您分数背后的科学：",
+    "initialSimilarity": "初始相似性 (0-100)：",
+    "initialSimilarityDescription": "首字母之间的字母距离 - 更接近的字母得分更高",
+    "letterFrequency": "字母频率 (0-100)：",
+    "letterFrequencyDescription": "您名字中字母模式的相似程度（语言兼容性）",
+    "phoneticSimilarity": "语音相似性 (0-100)：",
+    "phoneticSimilarityDescription": "您的名字发音时听起来如何（听觉和谐）",
+    "numerologicalCompatibility": "数字学兼容性 (0-100)：",
+    "numerologicalCompatibilityDescription": "基于古代数字学原理和命运数字",
+    "vowelBalance": "元音平衡 (0-100)：",
+    "vowelBalanceDescription": "元音与辅音比例创造的节奏和流畅感",
+    "algorithmExplanation": "该算法结合了名字兼容性学术研究中的多种语言和心理因素。所有指标都按0-100评分以进行精确分析。",
+    "shareResultsTitle": "分享您的结果",
+    "shareResultsDescription": "将您的爱情分数转化为病毒式内容！",
+    "downloadImage": "下载图片",
+    "copyResults": "复制结果",
+    "copied": "已复制！",
+    "beautifulLoveStory": "美丽的爱情故事正在发展中！🌹💖",
+    "messages": {
+      "perfectMatch": "完美匹配！你们的爱情故事是独一无二的！💖✨",
+      "soulmates": "灵魂伴侣——你们两个在星空中被写就！🌠❤️",
+      "trueLove": "真爱达到巅峰——你们互相完善！💕🔥",
+      "legendaryLove": "传奇之爱！你们注定要永远在一起！👑💫",
+      "powerCouple": "终极强力夫妇！你们的爱征服一切！💪❤️",
+      "matchMadeInHeaven": "真爱警报——你们是天作之合！✨💕",
+      "heartsAsOne": "不可思议的连接！你们的心如一体跳动！💓🎵",
+      "beautifulStory": "美丽的爱情故事正在发展中！🌹💖",
+      "incredibleChemistry": "不可思议的化学反应！火花四溅！⚡💘",
+      "loveGoals": "爱情目标！你们用连接启发他人！🎯💝",
+      "soulmatesyoutwoMessage": "灵魂伴侣——你们两个是命中注定的！🌠❤️",
+      "perfectmatchyourMessage": "完美匹配！你们的爱情故事将传世！💖✨",
+      "trueloveatMessage": "真爱至上——你们彼此完美互补！💕🔥",
+      "legendaryloveyoureMessage": "传奇之爱！你们注定要永远在一起！👑💫",
+      "ultimatepowercoupleMessage": "终极权力情侣！你们的爱征服一切！💪❤️",
+      "truelovealertMessage": "真爱警报——你们是天造地设的一对！✨💕",
+      "amazingconnectionyourMessage": "惊人的连接！你们的心跳如一！💓🎵",
+      "beautifullovestoryMessage": "美丽的爱情故事正在上演！🌹💖",
+      "incrediblechemistrytheMessage": "不可思议的化学反应！火花四溅！⚡💘",
+      "lovegoalsyouMessage": "爱情目标！你们用你们的连接激励他人！🎯💝",
+      "asolidconnectionMessage": "坚实的连接——让我们看看它会发展到哪里！🌷💫",
+      "goodpotentialloveMessage": "很好的潜力！爱情可能正在绽放！🌸🌱",
+      "sweetcompatibilitytheresMessage": "甜蜜的兼容性！这里肯定有什么！🍯💕",
+      "promisingmatchtimeMessage": "有前途的匹配！时间会讲述你们的故事！⏰💖",
+      "cuteconnectiontheMessage": "可爱的连接！基础在那里！🏗️💕",
+      "alittlesparkMessage": "一点火花，但火焰会燃起吗？🔥🤞",
+      "somepotentialbutMessage": "有一些潜力，但需要努力！🛠️💕",
+      "mixedsignalscommunicationMessage": "混合信号——沟通是关键！📱💭",
+      "friendshipvibesstrongMessage": "友谊氛围很浓——也许爱情会跟随！👫❓",
+      "slowburnromanceMessage": "缓慢燃烧的浪漫？有时最好的爱情需要时间！⏳🔥",
+      "oppositesmayattractMessage": "异性相吸...但有时并非如此。⚡💔",
+      "betterasfriendsMessage": "做朋友更好？有时那样更好！🤝💙",
+      "notquiteaMessage": "不完全匹配，但是嘿——海里有很多鱼！🐠🌊",
+      "differentwavelengthsbutMessage": "不同的波长，但没关系！📻🎵",
+      "notmeanttoMessage": "不是注定要在一起，但你们都很棒！⭐🌟"
+    },
+    "easterEggs": {
+      "celebrities": {
+        "taylorswifttraviskelce": {
+          "message": "一场超级碗般的恋爱 🏈🎤",
+          "shareText": "我们的名字就像Taylor Swift和Travis Kelce - 一场超级碗般的恋爱！🏈🎤"
+        },
+        "willsmithjadapinkettsmith": {
+          "message": "奥斯卡级别的婚姻剧 🎭💔",
+          "shareText": "我们的名字就像Will Smith和Jada Pinkett Smith - 奥斯卡级别的婚姻剧！🎭💔"
+        },
+        "blakelivelyryanreynolds": {
+          "message": "好莱坞最毒舌的情侣 😏🎬",
+          "shareText": "我们的名字就像Blake Lively和Ryan Reynolds - 好莱坞最毒舌的情侣！😏🎬"
+        },
+        "johnnydeppamberheard": {
+          "message": "爱情法庭开庭中 ⚖️💣",
+          "shareText": "我们的名字就像Johnny Depp和Amber Heard - 爱情法庭开庭中！⚖️💣"
+        },
+        "barackobamamichelleobama": {
+          "message": "总统级浪漫 🇺🇸❤️",
+          "shareText": "我们获得了100%匹配！就像Barack和Michelle Obama - 总统级浪漫！🇺🇸❤️"
+        },
+        "tomhollandzendaya": {
+          "message": "多重宇宙的热恋 🕸️💞",
+          "shareText": "我们的爱情就像Tom Holland和Zendaya - 多重宇宙的热恋！🕸️💞"
+        },
+        "jayzbeyonce": {
+          "message": "黄金CP，唱片+亿 💰🎶",
+          "shareText": "我们获得了100%匹配！就像Jay-Z和Beyoncé - 黄金CP！💰🎶"
+        },
+        "cristianoronaldogeorginarodriguez": {
+          "message": "一脚踢进你的心 ⚽❤️",
+          "shareText": "我们的名字就像Cristiano Ronaldo和Georgina - 一脚踢进你的心！⚽❤️"
+        },
+        "harrystylesoliviawilde": {
+          "message": "时尚头条情侣 🕶️🗞️",
+          "shareText": "我们就像Harry Styles和Olivia Wilde - 时尚头条情侣！🕶️🗞️"
+        },
+        "willsmithmargotrobbie": {
+          "message": "银幕上的火花，戏外也炸 🎬🔥",
+          "shareText": "我们的兼容性就像Will Smith和Margot Robbie - 火花四射！🎬🔥"
+        },
+        "kanyewestkimkardashian": {
+          "message": "潮流碰撞的混乱爱情 💥🖤",
+          "shareText": "我们就像Kanye West和Kim Kardashian - 潮流碰撞！💥🖤"
+        },
+        "bradpittangelinajolie": {
+          "message": "童话开始，狗血结尾 🎞️🔥",
+          "shareText": "我们的名字就像Brad Pitt和Angelina Jolie - 童话开始！🎞️🔥"
+        },
+        "elonmuskgrimes": {
+          "message": "火箭、婴儿与科技梦 👶🚀",
+          "shareText": "我们的匹配就像Elon Musk和Grimes - 火箭与科技梦！👶🚀"
+        },
+        "shakiragerardpique": {
+          "message": "节奏在线，感情离线 💃⚽",
+          "shareText": "我们的爱情就像Shakira和Gerard Pique - 节奏在线！💃⚽"
+        }
+      },
+      "youtubers": {
+        "mrbeastpewdiepie": {
+          "message": "YouTube宇宙大合体 💸📦",
+          "shareText": "我们的名字获得了传奇匹配！就像MrBeast和PewDiePie - YouTube宇宙大合体！💸📦"
+        },
+        "loganpaulksi": {
+          "message": "拳击场的情敌 🥊💥",
+          "shareText": "我们的兼容性就像Logan Paul和KSI - 拳击场的情敌！🥊💥"
+        },
+        "mrbeastchandler": {
+          "message": "亿万订阅+真友情 💰😂",
+          "shareText": "我们获得了100%如MrBeast和Chandler - 亿万订阅！💰😂"
+        },
+        "loganpauljakepaul": {
+          "message": "兄弟也能制造风暴 💥🧬",
+          "shareText": "我们的名字就像Paul兄弟 - 制造风暴！💥🧬"
+        },
+        "dreamgeorgenotfound": {
+          "message": "从方块到心跳 🎮💘",
+          "shareText": "我们就像Dream和GeorgeNotFound - 从方块到心跳！🎮💘"
+        },
+        "charlidameliollilhuddy": {
+          "message": "跳舞、吵架、点赞 💃📸",
+          "shareText": "我们的爱情就像Charli D'Amelio和Lil Huddy - 跳舞和点赞！💃📸"
+        },
+        "pokimanexqc": {
+          "message": "在线恋爱进行时 🎮🔥",
+          "shareText": "我们获得了匹配如Pokimane和xQc - 在线恋爱！🎮🔥"
+        },
+        "ninjatfue": {
+          "message": "游戏中也有心跳 🎯❤️",
+          "shareText": "我们的名字就像Ninja和Tfue - 游戏中的心跳！🎯❤️"
+        },
+        "valkyraeeludwig": {
+          "message": "麦克风+感情输出 🎙️💞",
+          "shareText": "我们就像Valkyrae和Ludwig - 麦克风加感情！🎙️💞"
+        },
+        "hasanabiaoc": {
+          "message": "直播政治秀中的爱 💬🗳️",
+          "shareText": "我们的兼容性就像HasanAbi和AOC - 政治秀中的爱！💬🗳️"
+        },
+        "khabylamesilence": {
+          "message": "沉默中的流量王 🤫📱",
+          "shareText": "我们就像Khaby Lame和沉默 - 流量王！🤫📱"
+        },
+        "jamescharlestatiwestbrook": {
+          "message": "美妆战争+社媒爆炸 💄🔥",
+          "shareText": "我们的名字获得了戏剧匹配！就像James Charles和Tati - 美妆战争！💄🔥"
+        }
+      },
+      "controversialFigures": {
+        "andrewtatergretathunberg": {
+          "message": "女权大战猛男 💢♀️♂️",
+          "shareText": "我们的名字就像Andrew Tate和Greta Thunberg - 女权大战猛男！💢♀️♂️"
+        },
+        "elonmuskmarkzuckerberg": {
+          "message": "亿万富翁的元宇宙对决 🤖🥊",
+          "shareText": "我们就像Elon Musk和Mark Zuckerberg - 元宇宙对决！🤖🥊"
+        }
+      },
+      "tvMovieCharacters": {
+        "rossgellerrachelgreen": {
+          "message": "电视剧史上最反复无常的恋爱 📺❤️😡",
+          "shareText": "我们获得了100%匹配！就像Ross和Rachel - 最反复无常的恋爱！📺❤️😡"
+        },
+        "rossrachel": {
+          "message": "电视剧史上最反复无常的恋爱 📺❤️😡",
+          "shareText": "我们获得了100%匹配！就像Ross和Rachel - 最反复无常的恋爱！📺❤️😡"
+        },
+        "jackrose": {
+          "message": "爱情沉没不了 🚢💔",
+          "shareText": "我们的爱情就像Jack和Rose - 爱情沉没不了！🚢💔"
+        },
+        "jonsnowdaenerystargaryen": {
+          "message": "冰火之恋，够味 🐉❄️",
+          "shareText": "我们就像Jon Snow和Daenerys - 冰火之恋！🐉❄️"
+        },
+        "katnisseverdeenpeetamellark": {
+          "message": "弓箭里的革命爱 🍞🔥",
+          "shareText": "我们的名字就像Katniss和Peeta - 弓箭里的革命爱！🍞🔥"
+        },
+        "sherlockholmesdrwatson": {
+          "message": "侦探搭档，心也连着 🕵️‍♂️❤️",
+          "shareText": "我们获得了侦探匹配！就像Sherlock和Watson - 心也连着！🕵️‍♂️❤️"
+        },
+        "watsonsherlock": {
+          "message": "侦探搭档，心也连着 🕵️‍♂️❤️",
+          "shareText": "我们获得了侦探匹配！就像Sherlock和Watson - 心也连着！🕵️‍♂️❤️"
+        },
+        "johnwatsonsherlockholmes": {
+          "message": "侦探搭档，心也连着 🕵️‍♂️❤️",
+          "shareText": "我们获得了侦探匹配！就像Sherlock和Watson - 心也连着！🕵️‍♂️❤️"
+        },
+        "homersimpsonmargesimpson": {
+          "message": "甜甜圈和放射性宠爱 🍩💛",
+          "shareText": "我们的爱情就像Homer和Marge - 甜甜圈和宠爱！🍩💛"
+        },
+        "shaggyvelma": {
+          "message": "零食与嫌疑人 🥪🔍",
+          "shareText": "我们获得了侦探匹配！就像Shaggy和Velma - 零食与嫌疑人！🥪🔍"
+        }
+      },
+      "superheroes": {
+        "batmanjoker": {
+          "message": "黑暗骑士的心动反派 🦇❤️‍🔥",
+          "shareText": "我们的名字就像Batman和Joker - 黑暗骑士的心动反派！🦇❤️‍🔥"
+        },
+        "tonystarkpepperpotts": {
+          "message": "钢铁心，真爱魂 💘🛠️",
+          "shareText": "我们就像Tony Stark和Pepper Potts - 钢铁心！💘🛠️"
+        },
+        "wandamaximoffvision": {
+          "message": "幻觉里的真情 💔🔮",
+          "shareText": "我们的爱情就像Wanda和Vision - 幻觉里的真情！💔🔮"
+        },
+        "lokithor": {
+          "message": "北欧混乱兄弟情 ⚡😈",
+          "shareText": "我们获得了神级匹配！就像Loki和Thor - 北欧兄弟情！⚡😈"
+        },
+        "batmansuperman": {
+          "message": "披风英雄的心动时刻 🦇🦸❤️",
+          "shareText": "我们的名字就像Batman和Superman - 披风英雄！🦇🦸❤️"
+        },
+        "spidermandeadpool": {
+          "message": "最无法想象的组合 🕷️😆",
+          "shareText": "我们就像Spider-Man和Deadpool - 无法想象的组合！🕷️😆"
+        },
+        "jokerharleyquinn": {
+          "message": "疯子爱小丑 🔫💋",
+          "shareText": "我们的名字就像Joker和Harley Quinn - 疯子爱小丑！🔫💋"
+        }
+      },
+      "gamingCharacters": {
+        "marioprincesspeach": {
+          "message": "跳跃、金币、真爱 🍄💘",
+          "shareText": "我们的名字获得了游戏匹配！就像Mario和Princess Peach - 跳跃和真爱！🍄💘"
+        },
+        "linkzelda": {
+          "message": "勇者与公主的羁绊 🗡️💚",
+          "shareText": "我们获得了传奇匹配！就像Link和Zelda - 勇者的羁绊！🗡️💚"
+        },
+        "masterchiefcortana": {
+          "message": "人工智能的深情一瞥 💻❤️",
+          "shareText": "我们的爱情就像Master Chief和Cortana - 人工智能的深情！💻❤️"
+        },
+        "kratosatreus": {
+          "message": "狂怒之父和迷惘之子 🪓🔥",
+          "shareText": "我们就像Kratos和Atreus - 狂怒之父！🪓🔥"
+        },
+        "elliedina": {
+          "message": "末日中的柔情一吻 🧟‍♀️💋",
+          "shareText": "我们的名字就像Ellie和Dina - 末日中的柔情！🧟‍♀️💋"
+        },
+        "ashketchummisty": {
+          "message": "童年爱恋，电力十足 ⚡💘",
+          "shareText": "我们获得了宝可梦匹配！就像Ash和Misty - 电力十足！⚡💘"
+        },
+        "gokuvegeta": {
+          "message": "最强对手，最真兄弟 👊🔥",
+          "shareText": "我们就像Goku和Vegeta - 最强对手！👊🔥"
+        },
+        "marioluigi": {
+          "message": "兄弟打怪救公主 🔧👬",
+          "shareText": "我们的名字就像Mario兄弟 - 打怪救公主！🔧👬"
+        }
+      },
+      "fantasyCharacters": {
+        "voldemortharrypotter": {
+          "message": "魔法界最毒CP 🧙‍♂️⚡",
+          "shareText": "我们的名字就像Harry Potter和Voldemort - 魔法界最毒CP！🧙‍♂️⚡"
+        },
+        "harryvoldemort": {
+          "message": "魔法界最毒CP 🧙‍♂️⚡",
+          "shareText": "我们的名字就像Harry Potter和Voldemort - 魔法界最毒CP！🧙‍♂️⚡"
+        },
+        "dumbledoregrindelwald": {
+          "message": "禁忌魔法与旧爱 🔮🔥",
+          "shareText": "我们就像Dumbledore和Grindelwald - 禁忌魔法与旧爱！🔮🔥"
+        },
+        "gandalfsaruman": {
+          "message": "法杖碰撞，友情重燃 ✨🧙‍♂️",
+          "shareText": "我们的爱情就像Gandalf和Saruman - 法杖碰撞！✨🧙‍♂️"
+        },
+        "frodosam": {
+          "message": "友情满级，直达魔多 💍👣",
+          "shareText": "我们获得了霍比特匹配！就像Frodo和Sam - 直达魔多！💍👣"
+        },
+              "geraltyennefer": {
+        "message": "怪物猎人也谈恋爱 ⚔️🔥",
+        "shareText": "我们的名字就像Geralt和Yennefer - 怪物猎人也谈恋爱！⚔️🔥"
+      },
+      "fionashrek": {
+        "message": "洋葱一样的爱情故事 🧅💚",
+        "shareText": "我们获得了怪物匹配！就像Shrek和Fiona - 洋葱般的爱情！🧅💚"
+      },
+        "hermioneron": {
+          "message": "书呆子的校园初恋 📚💘",
+          "shareText": "我们就像Hermione和Ron - 书呆子的校园初恋！📚💘"
+        },
+        "hansoloprincessleia": {
+          "message": "星际情缘+嘴炮 🌌💋",
+          "shareText": "我们获得了宇宙匹配！就像Han Solo和Princess Leia - 星际情缘！🌌💋"
+        },
+        "shrekfiona": {
+          "message": "洋葱一样的爱情故事 🧅💚",
+          "shareText": "我们获得了怪物匹配！就像Shrek和Fiona - 洋葱般的爱情！🧅💚"
+        }
+      },
+      "cartoonCharacters": {
+        "spongebobpatrick": {
+          "message": "海底兄弟情深 🧽💛",
+          "shareText": "我们的名字获得了海底匹配！就像SpongeBob和Patrick - 兄弟情深！🧽💛"
+        },
+        "phineasferb": {
+          "message": "发明+友情=动画经典 🧠💡",
+          "shareText": "我们就像Phineas和Ferb - 发明加友情！🧠💡"
+        }
+      },
+      "musicians": {
+        "drakerihanna": {
+          "message": "节奏热恋 🔥🎤",
+          "shareText": "我们的名字就像Drake和Rihanna - 节奏热恋！🔥🎤"
+        },
+        "cardiboffset": {
+          "message": "吵架+亲吻=他们日常 💥🎶",
+          "shareText": "我们就像Cardi B和Offset - 吵架加亲吻！💥🎶"
+        },
+        "btsjungkooklisablackpink": {
+          "message": "K-pop梦幻配对 🌸🎶",
+          "shareText": "我们的爱情就像Jungkook和Lisa - K-pop梦幻配对！🌸🎶"
+        },
+        "oliviarodrigojoshuabassett": {
+          "message": "音乐剧式的恋爱 🎶💔",
+          "shareText": "我们获得了音乐匹配！就像Olivia Rodrigo和Joshua - 音乐剧式恋爱！🎶💔"
+        },
+        "dualipajackharlow": {
+          "message": "TikTok爆款恋情 💄📱",
+          "shareText": "我们的名字就像Dua Lipa和Jack Harlow - TikTok爆款！💄📱"
+        },
+        "shawnmendescamilacabello": {
+          "message": "隔着屏幕的心动 📱💘",
+          "shareText": "我们就像Shawn Mendes和Camila Cabello - 隔着屏幕的心动！📱💘"
+        }
+      },
+      "chefs": {
+        "saltbaesteak": {
+          "message": "撒点盐，加点爱 🧂🥩",
+          "shareText": "我们的名字获得了料理匹配！就像Salt Bae和steak - 撒点盐！🧂🥩"
+        },
+        "saltbaegordonramsay": {
+          "message": "厨神之战，火力全开 🔥🍳",
+          "shareText": "我们获得了厨师匹配！就像Salt Bae和Gordon Ramsay - 厨神之战！🔥🍳"
+        }
+      },
+      "memes": {
+        "bigshaqthetingoesskrrra": {
+          "message": "节奏炸裂，逻辑下线 🎶🤪",
+          "shareText": "我们的名字获得了迷因匹配！就像Big Shaq和The Ting Goes Skrrra - 节奏炸裂！🎶🤪"
+        },
+        "dogecheems": {
+          "message": "狗狗之间的纯真之爱 🐶😂",
+          "shareText": "我们获得了迷因匹配！就像Doge和Cheems - 狗狗之间的纯真之爱！🐶😂"
+        },
+        "rickastleynevergonnagiveyouup": {
+          "message": "他不会离开你...也许 🎶🚫",
+          "shareText": "我们的爱情就像Rick Astley - 他不会离开你！🎶🚫"
+        },
+        "grumpycatnyancat": {
+          "message": "不爽+彩虹=网络暴击 🐱🌈",
+          "shareText": "我们就像Grumpy Cat和Nyan Cat - 不爽加彩虹！🐱🌈"
+        },
+        "therockkevinhart": {
+          "message": "肌肉+搞笑双杀 💪🎭",
+          "shareText": "我们的名字就像The Rock和Kevin Hart - 肌肉加搞笑！💪🎭"
+        }
+      },
+      "alternatives": {
+        "blakeryan": {
+          "message": "好莱坞最毒舌的情侣 😏🎬",
+          "shareText": "我们的名字就像Blake Lively和Ryan Reynolds - 好莱坞最毒舌的情侣！😏🎬"
+        }
+      }
+    }
+  },
+  "zodiacSigns": {
+    "aries": "白羊座",
+    "taurus": "金牛座",
+    "gemini": "双子座",
+    "cancer": "巨蟹座",
+    "leo": "狮子座",
+    "virgo": "处女座",
+    "libra": "天秤座",
+    "scorpio": "天蝎座",
+    "sagittarius": "射手座",
+    "capricorn": "摩羯座",
+    "aquarius": "水瓶座",
+    "pisces": "双鱼座"
+  },
+  "zodiacElements": {
+    "fire": "火",
+    "earth": "土",
+    "air": "风",
+    "water": "水"
+  },
+  "zodiacModalities": {
+    "cardinal": "本位",
+    "fixed": "固定",
+    "mutable": "变动"
+  },
+  "zodiacPlanets": {
+    "mars": "火星",
+    "venus": "金星",
+    "mercury": "水星",
+    "moon": "月亮",
+    "sun": "太阳",
+    "pluto": "冥王星",
+    "jupiter": "木星",
+    "saturn": "土星",
+    "uranus": "天王星",
+    "neptune": "海王星"
+  },
+  "zodiacElementMessages": {
+    "perfect": "完美的元素和谐！你们的能量如合奏般流淌。",
+    "excellent": "优秀的元素协同作用创造了强大的连接。",
+    "good": "良好的元素兼容性带来了有希望的化学反应。",
+    "complementary": "互补的元素创造了迷人的动力。",
+    "challenging": "不同的元素需要理解才能和谐。",
+    "conflicting": "冲突的元素需要耐心和妥协。",
+    "earthWater": "土水元素创造稳定而滋养的关系。",
+    "fireAir": "火风元素创造充满活力和激情的关系。"
+  },
+  "zodiacModalityMessages": {
+    "same": "相同的模式创造了自然的理解和节奏。",
+    "compatible": "兼容的模式提供了平衡的能量。",
+    "complementary": "互补的模式创造了美丽的活动平衡。",
+    "different": "不同的模式为关系增添多样性和成长。",
+    "challenging": "对比的模式需要在能量方法上妥协。"
+  },
+  "zodiacPlanetaryMessages": {
+    "same": "由同一颗行星主宰——你们说着同样的宇宙语言！",
+    "harmonious": "和谐的行星影响创造了自然的亲近感。",
+    "compatible": "兼容的行星促进相互理解。",
+    "complementary": "互补的行星能量创造了迷人的动力。",
+    "different": "不同的行星影响增添了丰富性和复杂性。",
+    "challenging": "具有挑战性的行星相位需要理解和耐心。"
+  },
+  "zodiacPatterns": {
+    "perfectHarmony": "绝对的星际和谐——你们写在星星里！",
+    "soulmates": "经典灵魂伴侣——你们的星座完美互补！",
+    "powerCouple": "动力组合——你们的能量创造了磁性力量！",
+    "complementaryOpposites": "互补的对立——你们的差异创造了完美的统一！",
+    "cosmicBalance": "宇宙平衡——你们的能量创造了和谐的舞蹈！",
+    "fieryPassion": "火热激情——你们一起点燃星辰！",
+    "earthyStability": "大地稳定——你们的连接坚如磐石！",
+    "intellectualConnection": "智力连接——你们的心灵在完美同步中舞蹈！",
+    "emotionalDepth": "情感深度——你们的心在深水中共鸣！",
+    "adventurousSpirit": "冒险精神——你们一起征服新的地平线！",
+    "creativePartnership": "创意伙伴关系——你们的合作诞生美丽！",
+    "stabilizingForce": "稳定力量——你们在和谐中使彼此稳定！",
+    "growthCatalyst": "成长催化剂——你们激励彼此进化！",
+    "uniqueDynamic": "独特动力——你们的连接定义自己的道路！",
+    "karmicConnection": "业力连接——命运将你们聚在一起！",
+    "supportiveSextile": "支持性六分相——你们的关系建立在相互支持和成长之上！"
+  },
+  "zodiacMessages": {
+    "perfectMatch": "完美匹配！星星为你们两个对齐了！",
+    "excellentCompatibility": "优秀兼容性！宇宙认可你们的结合！",
+    "strongConnection": "强大连接！你们的星际能量美丽地交织！",
+    "goodPotential": "良好潜力！你们的星座创造了有希望的和谐！",
+    "interestingDynamic": "有趣动力！你们的差异创造了迷人的炼金术！",
+    "cosmicChemistry": "宇宙化学！独特的行星影响创造了动态吸引！",
+    "celestialJourney": "天体旅程！你们的连接是成长和发现的道路！",
+    "stellarAdventure": "星际冒险！你们一起探索未知领域！",
+    "cosmicChallenge": "宇宙挑战！你们的差异提供了深度成长的机会！",
+    "universalLearning": "宇宙学习！每一个连接都提供宝贵的人生课程！",
+    "stellarConnection": "星际连接！你们的爱在宇宙中回响。"
+  },
+  "zodiacUI": {
+    "selectYourZodiacSigns": "选择您的星座",
+    "discoverCosmicCompatibility": "通过星星的智慧发现您的宇宙兼容性！",
+    "yourName": "您的姓名",
+    "theirName": "他们的姓名",
+    "enterYourName": "输入您的姓名",
+    "enterTheirName": "输入他们的姓名",
+    "yourZodiacSign": "您的星座",
+    "theirZodiacSign": "他们的星座",
+    "selectYourSign": "选择您的星座",
+    "selectTheirSign": "选择他们的星座",
+    "calculateCosmicCompatibility": "计算宇宙兼容性",
+    "readingTheStars": "读取星星...",
+    "tryAgain": "再试一次",
+    "astrologicalCompatibilityBreakdown": "占星兼容性分解",
+    "whyThisScore": "为什么是这个分数？",
+    "scienceBehindScore": "您星座分数背后的科学：",
+    "signHarmony": "星座和谐 (0-100)：",
+    "signHarmonyDescription": "基于星座间关系的传统占星兼容性模式",
+    "elementalBalance": "元素平衡 (0-100)：",
+    "elementalBalanceDescription": "火、土、风、水元素之间的相互作用",
+    "modalityMatching": "模式匹配 (0-100)：",
+    "modalityMatchingDescription": "本位、固定和变动能量的同步",
+    "planetarySync": "行星同步 (0-100)：",
+    "planetarySyncDescription": "您星座主宰行星之间的和谐",
+    "cosmicAspects": "宇宙相位 (0-100)：",
+    "cosmicAspectsDescription": "传统占星相位和天体角度关系",
+    "algorithmExplanation": "这个算法结合了数千年的占星智慧与现代兼容性分析。所有指标都按0-100评分以进行精确的占星分析。",
+    "shareResultsTitle": "分享您的结果",
+    "shareResultsDescription": "将您的星座分数转化为病毒式内容！",
+    "downloadImage": "下载图片",
+    "copyResults": "复制结果",
+    "copied": "已复制！",
+    "signs": "星座",
+    "elements": "元素",
+    "modality": "模式",
+    "planets": "行星",
+    "aspects": "相位",
+    "ruledBy": "由{{ruler1}}和{{ruler2}}主宰",
+    "elementsDescription": "火、土、风、水元素之间的相互作用",
+    "modalityDescription": "本位、固定和变动能量的同步",
+    "planetsDescription": "您星座主宰行星之间的和谐",
+    "elementalHarmony": "元素和谐",
+    "energyPatterns": "能量模式",
+    "planetaryInfluence": "行星影响",
+    "astrologicalPattern": "占星模式",
+    "shareYourResults": "分享您的结果",
+    "turnZodiacScore": "将您的星座分数转化为病毒式内容！",
+    "whyNotTryOtherTools": "为什么不试试我们其他有趣的工具？",
+    "loveCalculator": "爱情计算器",
+    "dobCalculator": "出生日期兼容性计算器"
+  },
+  "dobCalculator": {
+    "title": "出生日期兼容性计算器",
+    "description": "根据您的出生日期发现您的浪漫兼容性！我们的算法分析生日模式、年龄差异和数字学因子，揭示迷人的关系洞察。",
+    "calculate": "计算出生日期兼容性",
+    "whyChooseOurDOBCalculatorTitle": "为什么选择我们的出生日期计算器？",
+    "whyChooseOurBirthdayCalculatorTitle": "为什么选择我们的生日计算器？",
+    "scientificFoundationTitle": "科学基础",
+    "scientificFoundationDescription": "基于数字学研究、日期模式分析和全球关系专家使用的年龄兼容性研究。",
+    "detailedBreakdownTitle": "详细分解",
+    "detailedBreakdownDescription": "我们的算法分析生命周期同步、年龄差异、生命数字和日期模式，以获得深度兼容性洞察。",
+    "socialShareFunTitle": "社交分享乐趣",
+    "socialSharingTitle": "社交分享乐趣",
+    "socialShareFunDescription": "通过出生日期分析探索个性特征和关系动态的有趣而引人入胜的方式。",
+    "socialSharingDescription": "通过出生日期分析探索个性特征和关系动态的有趣而引人入胜的方式。",
+    "dobCompatibilityDescription": "无论您是同年出生还是相隔几十年，无论您的生日是在同一个月还是被季节分隔，我们的出生日期兼容性计算器都为关系的时间联系提供娱乐和洞察。",
+    "birthdayCompatibilityDescription": "无论您是同年出生还是相隔几十年，无论您的生日是在同一个月还是被季节分隔，我们的生日兼容性计算器都为关系的时间联系提供娱乐和洞察。",
+    "howAlgorithmWorksTitle": "我们的出生日期兼容性算法如何工作",
+    "exclusiveDateHarmonyAlgorithm": "我们独有的日期和谐算法结合传统数字学原理与现代兼容性分析，提供准确和引人入胜的出生日期兼容性评估。",
+    "algorithmFoundationDescription": "我们独有的日期和谐算法结合传统数字学原理与现代兼容性分析，提供准确和引人入胜的生日兼容性评估。",
+    "systemAppliesNumerological": "系统应用传统数字学方法，分析生命数字、年龄差异、生日模式和时间周期，以确定时间兼容性。",
+    "comprehensiveCompatibilityProfile": "系统应用传统数字学方法，分析生命数字、年龄差异、生日模式和时间周期，以确定时间兼容性。",
+    "numerologicalFoundation": "数字学基础",
+    "academicFoundation": "学术基础",
+    "algorithmIncorporates": "我们的算法融合经典数字学原理，包括生命数字计算、年龄差异分析、季节性生日模式和出生日期之间的时间周期关系。",
+    "dobAnalysisProcessTitle": "出生日期分析过程",
+    "birthDateAnalysisProcessTitle": "出生日期分析过程",
+    "analyzeLifePathNumbers": "分析生命道路数字和数字学兼容性模式",
+    "extractTemporalPatterns": "提取时间模式和季节影响",
+    "calculateAgeDifferences": "计算年龄差异和生命周期和谐",
+    "calculateNumerologicalPaths": "计算数字学路径和生命对齐",
+    "evaluateBirthdayPatterns": "评估生日模式和季节同步",
+    "analyzeSeasonalPersonalityAlignment": "分析季节性个性对齐",
+    "assessTemporalAlignment": "评估时间对齐和生命周期影响",
+    "evaluateGenerationalHarmony": "评估世代和谐",
+    "calculateDateNumerology": "计算日期数字学和时间共振模式",
+    "generateComprehensiveCompatibilityScore": "生成全面兼容性分数",
+    "fivePillarsTitle": "出生日期兼容性分析的五大支柱",
+    "lifePathHarmony": "生命道路和谐",
+    "lifePathNumberCompatibilityPatterns": "生命道路数字兼容性模式和数字学对齐",
+    "ageBalance": "年龄平衡",
+    "ageHarmony": "年龄和谐",
+    "ageDifferenceHarmonyAnalysis": "年龄差异和谐分析和生命周期同步",
+    "ageHarmonyDescription": "分析年龄差异和生活阶段兼容性 - 年龄更接近的得分更高",
+    "birthdaySync": "生日同步",
+    "seasonalPatterns": "季节模式",
+    "birthdayPatternSeasonalAlignment": "生日模式季节对齐和时间和谐",
+    "seasonalPatternsDescription": "生日模式季节对齐和时间和谐",
+    "temporalAlignment": "时间对齐",
+    "numerologicalPaths": "数字学路径",
+    "lifeCyclePhaseMatching": "生命周期阶段匹配和发展兼容性",
+    "numerologicalPathsDescription": "生命道路数字兼容性模式和数字学对齐",
+    "numericalResonance": "数字共振",
+    "cosmicSync": "宇宙同步",
+    "dateNumerologyVibrationSynchronization": "日期数字学振动同步和数字和谐",
+    "cosmicSyncDescription": "生日模式、天体时机和宇宙连接分析",
+    "generationalEnergy": "世代能量",
+    "generationalEnergyDescription": "生命周期阶段匹配和发展兼容性",
+    "whyDOBCompatibilityMattersTitle": "为什么出生日期兼容性很重要",
+    "whyBirthdayCompatibilityMattersTitle": "为什么生日兼容性很重要",
+    "numerologicalWisdom": "数字学智慧",
+    "numerologicalWisdomDescription": "数千年的数字学传统表明，出生日期影响个性特征和关系动态，提供兼容性模式的洞察。",
+    "temporalPsychology": "时间心理学",
+    "temporalPsychologyDescription": "数千年的数字学传统表明，出生日期影响个性特征和关系动态，提供兼容性模式的洞察。",
+    "lifeCycleInfluences": "生命周期影响",
+    "lifeCycleInfluencesDescription": "年龄差异和生命周期阶段影响沟通风格、生活优先级和关系中的情感表达。",
+    "lifeStageSynchronization": "生活阶段同步",
+    "lifeStageSynchronizationDescription": "年龄差异和生命周期阶段影响沟通风格、生活优先级和关系中的情感表达。",
+    "temporalChemistry": "时间化学",
+    "temporalChemistryDescription": "生日模式和季节对齐创造自然的吸引力和兼容性模式，可以增强伴侣之间的理解。",
+    "seasonalInfluences": "季节影响",
+    "seasonalInfluencesDescription": "生日模式和季节对齐创造自然的吸引力和兼容性模式，可以增强伴侣之间的理解。",
+    "numericalSynchronicity": "数字同步性",
+    "numericalSynchronicityDescription": "出生日期兼容性可以提供关于关系时机、挑战以及成长和和谐机会的洞察。",
+    "poweredByAlgorithmTitle": "📊 由日期和谐算法驱动",
+    "advancedAlgorithmDescription": "我们的先进算法结合传统数字学智慧与现代兼容性分析，评估生命数字、年龄差异和时间模式，提供个性化的出生日期兼容性洞察。",
+    "traditionalNumerologyBased": "基于传统数字学",
+    "numerologyBasedAnalysis": "基于数字学的分析",
+    "ageLifeCycleAnalysis": "年龄和生命周期分析",
+    "seasonalPsychologyPatterns": "季节心理学模式",
+    "5FactorDateScoring": "5因子日期评分",
+    "fiveFactorTemporalScoring": "5因子时间评分",
+    "numerologicalInsightsTitle": "数字学洞察和时间智慧",
+    "numerologicalInsights": {
+      "item1": "生命道路数字兼容性揭示生活目的和目标的自然对齐模式",
+      "item2": "年龄差异影响关系中的沟通风格和情感表达",
+      "item3": "季节性生日模式影响关系动态和生活庆祝方式",
+      "item4": "传统生命周期对齐提供对潜在挑战和和谐连接的洞察",
+      "item5": "时间同步和数字学模式可以增强对关系阶段和成长机会的理解"
+    },
+    "entertainmentOnlyTitle": "🎭 仅供娱乐",
+    "important": "重要",
+    "entertainmentOnlyDescription": "此出生日期兼容性计算器仅供娱乐目的。虽然基于传统数字学原理，但结果不应用作重要关系决策的唯一基础。数字学是一种信仰系统，兼容性取决于出生日期之外的许多个人因素。",
+    "dobCompatibilityTestOnlineTitle": "在线出生日期兼容性测试",
+    "dobCompatibilityTestOnlineDescription": "体验数字学兼容性的魔力，使用我们全面的出生日期计算器。揭示时间连接，探索生命周期和谐，并获得对您的数字学爱情故事的洞察。",
+    "birthdayCompatibilityTestOnlineTitle": "在线生日兼容性测试",
+    "birthdayCompatibilityTestOnlineDescription": "体验数字学兼容性的魔力，使用我们全面的生日计算器。揭示时间连接，探索生命周期和谐，并获得对您的数字学爱情故事的洞察。",
+    "calculateYourDOBCompatibilityNow": "立即计算您的出生日期兼容性",
+    "calculateYourBirthdayCompatibilityNow": "立即计算您的生日兼容性",
+    "yourName": "您的姓名",
+    "theirName": "他们的姓名",
+    "enterYourName": "输入您的姓名",
+    "enterTheirName": "输入他们的姓名",
+    "yourBirthDate": "您的出生日期",
+    "theirBirthDate": "他们的出生日期",
+    "ddmmyyyy": "年年年年/月月/日日",
+    "analyzingBirthDates": "分析出生日期中...",
+    "tryAgain": "重试",
+    "whyNotTryOtherTools": "为什么不试试我们其他有趣的工具？",
+    "loveCalculator": "爱情计算器",
+    "zodiacCompatibilityCalculator": "星座兼容性计算器",
+    "birthdayCompatibilityBreakdown": "生日兼容性分解",
+    "age": "年龄",
+    "season": "季节",
+    "numbers": "数字",
+    "cosmic": "宇宙",
+    "generation": "世代",
+    "ageHarmonyFull": "年龄和谐",
+    "seasonalPatternsFull": "季节模式",
+    "numerologicalPathsFull": "数字学路径",
+    "cosmicSyncFull": "宇宙同步",
+    "generationalEnergyFull": "世代能量",
+    "whyThisScore": "为什么是这个分数？",
+    "scienceBehindScore": "您生日分数背后的科学：",
+    "seasonPatternsDescription": "基于心理学研究的出生月份个性特征和季节能量匹配",
+    "numbersDescription": "使用古代计算方法和命运数字的生命路径数字兼容性",
+    "generationDescription": "出生年份队列分析和世代能量和谐评估",
+    "algorithmExplanation": "此算法结合生物节律研究、数字学原理和季节心理学来分析时间兼容性模式。所有指标按0-100评分，用于精确的生日和谐分析。",
+    "lifeStageAnalysis": "生活阶段分析",
+    "seasonalHarmony": "季节和谐",
+    "numerologicalInsight": "数字学洞察",
+    "shareYourResults": "分享您的结果",
+    "shareYourResultsDescription": "将您的生日分数转化为病毒式内容！",
+    "downloadImage": "下载图片",
+    "copyResults": "复制结果",
+    "copied": "已复制！",
+    "shareYourBirthdayScore": "分享您的生日分数！🎂",
+    "choosePlatform": "选择您喜欢的平台分享您的出生日期兼容性结果",
+    "xTwitter": "X/Twitter",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "snapchat": "Snapchat",
+    "tiktok": "TikTok",
+    "moreApps": "更多应用",
+    "close": "关闭",
+    "seasons": {
+      "spring": "春天",
+      "summer": "夏天",
+      "autumn": "秋天",
+      "winter": "冬天"
+    },
+    "lifeStageMessages": {
+      "perfectSync": "完美同步 - 你们处于同一生活阶段！",
+      "greatAlignment": "很好的对齐 - 相似的生活经历",
+      "complementaryStages": "互补阶段 - 互相学习",
+      "differentPerspectives": "不同视角 - 独特的动力"
+    },
+    "seasonalMatchMessages": {
+      "bothSame": "都是{{season}}宝宝 - 自然和谐！",
+      "different": "{{season1}}遇见{{season2}} - 美丽的对比！"
+    },
+    "numerologyMessages": {
+      "lifePaths": "生命路径{{path1}}和{{path2}} - {{message}}",
+      "twinSouls": "双生灵魂！",
+      "complementaryEnergies": "互补能量"
+    },
+    "overallMessages": {
+      "cosmicSoulmates": "宇宙灵魂伴侣！您的出生日期显示出令人难以置信的兼容性💫",
+      "writtenInStars": "写在星星里！惊人的生日和谐⭐",
+      "beautifulConnection": "美丽的连接！您的日期完美对齐🌟",
+      "goodVibes": "好氛围！稳固的生日兼容性🎂",
+      "uniquePairing": "独特配对！相反的人可以美丽地吸引🎭"
+    },
+    "compatibility": "兼容性",
+    "compatibilityScore": "兼容性分数",
+    "viewAnalysisChart": "查看分析图表",
+    "analysisChart": "分析图表",
+    "hideChart": "隐藏图表",
+    "enterYourBirthDatesTitle": "输入您的出生日期",
+    "enterYourBirthDatesDescription": "通过出生日期分析发现您的宇宙兼容性！",
+    "calculateCompatibility": "计算兼容性"
+  },
+  "zodiacCalculator": {
+    "title": "星座兼容性计算器",
+    "description": "用我们先进的星座兼容性计算器发现您与伴侣的宇宙连接。测试您的星座并探索天体洞察的占星爱情匹配。",
+    "whyChooseOurZodiacCalculatorTitle": "为什么选择我们的星座计算器？",
+    "traditionalAstrologyTitle": "传统占星学",
+    "traditionalAstrologyDescription": "基于世纪之久的占星智慧和全球占星师使用的传统星座兼容性模式。",
+    "comprehensiveAnalysisTitle": "全面分析",
+    "comprehensiveAnalysisDescription": "我们的算法分析元素和谐、行星主宰者、模式和宇宙方面，以获得深刻的兼容性洞察。",
+    "cosmicEntertainmentTitle": "宇宙娱乐",
+    "cosmicEntertainmentDescription": "通过占星学的视角探索个性特征和关系动态的有趣而吸引人的方式。",
+    "zodiacCompatibilityDescription": "无论您是寻求与稳重金牛座和谐的火爆白羊座，还是与分析处女座连接的梦幻双鱼座，我们的星座兼容性计算器都能为关系的宇宙舞蹈提供娱乐和洞察。",
+    "howAlgorithmWorksTitle": "我们的星座兼容性算法如何工作",
+    "exclusiveCelestialHarmonyAlgorithm": "我们独有的天体和谐算法结合传统占星原理与现代兼容性分析，为您提供准确而有趣的星座兼容性评分。",
+    "systemAppliesTraditionalAstrology": "系统应用传统占星方法，分析星座之间的基本关系、它们的主宰行星、元素属性和模式特征，以确定宇宙兼容性。",
+    "astrologicalFoundation": "占星基础",
+    "algorithmIncorporates": "我们的算法融合经典占星原理，包括元素相互作用、行星统治、模式能量和星座之间的传统相位关系。",
+    "zodiacAnalysisProcessTitle": "星座分析过程",
+    "analyzeTraditionalSignCompatibilityPatterns": "分析传统星座兼容性模式和历史占星关系",
+    "calculateElementalHarmony": "计算火、土、气、水星座之间的元素和谐",
+    "evaluateModalitySynchronization": "评估模式同步（基本、固定、变动能量）",
+    "assessPlanetaryRulerRelationships": "评估行星主宰关系和宇宙影响",
+    "calculateCosmicAspectDynamics": "计算宇宙相位动态和占星共振模式",
+    "fivePillarsTitle": "星座兼容性分析的五大支柱",
+    "signHarmonyTitle": "星座和谐",
+    "traditionalZodiacCompatibilityPatterns": "传统星座兼容性模式和占星关系",
+    "elementalBalance": "元素平衡",
+    "fireEarthAirWaterElementInteractions": "火、土、气、水元素相互作用和宇宙和谐",
+    "modalityMatching": "模式匹配",
+    "cardinalFixedMutableEnergyPatternSynchronization": "基本、固定、变动能量模式同步",
+    "planetarySyncTitle": "行星同步",
+    "rulingPlanetRelationships": "主宰行星关系和天体影响",
+    "cosmicAspects": "宇宙相位",
+    "trineSextileOppositionSquareRelationshipDynamics": "三合、六合、对分、四分关系动态",
+    "whyZodiacCompatibilityMattersTitle": "为什么星座兼容性重要",
+    "astrologicalWisdom": "占星智慧",
+    "astrologicalWisdomDescription": "数千年的占星传统表明，天体影响个性特征和关系动态，为兼容性模式提供洞察。",
+    "planetaryInfluences": "行星影响",
+    "planetaryInfluencesDescription": "每个星座都由特定行星主宰，影响关系中的特征、沟通风格和情感表达。",
+    "elementalChemistry": "元素化学",
+    "elementalChemistryDescription": "四大元素（火、土、气、水）创造出自然的吸引力和兼容性模式，可以增进伴侣之间的理解。",
+    "cosmicTiming": "宇宙时机",
+    "cosmicTimingDescription": "占星兼容性可以为关系时机、挑战以及成长和和谐的机会提供洞察。",
+    "poweredByAlgorithmTitle": "🌟 由天体和谐算法驱动",
+    "advancedAlgorithmDescription": "我们的先进算法结合传统占星智慧与现代兼容性分析，评估元素相互作用、行星关系和宇宙相位，提供个性化的星座兼容性洞察。",
+    "traditionalAstrologyBased": "基于传统占星学",
+    "elementalPlanetaryAnalysis": "元素和行星分析",
+    "5FactorCosmicScoring": "5因子宇宙评分",
+    "astrologicalInsightsTitle": "占星洞察和宇宙智慧",
+    "astrologicalInsights": {
+      "item1": "元素兼容性揭示火、土、气、水星座之间的自然吸引模式",
+      "item2": "行星统治影响关系中的沟通风格和情感表达",
+      "item3": "模式能量（基本、固定、变动）影响关系动态和决策方法",
+      "item4": "传统占星相位为潜在挑战和和谐连接提供洞察",
+      "item5": "宇宙时机和天体周期可以增进对关系阶段和成长机会的理解"
+    },
+    "entertainmentOnlyTitle": "🎭 仅供娱乐",
+    "important": "重要",
+    "entertainmentOnlyDescription": "这个星座兼容性计算器仅供娱乐目的。虽然基于传统占星原理，但结果不应作为重要关系决定的唯一依据。占星学是一个信仰系统，兼容性取决于除星座之外的许多个人因素。",
+    "zodiacCompatibilityTestOnlineTitle": "在线星座兼容性测试",
+    "zodiacCompatibilityTestOnlineDescription": "体验占星兼容性的魔力，使用我们全面的星座计算器。发现宇宙连接，探索元素和谐，获得您天体爱情故事的洞察。",
+    "calculateYourZodiacCompatibilityNow": "现在计算您的星座兼容性"
+  },
+  "results": {
+    "compatibilityScore": "兼容性分数",
+    "perfectMatch": "完美匹配！",
+    "excellentMatch": "优秀匹配！",
+    "goodMatch": "良好匹配！",
+    "fairMatch": "一般匹配",
+    "challenging": "挑战性匹配",
+    "description": {
+      "10": "非常不同的性格 - 请谨慎行事！",
+      "20": "这可能是一个具有挑战性的匹配，但每个关系都是独特的。",
+      "30": "显著差异，但有时相反的吸引！",
+      "40": "前面有一些挑战，但爱情可以克服障碍。",
+      "50": "中等兼容性 - 友谊可能比浪漫更好。",
+      "60": "良好的兼容性，有一些需要共同努力的领域。",
+      "70": "非常好的匹配，有很大的潜力发展出美好的关系。",
+      "80": "优秀的兼容性！你们完美地互补。",
+      "90": "你们两个绝对完美匹配！这是一生一次的连接。"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "zh": "中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी"
+  },
+  "meta": {
+    "title": "爱情计算器 – 免费姓名和爱情兼容性测试",
+    "description": "用我们免费的爱情计算器发现您的爱情兼容性！测试关系兼容性、姓名匹配，获得有趣的个性化结果进行分享。",
+    "keywords": [
+      "爱情计算器",
+      "姓名兼容性",
+      "爱情兼容性测试",
+      "关系测验",
+      "有趣的爱情测试"
+    ],
+    "author": "爱情计算器团队",
+    "creator": "爱情计算器",
+    "publisher": "爱情计算器",
+    "siteName": "爱情计算器",
+    "ogImageAlt": "爱情计算器 - 测试您的兼容性"
+  },
+  "header": {
+    "loveCalculator": "爱情计算器",
+    "moreTools": "更多工具",
+    "about": "关于",
+    "contact": "联系",
+    "funQuizzes": "有趣测验 ✨",
+    "relationshipQuiz": "关系测验",
+    "communicationQuiz": "沟通风格测验",
+    "loveLanguageAssessment": "爱语评估",
+    "futureGoalsCompatibility": "未来目标兼容性",
+    "conflictResolutionQuiz": "冲突解决风格测验",
+    "supportAndLegal": "支持和法律 📋",
+    "contactUs": "联系我们",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "dateOfBirthCompatibilityCalculator": "出生日期兼容性计算器",
+    "zodiacCompatibilityCalculator": "星座兼容性计算器",
+    "nameCompatibility": "姓名兼容性",
+    "loveCompatibilityTest": "爱情兼容性测试",
+    "funLoveTest": "有趣爱情测试",
+    "zodiacCalculator": "星座兼容性计算器",
+    "dobCalculator": "出生日期兼容性计算器",
+    "zodiacCalculatorDescription": "测试占星爱情兼容性",
+    "dobCalculatorDescription": "分析出生日期兼容性模式",
+    "relationshipQuizDescription": "回答关于您关系的问题",
+    "communicationQuizDescription": "发现您的沟通模式",
+    "loveLanguageAssessmentDescription": "发现您的主要爱语",
+    "futureGoalsCompatibilityDescription": "看看您的人生目标有多一致",
+    "conflictResolutionQuizDescription": "学习您的冲突解决方法"
+  },
+  "footer": {
+    "description": "用我们有趣而引人入胜的爱情计算器发现您的爱情兼容性。测试您的关系兼容性并与朋友分享结果！",
+    "calculators": "爱情计算器",
+    "company": "公司",
+    "about": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们",
+    "forLove": "为了爱",
+    "funQuizzes": "有趣测验 ✨",
+    "relationshipQuiz": "关系测验",
+    "relationshipQuizDescription": "参加我们有趣的8问测验，获得引人入胜的关系洞察",
+    "communicationQuiz": "沟通风格测验",
+    "communicationQuizDescription": "了解您和伴侣如何沟通以及在哪些方面可以改进",
+    "loveLanguageAssessment": "爱语评估",
+    "loveLanguageAssessmentDescription": "发现您的主要爱语，学习如何更好地表达爱",
+    "futureGoalsCompatibility": "未来目标兼容性",
+    "futureGoalsCompatibilityDescription": "看看您的人生目标和未来梦想有多一致",
+    "conflictResolutionQuiz": "冲突解决风格测验",
+    "conflictResolutionQuizDescription": "了解您如何处理分歧以及如何更好地解决冲突",
+    "supportAndLegal": "支持和法律 📋",
+    "contactUs": "联系我们",
+    "contactUsDescription": "联系我们的团队，询问问题、反馈或支持",
+    "privacyPolicy": "隐私政策",
+    "privacyPolicyDescription": "了解我们如何保护您的数据和隐私，让您尽情享受",
+    "termsOfService": "服务条款",
+    "termsOfServiceDescription": "使用我们娱乐服务的条款和条件",
+    "moreTools": "更多工具",
+    "dateOfBirthCompatibilityCalculator": "出生日期兼容性计算器",
+    "zodiacCompatibilityCalculator": "星座兼容性计算器",
+    "nameCompatibility": "姓名兼容性",
+    "loveCompatibilityTest": "爱情兼容性测试",
+    "funLoveTest": "有趣爱情测试",
+    "allRightsReserved": "版权所有。",
+    "madeWithLove": "用❤️为所有人制作。",
+    "copyrightNotice": "© 2025 爱情计算器。",
+    "shareText": "通过我们有趣的爱情计算器发现你们的爱情兼容性！测试你们的关系兼容性并与朋友分享结果！ 💕",
+    "shareTextShort": "发现你们的爱情兼容性！ 💕 测试你们的关系兼容性并与朋友分享结果！",
+    "copyForInstagram": "复制这段文字到Instagram:",
+    "createTikTok": "用这个说明创建TikTok:",
+    "shareRedditTitle": "发现你们的爱情兼容性!",
+    "shareRedditText": "有趣的爱情计算器 - 测试你们的关系兼容性并与朋友分享结果!"
+  },
+  "quizzes": {
+    "common": {
+      "tryAgain": "重试",
+      "loveCalculator": "爱情计算器",
+      "exploreOtherQuizzes": "探索其他测验",
+      "relationshipQuiz": "关系测验",
+      "answerQuestions": "回答问题",
+      "communicationStyleQuiz": "沟通风格测验",
+      "learnYourCommunicationStyle": "了解您的沟通风格",
+      "loveLanguageAssessment": "爱语评估",
+      "discoverYourLoveLanguage": "发现您的爱语",
+      "futureGoalsCompatibility": "未来目标兼容性",
+      "alignYourFutureGoals": "协调您的未来目标",
+      "conflictResolutionQuiz": "冲突解决测验",
+      "learnYourApproach": "了解您的方法",
+      "percentage": "{{percentage}}%",
+      "primary": "主要",
+      "primaryStyle": "主要风格",
+      "compatible": "兼容",
+      "question": "问题 {{current}} / {{total}}",
+      "startQuiz": "开始测验",
+      "nextQuestion": "下一题",
+      "previousQuestion": "上一题",
+      "viewResults": "查看结果",
+      "retakeQuiz": "重新测验",
+      "yourResult": "您的结果",
+      "yourScore": "您的分数",
+      "yourStrongestAreas": "您最强的领域",
+      "areasForDiscussion": "讨论领域",
+      "detailedCompatibilityBreakdown": "详细兼容性分析",
+      "careerGoals": "职业目标",
+      "familyPlans": "家庭计划",
+      "lifestyle": "生活方式",
+      "financialGoals": "财务目标",
+      "personalGrowth": "个人成长",
+      "yourLoveLanguageScores": "您的爱语分数",
+      "yourConflictStyleBreakdown": "您的冲突风格分析",
+      "collaborative": "协作型",
+      "compromising": "妥协型",
+      "competing": "竞争型",
+      "accommodating": "迁就型",
+      "avoiding": "回避型",
+      "wellMatched": "非常匹配",
+      "goodFoundation": "良好基础",
+      "workInProgress": "需要努力",
+      "analytical": "分析型",
+      "competing": "自信型",
+      "expressive": "表达型",
+      "diplomatic": "外交型",
+      "greatCompatibility": "极佳兼容性",
+      "strongConnection": "强烈连接",
+      "goodPotential": "良好潜力",
+      "needsWork": "需要改进",
+      "relationshipFocus": "关系焦点",
+      "strengthAndGrowth": "力量与成长",
+      "discoverYourPatterns": "发现您的模式",
+      "whyTakeOurQuiz": "为什么参加我们的测验",
+      "selfAwareness": "自我认知",
+      "gainInsights": "获得洞察",
+      "communication": "沟通",
+      "startMeaningfulConversations": "开始有意义的对话",
+      "growth": "成长",
+      "identifyStrengths": "识别优势",
+      "communicationFocus": "沟通焦点",
+      "understandYourPatterns": "了解您的模式",
+      "whyCommunicationMatters": "为什么沟通很重要",
+      "betterUnderstanding": "更好的理解",
+      "learnHowYouCommunicate": "了解您如何沟通",
+      "reduceConflicts": "减少冲突",
+      "understandingDifferences": "理解差异",
+      "strongerConnection": "更强的连接",
+      "adaptYourCommunication": "调整您的沟通",
+      "loveFocus": "爱情焦点",
+      "understandHowYouExpress": "了解您如何表达",
+      "whatYoullLearn": "您将学到什么",
+      "yourPrimaryLoveLanguage": "您的主要爱语",
+      "discoverWhichLoveLanguage": "发现哪种爱语",
+      "howToExpressLove": "如何表达爱意",
+      "learnBestWaysToShow": "学习最佳表达方式",
+      "relationshipGrowthTips": "关系成长技巧",
+      "getPersonalizedAdvice": "获得个性化建议",
+      "goalsFocus": "目标焦点",
+      "alignYourDreams": "协调您的梦想",
+      "whatFutureGoalsWillReveal": "未来目标将揭示什么",
+      "goalAlignmentScore": "目标一致性分数",
+      "seeHowCloselyGoals": "看目标有多接近",
+      "sharedPathPlanning": "共同路径规划",
+      "learnHowToCreate": "学习如何创建",
+      "compromiseStrategies": "妥协策略",
+      "getTipsOnNavigating": "获得导航技巧",
+      "conflictFocus": "冲突焦点",
+      "transformDisagreements": "转化分歧",
+      "whatYoullDiscoverConflict": "您将发现的冲突",
+      "yourConflictStyle": "您的冲突风格",
+      "identifyYourPrimaryApproach": "识别您的主要方法",
+      "resolutionStrategies": "解决策略",
+      "learnEffectiveTechniques": "学习有效技巧",
+      "relationshipImprovement": "关系改善",
+      "discoverHowToBuild": "发现如何建立",
+      "understandingDifferentStyles": "理解不同风格",
+      "compatible": "兼容",
+      "yourStrongestAreas": "您最强的领域",
+      "areasForDiscussion": "讨论领域",
+      "detailedCompatibilityBreakdown": "详细兼容性分析",
+      "careerGoals": "职业目标",
+      "familyPlans": "家庭计划",
+      "lifestyle": "生活方式",
+      "financialGoals": "财务目标",
+      "personalGrowth": "个人成长",
+      "question": "问题 {{current}} / {{total}}",
+      "tryAgain": "重新尝试",
+      "exploreOtherQuizzes": "探索其他测验",
+      "collaborative": "协作型",
+      "competing": "竞争型",
+      "accommodating": "迁就型",
+      "avoiding": "回避型",
+      "compromising": "妥协型",
+      "relationshipFocus": "关系焦点",
+      "strengthAndGrowth": "力量和成长",
+      "loveFocus": "爱情焦点",
+      "understandHowYouExpress": "了解您如何表达爱意",
+      "communicationFocus": "沟通焦点",
+      "understandYourPatterns": "了解您的模式",
+      "conflictFocus": "冲突焦点",
+      "transformDisagreements": "转化分歧",
+      "primaryStyle": "主要风格",
+      "yourConflictStyleBreakdown": "您的冲突风格分析"
+    },
+    "relationshipQuiz": {
+      "title": "关系测验",
+      "description": "发现您的关系兼容性和爱情风格",
+      "questions": {
+        "q1": {
+          "question": "在关系中，您最重视什么？",
+          "options": {
+            "opt1": "开放诚实的沟通",
+            "opt2": "身体亲密和感情",
+            "opt3": "共同的兴趣和活动",
+            "opt4": "相互支持和理解"
+          }
+        },
+        "q2": {
+          "question": "您如何处理关系中的分歧？",
+          "options": {
+            "opt1": "直接讨论直到解决",
+            "opt2": "给彼此时间冷静下来",
+            "opt3": "寻找妥协",
+            "opt4": "避免冲突，保持和谐"
+          }
+        },
+        "q3": {
+          "question": "您的理想约会夜是什么？",
+          "options": {
+            "opt1": "深入对话配晚餐",
+            "opt2": "舒适的家庭电影之夜",
+            "opt3": "冒险或新体验",
+            "opt4": "浪漫的环境，只有我们两个"
+          }
+        },
+        "q4": {
+          "question": "您如何表达爱意？",
+          "options": {
+            "opt1": "说出我的感受",
+            "opt2": "身体接触和拥抱",
+            "opt3": "做特别的事情",
+            "opt4": "花时间在一起"
+          }
+        },
+        "q5": {
+          "question": "关系中什么让您感到最被爱？",
+          "options": {
+            "opt1": "听到确认的话语",
+            "opt2": "收到拥抱和亲吻",
+            "opt3": "得到帮助或礼物",
+            "opt4": "获得全部关注"
+          }
+        },
+        "q6": {
+          "question": "您如何处理压力？",
+          "options": {
+            "opt1": "谈论它",
+            "opt2": "寻求身体安慰",
+            "opt3": "分散注意力做其他事情",
+            "opt4": "独自安静的时间"
+          }
+        },
+        "q7": {
+          "question": "对您来说什么构成质量时间？",
+          "options": {
+            "opt1": "有意义的对话",
+            "opt2": "身体上的亲近",
+            "opt3": "一起做活动",
+            "opt4": "不被打扰的关注"
+          }
+        },
+        "q8": {
+          "question": "您如何喜欢庆祝特殊场合？",
+          "options": {
+            "opt1": "真诚的话语和赞美",
+            "opt2": "身体亲密",
+            "opt3": "周到的礼物或惊喜",
+            "opt4": "专属的时间在一起"
+          }
+        },
+        "q9": {
+          "question": "当您的伴侣心情不好时，您会做什么？",
+          "options": {
+            "opt1": "问他们想谈论什么",
+            "opt2": "给他们拥抱",
+            "opt3": "做一些让他们开心的事",
+            "opt4": "陪伴他们"
+          }
+        },
+        "q10": {
+          "question": "什么让关系感觉最满足？",
+          "options": {
+            "opt1": "开放诚实的沟通",
+            "opt2": "身体和情感的亲密",
+            "opt3": "共同创造回忆",
+            "opt4": "深度连接和理解"
+          }
+        }
+      },
+      "results": {
+        "communicator": {
+          "title": "沟通者",
+          "message": "您重视开放、诚实的沟通，相信话语的力量能建立强大的关系。"
+        },
+        "nurturer": {
+          "title": "养育者",
+          "message": "您通过身体接触和情感支持表达爱意，创造温暖、关爱的关系。"
+        },
+        "adventurer": {
+          "title": "冒险家",
+          "message": "您通过共同体验和创造回忆来建立联系，为关系带来兴奋和新奇。"
+        },
+        "companion": {
+          "title": "伴侣",
+          "message": "您重视深度连接和质量时间，专注于建立持久、有意义的伴侣关系。"
+        },
+        "perfectMatch": {
+          "title": "完美匹配",
+          "message": "您们是绝对完美的一对！您的价值观和沟通风格完美契合，为持久的关系奠定了坚实基础。"
+        },
+        "wellMatched": {
+          "title": "非常匹配",
+          "message": "您们在关系中有很强的兼容性和理解。"
+        },
+        "goodFoundation": {
+          "title": "良好基础",
+          "message": "您们有建立强大关系的坚实基础。"
+        },
+        "workInProgress": {
+          "title": "需要努力",
+          "message": "您们的关系有潜力，但需要一些努力和理解。"
+        },
+        "excellent": {
+          "title": "出色的关系！🌟",
+          "message": "你们两个是关系目标！你们的兼容性超乎想象。"
+        },
+        "good": {
+          "title": "良好的关系！💫",
+          "message": "你们拥有一段充满潜力的牢固关系。"
+        },
+        "needsWork": {
+          "title": "稳固的关系！🌱",
+          "message": "你们拥有一段有成长空间的稳固关系。"
+        },
+        "growing": {
+          "title": "成长中的关系！🚀",
+          "message": "每段关系都可以通过努力和沟通得到改善。"
+        },
+        "greatCompatibility": {
+          "title": "很好的兼容性！💕",
+          "message": "你们有很强的关系，有很好的潜力。"
+        }
+      }
+    },
+    "communicationStyleQuiz": {
+      "title": "沟通风格测验",
+      "description": "发现您的独特沟通风格",
+      "questions": {
+        "q1": {
+          "question": "在群体讨论中，您通常：",
+          "options": {
+            "opt1": "主导对话",
+            "opt2": "仔细倾听然后发言",
+            "opt3": "鼓励他人分享",
+            "opt4": "保持安静，除非被问及"
+          }
+        },
+        "q2": {
+          "question": "当有人不同意您的观点时，您：",
+          "options": {
+            "opt1": "为您的立场辩护",
+            "opt2": "寻求理解他们的观点",
+            "opt3": "寻找共同点",
+            "opt4": "避免进一步的冲突"
+          }
+        },
+        "q3": {
+          "question": "您更喜欢通过以下方式接收反馈：",
+          "options": {
+            "opt1": "直接和坦率",
+            "opt2": "详细和解释性",
+            "opt3": "建设性和鼓励性",
+            "opt4": "温和和私下"
+          }
+        },
+        "q4": {
+          "question": "在会议中，您：",
+          "options": {
+            "opt1": "经常发言并分享想法",
+            "opt2": "提出深思熟虑的问题",
+            "opt3": "帮助促进讨论",
+            "opt4": "主要倾听和观察"
+          }
+        },
+        "q5": {
+          "question": "当解释复杂想法时，您：",
+          "options": {
+            "opt1": "直接切入要点",
+            "opt2": "提供详细的背景",
+            "opt3": "使用类比和例子",
+            "opt4": "检查理解"
+          }
+        },
+        "q6": {
+          "question": "您的沟通风格最好描述为：",
+          "options": {
+            "opt1": "自信和直接",
+            "opt2": "分析和深思",
+            "opt3": "支持和鼓励",
+            "opt4": "耐心和体贴"
+          }
+        },
+        "q7": {
+          "question": "处理敏感话题时，您：",
+          "options": {
+            "opt1": "直接解决问题",
+            "opt2": "仔细考虑您的话语",
+            "opt3": "专注于情感需求",
+            "opt4": "轻柔地接近话题"
+          }
+        },
+        "q8": {
+          "question": "在演讲时，您：",
+          "options": {
+            "opt1": "自信地传达您的信息",
+            "opt2": "彻底准备和研究",
+            "opt3": "与观众建立联系",
+            "opt4": "保持冷静和稳重"
+          }
+        },
+        "q9": {
+          "question": "当有人寻求建议时，您：",
+          "options": {
+            "opt1": "给出明确的建议",
+            "opt2": "帮助他们分析选择",
+            "opt3": "提供情感支持",
+            "opt4": "倾听并温和地引导"
+          }
+        },
+        "q10": {
+          "question": "您在团队中的角色通常是：",
+          "options": {
+            "opt1": "领导者",
+            "opt2": "分析师",
+            "opt3": "协调者",
+            "opt4": "支持者"
+          }
+        }
+      },
+      "results": {
+        "direct": {
+          "title": "直接型",
+          "message": "您价值清晰、高效的沟通。您直接表达想法，欣赏诚实和坦率。"
+        },
+        "analytical": {
+          "title": "分析型",
+          "message": "您深思熟虑地处理沟通，重视深度理解和详细讨论。",
+          "description": "您深思熟虑地处理沟通，重视深度理解和详细讨论。您喜欢分析情况并提供周到的回应。"
+        },
+        "supportive": {
+          "title": "支持型",
+          "message": "您专注于建立他人，创造积极的沟通环境，重视情感连接。"
+        },
+        "diplomatic": {
+          "title": "外交型",
+          "message": "您以关怀和体贴处理沟通，重视和谐和理解。"
+        },
+        "expressive": {
+          "title": "表达型",
+          "message": "您善于表达自己的想法和感受，沟通开放而热情。",
+          "description": "您善于表达自己的想法和感受，沟通开放而热情。您能够清楚地传达您的观点并与他人建立联系。"
+        }
+      }
+    },
+    "loveLanguageAssessment": {
+      "title": "爱语评估",
+      "description": "通过这个全面的评估，发现你表达和接受爱意的主要方式。",
+      "questions": {
+        "q1": {
+          "question": "什么让您感到最被爱？",
+          "options": {
+            "opt1": "听到我爱你和赞美",
+            "opt2": "收到拥抱和亲吻",
+            "opt3": "收到周到的礼物",
+            "opt4": "得到帮助完成任务",
+            "opt5": "获得全部关注"
+          }
+        },
+        "q2": {
+          "question": "您如何表达对某人的关心？",
+          "options": {
+            "opt1": "告诉他们您欣赏他们",
+            "opt2": "给他们拥抱或触摸",
+            "opt3": "给他们惊喜礼物",
+            "opt4": "为他们做事情",
+            "opt5": "花时间与他们在一起"
+          }
+        },
+        "q3": {
+          "question": "什么让您感到最被忽视？",
+          "options": {
+            "opt1": "缺乏赞美或确认",
+            "opt2": "缺乏身体接触",
+            "opt3": "被遗忘的特殊场合",
+            "opt4": "缺乏帮助",
+            "opt5": "缺乏质量时间"
+          }
+        },
+        "q4": {
+          "question": "您最喜欢的生日礼物类型是什么？",
+          "options": {
+            "opt1": "真诚的生日祝福",
+            "opt2": "温暖的拥抱",
+            "opt3": "周到的礼物",
+            "opt4": "帮助庆祝",
+            "opt5": "一整天的关注"
+          }
+        },
+        "q5": {
+          "question": "当您感到沮丧时，什么最能帮助您？",
+          "options": {
+            "opt1": "鼓励的话语",
+            "opt2": "安慰的拥抱",
+            "opt3": "小小的惊喜",
+            "opt4": "实际的帮助",
+            "opt5": "有人倾听"
+          }
+        },
+        "q6": {
+          "question": "您如何喜欢庆祝成就？",
+          "options": {
+            "opt1": "听到赞美",
+            "opt2": "庆祝的拥抱",
+            "opt3": "庆祝礼物",
+            "opt4": "帮助庆祝",
+            "opt5": "分享时刻"
+          }
+        },
+        "q7": {
+          "question": "在关系中，您最重视什么？",
+          "options": {
+            "opt1": "听到我被爱和欣赏",
+            "opt2": "身体亲密和接触",
+            "opt3": "收到有意义的礼物",
+            "opt4": "获得帮助和支持",
+            "opt5": "共度不被打扰的时光"
+          }
+        },
+        "q8": {
+          "question": "什么让您感到与伴侣最亲近？",
+          "options": {
+            "opt1": "深入的对话",
+            "opt2": "拥抱和依偎",
+            "opt3": "交换礼物",
+            "opt4": "一起完成任务",
+            "opt5": "专属的时间"
+          }
+        },
+        "q9": {
+          "question": "您如何知道有人真正关心您？",
+          "options": {
+            "opt1": "他们告诉您",
+            "opt2": "他们拥抱您",
+            "opt3": "他们给您礼物",
+            "opt4": "他们帮助您",
+            "opt5": "他们与您共度时光"
+          }
+        },
+        "q10": {
+          "question": "什么最能表达爱意？",
+          "options": {
+            "opt1": "说我爱你",
+            "opt2": "身体接触",
+            "opt3": "周到的礼物",
+            "opt4": "服务行为",
+            "opt5": "质量时间"
+          }
+        }
+      },
+      "results": {
+        "wordsOfAffirmation": {
+          "title": "肯定的话语",
+          "message": "您通过口头确认和赞美茁壮成长。您重视鼓励的话语和口头表达的爱意。",
+          "description": "您通过口头确认和赞美茁壮成长。您重视鼓励的话语和口头表达的爱意，这让您感到被重视和被爱。"
+        },
+        "physicalTouch": {
+          "title": "身体接触",
+          "message": "您通过身体亲密和接触感受到爱。拥抱、亲吻和温柔的触摸对您意义重大。"
+        },
+        "receivingGifts": {
+          "title": "接受礼物",
+          "message": "您欣赏周到的礼物和手势。对您来说，礼物象征着爱意和关怀。"
+        },
+        "actsOfService": {
+          "title": "服务行为",
+          "message": "您通过行动感受到爱。当有人为您做事或帮助您时，您感到最被爱。"
+        },
+        "qualityTime": {
+          "title": "质量时间",
+          "message": "您重视不被打扰的关注和共度的时光。对您来说，存在就是最好的礼物。",
+          "description": "您重视不被打扰的关注和共度的时光。对您来说，存在就是最好的礼物。专注的陪伴让您感到最被爱。"
+        }
+      }
+    },
+    "futureGoalsCompatibility": {
+      "title": "未来目标兼容性",
+      "description": "发现您的未来愿景兼容性",
+      "questions": {
+        "q1": {
+          "question": "五年后您看到自己：",
+          "options": {
+            "opt1": "在事业上取得新机会的进展",
+            "opt2": "专注于建立强大的家庭",
+            "opt3": "旅行和探索新地方",
+            "opt4": "拥有房屋并建立稳定性"
+          }
+        },
+        "q2": {
+          "question": "您理想的生活状况包括：",
+          "options": {
+            "opt1": "住在繁华城市附近的职业机会",
+            "opt2": "安静的郊区，非常适合建立家庭",
+            "opt3": "在不同地方生活的灵活性",
+            "opt4": "乡村或乡郊环境"
+          }
+        },
+        "q3": {
+          "question": "关于孩子，您：",
+          "options": {
+            "opt1": "绝对希望在未来几年内要孩子",
+            "opt2": "对孩子持开放态度，但想先享受关系",
+            "opt3": "不确定，想看看关系如何发展",
+            "opt4": "更愿意专注于其他生活目标"
+          }
+        },
+        "q4": {
+          "question": "您的财务目标专注于：",
+          "options": {
+            "opt1": "建立事业以增加收入",
+            "opt2": "为家庭投资储蓄",
+            "opt3": "资助冒险和体验",
+            "opt4": "创造稳定和安全"
+          }
+        },
+        "q5": {
+          "question": "您想象周末时光：",
+          "options": {
+            "opt1": "从事个人项目或技能",
+            "opt2": "在家与家人共度美好时光",
+            "opt3": "探索新地方或活动",
+            "opt4": "放松并享受简单的乐趣"
+          }
+        },
+        "q6": {
+          "question": "您对变化的态度：",
+          "options": {
+            "opt1": "欢迎它们作为成长机会",
+            "opt2": "如果对家庭有益就接受",
+            "opt3": "喜欢它们并寻求新挑战",
+            "opt4": "更喜欢稳定，但必要时会适应"
+          }
+        },
+        "q7": {
+          "question": "对您重要的个人价值观是：",
+          "options": {
+            "opt1": "成就和个人成功",
+            "opt2": "家庭和创造遗产",
+            "opt3": "自由和新体验",
+            "opt4": "安全和社区联系"
+          }
+        },
+        "q8": {
+          "question": "关于教育和成长，您：",
+          "options": {
+            "opt1": "总是寻找专业发展的方法",
+            "opt2": "对有益于家庭的学习感兴趣",
+            "opt3": "喜欢学习各种主题和技能",
+            "opt4": "重视实用知识和稳定性"
+          }
+        },
+        "q9": {
+          "question": "您理想的工作生活平衡：",
+          "options": {
+            "opt1": "专注于事业，个人时间用于恢复",
+            "opt2": "工作和家庭时间均衡分配",
+            "opt3": "灵活，允许冒险和探索",
+            "opt4": "稳定的时间表，可预测的个人时间"
+          }
+        },
+        "q10": {
+          "question": "当您规划未来时，您：",
+          "options": {
+            "opt1": "设定明确的职业目标和里程碑",
+            "opt2": "规划家庭活动和传统",
+            "opt3": "保持开放和适应机会",
+            "opt4": "专注于创造安全、稳定的生活"
+          }
+        }
+      },
+      "results": {
+        "careerFocused": {
+          "title": "事业导向",
+          "message": "您优先考虑专业成长和成就，重视雄心和成功。"
+        },
+        "familyOriented": {
+          "title": "家庭导向",
+          "message": "您的未来围绕建立强大的家庭关系和创造持久的传统。"
+        },
+        "adventureSeeker": {
+          "title": "冒险寻求者",
+          "message": "您重视自由、体验和探索生活所提供的一切。"
+        },
+        "stabilitySeeker": {
+          "title": "稳定寻求者",
+          "message": "您优先考虑安全、稳定和建立坚实的基础。"
+        },
+        "highlyCompatible": {
+          "title": "高度兼容",
+          "message": "您们的未来目标完美契合！您有着相似的人生愿景和价值观。"
+        },
+        "greatCompatibility": {
+          "title": "极佳兼容性",
+          "message": "您们的未来愿景高度一致，共同目标明确。"
+        },
+        "goodPotential": {
+          "title": "良好潜力",
+          "message": "您们有很好的兼容性基础，可以建立共同的未来。"
+        },
+        "needsWork": {
+          "title": "需要改进",
+          "message": "您们的目标有些差异，需要沟通和妥协。"
+        },
+        "someAlignment": {
+          "title": "部分一致",
+          "message": "您们在某些目标上有共同点，但在其他方面需要讨论和妥协以建立共同愿景。"
+        },
+        "significantDifferences": {
+          "title": "显著差异",
+          "message": "您们的未来目标存在重要差异。需要开放的沟通和妥协来找到共同道路。"
+        }
+      }
+    },
+    "conflictResolutionQuiz": {
+      "title": "冲突解决测验",
+      "description": "发现您的冲突解决风格",
+      "questions": {
+        "q1": {
+          "question": "当面临分歧时，您的第一反应是：",
+          "options": {
+            "opt1": "直接解决问题",
+            "opt2": "理解所有观点",
+            "opt3": "寻找对每个人都有效的解决方案",
+            "opt4": "给每个人时间冷静下来",
+            "opt5": "避免升级情况"
+          }
+        },
+        "q2": {
+          "question": "在激烈讨论中，您倾向于：",
+          "options": {
+            "opt1": "积极为您的观点辩护",
+            "opt2": "提出问题以获得更好的理解",
+            "opt3": "寻找对双方都有益的解决方案",
+            "opt4": "保持冷静并在说话前思考",
+            "opt5": "建议暂停对话"
+          }
+        },
+        "q3": {
+          "question": "当您无法达成一致时，您：",
+          "options": {
+            "opt1": "继续争论直到找到解决方案",
+            "opt2": "努力理解为什么您不同意",
+            "opt3": "提出满足双方需求的解决方案",
+            "opt4": "建议对此事情考虑一晚",
+            "opt5": "同意不同意并继续前进"
+          }
+        },
+        "q4": {
+          "question": "您在冲突中的主要目标：",
+          "options": {
+            "opt1": "确保真相被听到",
+            "opt2": "理解所有涉及的观点",
+            "opt3": "找到对每个人都有效的解决方案",
+            "opt4": "维持和平与和谐",
+            "opt5": "避免不必要地伤害感情"
+          }
+        },
+        "q5": {
+          "question": "当您的伴侣心烦意乱时，您的第一反应：",
+          "options": {
+            "opt1": "提供解决方案来解决情况",
+            "opt2": "倾听并试图理解他们的感受",
+            "opt3": "找到您可以互相支持的方法",
+            "opt4": "给他们处理情绪的空间",
+            "opt5": "身体安慰他们（拥抱、温柔）"
+          }
+        },
+        "q6": {
+          "question": "在压力下，您倾向于：",
+          "options": {
+            "opt1": "变得更加直接和专注",
+            "opt2": "仔细检查并寻求更多信息",
+            "opt3": "谈论困扰您的事情",
+            "opt4": "变得更安静和反思",
+            "opt5": "分散注意力或远离情况"
+          }
+        },
+        "q7": {
+          "question": "面对重要决定时，您：",
+          "options": {
+            "opt1": "快速分析并做出决定",
+            "opt2": "彻底研究所有选项",
+            "opt3": "与受影响的人讨论",
+            "opt4": "随着时间的推移反思",
+            "opt5": "跟随直觉/感觉"
+          }
+        },
+        "q8": {
+          "question": "您的沟通最好描述为：",
+          "options": {
+            "opt1": "直接和诚实",
+            "opt2": "深思熟虑和好奇",
+            "opt3": "开放和响应",
+            "opt4": "谨慎和体贴",
+            "opt5": "温暖和支持"
+          }
+        },
+        "q9": {
+          "question": "当有人批评您时，您通常：",
+          "options": {
+            "opt1": "为您的立场辩护",
+            "opt2": "要求澄清或例子",
+            "opt3": "考虑他们的观点",
+            "opt4": "感到受伤但不表现出来",
+            "opt5": "把它放在心上"
+          }
+        },
+        "q10": {
+          "question": "在关系中您最重视：",
+          "options": {
+            "opt1": "诚实和清晰",
+            "opt2": "相互理解",
+            "opt3": "团队合作和协作",
+            "opt4": "和平与稳定",
+            "opt5": "情感连接和亲密"
+          }
+        }
+      },
+      "results": {
+
+        "collaborating": {
+          "title": "协作型",
+          "message": "您寻求双赢解决方案，重视理解和合作寻找最佳结果。"
+        },
+        "compromising": {
+          "title": "妥协型",
+          "message": "您寻找中间地带，愿意放弃一些东西以达成协议。"
+        },
+        "accommodating": {
+          "title": "迁就型",
+          "message": "您优先考虑关系和谐，经常把他人的需求放在自己的需求之前。",
+          "description": "您优先考虑关系和谐，经常把他人的需求放在自己的需求之前。您善于保持和平并避免冲突升级。"
+        },
+        "avoiding": {
+          "title": "回避型",
+          "message": "您更喜欢避免冲突，重视和平并可能需要时间处理分歧。"
+        },
+        "competing": {
+          "title": "竞争策略师 🏆",
+          "description": "您倾向于坚持自己的立场，积极为自己的观点辩护。您重视正确和获胜。",
+          "strengths": [
+            "明确表达自己的需求",
+            "在困难情况下果断",
+            "为重要价值观而战",
+            "快速取得结果"
+          ],
+          "challenges": [
+            "可能损害关系和谐",
+            "可能升级冲突",
+            "伴侣可能感到未被倾听",
+            "可能错过妥协机会"
+          ],
+          "tips": [
+            "练习积极倾听",
+            "考虑伴侣的感受",
+            "明智地选择您的战斗",
+            "提问而不是只争论"
+          ],
+          "partnerAdvice": [
+            "在重要问题上坚持立场",
+            "帮助他们看到您的观点",
+            "欣赏他们的热情和承诺"
+          ]
+        },
+        "collaborative": {
+          "title": "协作型",
+          "message": "您寻求双赢解决方案，重视理解和合作寻找最佳结果。",
+          "description": "您寻求双赢解决方案，重视理解和合作寻找最佳结果。您相信通过协作可以找到对所有人都有效的解决方案。"
+        }
+      }
+    }
+  },
+  "charts": {
+    "score": "得分",
+    "chartScore": "得分: {{score}}/100",
+    "chartTooltipScore": "得分",
+    "compatibilityBreakdown": "兼容性分析",
+    "loveLanguageBreakdown": "爱的语言分析",
+    "communicationBreakdown": "沟通风格分析",
+    "conflictStyleBreakdown": "冲突解决分析",
+    "futureGoalsBreakdown": "未来目标分析"
+  }
+}

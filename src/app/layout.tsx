@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     apple: '/favicon.svg',
     shortcut: '/favicon.svg'
   },
-  manifest: '/manifest.json',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -67,50 +66,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" 
-          rel="stylesheet" 
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "name": "Love Calculator",
-              "description": "Free love compatibility calculator and relationship tests",
-              "url": "https://love-calculator.vercel.app",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://love-calculator.vercel.app/love-calculator?q={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            })
-          }}
-        />
-      </head>
-      <body className="font-inter antialiased" suppressHydrationWarning={true}>
-        <div className="floating-hearts">
-          {[...Array(10)].map((_, i) => (
-            <div
-              key={i}
-              className="heart"
-              style={{
-                left: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 15}s`,
-              }}
-      >
-              💖
-            </div>
-          ))}
-        </div>
-        {children}
-      </body>
-    </html>
-  );
+  return children;
 }

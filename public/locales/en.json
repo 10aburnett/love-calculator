@@ -1,0 +1,2008 @@
+{
+  "landing": {
+    "headline": "Love Calculator",
+    "intro": "Experience the world's most sophisticated love compatibility calculator powered by our exclusive Affinity Quotient (AQ) algorithm. Get scientific analysis with detailed breakdowns of your compatibility across multiple dimensions.",
+    "subtitle": "Test Your Love Compatibility",
+    "description": "Enter your names to discover your love percentage!",
+    "getStarted": "Get Started",
+    "newAlgorithmBadge": "🔬 NEW: Powered by Affinity Quotient Algorithm",
+    "poweredByAQTitle": "🧬 Powered by Affinity Quotient Technology",
+    "poweredByAQDescription": "Unlike simple love calculators, our advanced AQ algorithm analyzes your compatibility across five scientific dimensions including phonetic harmony, letter frequency patterns, numerological compatibility, vowel balance, and psychological first impressions.",
+    "howAlgorithmWorksTitle": "How Our Advanced Algorithm Works",
+    "algorithmDescription1": "Our exclusive Affinity Quotient (AQ) algorithm represents a breakthrough in compatibility analysis. Unlike basic name calculators that use simple hash functions, our system applies academic research in linguistics, psychology, and numerology.",
+    "algorithmDescription2": "We analyze names across five scientific dimensions to create a comprehensive compatibility profile that considers not just letters, but linguistic patterns, phonetic harmony, and numerological significance.",
+    "academicFoundation": "Academic Foundation",
+    "academicFoundationDescription": "Our algorithm incorporates principles from published linguistic research, phonetic analysis, and mathematical compatibility theory.",
+    "analysisProcessTitle": "Analysis Process",
+    "step1": "Phonetic harmony analysis",
+    "step2": "Letter frequency patterns",
+    "step3": "Numerological compatibility",
+    "step4": "Vowel balance calculation",
+    "step5": "Psychological first impressions",
+    "fivePillarsTitle": "The Five Pillars of Compatibility Analysis",
+    "fivePillarsDescription": "We analyze names across five scientific dimensions to create a comprehensive compatibility profile that considers not just letters, but linguistic patterns, phonetic harmony, and numerological significance.",
+    "pillar1Title": "Initial Similarity",
+    "pillar1Description": "First letter psychology and instant impression compatibility",
+    "pillar2Title": "Letter Frequency",
+    "pillar2Description": "26-dimensional vector analysis of linguistic patterns",
+    "pillar3Title": "Phonetic Harmony",
+    "pillar3Description": "Sound-based matching and auditory compatibility",
+    "pillar4Title": "Numerological",
+    "pillar4Description": "Ancient numerology with mathematical precision",
+    "pillar5Title": "Vowel Balance",
+    "pillar5Description": "Rhythm, flow, and auditory harmony analysis",
+    "nameCompatibilityExplainedTitle": "Name Compatibility Explained",
+    "funEntertainmentTitle": "Fun Entertainment",
+    "funEntertainmentDescription": "Our playful approach creates entertaining compatibility scores perfect for social sharing.",
+    "consistentResultsTitle": "Consistent Results",
+    "consistentResultsDescription": "The same name combination will always produce the same love percentage for reliability.",
+    "shareableFunTitle": "Shareable Fun",
+    "shareableFunDescription": "Generate beautiful images of your results to share on social media and with friends.",
+    "nameCompatibilityDescription": "Name compatibility is a playful and entertaining way to test relationships and spark conversations. It's a great icebreaker and entertainment tool for parties, social media, and fun times with friends!",
+    "keyFeaturesTitle": "Why Choose Our Love Calculator?",
+    "relationshipQuizTitle": "Relationship Quiz – Are You a Perfect Match?",
+    "relationshipQuizDescription": "Want more than just a love calculator? Take our comprehensive relationship quiz to dive deeper into your compatibility and discover what makes your relationship unique.",
+    "takeTheQuiz": "Take the Quiz",
+    "loveCompatibilityTestOnlineTitle": "Love Compatibility Test Online",
+    "loveCompatibilityTestOnlineDescription": "Ready to discover your love compatibility? Our online love calculator is completely free and provides instant results. Test your relationship compatibility now and see what the stars have in store!",
+    "calculateYourLoveScoreNow": "Calculate Your Love Score Now",
+    "funLoveTestToShareTitle": "Fun Love Test to Share With Friends",
+    "funLoveTestDescription": "Our love calculator isn't just fun for you – it's perfect for sharing! Generate beautiful result images that look great on Instagram, TikTok, Twitter, and other social platforms.",
+    "downloadShareableImages": "Download shareable images",
+    "shareDirectlyToSocialMedia": "Share directly to social media",
+    "perfectForTikTokContent": "Perfect for TikTok content",
+    "startConversationsWithFriends": "Start conversations with friends",
+    "shareYourResultsTitle": "Share Your Results",
+    "shareYourResultsDescription": "Turn your love score into viral content!",
+    "aqDifferenceTitle": "The AQ Difference",
+    "aqDifferenceSubtitle": "Analyze → Visualize → Understand",
+    "entertainmentDisclaimer": "For Entertainment Only: This is a fun activity designed for entertainment and social sharing, not actual dating or relationship advice!",
+    "features": {
+      "literatureBased": "Literature-Based Algorithm",
+      "visualBreakdown": "Visual Breakdown Analysis",
+      "fiveMetricScoring": "5-Metric Scientific Scoring",
+      "visual": {
+        "title": "Visual Breakdown",
+        "description": "See exactly how your score is calculated with interactive charts"
+      },
+      "scientificMethod": {
+        "title": "Scientific Method",
+        "description": "Based on linguistic research and compatibility studies"
+      },
+      "precisionAnalysis": {
+        "title": "Precision Analysis",
+        "description": "Multi-metric scoring for comprehensive insights"
+      }
+    }
+  },
+  "common": {
+    "calculate": "Calculate",
+    "tryAgain": "Try Again",
+    "yourName": "Your Name",
+    "theirName": "Their Name",
+    "enterYourName": "Enter your name",
+    "enterTheirName": "Enter their name",
+    "yourBirthDate": "Your Birth Date",
+    "theirBirthDate": "Their Birth Date",
+    "dateFormat": "mm/dd/yyyy",
+    "ghostDateFormat": "mm/dd/yyyy",
+    "datePlaceholder": "mm/dd/yyyy",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try Again",
+    "selectLanguage": "Select language",
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "navigation": "Navigation",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "Sorry, we couldn't find the page you were looking for.",
+    "backToHome": "Back to homepage",
+    "yourZodiacSign": "Your Zodiac Sign",
+    "theirZodiacSign": "Their Zodiac Sign",
+    "selectSign": "Select your sign",
+    "selectTheirSign": "Select their sign",
+    "ruledBy": "Ruled by {{ruler1}} and {{ruler2}}",
+    "score": "Score",
+    "chartScore": "Score: {{score}}/100",
+    "chartTooltipScore": "Score",
+    "compatibilityBreakdown": "Compatibility Breakdown",
+    "loveLanguageBreakdown": "Love Language Breakdown",
+    "communicationBreakdown": "Communication Style Breakdown",
+    "conflictStyleBreakdown": "Conflict Resolution Breakdown",
+    "futureGoalsBreakdown": "Future Goals Breakdown",
+    "share": {
+      "loveCompatibility": "{{name1}} + {{name2}} = {{score}}% love compatibility!",
+      "tryCalculator": "Try the Love Calculator:",
+      "tryItYourself": "Try it yourself:",
+      "imageDownloaded": "Image downloaded!",
+      "uploadToInstagram": "Upload it to Instagram and use this caption:",
+      "createTikTok": "Create a TikTok video with this image and use this caption:",
+      "hashtags": "#LoveCalculator #Compatibility #LoveTest",
+      "shareLoveCalculator": "Share Love Calculator",
+      "copyToClipboard": "{{name1}} + {{name2}} = {{score}}% love compatibility! {{shareText}} Try it yourself: {{url}}",
+      "loveCalculatorResult": "Love Calculator Result",
+      "relationshipScore": "{{name1}} and {{name2}} scored {{score}}% on our relationship quiz!",
+      "discoveredLoveLanguage": "I discovered my love language is {{language}}!",
+      "communicationStyle": "My communication style is {{style}}!",
+      "conflictResolution": "My conflict resolution style is {{style}}!",
+      "futureGoals": "Our future goals compatibility: {{result}}!",
+      "zodiacCompatibility": "{{sign1}} and {{sign2}} = {{score}}% zodiac compatibility!",
+      "dobCompatibility": "{{name1}} + {{name2}} = {{score}}% birthday compatibility!",
+      "tryOurQuiz": "Take the quiz:",
+      "discoverYours": "Discover yours:",
+      "quizHashtags": "#RelationshipQuiz #LoveLanguage #CommunicationStyle #Compatibility",
+      "iScoredRelationship": "I just took the Relationship Quiz and scored {{score}}%! {{result}}",
+      "iScoredLoveLanguage": "I discovered my love language is {{language}}!",
+      "loveLanguageFullShare": "I discovered my love language: {{language}} ({{percentage}}% primary)! {{description}} Try it yourself: {{url}}",
+      "loveLanguageBasic": "My love language: {{language}} ({{percentage}}% primary)! {{description}}",
+      "loveLanguageInstagram": "I discovered my love language: {{language}} ({{percentage}}% primary)! {{description}} Try it at {{url}} 💕",
+      "loveLanguageTikTok": "My love language: {{language}} ({{percentage}}% primary)! {{description}} #LoveLanguage #RelationshipTips #SelfDiscovery",
+      "loveLanguageRedditTitle": "I discovered my love language: {{language}}!",
+      "loveLanguageRedditText": "{{description}} Try the Love Language Assessment yourself!",
+      "copyForInstagram": "Copy this text for Instagram:",
+      "futureGoalsFullShare": "I discovered my future goals compatibility: {{title}} ({{percentage}}% compatible)! {{description}} Try it yourself: {{url}}",
+      "futureGoalsBasic": "My future goals compatibility: {{title}} ({{percentage}}% compatible)! {{description}}",
+      "futureGoalsInstagram": "I discovered my future goals compatibility: {{title}} ({{percentage}}% compatible)! {{description}} Try it at {{url}} 🎯",
+      "futureGoalsTikTok": "My future goals compatibility: {{title}} ({{percentage}}% compatible)! {{description}} #FutureGoals #RelationshipGoals #PersonalityQuiz",
+      "futureGoalsRedditTitle": "I discovered my future goals compatibility: {{title}}!",
+      "futureGoalsRedditText": "{{description}} Try the Future Goals Compatibility Quiz yourself!",
+      "iScoredCommunication": "My communication style is {{style}}!",
+      "communicationStyleFullShare": "I discovered my communication style: {{style}} ({{percentage}}% dominant)! {{description}} Try it yourself: {{url}}",
+      "communicationStyleBasic": "My communication style: {{style}} ({{percentage}}% dominant)! {{description}}",
+      "communicationStyleInstagram": "I discovered my communication style: {{style}} ({{percentage}}% dominant)! {{description}} Try it at {{url}} 💬",
+      "communicationStyleTikTok": "My communication style: {{style}} ({{percentage}}% dominant)! {{description}} #CommunicationStyle #PersonalityQuiz #SelfDiscovery",
+      "communicationStyleRedditTitle": "I discovered my communication style: {{style}}!",
+      "communicationStyleRedditText": "{{description}} Try the Communication Style Quiz yourself!",
+      "iScoredConflict": "My conflict resolution style is {{style}}!",
+      "iScoredFutureGoals": "Our future goals compatibility scored {{score}}%! {{result}}",
+      "dobHashtags": "#BirthdayCompatibility #DateOfBirth #LoveTest",
+      "shareYourResults": "Share Your Results",
+      "copyResults": "Copy Results",
+      "copied": "Copied!",
+      "conflictResolutionBasic": "I discovered my conflict resolution style: {{style}} ({{percentage}}% primary)! {{description}}",
+      "conflictResolutionFullShare": "I discovered my conflict resolution style: {{style}} ({{percentage}}% primary)! {{description}} Try it yourself: {{url}}",
+      "conflictResolutionInstagram": "I discovered my conflict resolution style: {{style}} ({{percentage}}% primary)! {{description}} Try it at {{url}} 🤝",
+      "conflictResolutionRedditTitle": "I discovered my conflict resolution style: {{style}}!",
+      "conflictResolutionRedditText": "{{description}} Try the Conflict Resolution Style Quiz yourself!",
+      "conflictResolutionTikTok": "My conflict resolution style: {{style}} ({{percentage}}% primary)! {{description}} #ConflictResolution #RelationshipSkills #PersonalityQuiz"
+    }
+  },
+  "loveCalculator": {
+    "title": "Love Calculator",
+    "description": "Experience the world's most sophisticated love compatibility calculator powered by our exclusive Affinity Quotient (AQ) algorithm. Get scientific analysis with detailed breakdowns of your compatibility across multiple dimensions.",
+    "enterNames": "Enter your names to discover your love percentage!",
+    "loading": "Calculating your love compatibility...",
+    "calculateLove": "Calculate Love Score",
+    "shareResult": "Share Result",
+    "error": "Something went wrong. Please try again.",
+    "nameRequired": "Please enter both names",
+    "easterEggHint": "Psst... 100+ hidden celebrity, meme, and iconic pairs will trigger special love scores. How many can you unlock? 🎭✨",
+    "tryOtherTools": "Why not try our other fun tools?",
+    "dobCalculator": "Date of Birth Compatibility Calculator",
+    "zodiacCalculator": "Zodiac Compatibility Calculator",
+    "whyThisScore": "Why this score?",
+    "scienceBehindScore": "The Science Behind Your Score:",
+    "initialSimilarity": "Initial Similarity (0-100):",
+    "initialSimilarityDescription": "Alphabet distance between first letters - closer letters score higher",
+    "letterFrequency": "Letter Frequency (0-100):",
+    "letterFrequencyDescription": "How similar the letter patterns in your names are (linguistic compatibility)",
+    "phoneticSimilarity": "Phonetic Similarity (0-100):",
+    "phoneticSimilarityDescription": "How your names sound when spoken (auditory harmony)",
+    "numerologicalCompatibility": "Numerological Compatibility (0-100):",
+    "numerologicalCompatibilityDescription": "Based on ancient numerology principles and destiny numbers",
+    "vowelBalance": "Vowel Balance (0-100):",
+    "vowelBalanceDescription": "The rhythm and flow created by vowel-to-consonant ratios",
+    "algorithmExplanation": "This algorithm combines multiple linguistic and psychological factors from academic research on name compatibility. All metrics are scored 0-100 for precise analysis.",
+    "shareResultsTitle": "Share Your Results",
+    "shareResultsDescription": "Turn your love score into viral content!",
+    "downloadImage": "Download Image",
+    "copyResults": "Copy Results",
+    "copied": "Copied!",
+    "beautifulLoveStory": "Beautiful love story in the making! 🌹💖",
+    "breakdown": {
+      "title": "Compatibility Breakdown",
+      "nameHarmony": "Name Harmony",
+      "letterSynergy": "Letter Synergy",
+      "vocalBalance": "Vocal Balance",
+      "energyAlignment": "Energy Alignment",
+      "cosmicConnection": "Cosmic Connection"
+    },
+    "messages": {
+      "perfectMatch": "Perfect match! Your love story is one for the ages! 💖✨",
+      "soulmates": "Soulmates — you two were written in the stars! 🌠❤️",
+      "trueLove": "True love at its finest — you complete each other! 💕🔥",
+      "legendaryLove": "Legendary love! You're destined to be together forever! 👑💫",
+      "powerCouple": "Ultimate power couple! Your love conquers all! 💪❤️",
+      "matchMadeInHeaven": "True love alert — you're a match made in heaven! ✨💕",
+      "heartsAsOne": "Amazing connection! Your hearts beat as one! 💓🎵",
+      "beautifulStory": "Beautiful love story in the making! 🌹💖",
+      "incredibleChemistry": "Incredible chemistry! The sparks are flying! ⚡💘",
+      "loveGoals": "Love goals! You inspire others with your connection! 🎯💝",
+      "soulmatesyoutwoMessage": "Soulmates — you two were written in the stars! 🌠❤️",
+      "perfectmatchyourMessage": "Perfect match! Your love story is one for the ages! 💖✨",
+      "trueloveatMessage": "True love at its finest — you complete each other! 💕🔥",
+      "legendaryloveyoureMessage": "Legendary love! You're destined to be together forever! 👑💫",
+      "ultimatepowercoupleMessage": "Ultimate power couple! Your love conquers all! 💪❤️",
+      "truelovealertMessage": "True love alert — you're a match made in heaven! ✨💕",
+      "amazingconnectionyourMessage": "Amazing connection! Your hearts beat as one! 💓🎵",
+      "beautifullovestoryMessage": "Beautiful love story in the making! 🌹💖",
+      "incrediblechemistrytheMessage": "Incredible chemistry! The sparks are flying! ⚡💘",
+      "lovegoalsyouMessage": "Love goals! You inspire others with your connection! 🎯💝",
+      "asolidconnectionMessage": "A solid connection — let's see where it goes! 🌷💫",
+      "goodpotentialloveMessage": "Good potential! Love might be blooming! 🌸🌱",
+      "sweetcompatibilitytheresMessage": "Sweet compatibility! There's definitely something here! 🍯💕",
+      "promisingmatchtimeMessage": "Promising match! Time will tell your story! ⏰💖",
+      "cuteconnectiontheMessage": "Cute connection! The foundation is there! 🏗️💕",
+      "alittlesparkMessage": "A little spark, but will the flame grow? 🔥🤞",
+      "somepotentialbutMessage": "Some potential, but work is needed! 🛠️💕",
+      "mixedsignalscommunicationMessage": "Mixed signals — communication is key! 📱💭",
+      "friendshipvibesstrongMessage": "Friendship vibes strong — maybe love will follow! 👫❓",
+      "slowburnromanceMessage": "Slow burn romance? Sometimes the best love takes time! ⏳🔥",
+      "oppositesmayattractMessage": "Opposites may attract… but sometimes they don't. ⚡💔",
+      "betterasfriendsMessage": "Better as friends? Sometimes that's even better! 🤝💙",
+      "notquiteaMessage": "Not quite a match, but hey — there are plenty of fish! 🐠🌊",
+      "differentwavelengthsbutMessage": "Different wavelengths, but that's okay! 📻🎵",
+      "notmeanttoMessage": "Not meant to be, but you're both amazing! ⭐🌟"
+    },
+    "easterEggs": {
+      "celebrities": {
+        "taylorswifttraviskelce": {
+          "message": "A love story in the making! 🏈🎤❤️",
+          "shareText": "Love story in the making! 🏈🎤"
+        },
+        "willsmithjadapinkettsmith": {
+          "message": "Toxic entanglement detected. 🚩💔",
+          "shareText": "Entanglement detected! 🚩"
+        },
+        "blakelivelyryanreynolds": {
+          "message": "Hollywood power couple energy! ✨💑",
+          "shareText": "Hollywood power couple! ✨💑"
+        },
+        "johnnydeppamberheard": {
+          "message": "A legal battle is not a love story. ⚖️💔",
+          "shareText": "Legal battle ≠ love story ⚖️"
+        },
+        "barackobamamichelleobama": {
+          "message": "Presidential-level love detected. 🇺🇸💖",
+          "shareText": "Presidential love! 🇺🇸💖"
+        },
+        "tomhollandzendaya": {
+          "message": "Swinging through life together perfectly. 🕸️💞",
+          "shareText": "Swinging through life together! 🕸️"
+        },
+        "jayzbeyonce": {
+          "message": "Love on top — forever. 🎶👑",
+          "shareText": "Love on top! 🎶👑"
+        },
+        "cristianoronaldogeorginarodriguez": {
+          "message": "A champion couple on and off the field. ⚽🏆",
+          "shareText": "Champion couple! ⚽🏆"
+        },
+        "harrystylesoliviawilde": {
+          "message": "Style meets cinema — but will it last? 🎥🎤",
+          "shareText": "Style meets cinema! 🎥🎤"
+        },
+        "willsmithmargotrobbie": {
+          "message": "Chemistry detected... on set? 🎬😉",
+          "shareText": "On-set chemistry! 🎬😉"
+        },
+        "kanyewestkimkardashian": {
+          "message": "Fame and ego — a tough combo. 💔",
+          "shareText": "Fame and ego combo 💔"
+        },
+        "bradpittangelinajolie": {
+          "message": "Once upon a time... but no more. 📽️💔",
+          "shareText": "Once upon a time... 📽️💔"
+        },
+        "elonmuskgrimes": {
+          "message": "SpaceX didn't launch this love. 🛸💥",
+          "shareText": "SpaceX launch failed! 🛸💥"
+        },
+        "shakiragerardpique": {
+          "message": "A breakup that shook the charts! 🎶⚽💔",
+          "shareText": "Shook the charts! 🎶⚽💔"
+        }
+      },
+      "youtubers": {
+        "mrbeastpewdiepie": {
+          "message": "Billion-view bromance detected. 💸🎮",
+          "shareText": "Billion-view bromance! 💸🎮"
+        },
+        "mrbeastchandler": {
+          "message": "A bromance worth billions. 💸❤️",
+          "shareText": "Billion-dollar bromance! 💸❤️"
+        },
+        "loganpauljakepaul": {
+          "message": "Brotherly love — sometimes too much. 🥊❤️",
+          "shareText": "Too much brotherly love! 🥊❤️"
+        },
+        "dreamgeorgenotfound": {
+          "message": "Minecraft hearts all the way. ⛏️❤️",
+          "shareText": "Minecraft hearts! ⛏️❤️"
+        },
+        "charlidameliollilhuddy": {
+          "message": "TikTok love fades fast. 🎵💔",
+          "shareText": "TikTok love fades! 🎵💔"
+        },
+        "pokimanexqc": {
+          "message": "Gaming chemistry, but complicated. 🎮❤️",
+          "shareText": "Gaming chemistry! 🎮❤️"
+        },
+        "ninjatfue": {
+          "message": "Rivalry, not romance. 🎮💔",
+          "shareText": "Rivalry, not romance! 🎮💔"
+        },
+        "valkyraeeludwig": {
+          "message": "Content kings and queens. 👑❤️",
+          "shareText": "Content royalty! 👑❤️"
+        },
+        "hasanabiaoc": {
+          "message": "Progressive power couple? 💥❤️",
+          "shareText": "Progressive power couple! 💥❤️"
+        },
+        "khabylamesilence": {
+          "message": "The perfect match — no words needed. 🤫❤️",
+          "shareText": "No words needed! 🤫❤️"
+        },
+        "jamescharlestatiwestbrook": {
+          "message": "Beauty community drama, not love. 💄💔",
+          "shareText": "Beauty drama, not love! 💄💔"
+        },
+        "loganpaulksi": {
+          "message": "Business partners, not lovers. 🤑👊",
+          "shareText": "Business partners! 🤑👊"
+        }
+      },
+      "controversialFigures": {
+        "elonmuskmarkzuckerberg": {
+          "message": "Ready to fight in the octagon… not in love. 🥊💔",
+          "shareText": "Octagon ready! 🥊💔"
+        },
+        "andrewtatergretathunberg": {
+          "message": "Oil and water. 🌍🚫",
+          "shareText": "Oil and water! 🌍🚫"
+        }
+      },
+      "tvMovieCharacters": {
+        "rossgellerrachelgreen": {
+          "message": "They were on a break... but soulmates. 📺❤️",
+          "shareText": "Were on a break! 📺❤️"
+        },
+        "rossrachel": {
+          "message": "They were on a break... but soulmates. 📺❤️",
+          "shareText": "Were on a break! 📺❤️"
+        },
+        "jackrose": {
+          "message": "A timeless love — but hold on to that door. 🚢💙",
+          "shareText": "Timeless love! 🚢💙"
+        },
+        "jonsnowdaenerystargaryen": {
+          "message": "Fire and ice — a complicated match. ❄️🔥",
+          "shareText": "Fire and ice! ❄️🔥"
+        },
+        "katnisseverdeenpeetamellark": {
+          "message": "May the odds be ever in your favor. 🏹❤️",
+          "shareText": "Odds in your favor! 🏹❤️"
+        },
+        "sherlockholmesdrwatson": {
+          "message": "A perfectly logical partnership. 🕵️‍♂️❤️",
+          "shareText": "Logical partnership! 🕵️‍♂️❤️"
+        },
+        "watsonsherlock": {
+          "message": "A perfectly logical partnership. 🕵️‍♂️❤️",
+          "shareText": "Logical partnership! 🕵️‍♂️❤️"
+        },
+        "johnwatsonsherlockholmes": {
+          "message": "A perfectly logical partnership. 🕵️‍♂️❤️",
+          "shareText": "Logical partnership! 🕵️‍♂️❤️"
+        },
+        "homersimpsonmargesimpson": {
+          "message": "Mmm... love. 🍩💛",
+          "shareText": "Mmm... love! 🍩💛"
+        },
+        "shaggyvelma": {
+          "message": "Jinkies! It's true love! 🕵️❤️",
+          "shareText": "Jinkies! True love! 🕵️❤️"
+        }
+      },
+      "superheroes": {
+        "batmanjoker": {
+          "message": "This relationship would be... chaotic. 🃏🦇💥",
+          "shareText": "Chaotic relationship! 🃏🦇"
+        },
+        "tonystarkpepperpotts": {
+          "message": "I love you 3000. 🚀❤️",
+          "shareText": "Love you 3000! 🚀❤️"
+        },
+        "wandamaximoffvision": {
+          "message": "Love beyond reality. 💫❤️",
+          "shareText": "Love beyond reality! 💫❤️"
+        },
+        "lokithor": {
+          "message": "Sibling rivalry — with love? ⚡❤️",
+          "shareText": "Sibling rivalry with love! ⚡"
+        },
+        "batmansuperman": {
+          "message": "World's finest duo — fighting crime and hearts! 🦸‍♂️💫",
+          "shareText": "World's finest duo! 🦸‍♂️💫"
+        },
+        "spidermandeadpool": {
+          "message": "Web-slinging meets wise-cracking! 🕷️💬",
+          "shareText": "Web-slinging meets wise-cracking! 🕷️"
+        },
+        "jokerharleyquinn": {
+          "message": "Twisted, toxic, and unforgettable. 🃏💋💔",
+          "shareText": "Twisted and toxic! 🃏💋"
+        }
+      },
+      "gamingCharacters": {
+        "marioprincesspeach": {
+          "message": "Your princess is in THIS castle. 🍄👑❤️",
+          "shareText": "Princess found! 🍄👑"
+        },
+        "marioluigi": {
+          "message": "Brothers before all. 🍄❤️",
+          "shareText": "Brothers before all! 🍄❤️"
+        },
+        "linkzelda": {
+          "message": "It's dangerous to go alone — take love! 🗡️❤️",
+          "shareText": "Dangerous to go alone! 🗡️❤️"
+        },
+        "masterchiefcortana": {
+          "message": "Love in a virtual space. 💾💙",
+          "shareText": "Virtual love! 💾💙"
+        },
+        "kratosatreus": {
+          "message": "Father-son bond — stronger than any love. 🪓❤️",
+          "shareText": "Father-son bond! 🪓❤️"
+        },
+        "elliedina": {
+          "message": "Love in a broken world. 🎮❤️",
+          "shareText": "Love in broken world! 🎮❤️"
+        },
+        "gokuvegeta": {
+          "message": "Rivals... or more? 💪🔥❤️",
+          "shareText": "Rivals or more? 💪🔥"
+        },
+        "ashketchummisty": {
+          "message": "Gotta catch... feelings! 🎮❤️",
+          "shareText": "Gotta catch feelings! 🎮❤️"
+        }
+      },
+      "fantasyCharacters": {
+        "shrekfiona": {
+          "message": "A fairy tale match — layers included. 🧅💚",
+          "shareText": "Fairy tale match! 🧅💚"
+        },
+        "hansoloprincessleia": {
+          "message": "I know. ✨🚀❤️",
+          "shareText": "I know. ✨🚀❤️"
+        },
+        "voldemortharrypotter": {
+          "message": "Can't love if you split your soul. 🧙💔",
+          "shareText": "Split soul, no love! 🧙💔"
+        },
+        "harryvoldemort": {
+          "message": "Can't love if you split your soul. 🧙💔",
+          "shareText": "Split soul, no love! 🧙💔"
+        },
+        "hermioneron": {
+          "message": "Intelligence meets loyalty — perfect match! 📚❤️",
+          "shareText": "Intelligence meets loyalty! 📚❤️"
+        },
+        "dumbledoregrindelwald": {
+          "message": "A love turned tragic. 🧙‍♂️💔",
+          "shareText": "Love turned tragic! 🧙‍♂️💔"
+        },
+        "gandalfsaruman": {
+          "message": "White and grey don't mix well here. 🧙‍♂️💔",
+          "shareText": "White and grey don't mix! 🧙‍♂️"
+        },
+        "frodosam": {
+          "message": "Friendship forged in fire. 🧙‍♂️❤️",
+          "shareText": "Friendship forged in fire! 🧙‍♂️❤️"
+        },
+        "geraltyennefer": {
+          "message": "A magic-fueled love. 🧙‍♀️❤️",
+          "shareText": "Magic-fueled love! 🧙‍♀️❤️"
+        }
+      },
+      "cartoonCharacters": {
+        "spongebobpatrick": {
+          "message": "Best friend goals, now with romance?! ⭐💕",
+          "shareText": "Best friend goals! ⭐💕"
+        },
+        "phineasferb": {
+          "message": "Best invention yet: love. 🔧❤️",
+          "shareText": "Best invention: love! 🔧❤️"
+        }
+      },
+      "musicians": {
+        "drakerihanna": {
+          "message": "Hit after hit after hit... of love. 🎤❤️",
+          "shareText": "Hit after hit of love! 🎤❤️"
+        },
+        "cardiboffset": {
+          "message": "Money moves... and heart moves. 💰❤️",
+          "shareText": "Money and heart moves! 💰❤️"
+        },
+        "btsjungkooklisablackpink": {
+          "message": "K-pop's ultimate ship. 🎤❤️",
+          "shareText": "K-pop ultimate ship! 🎤❤️"
+        },
+        "oliviarodrigojoshuabassett": {
+          "message": "Drivers license... revoked? 🚗💔",
+          "shareText": "Drivers license revoked! 🚗💔"
+        },
+        "dualipajackharlow": {
+          "message": "New rules, new love? 🎤❤️",
+          "shareText": "New rules, new love! 🎤❤️"
+        },
+        "shawnmendescamilacabello": {
+          "message": "Señorita vibes. 🎶❤️",
+          "shareText": "Señorita vibes! 🎶❤️"
+        }
+      },
+      "chefs": {
+        "saltbaesteak": {
+          "message": "A match made in the kitchen. 🧂🥩❤️",
+          "shareText": "Kitchen match! 🧂🥩"
+        },
+        "saltbaegordonramsay": {
+          "message": "Battle of the chefs — not of hearts. 🍳🔥💔",
+          "shareText": "Chef battle! 🍳🔥"
+        }
+      },
+      "memes": {
+        "bigshaqthetingoesskrrra": {
+          "message": "The only number that matters here. 🔥🎵😉",
+          "shareText": "The number that matters! 🔥🎵"
+        },
+        "dogecheems": {
+          "message": "Such love. Much wow. 🐶💖",
+          "shareText": "Such love. Much wow! 🐶💖"
+        },
+        "rickastleynevergonnagiveyouup": {
+          "message": "Never gonna give you up... obviously. 🎶💘",
+          "shareText": "Never gonna give you up! 🎶💘"
+        },
+        "grumpycatnyancat": {
+          "message": "Grumpy, but maybe interested. 🐱🌈",
+          "shareText": "Grumpy but interested! 🐱🌈"
+        },
+        "therockkevinhart": {
+          "message": "The perfect comedic duo. 💪😂❤️",
+          "shareText": "Perfect comedic duo! 💪😂"
+        }
+      },
+      "alternatives": {
+        "blakeryan": {
+          "message": "Hollywood power couple energy! ✨💑",
+          "shareText": "Hollywood power couple! ✨💑"
+        }
+      }
+    }
+  },
+  "dobCalculator": {
+    "title": "Date of Birth Compatibility Calculator",
+    "description": "Discover your romantic compatibility based on your birth dates! Our algorithm analyzes birthday patterns, age differences, and numerological factors to reveal fascinating relationship insights.",
+    "scientificFoundationTitle": "Scientific Foundation",
+    "scientificFoundationDescription": "Based on chronobiology research, numerology principles, and seasonal psychology studies for comprehensive temporal analysis.",
+    "detailedBreakdownTitle": "Detailed Breakdown",
+    "detailedBreakdownDescription": "Get visual charts and detailed analysis across five compatibility dimensions with personalized insights for your relationship.",
+    "socialSharingTitle": "Social Sharing",
+    "socialSharingDescription": "Perfect for social media sharing, party games, and fun conversations with friends. Instant results you can share anywhere!",
+    "birthdayCompatibilityDescription": "Birthday compatibility is a fascinating way to explore relationship dynamics through the lens of time and cosmic timing. It's an entertaining tool that combines ancient wisdom with modern analysis for fun insights into your connections!",
+    "howItWorksTitle": "🎂 How It Works",
+    "ageHarmony": "Age Harmony",
+    "ageHarmonyDescription": "Analyzes age differences and life stage compatibility - closer ages get higher scores",
+    "seasonalPatterns": "Seasonal Patterns",
+    "seasonalPatternsDescription": "Birth month personality traits and seasonal energy matching",
+    "numerologicalPaths": "Numerological Paths",
+    "numerologicalPathsDescription": "Life path number compatibility using ancient numerology",
+    "cosmicSync": "Cosmic Sync",
+    "cosmicSyncDescription": "Birth day patterns, celestial timing, and cosmic connection analysis",
+    "generationalEnergy": "Generational Energy",
+    "generationalEnergyDescription": "Birth year cohort analysis and era-based compatibility",
+    "whatYoullDiscoverTitle": "✨ What You'll Discover",
+    "detailedCompatibilityBreakdown": "• Detailed compatibility breakdown with visual chart",
+    "ageDifferenceAnalysis": "• Age difference analysis and life stage alignment",
+    "birthMonthPersonalityInsights": "• Birth month personality insights and seasonal harmony",
+    "numerologicalLifePathCompatibility": "• Numerological life path compatibility",
+    "perfectForSocialMedia": "• Perfect for sharing on social media!",
+    "whyBirthdayCompatibilityMattersTitle": "Why Birthday Compatibility Matters",
+    "temporalPsychology": "🎂 Temporal Psychology",
+    "temporalPsychologyDescription": "Research in chronobiology suggests that birth timing can influence personality traits, energy levels, and life perspectives. Our algorithm captures these temporal patterns to assess compatibility.",
+    "lifeStageSynchronization": "📅 Life Stage Synchronization",
+    "lifeStageSynchronizationDescription": "Age differences and generational alignment play crucial roles in relationship dynamics. We analyze these factors to predict harmony in life goals and experiences.",
+    "numerologicalWisdom": "🔢 Numerological Wisdom",
+    "numerologicalWisdomDescription": "Ancient numerology systems have tracked life path compatibility for millennia. Our algorithm incorporates these time-tested principles for deeper insights.",
+    "seasonalInfluences": "🌱 Seasonal Influences",
+    "seasonalInfluencesDescription": "Birth season affects everything from vitamin D exposure to early life experiences. These subtle influences can shape personality and relationship preferences.",
+    "birthdayCompatibilityTestOnlineTitle": "Birthday Compatibility Test Online",
+    "birthdayCompatibilityTestOnlineDescription": "Ready to discover your birth date compatibility? Our online birthday calculator is completely free and provides instant results with detailed analysis. Test your temporal harmony now!",
+    "calculateYourBirthdayCompatibilityNow": "Calculate Your Birthday Compatibility Now",
+    "whyChooseOurBirthdayCalculatorTitle": "Why Choose Our Birthday Calculator?",
+    "howAlgorithmWorksTitle": "How Our Birthday Compatibility Algorithm Works",
+    "algorithmFoundationDescription": "Our exclusive Birthday Harmony Algorithm represents a breakthrough in temporal compatibility analysis. Unlike basic date calculators that use simple arithmetic, our system applies academic research in chronobiology, numerology, and seasonal psychology.",
+    "comprehensiveCompatibilityProfile": "We analyze birth dates across five scientific dimensions to create a comprehensive compatibility profile that considers not just when you were born, but how those cosmic timing patterns influence your relationship potential.",
+    "academicFoundation": "Academic Foundation",
+    "algorithmIncorporates": "Our algorithm incorporates principles from chronobiology research, traditional numerology systems, and seasonal personality studies to provide scientifically-informed entertainment.",
+    "birthDateAnalysisProcessTitle": "Birth Date Analysis Process",
+    "extractTemporalPatterns": "Extract temporal patterns from birth dates",
+    "calculateNumerologicalPaths": "Calculate numerological life paths",
+    "analyzeSeasonalPersonalityAlignment": "Analyze seasonal personality alignment",
+    "evaluateGenerationalHarmony": "Evaluate generational harmony",
+    "generateComprehensiveCompatibilityScore": "Generate comprehensive compatibility score",
+    "fivePillarsTitle": "The Five Pillars of Birthday Compatibility Analysis",
+    "entertainmentOnlyTitle": "💗 Entertainment Only",
+    "important": "Important",
+    "entertainmentOnlyDescription": "This is a fun activity designed for entertainment and social sharing, not actual dating or relationship advice!",
+    "poweredByAlgorithmTitle": "🎂 Powered by Birthday Harmony Algorithm",
+    "advancedAlgorithmDescription": "Unlike simple date calculators, our advanced Birthday Harmony Algorithm analyzes your compatibility across five temporal dimensions including age synchronization, seasonal personality patterns, numerological life paths, cosmic birth cycles, and generational energy matching.",
+    "numerologyBasedAnalysis": "• Numerology-Based Analysis",
+    "seasonalPsychologyPatterns": "• Seasonal Psychology Patterns",
+    "fiveFactorTemporalScoring": "• 5-Factor Temporal Scoring",
+    "enterYourBirthDatesTitle": "Enter Your Birth Dates",
+    "enterYourBirthDatesDescription": "Discover your cosmic compatibility through birth date analysis!",
+    "calculateCompatibility": "Calculate Compatibility",
+    "calculate": "Calculate Birth Date Compatibility",
+    "yourName": "Your Name",
+    "theirName": "Their Name",
+    "enterYourName": "Enter your name",
+    "enterTheirName": "Enter their name",
+    "yourBirthDate": "Your Birth Date",
+    "theirBirthDate": "Their Birth Date",
+    "ddmmyyyy": "MM/DD/YYYY",
+    "analyzingBirthDates": "Analyzing Birth Dates...",
+    "tryAgain": "Try Again",
+    "whyNotTryOtherTools": "Why not try our other fun tools?",
+    "loveCalculator": "Love Calculator",
+    "zodiacCompatibilityCalculator": "Zodiac Compatibility Calculator",
+    "birthdayCompatibilityBreakdown": "Birthday Compatibility Breakdown",
+    "age": "Age",
+    "season": "Season",
+    "numbers": "Numbers",
+    "cosmic": "Cosmic",
+    "generation": "Generation",
+    "ageHarmonyFull": "Age Harmony",
+    "seasonalPatternsFull": "Seasonal Patterns",
+    "numerologicalPathsFull": "Numerological Paths",
+    "cosmicSyncFull": "Cosmic Sync",
+    "generationalEnergyFull": "Generational Energy",
+    "whyThisScore": "Why this score?",
+    "scienceBehindScore": "The Science Behind Your Birthday Score:",
+    "seasonPatternsDescription": "Birth month personality traits and seasonal energy matching based on psychology research",
+    "numbersDescription": "Numerological life path compatibility using ancient calculation methods and destiny numbers",
+    "generationDescription": "Birth year cohort analysis and generational energy harmony assessment",
+    "algorithmExplanation": "This algorithm combines chronobiology research, numerology principles, and seasonal psychology to analyze temporal compatibility patterns. All metrics scored 0-100 for precise birthday harmony analysis.",
+    "lifeStageAnalysis": "Life Stage Analysis",
+    "seasonalHarmony": "Seasonal Harmony",
+    "numerologicalInsight": "Numerological Insight",
+    "shareYourResults": "Share Your Results",
+    "shareYourResultsDescription": "Turn your birthday score into viral content!",
+    "downloadImage": "Download Image",
+    "copyResults": "Copy Results",
+    "copied": "Copied!",
+    "shareYourBirthdayScore": "Share Your Birthday Score! 🎂",
+    "choosePlatform": "Choose your favorite platform to share your birth date compatibility results",
+    "xTwitter": "X/Twitter",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "snapchat": "Snapchat",
+    "tiktok": "TikTok",
+    "moreApps": "More Apps",
+    "close": "Close",
+    "seasons": {
+      "spring": "Spring",
+      "summer": "Summer",
+      "autumn": "Autumn",
+      "winter": "Winter"
+    },
+    "lifeStageMessages": {
+      "perfectSync": "Perfect sync - you're in the same life stage!",
+      "greatAlignment": "Great alignment - similar life experiences",
+      "complementaryStages": "Complementary stages - learn from each other",
+      "differentPerspectives": "Different perspectives - unique dynamic"
+    },
+    "seasonalMatchMessages": {
+      "bothSame": "Both {{season}} babies - natural harmony!",
+      "different": "{{season1}} meets {{season2}} - beautiful contrast!"
+    },
+    "numerologyMessages": {
+      "lifePaths": "Life paths {{path1}} & {{path2}} - {{message}}",
+      "twinSouls": "Twin souls!",
+      "complementaryEnergies": "Complementary energies"
+    },
+    "overallMessages": {
+      "cosmicSoulmates": "Cosmic soulmates! Your birth dates reveal incredible compatibility 💫",
+      "writtenInStars": "Written in the stars! Amazing birthday harmony ⭐",
+      "beautifulConnection": "Beautiful connection! Your dates align wonderfully 🌟",
+      "goodVibes": "Good vibes! Solid birthday compatibility 🎂",
+      "uniquePairing": "Unique pairing! Opposites can attract beautifully 🎭"
+    }
+  },
+  "zodiacSigns": {
+    "aries": "Aries",
+    "taurus": "Taurus",
+    "gemini": "Gemini",
+    "cancer": "Cancer",
+    "leo": "Leo",
+    "virgo": "Virgo",
+    "libra": "Libra",
+    "scorpio": "Scorpio",
+    "sagittarius": "Sagittarius",
+    "capricorn": "Capricorn",
+    "aquarius": "Aquarius",
+    "pisces": "Pisces"
+  },
+  "zodiacElements": {
+    "fire": "Fire",
+    "earth": "Earth",
+    "air": "Air",
+    "water": "Water"
+  },
+  "zodiacModalities": {
+    "cardinal": "Cardinal",
+    "fixed": "Fixed",
+    "mutable": "Mutable"
+  },
+  "zodiacPlanets": {
+    "mars": "Mars",
+    "venus": "Venus",
+    "mercury": "Mercury",
+    "moon": "Moon",
+    "sun": "Sun",
+    "pluto": "Pluto",
+    "jupiter": "Jupiter",
+    "saturn": "Saturn",
+    "uranus": "Uranus",
+    "neptune": "Neptune"
+  },
+  "zodiacUI": {
+    "selectYourZodiacSigns": "Select Your Zodiac Signs",
+    "discoverCosmicCompatibility": "Discover your cosmic compatibility through the wisdom of the stars!",
+    "yourName": "Your Name",
+    "theirName": "Their Name",
+    "enterYourName": "Enter your name",
+    "enterTheirName": "Enter their name",
+    "yourZodiacSign": "Your Zodiac Sign",
+    "theirZodiacSign": "Their Zodiac Sign",
+    "selectYourSign": "Select your sign",
+    "selectTheirSign": "Select their sign",
+    "calculateCosmicCompatibility": "Calculate Cosmic Compatibility",
+    "readingTheStars": "Reading the Stars...",
+    "tryAgain": "Try Again",
+    "astrologicalCompatibilityBreakdown": "Astrological Compatibility Breakdown",
+    "whyThisScore": "Why this score?",
+    "scienceBehindScore": "The Science Behind Your Zodiac Score:",
+    "signs": "Signs",
+    "elements": "Elements",
+    "modality": "Modality",
+    "planets": "Planets",
+    "aspects": "Aspects",
+    "signHarmony": "Sign Harmony",
+    "elementalBalance": "Elemental Balance",
+    "modalityMatching": "Modality Matching",
+    "planetarySync": "Planetary Sync",
+    "cosmicAspects": "Cosmic Aspects",
+    "signHarmonyDescription": "Traditional zodiac compatibility patterns based on classical astrological relationships",
+    "elementsDescription": "Fire, Earth, Air, and Water element interactions and natural harmonic compatibility",
+    "modalityDescription": "Cardinal, Fixed, and Mutable energy pattern synchronization and dynamic balance",
+    "planetsDescription": "Ruling planet relationships and celestial influence harmony between your signs",
+    "cosmicAspectsDescription": "Angular relationships (trine, sextile, opposition, square) and energetic dynamics",
+    "algorithmExplanation": "This algorithm combines traditional astrology principles, elemental theory, planetary rulerships, and cosmic aspect relationships for authentic astrological compatibility analysis. All metrics scored 0-100 for precise celestial harmony assessment.",
+    "elementalHarmony": "Elemental Harmony",
+    "energyPatterns": "Energy Patterns",
+    "planetaryInfluence": "Planetary Influence",
+    "astrologicalPattern": "Astrological Pattern",
+    "shareYourResults": "Share Your Results",
+    "turnZodiacScore": "Turn your zodiac score into viral content!",
+    "downloadImage": "Download Image",
+    "copyResults": "Copy Results",
+    "copied": "Copied!",
+    "shareYourZodiacScore": "Share Your Zodiac Score! ⭐",
+    "choosePlatform": "Choose your favorite platform to share your astrological compatibility results",
+    "close": "Close",
+    "moreApps": "More Apps",
+    "whyNotTryOtherTools": "Why not try our other fun tools?",
+    "loveCalculator": "Love Calculator",
+    "dobCalculator": "Date of Birth Compatibility Calculator"
+  },
+  "zodiacMessages": {
+    "writtenInStars": "Written in the stars! Celestial soulmates with cosmic harmony ✨",
+    "stellarConnection": "Stellar connection! The stars align beautifully for you ⭐",
+    "cosmicChemistry": "Cosmic chemistry! Great astrological compatibility 🌟",
+    "starlitRomance": "Starlit romance! Good zodiac harmony with potential 💫",
+    "uniqueConstellation": "Unique constellation! Different energies can create magic 🔮",
+    "cosmicChemistryGreat": "Cosmic chemistry! Great astrological compatibility ⭐"
+  },
+  "zodiacElementMessages": {
+    "fireEarth": "Fire meets Earth - complementary energies create balance!",
+    "fireAir": "energetic and inspiring!",
+    "earthWater": "grounding and nurturing!",
+    "complementary": "complementary energies create balance!",
+    "sameElement": "Both {{element}} signs - natural harmony and understanding!"
+  },
+  "zodiacModalityMessages": {
+    "sameModality": "Both {{modality}} signs - shared approach to life!",
+    "different": "{{modality1}} energy meets {{modality2}} style - different but compatible!"
+  },
+  "zodiacPlanetaryMessages": {
+    "samePlanet": "cosmic twins with shared planetary energy!",
+    "different": "unique planetary influences create dynamic attraction!"
+  },
+  "zodiacPatterns": {
+    "twinSouls": "Twin Souls - perfect understanding",
+    "oppositeAttraction": "Opposite Attraction - magnetic pull",
+    "harmonicTrine": "Harmonic Trine - effortless flow",
+    "supportiveSextile": "Supportive Sextile - natural friendship",
+    "uniqueDynamic": "Unique Dynamic - special connection"
+  },
+  "zodiacCalculator": {
+    "title": "Zodiac Compatibility Calculator",
+    "description": "Discover the cosmic connection between you and your partner with our advanced zodiac compatibility calculator. Test your star signs and explore astrological love matches with celestial insights.",
+    "whyChooseOurZodiacCalculatorTitle": "Why Choose Our Zodiac Calculator?",
+    "traditionalAstrologyTitle": "Traditional Astrology",
+    "traditionalAstrologyDescription": "Based on centuries-old astrological wisdom and traditional zodiac compatibility patterns used by astrologers worldwide.",
+    "comprehensiveAnalysisTitle": "Comprehensive Analysis",
+    "comprehensiveAnalysisDescription": "Our algorithm analyzes elemental harmony, planetary rulers, modalities, and cosmic aspects for deep compatibility insights.",
+    "cosmicEntertainmentTitle": "Cosmic Entertainment",
+    "cosmicEntertainmentDescription": "Fun, engaging way to explore personality traits and relationship dynamics through the lens of astrology.",
+    "zodiacCompatibilityDescription": "Whether you're a fiery Aries seeking harmony with a grounded Taurus, or a dreamy Pisces connecting with an analytical Virgo, our zodiac compatibility calculator provides entertainment and insights into the cosmic dance of relationships.",
+    "howAlgorithmWorksTitle": "How Our Zodiac Compatibility Algorithm Works",
+    "exclusiveCelestialHarmonyAlgorithm": "Our exclusive Celestial Harmony Algorithm combines traditional astrological principles with modern compatibility analysis to provide you with accurate and entertaining zodiac compatibility scores.",
+    "systemAppliesTraditionalAstrology": "The system applies traditional astrology methods, analyzing the fundamental relationships between zodiac signs, their ruling planets, elemental properties, and modal characteristics to determine cosmic compatibility.",
+    "astrologicalFoundation": "Astrological Foundation",
+    "algorithmIncorporates": "Our algorithm incorporates classical astrological principles including elemental interactions, planetary rulerships, modal energies, and traditional aspect relationships between zodiac signs.",
+    "zodiacAnalysisProcessTitle": "Zodiac Analysis Process",
+    "analyzeTraditionalSignCompatibilityPatterns": "Analyze traditional sign compatibility patterns and historical astrological relationships",
+    "calculateElementalHarmony": "Calculate elemental harmony between Fire, Earth, Air, and Water signs",
+    "evaluateModalitySynchronization": "Evaluate modality synchronization (Cardinal, Fixed, Mutable energies)",
+    "assessPlanetaryRulerRelationships": "Assess planetary ruler relationships and cosmic influences",
+    "calculateCosmicAspectDynamics": "Calculate cosmic aspect dynamics and astrological resonance patterns",
+    "fivePillarsTitle": "Five Pillars of Zodiac Compatibility Analysis",
+    "signHarmonyTitle": "Sign Harmony",
+    "traditionalZodiacCompatibilityPatterns": "Traditional zodiac compatibility patterns and astrological relationships",
+    "elementalBalance": "Elemental Balance",
+    "fireEarthAirWaterElementInteractions": "Fire, Earth, Air, Water element interactions and cosmic harmony",
+    "modalityMatching": "Modality Matching",
+    "cardinalFixedMutableEnergyPatternSynchronization": "Cardinal, Fixed, Mutable energy pattern synchronization",
+    "planetarySyncTitle": "Planetary Sync",
+    "rulingPlanetRelationships": "Ruling planet relationships and celestial influences",
+    "cosmicAspects": "Cosmic Aspects",
+    "trineSextileOppositionSquareRelationshipDynamics": "Trine, sextile, opposition, square relationship dynamics",
+    "whyZodiacCompatibilityMattersTitle": "Why Zodiac Compatibility Matters",
+    "astrologicalWisdom": "Astrological Wisdom",
+    "astrologicalWisdomDescription": "Thousands of years of astrological tradition suggest that celestial bodies influence personality traits and relationship dynamics, offering insights into compatibility patterns.",
+    "planetaryInfluences": "Planetary Influences",
+    "planetaryInfluencesDescription": "Each zodiac sign is ruled by specific planets that influence characteristics, communication styles, and emotional expressions in relationships.",
+    "elementalChemistry": "Elemental Chemistry",
+    "elementalChemistryDescription": "The four elements (Fire, Earth, Air, Water) create natural attraction and compatibility patterns that can enhance understanding between partners.",
+    "cosmicTiming": "Cosmic Timing",
+    "cosmicTimingDescription": "Astrological compatibility can provide insights into relationship timing, challenges, and opportunities for growth and harmony.",
+    "poweredByAlgorithmTitle": "🌟 Powered by Celestial Harmony Algorithm",
+    "advancedAlgorithmDescription": "Our advanced algorithm combines traditional astrological wisdom with modern compatibility analysis, evaluating elemental interactions, planetary relationships, and cosmic aspects to deliver personalized zodiac compatibility insights.",
+    "traditionalAstrologyBased": "Traditional Astrology Based",
+    "elementalPlanetaryAnalysis": "Elemental & Planetary Analysis",
+    "5FactorCosmicScoring": "5-Factor Cosmic Scoring",
+    "astrologicalInsightsTitle": "Astrological Insights & Cosmic Wisdom",
+    "astrologicalInsights": {
+      "item1": "Elemental compatibility reveals natural attraction patterns between Fire, Earth, Air, and Water signs",
+      "item2": "Planetary rulerships influence communication styles and emotional expression in relationships",
+      "item3": "Modal energies (Cardinal, Fixed, Mutable) affect relationship dynamics and decision-making approaches",
+      "item4": "Traditional astrological aspects provide insights into potential challenges and harmonious connections",
+      "item5": "Cosmic timing and celestial cycles can enhance understanding of relationship phases and growth opportunities"
+    },
+    "entertainmentOnlyTitle": "🎭 Entertainment Only",
+    "important": "Important",
+    "entertainmentOnlyDescription": "This zodiac compatibility calculator is designed for entertainment purposes only. While based on traditional astrological principles, results should not be used as the sole basis for important relationship decisions. Astrology is a belief system, and compatibility depends on many personal factors beyond zodiac signs.",
+    "zodiacCompatibilityTestOnlineTitle": "Zodiac Compatibility Test Online",
+    "zodiacCompatibilityTestOnlineDescription": "Experience the magic of astrological compatibility with our comprehensive zodiac calculator. Discover cosmic connections, explore elemental harmony, and gain insights into your celestial love story.",
+    "calculateYourZodiacCompatibilityNow": "Calculate Your Zodiac Compatibility Now"
+  },
+  "results": {
+    "compatibilityScore": "Compatibility Score",
+    "perfectMatch": "Perfect Match!",
+    "excellentMatch": "Excellent Match!",
+    "goodMatch": "Good Match!",
+    "fairMatch": "Fair Match",
+    "challenging": "Challenging Match",
+    "description": {
+      "10": "Very different personalities - proceed with caution!",
+      "20": "This might be a challenging match, but every relationship is unique.",
+      "30": "Significant differences, but opposites sometimes attract!",
+      "40": "Some challenges ahead, but love can overcome obstacles.",
+      "50": "Moderate compatibility - friendship might work better than romance.",
+      "60": "Good compatibility with some areas to work on together.",
+      "70": "Very good match with great potential for a wonderful relationship.",
+      "80": "Excellent compatibility! You complement each other beautifully.",
+      "90": "You two are absolutely perfect for each other! This is a once-in-a-lifetime connection."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "zh": "中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी"
+  },
+  "meta": {
+    "title": "Love Calculator – Free Name Compatibility & Love Compatibility Test",
+    "description": "Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.",
+    "keywords": [
+      "love calculator",
+      "name compatibility",
+      "love compatibility test",
+      "relationship quiz",
+      "fun love test"
+    ],
+    "author": "Love Calculator Team",
+    "creator": "Love Calculator",
+    "publisher": "Love Calculator",
+    "siteName": "Love Calculator",
+    "ogImageAlt": "Love Calculator - Test Your Compatibility"
+  },
+  "header": {
+    "loveCalculator": "Love Calculator",
+    "moreTools": "More Tools",
+    "about": "About",
+    "contact": "Contact",
+    "funQuizzes": "Fun Quizzes ✨",
+    "relationshipQuiz": "Relationship Quiz",
+    "communicationQuiz": "Communication Style Quiz",
+    "loveLanguageAssessment": "Love Language Assessment",
+    "futureGoalsCompatibility": "Future Goals Compatibility",
+    "conflictResolutionQuiz": "Conflict Resolution Style Quiz",
+    "supportAndLegal": "Support & Legal 📋",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "dateOfBirthCompatibilityCalculator": "Date of Birth Compatibility Calculator",
+    "zodiacCompatibilityCalculator": "Zodiac Compatibility Calculator",
+    "nameCompatibility": "Name Compatibility",
+    "loveCompatibilityTest": "Love Compatibility Test",
+    "funLoveTest": "Fun Love Test",
+    "zodiacCalculator": "Zodiac Compatibility Calculator",
+    "dobCalculator": "Date of Birth Compatibility Calculator",
+    "zodiacCalculatorDescription": "Test astrological love compatibility",
+    "dobCalculatorDescription": "Analyze birth date compatibility patterns",
+    "relationshipQuizDescription": "Answer questions about your relationship",
+    "communicationQuizDescription": "Discover your communication patterns",
+    "loveLanguageAssessmentDescription": "Find out your primary love languages",
+    "futureGoalsCompatibilityDescription": "See how aligned your life goals are",
+    "conflictResolutionQuizDescription": "Learn your conflict resolution approach"
+  },
+  "footer": {
+    "description": "Discover your love compatibility with our fun and entertaining love calculator. Test your relationship compatibility and share your results with friends!",
+    "calculators": "Love Calculators",
+    "company": "Company",
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "forLove": "for love",
+    "funQuizzes": "Fun Quizzes ✨",
+    "relationshipQuiz": "Relationship Quiz",
+    "relationshipQuizDescription": "Take our fun 8-question quiz for entertaining relationship insights",
+    "communicationQuiz": "Communication Style Quiz",
+    "communicationQuizDescription": "Discover how you and your partner communicate and where you can improve",
+    "loveLanguageAssessment": "Love Language Assessment",
+    "loveLanguageAssessmentDescription": "Find out your primary love languages and learn how to express love better",
+    "futureGoalsCompatibility": "Future Goals Compatibility",
+    "futureGoalsCompatibilityDescription": "See how aligned your life goals and dreams are for the future",
+    "conflictResolutionQuiz": "Conflict Resolution Style Quiz",
+    "conflictResolutionQuizDescription": "Learn how you handle disagreements and how to resolve conflicts better",
+    "supportAndLegal": "Support & Legal 📋",
+    "contactUs": "Contact Us",
+    "contactUsDescription": "Get in touch with our team for questions, feedback, or support",
+    "privacyPolicy": "Privacy Policy",
+    "privacyPolicyDescription": "Learn how we protect your data and privacy while you have fun",
+    "termsOfService": "Terms of Service",
+    "termsOfServiceDescription": "Terms and conditions for using our entertainment services",
+    "moreTools": "More Tools",
+    "dateOfBirthCompatibilityCalculator": "Date of Birth Compatibility Calculator",
+    "zodiacCompatibilityCalculator": "Zodiac Compatibility Calculator",
+    "nameCompatibility": "Name Compatibility",
+    "loveCompatibilityTest": "Love Compatibility Test",
+    "funLoveTest": "Fun Love Test",
+    "allRightsReserved": "All rights reserved.",
+    "madeWithLove": "Made with ❤️ for everyone.",
+    "copyrightNotice": "© 2025 Love Calculator.",
+    "shareText": "Discover your love compatibility with our fun and entertaining Love Calculator! Test your relationship compatibility and share your results with friends! 💕",
+    "shareTextShort": "Discover your love compatibility! 💕 Test your relationship compatibility and share your results with friends!",
+    "copyForInstagram": "Copy this text for Instagram:",
+    "createTikTok": "Create a TikTok with this caption:",
+    "shareRedditTitle": "Discover Your Love Compatibility!",
+    "shareRedditText": "Fun and entertaining Love Calculator - Test your relationship compatibility and share your results with friends!"
+  },
+  "quizzes": {
+    "common": {
+      "question": "Question {{current}} of {{total}}",
+      "tryAgain": "Try Again",
+      "shareResults": "Share Results",
+      "yourStrengths": "Your Strengths",
+      "growthTips": "Growth Tips",
+      "yourScore": "Your Score",
+      "percentage": "{{percentage}}% compatible",
+      "primaryStyle": "Primary Style",
+      "primary": "primary",
+      "exploreOtherQuizzes": "Explore Other Quizzes",
+      "communicationStyleQuiz": "Communication Style Quiz",
+      "loveLanguageAssessment": "Love Language Assessment",
+      "futureGoalsCompatibility": "Future Goals Compatibility",
+      "conflictResolutionQuiz": "Conflict Resolution Quiz",
+      "relationshipQuiz": "Relationship Quiz",
+      "discoverYourPatterns": "Discover Your Patterns",
+      "discoverYourLoveLanguages": "Discover your primary love languages",
+      "discoverYourLoveLanguage": "Discover Your Love Language",
+      "seeHowAligned": "See how aligned your life goals are",
+      "learnYourApproach": "Learn Your Approach",
+      "answerQuestions": "Answer Questions",
+      "learnYourCommunicationStyle": "Learn Your Communication Style",
+      "alignYourFutureGoals": "Align Your Future Goals",
+      "whatYoullDiscoverConflict": "What You'll Discover About Conflict",
+      "conflictFocus": "Conflict Focus",
+      "transformDisagreements": "Transform Disagreements",
+      "yourConflictStyleBreakdown": "Your Conflict Style Breakdown",
+      "identifyYourPrimaryApproach": "Identify Your Primary Approach",
+      "learnEffectiveTechniques": "Learn Effective Techniques",
+      "discoverHowToBuild": "Discover How to Build",
+      "collaborative": "Collaborative",
+      "competing": "Competing",
+      "accommodating": "Accommodating",
+      "avoiding": "Avoiding",
+      "compromising": "Compromising",
+      "loveCalculator": "Love Calculator",
+      "yourConflictStyle": "Your Conflict Style",
+      "resolutionStrategies": "Resolution Strategies",
+      "relationshipImprovement": "Relationship Improvement",
+      "yourLoveLanguageScores": "Your Love Language Scores",
+      "loveFocus": "Love Focus",
+      "understandHowYouExpress": "Understand How You Express",
+      "communicationFocus": "Communication Focus",
+      "understandYourPatterns": "Understand Your Patterns",
+      "whyCommunicationMatters": "Why Communication Matters",
+      "betterUnderstanding": "Better Understanding",
+      "learnHowYouCommunicate": "Learn How You Communicate",
+      "reduceConflicts": "Reduce Conflicts",
+      "understandingDifferentStyles": "Understanding Different Styles",
+      "strongerConnection": "Stronger Connection",
+      "adaptYourCommunication": "Adapt Your Communication",
+      "relationshipFocus": "Relationship Focus",
+      "strengthAndGrowth": "Strength and Growth",
+      "whyTakeOurQuiz": "Why Take Our Quiz",
+      "selfAwareness": "Self-Awareness",
+      "gainInsights": "Gain Insights",
+      "communication": "Communication",
+      "startMeaningfulConversations": "Start Meaningful Conversations",
+      "growth": "Growth",
+      "identifyStrengths": "Identify Strengths",
+      "whatYoullLearn": "What You'll Learn",
+      "yourPrimaryLoveLanguage": "Your Primary Love Language",
+      "discoverWhichLoveLanguage": "Discover which love language speaks most deeply to you and resonates with your heart",
+      "howToExpressLove": "How to Express Love",
+      "learnBestWaysToShow": "Learn Best Ways to Show",
+      "relationshipGrowthTips": "Relationship Growth Tips",
+      "getPersonalizedAdvice": "Get Personalized Advice",
+      "goalsFocus": "Goals Focus",
+      "alignYourDreams": "Align Your Dreams",
+      "whatFutureGoalsWillReveal": "What Future Goals Will Reveal",
+      "goalAlignmentScore": "Goal Alignment Score",
+      "seeHowCloselyGoals": "See How Closely Goals",
+      "sharedPathPlanning": "Shared Path Planning",
+      "learnHowToCreate": "Learn How to Create",
+      "compromiseStrategies": "Compromise Strategies",
+      "getTipsOnNavigating": "Get Tips on Navigating",
+      "compatible": "compatible",
+      "yourStrongestAreas": "Your Strongest Areas",
+      "areasForDiscussion": "Areas for Discussion",
+      "detailedCompatibilityBreakdown": "Detailed Compatibility Breakdown",
+      "careerGoals": "Career Goals",
+      "familyPlans": "Family Plans",
+      "lifestyle": "Lifestyle",
+      "financialGoals": "Financial Goals",
+      "personalGrowth": "Personal Growth",
+      "next": "Next",
+      "back": "Back",
+      "submit": "Submit",
+      "results": "Results",
+      "yourResult": "Your Result",
+      "yourLoveLanguage": "Your Love Language",
+      "yourCommunicationStyle": "Your Communication Style",
+      "whyConflictResolutionMatters": "Why conflict resolution matters"
+    },
+    "relationshipQuiz": {
+      "title": "Relationship Compatibility Quiz",
+      "subtitle": "Discover How Strong Your Relationship Really Is",
+      "description": "Take our comprehensive 8-question relationship quiz to get insights into your relationship strength and compatibility.",
+      "questions": {
+        "q1": {
+          "question": "How often do you and your partner have meaningful conversations?",
+          "options": {
+            "opt1": "Daily",
+            "opt2": "A few times a week",
+            "opt3": "Weekly",
+            "opt4": "Rarely"
+          }
+        },
+        "q2": {
+          "question": "When you disagree, how do you typically resolve conflicts?",
+          "options": {
+            "opt1": "Talk it through calmly",
+            "opt2": "Need some time but work it out",
+            "opt3": "Argue but make up quickly",
+            "opt4": "Avoid the topic"
+          }
+        },
+        "q3": {
+          "question": "How aligned are your future goals and dreams?",
+          "options": {
+            "opt1": "Perfectly aligned",
+            "opt2": "Mostly similar",
+            "opt3": "Some differences",
+            "opt4": "Very different"
+          }
+        },
+        "q4": {
+          "question": "How much quality time do you spend together?",
+          "options": {
+            "opt1": "Plenty, and we enjoy it",
+            "opt2": "Good amount",
+            "opt3": "Could be more",
+            "opt4": "Not enough"
+          }
+        },
+        "q5": {
+          "question": "How do you handle each other's friends and family?",
+          "options": {
+            "opt1": "Love them all",
+            "opt2": "Get along well",
+            "opt3": "Some challenges",
+            "opt4": "Frequent issues"
+          }
+        },
+        "q6": {
+          "question": "How well do you communicate your needs and feelings?",
+          "options": {
+            "opt1": "Very openly",
+            "opt2": "Pretty well",
+            "opt3": "Sometimes struggle",
+            "opt4": "Rarely express them"
+          }
+        },
+        "q7": {
+          "question": "How do you support each other during tough times?",
+          "options": {
+            "opt1": "Always there for each other",
+            "opt2": "Usually supportive",
+            "opt3": "Sometimes",
+            "opt4": "Struggle with this"
+          }
+        },
+        "q8": {
+          "question": "How compatible are your lifestyle preferences?",
+          "options": {
+            "opt1": "Very compatible",
+            "opt2": "Mostly compatible",
+            "opt3": "Some differences",
+            "opt4": "Quite different"
+          }
+        }
+      },
+      "results": {
+        "perfectMatch": {
+          "title": "Perfect Match! 💖",
+          "message": "You two are relationship goals! Your compatibility is off the charts."
+        },
+        "greatCompatibility": {
+          "title": "Great Compatibility! 💕",
+          "message": "You have a strong relationship with excellent potential."
+        },
+        "goodFoundation": {
+          "title": "Good Foundation! 💛",
+          "message": "You have a solid relationship with room for growth."
+        },
+        "workInProgress": {
+          "title": "Work in Progress! 💪",
+          "message": "Every relationship can improve with effort and communication."
+        }
+      }
+    },
+    "communicationStyleQuiz": {
+      "title": "Communication Style Quiz",
+      "subtitle": "Discover Your Unique Communication Patterns",
+      "description": "Understand how you and your partner communicate differently and learn to bridge any gaps for better connection.",
+      "questions": {
+        "q1": {
+          "question": "When your partner is upset, what's your first instinct?",
+          "options": {
+            "opt1": "Listen carefully and ask questions to understand",
+            "opt2": "Offer practical solutions to fix the problem",
+            "opt3": "Give them a hug and emotional support",
+            "opt4": "Give them space until they're ready to talk"
+          }
+        },
+        "q2": {
+          "question": "How do you prefer to discuss important relationship decisions?",
+          "options": {
+            "opt1": "Face-to-face with lots of discussion and emotion",
+            "opt2": "Calmly with facts, pros and cons laid out",
+            "opt3": "Over time with gentle conversations and check-ins",
+            "opt4": "Directly and efficiently to reach a conclusion"
+          }
+        },
+        "q3": {
+          "question": "When you disagree with your partner, you tend to:",
+          "options": {
+            "opt1": "Express your feelings immediately and passionately",
+            "opt2": "Think it through before presenting logical arguments",
+            "opt3": "Focus on understanding their perspective first",
+            "opt4": "State your position clearly and expect the same"
+          }
+        },
+        "q4": {
+          "question": "Your ideal way to share good news is:",
+          "options": {
+            "opt1": "Call them immediately, full of excitement and emotion",
+            "opt2": "Plan how to share it in an organized, clear way",
+            "opt3": "Tell them in a quiet moment with warmth and connection",
+            "opt4": "Share the facts straightforwardly and move on"
+          }
+        },
+        "q5": {
+          "question": "When giving feedback to your partner, you:",
+          "options": {
+            "opt1": "Share your feelings openly about how their actions affected you",
+            "opt2": "Present specific examples and suggest concrete improvements",
+            "opt3": "Emphasize their strengths first, then gently mention areas to work on",
+            "opt4": "Be direct about what needs to change without sugarcoating"
+          }
+        },
+        "q6": {
+          "question": "During conflicts, what matters most to you?",
+          "options": {
+            "opt1": "That both of you can express your true feelings",
+            "opt2": "Finding a logical solution that makes sense",
+            "opt3": "Maintaining connection and understanding throughout",
+            "opt4": "Resolving the issue quickly and clearly"
+          }
+        },
+        "q7": {
+          "question": "How do you show love through communication?",
+          "options": {
+            "opt1": "Through heartfelt words and emotional expressions",
+            "opt2": "By remembering details and following through on promises",
+            "opt3": "With gentle encouragement and validating their feelings",
+            "opt4": "By being honest and straightforward about your commitment"
+          }
+        },
+        "q8": {
+          "question": "When your partner needs to vent, you prefer to:",
+          "options": {
+            "opt1": "Match their energy and share similar experiences",
+            "opt2": "Ask clarifying questions to help them think through it",
+            "opt3": "Listen quietly and offer comfort and reassurance",
+            "opt4": "Listen briefly then help them move toward solutions"
+          }
+        },
+        "q9": {
+          "question": "Your communication style is most energized by:",
+          "options": {
+            "opt1": "Deep emotional conversations about feelings and dreams",
+            "opt2": "Interesting discussions about ideas, plans, and possibilities",
+            "opt3": "Heart-to-heart talks that build intimacy and connection",
+            "opt4": "Efficient exchanges that accomplish goals and solve problems"
+          }
+        },
+        "q10": {
+          "question": "When you need support from your partner, you prefer they:",
+          "options": {
+            "opt1": "Let you express everything you're feeling without judgment",
+            "opt2": "Help you analyze the situation and brainstorm solutions",
+            "opt3": "Offer comfort, validation, and reassurance",
+            "opt4": "Give you clear advice and next steps"
+          }
+        }
+      },
+      "results": {
+        "expressive": {
+          "title": "Expressive Communicator 🎭",
+          "description": "You communicate with passion, emotion, and enthusiasm. You value deep conversations and emotional connection.",
+          "strengths": [
+            "Great at sharing feelings",
+            "Emotionally supportive",
+            "Creates deep connections",
+            "Passionate and engaging"
+          ],
+          "tips": [
+            "Practice active listening",
+            "Give others time to process",
+            "Consider your partner's communication pace"
+          ]
+        },
+        "analytical": {
+          "title": "Analytical Communicator 🧠",
+          "description": "You prefer logical, structured communication. You value clear information and practical solutions.",
+          "strengths": [
+            "Clear and organized",
+            "Great problem solver",
+            "Reliable follow-through",
+            "Thoughtful responses"
+          ],
+          "tips": [
+            "Show more emotional warmth",
+            "Validate feelings before offering solutions",
+            "Be patient with emotional expressions"
+          ]
+        },
+        "supportive": {
+          "title": "Supportive Communicator 🤗",
+          "description": "You prioritize understanding, empathy, and maintaining harmony in your communications.",
+          "strengths": [
+            "Excellent listener",
+            "Highly empathetic",
+            "Creates safe spaces",
+            "Great at validation"
+          ],
+          "tips": [
+            "Don't avoid necessary difficult conversations",
+            "Express your own needs clearly",
+            "It's okay to disagree sometimes"
+          ]
+        },
+        "direct": {
+          "title": "Direct Communicator ⚡",
+          "description": "You value efficiency, honesty, and straightforward communication. You get to the point quickly.",
+          "strengths": [
+            "Clear and honest",
+            "Efficient communicator",
+            "Good at making decisions",
+            "No mixed messages"
+          ],
+          "tips": [
+            "Add more warmth to your tone",
+            "Take time for emotional check-ins",
+            "Be patient with processing time"
+          ]
+        }
+      }
+    },
+    "loveLanguageAssessment": {
+      "title": "Love Language Assessment",
+      "subtitle": "Discover How You Give and Receive Love",
+      "description": "Discover your primary way of expressing and receiving love through this comprehensive assessment.",
+      "questions": {
+        "q1": {
+          "question": "What makes you feel most loved by your partner?",
+          "options": {
+            "opt1": "When they tell me they love me and appreciate me",
+            "opt2": "When we spend uninterrupted time together",
+            "opt3": "When they give me a hug or hold my hand",
+            "opt4": "When they help me with tasks or do things for me",
+            "opt5": "When they surprise me with thoughtful gifts"
+          }
+        },
+        "q2": {
+          "question": "When you want to show your partner you care, you usually:",
+          "options": {
+            "opt1": "Write them a heartfelt note or send sweet messages",
+            "opt2": "Plan a special date or activity together",
+            "opt3": "Give them physical affection like hugs and kisses",
+            "opt4": "Do something helpful like cooking or cleaning",
+            "opt5": "Buy them something they've been wanting"
+          }
+        },
+        "q3": {
+          "question": "Your ideal evening with your partner involves:",
+          "options": {
+            "opt1": "Deep conversations where you share your thoughts and dreams",
+            "opt2": "Doing an activity together with phones put away",
+            "opt3": "Cuddling on the couch while watching a movie",
+            "opt4": "Working together on a project or tackling household tasks",
+            "opt5": "Going shopping together or exchanging small surprises"
+          }
+        },
+        "q4": {
+          "question": "Which gesture would make you feel most appreciated?",
+          "options": {
+            "opt1": "A sincere compliment about something you did well",
+            "opt2": "Your partner putting their phone away to focus completely on you",
+            "opt3": "A spontaneous back rub or hand massage",
+            "opt4": "Coming home to find your partner has done your least favorite chore",
+            "opt5": "A small gift that shows they were thinking of you"
+          }
+        },
+        "q5": {
+          "question": "When your partner is away, what do you miss most?",
+          "options": {
+            "opt1": "Hearing their voice and the sweet things they say",
+            "opt2": "The time you spend together and shared experiences",
+            "opt3": "Their physical presence and affectionate touches",
+            "opt4": "The way they help with daily life and responsibilities",
+            "opt5": "The little surprises and thoughtful gestures"
+          }
+        },
+        "q6": {
+          "question": "Physical affection is important to you because:",
+          "options": {
+            "opt1": "It's a way to communicate love without words",
+            "opt2": "It makes you feel connected during quality time together",
+            "opt3": "It makes you feel secure and loved",
+            "opt4": "It shows your partner cares about your comfort and well-being",
+            "opt5": "It's often paired with giving or receiving something special"
+          }
+        },
+        "q7": {
+          "question": "How do you prefer to be comforted when upset?",
+          "options": {
+            "opt1": "Words of encouragement and reassurance",
+            "opt2": "Having your partner's undivided attention and presence",
+            "opt3": "Physical comfort like hugs, hand-holding, or cuddling",
+            "opt4": "Having your partner take care of practical things for you",
+            "opt5": "Being surprised with something to cheer you up"
+          }
+        },
+        "q8": {
+          "question": "When your partner helps you, you feel most loved when they:",
+          "options": {
+            "opt1": "Tell you how much they enjoy helping you",
+            "opt2": "Make the time to help despite their busy schedule",
+            "opt3": "Work alongside you with physical closeness",
+            "opt4": "Notice what you need without being asked",
+            "opt5": "Bring you tools or supplies to make the task easier"
+          }
+        },
+        "q9": {
+          "question": "What means more to you?",
+          "options": {
+            "opt1": "A handwritten love letter",
+            "opt2": "A day trip planned just for the two of you",
+            "opt3": "A surprise massage or long hug",
+            "opt4": "Coming home to a clean house and dinner made",
+            "opt5": "A thoughtful gift that reminded them of you"
+          }
+        },
+        "q10": {
+          "question": "What would make you feel most special on your birthday?",
+          "options": {
+            "opt1": "A heartfelt speech about what you mean to your partner",
+            "opt2": "Having your partner's complete attention all day",
+            "opt3": "Lots of affectionate touches and physical closeness",
+            "opt4": "Having everything planned and organized so you can relax",
+            "opt5": "A perfect gift that shows how well they know you"
+          }
+        }
+      },
+      "results": {
+        "wordsOfAffirmation": {
+          "title": "Words of Affirmation 💬",
+          "description": "You thrive on verbal appreciation, compliments, and encouraging words. Hearing 'I love you' means the world to you.",
+          "characteristics": [
+            "Values verbal appreciation",
+            "Loves compliments and praise",
+            "Enjoys meaningful conversations",
+            "Feels hurt by harsh words"
+          ],
+          "tips": [
+            "Express appreciation verbally",
+            "Leave loving notes",
+            "Offer genuine compliments",
+            "Avoid criticism"
+          ],
+          "partnerTips": [
+            "Tell them you love them regularly",
+            "Acknowledge their efforts out loud",
+            "Send sweet text messages",
+            "Praise them in front of others"
+          ]
+        },
+        "qualityTime": {
+          "title": "Quality Time ⏰",
+          "description": "You feel most loved when you have your partner's undivided attention. Being together and creating memories matters most.",
+          "characteristics": [
+            "Values undivided attention",
+            "Enjoys shared activities",
+            "Feels loved through presence",
+            "Dislikes distractions during together time"
+          ],
+          "tips": [
+            "Give your full attention",
+            "Plan regular date nights",
+            "Put devices away when together",
+            "Create new experiences"
+          ],
+          "partnerTips": [
+            "Schedule regular one-on-one time",
+            "Be fully present without distractions",
+            "Plan activities you both enjoy",
+            "Listen actively when they speak"
+          ]
+        },
+        "physicalTouch": {
+          "title": "Physical Touch 🤗",
+          "description": "Physical affection makes you feel most connected and loved. Hugs, kisses, and gentle touches speak louder than words.",
+          "characteristics": [
+            "Needs regular physical affection",
+            "Feels connected through touch",
+            "Values non-sexual touch",
+            "Feels unloved when touch is lacking"
+          ],
+          "tips": [
+            "Initiate appropriate physical contact",
+            "Hold hands frequently",
+            "Give hugs and kisses",
+            "Respect physical boundaries"
+          ],
+          "partnerTips": [
+            "Offer regular hugs and kisses",
+            "Hold hands while walking",
+            "Sit close during movies",
+            "Give back rubs or massages"
+          ]
+        },
+        "actsOfService": {
+          "title": "Acts of Service 🛠️",
+          "description": "You feel loved when your partner helps with tasks and responsibilities. Actions speak louder than words for you.",
+          "characteristics": [
+            "Values helpful actions",
+            "Appreciates assistance with tasks",
+            "Feels loved through practical help",
+            "May feel burdened when help isn't offered"
+          ],
+          "tips": [
+            "Help with daily responsibilities",
+            "Anticipate their needs",
+            "Follow through on promises",
+            "Ask how you can help"
+          ],
+          "partnerTips": [
+            "Help with household chores",
+            "Run errands for them",
+            "Cook their favorite meal",
+            "Take care of tasks they dislike"
+          ]
+        },
+        "receivingGifts": {
+          "title": "Receiving Gifts 🎁",
+          "description": "Thoughtful gifts and gestures make you feel most appreciated. It's not about expense, but the thought and effort behind it.",
+          "characteristics": [
+            "Values thoughtful gestures",
+            "Appreciates symbolic gifts",
+            "Remembers special occasions",
+            "Feels hurt when occasions are forgotten"
+          ],
+          "tips": [
+            "Give thoughtful, meaningful gifts",
+            "Remember important dates",
+            "Bring small surprises",
+            "Put thought into gift selection"
+          ],
+          "partnerTips": [
+            "Remember birthdays and anniversaries",
+            "Bring small unexpected gifts",
+            "Pay attention to things they mention wanting",
+            "Handmade gifts show extra thought"
+          ]
+        }
+      }
+    },
+    "futureGoalsCompatibility": {
+      "title": "Future Goals Compatibility Quiz",
+      "subtitle": "See How Aligned Your Life Dreams Are",
+      "description": "Discover how compatible your future goals, lifestyle preferences, and life plans are with your partner.",
+      "questions": {
+        "q1": {
+          "question": "In 5 years, what's most important to you career-wise?",
+          "options": {
+            "opt1": "Climbing the corporate ladder and achieving leadership roles",
+            "opt2": "Finding work-life balance with a stable, fulfilling job",
+            "opt3": "Being my own boss and running a successful business",
+            "opt4": "Having the flexibility to travel and work remotely"
+          }
+        },
+        "q2": {
+          "question": "What's your ideal work schedule in the future?",
+          "options": {
+            "opt1": "Full-time career with potential for overtime when needed",
+            "opt2": "Standard full-time with clear work-life boundaries",
+            "opt3": "Part-time or flexible schedule for family/personal time",
+            "opt4": "Freelance or entrepreneurial with complete control over time"
+          }
+        },
+        "q3": {
+          "question": "When do you see yourself having children (if at all)?",
+          "options": {
+            "opt1": "Already have them or want them within the next 2-3 years",
+            "opt2": "In the next 5-7 years when we're more established",
+            "opt3": "Maybe someday, but it's not a priority right now",
+            "opt4": "I don't want children or am unsure about it"
+          }
+        },
+        "q4": {
+          "question": "How important is it to live near family?",
+          "options": {
+            "opt1": "Essential - within 30 minutes of parents/siblings",
+            "opt2": "Preferred - same city or within a few hours drive",
+            "opt3": "Nice but not necessary - same state or region is fine",
+            "opt4": "Not important - we can live anywhere that's best for us"
+          }
+        },
+        "q5": {
+          "question": "Where do you see yourself living in 10 years?",
+          "options": {
+            "opt1": "In a big city with lots of opportunities and excitement",
+            "opt2": "In the suburbs with a nice house and good schools",
+            "opt3": "In a small town or rural area for peace and quiet",
+            "opt4": "Traveling frequently or living in different places"
+          }
+        },
+        "q6": {
+          "question": "What's your vision for friendships and social life?",
+          "options": {
+            "opt1": "Large circle of friends with frequent social gatherings",
+            "opt2": "Close-knit group of friends with regular but balanced socializing",
+            "opt3": "Small group of very close friends with occasional meetups",
+            "opt4": "Prefer quiet time together, minimal social obligations"
+          }
+        },
+        "q7": {
+          "question": "How important is financial security to your future happiness?",
+          "options": {
+            "opt1": "Essential - I want to be wealthy and financially independent",
+            "opt2": "Very important - I want to be comfortable and debt-free",
+            "opt3": "Somewhat important - enough to cover needs and some wants",
+            "opt4": "Not very important - money doesn't buy happiness"
+          }
+        },
+        "q8": {
+          "question": "How do you want to handle big purchases and financial decisions?",
+          "options": {
+            "opt1": "Always discuss and agree together on everything over $100",
+            "opt2": "Discuss major purchases over $500-1000 together",
+            "opt3": "Have individual freedom for smaller amounts, discuss large ones",
+            "opt4": "Mostly independent financial decisions with occasional check-ins"
+          }
+        },
+        "q9": {
+          "question": "What's your approach to major life decisions?",
+          "options": {
+            "opt1": "Plan everything carefully with detailed strategies",
+            "opt2": "Have a general plan but stay flexible for opportunities",
+            "opt3": "Go with the flow and see what life brings",
+            "opt4": "Follow your heart and intuition above all else"
+          }
+        },
+        "q10": {
+          "question": "How important is continuing education and personal growth?",
+          "options": {
+            "opt1": "Extremely important - always learning new skills and growing",
+            "opt2": "Important - pursuing additional education or certifications",
+            "opt3": "Somewhat important - learning when opportunities arise",
+            "opt4": "Not a priority - focus on other life goals instead"
+          }
+        }
+      },
+      "results": {
+        "highlyCompatible": {
+          "title": "Future Soulmates! 🌟",
+          "description": "Your future goals are incredibly aligned! You both want similar things and have compatible timelines for achieving your dreams.",
+          "message": "Future Soulmates! Your future goals are incredibly aligned!"
+        },
+        "wellMatched": {
+          "title": "Great Life Partners! 💫",
+          "description": "You have strong compatibility in your future goals with some areas that might need discussion and compromise.",
+          "message": "Great Life Partners! You have strong compatibility in your future goals."
+        },
+        "someAlignment": {
+          "title": "Good Foundation! 🌱",
+          "description": "You share many similar goals but may need to work through some differences in priorities and timelines.",
+          "message": "Good Foundation! You share many similar goals."
+        },
+        "significantDifferences": {
+          "title": "Important Conversations Ahead! 💬",
+          "description": "You have some significant differences in future goals that deserve serious discussion and compromise.",
+          "message": "Important Conversations Ahead! You have some significant differences in future goals."
+        }
+      },
+      "categories": {
+        "career": "Career",
+        "family": "Family",
+        "lifestyle": "Lifestyle",
+        "finances": "Finances",
+        "personal": "Personal Growth"
+      },
+      "strongestAreas": "Strongest Areas",
+      "growthAreas": "Areas for Discussion"
+    },
+    "conflictResolutionQuiz": {
+      "title": "Conflict Resolution Style Quiz",
+      "subtitle": "Discover How You Handle Disagreements",
+      "description": "Learn your natural approach to conflict and how to work better with your partner during disagreements.",
+      "questions": {
+        "q1": {
+          "question": "When you and your partner disagree about something important, your first instinct is to:",
+          "options": {
+            "opt1": "Find a solution that works for both of you",
+            "opt2": "Argue your point until they understand you're right",
+            "opt3": "Give in to keep the peace and avoid conflict",
+            "opt4": "Change the subject or walk away from the conversation",
+            "opt5": "Meet halfway and each compromise something"
+          }
+        },
+        "q2": {
+          "question": "During a heated argument, you typically:",
+          "options": {
+            "opt1": "Try to understand their perspective and find common ground",
+            "opt2": "Get louder and more insistent about your position",
+            "opt3": "Back down and apologize even if you disagree",
+            "opt4": "Shut down emotionally and stop participating",
+            "opt5": "Suggest taking a break and finding a middle ground later"
+          }
+        },
+        "q3": {
+          "question": "Your approach to winning arguments is:",
+          "options": {
+            "opt1": "Arguments should be about finding truth, not winning",
+            "opt2": "I usually win because I'm well-prepared and persistent",
+            "opt3": "I don't like winning arguments, it hurts relationships",
+            "opt4": "I try to avoid arguments altogether",
+            "opt5": "I'm willing to win some and lose some"
+          }
+        },
+        "q4": {
+          "question": "When you're clearly right about something but your partner disagrees:",
+          "options": {
+            "opt1": "I focus on helping them understand my perspective",
+            "opt2": "I keep arguing until they admit I'm right",
+            "opt3": "I let them think they're right to keep harmony",
+            "opt4": "I drop it and move on to something else",
+            "opt5": "I present my case once and then let it go"
+          }
+        },
+        "q5": {
+          "question": "After a fight, you typically:",
+          "options": {
+            "opt1": "Want to talk it through completely until you both understand",
+            "opt2": "Expect an acknowledgment that your point was valid",
+            "opt3": "Apologize first to restore harmony",
+            "opt4": "Hope it blows over and things go back to normal",
+            "opt5": "Suggest finding a compromise that works for both"
+          }
+        },
+        "q6": {
+          "question": "When your partner brings up a complaint about you:",
+          "options": {
+            "opt1": "Listen carefully and work together on solutions",
+            "opt2": "Defend yourself and explain why you acted that way",
+            "opt3": "Apologize and try to make them feel better",
+            "opt4": "Feel overwhelmed and need space to process",
+            "opt5": "Acknowledge their point and offer to meet in the middle"
+          }
+        },
+        "q7": {
+          "question": "Your biggest fear during conflicts is:",
+          "options": {
+            "opt1": "That you won't be able to solve the problem together",
+            "opt2": "That your partner won't respect your perspective",
+            "opt3": "That the conflict will damage your relationship",
+            "opt4": "That emotions will get too intense and overwhelming",
+            "opt5": "That neither of you will be satisfied with the outcome"
+          }
+        },
+        "q8": {
+          "question": "When discussing a problem, you prefer to:",
+          "options": {
+            "opt1": "Take as much time as needed to fully explore the issue",
+            "opt2": "Present your case clearly and expect the same from them",
+            "opt3": "Focus on feelings and maintaining connection",
+            "opt4": "Keep discussions brief and solution-focused",
+            "opt5": "Find quick compromises to resolve things efficiently"
+          }
+        },
+        "q9": {
+          "question": "Your conflict resolution strength is:",
+          "options": {
+            "opt1": "Finding creative solutions that work for everyone",
+            "opt2": "Standing firm on important principles and values",
+            "opt3": "Maintaining love and connection through difficult times",
+            "opt4": "Staying calm and not escalating emotional situations",
+            "opt5": "Being fair and finding middle ground quickly"
+          }
+        },
+        "q10": {
+          "question": "When you've hurt your partner's feelings, you:",
+          "options": {
+            "opt1": "Want to understand exactly how and why, then work on solutions",
+            "opt2": "Explain your intentions and expect them to understand",
+            "opt3": "Apologize immediately and focus on making them feel better",
+            "opt4": "Feel bad but need time to process before discussing it",
+            "opt5": "Apologize and suggest ways to prevent it from happening again"
+          }
+        }
+      },
+      "results": {
+        "collaborative": {
+          "title": "Collaborative Problem-Solver 🤝",
+          "description": "You believe in working together to find win-win solutions. You value both your needs and your partner's equally.",
+          "strengths": [
+            "Great at finding creative solutions",
+            "Values both perspectives",
+            "Builds stronger relationships",
+            "Addresses root causes"
+          ],
+          "challenges": [
+            "Can take more time",
+            "May avoid quick decisions",
+            "Requires partner cooperation",
+            "Can be exhausting"
+          ],
+          "tips": [
+            "Continue nurturing this healthy approach",
+            "Be patient when your partner needs time",
+            "Don't force collaboration when quick decisions are needed"
+          ],
+          "partnerAdvice": [
+            "Appreciate their commitment to fairness",
+            "Engage openly in problem-solving",
+            "Give them time to work through issues together"
+          ]
+        },
+        "accommodating": {
+          "title": "Harmony Keeper 🕊️",
+          "description": "You prioritize relationship peace and your partner's happiness. You're willing to sacrifice your preferences for harmony.",
+          "strengths": [
+            "Maintains relationship peace",
+            "Shows love through sacrifice",
+            "Avoids destructive conflicts",
+            "Creates safe emotional space"
+          ],
+          "challenges": [
+            "Your needs may go unmet",
+            "Can build resentment over time",
+            "Problems may not get fully resolved",
+            "Partner may not know your true feelings"
+          ],
+          "tips": [
+            "Practice expressing your needs",
+            "Set healthy boundaries",
+            "Address issues before they build up",
+            "Remember your opinions matter too"
+          ],
+          "partnerAdvice": [
+            "Encourage them to share their true feelings",
+            "Check in on their needs regularly",
+            "Don't take advantage of their accommodation"
+          ]
+        },
+        "avoiding": {
+          "title": "Conflict Avoider 🚪",
+          "description": "You prefer to step away from conflicts and let tensions resolve naturally. You need space to process emotions.",
+          "strengths": [
+            "Prevents escalation",
+            "Gives time for emotions to cool",
+            "Avoids saying hurtful things",
+            "Can provide valuable perspective"
+          ],
+          "challenges": [
+            "Problems may not get resolved",
+            "Partner may feel ignored",
+            "Issues can build up over time",
+            "May miss opportunities for growth"
+          ],
+          "tips": [
+            "Schedule specific times to discuss issues",
+            "Practice staying present for short periods",
+            "Communicate your need for space",
+            "Return to address problems after cooling off"
+          ],
+          "partnerAdvice": [
+            "Give them space when they need it",
+            "Schedule calm times to discuss issues",
+            "Be patient with their processing time"
+          ]
+        },
+        "compromising": {
+          "title": "Fair Negotiator ⚖️",
+          "description": "You believe in fairness and finding middle ground. You're willing to give some to get some in most situations.",
+          "strengths": [
+            "Creates fair outcomes",
+            "Quick resolution",
+            "Both parties get something",
+            "Practical and realistic"
+          ],
+          "challenges": [
+            "May not address deeper issues",
+            "Both parties may feel unsatisfied",
+            "Can become routine rather than thoughtful",
+            "May avoid dealing with core problems"
+          ],
+          "tips": [
+            "Sometimes dig deeper for win-win solutions",
+            "Make sure compromises feel fair to both",
+            "Address underlying needs, not just surface issues"
+          ],
+          "partnerAdvice": [
+            "Appreciate their fairness",
+            "Speak up when compromises don't feel balanced",
+            "Work together on more collaborative solutions sometimes"
+          ]
+        },
+        "competing": {
+          "title": "Direct Competitor 🏆",
+          "description": "You prefer to stand firm on your positions and advocate strongly for your viewpoint. You value being right and winning.",
+          "strengths": [
+            "Clear about your needs",
+            "Decisive in tough situations",
+            "Stands up for important values",
+            "Gets results quickly"
+          ],
+          "challenges": [
+            "May damage relationship harmony",
+            "Can escalate conflicts",
+            "Partner may feel unheard",
+            "May miss compromise opportunities"
+          ],
+          "tips": [
+            "Practice active listening",
+            "Consider your partner's feelings",
+            "Choose your battles wisely",
+            "Ask questions instead of just arguing"
+          ],
+          "partnerAdvice": [
+            "Stand your ground on important issues",
+            "Help them see your perspective",
+            "Appreciate their passion and commitment"
+          ]
+        },
+        "analytical": {
+          "title": "Analytical Resolver 🧠",
+          "description": "You prefer to step back, analyze the situation, and find logical solutions. You process conflicts thoughtfully.",
+          "strengths": [
+            "Prevents escalation",
+            "Gives time for emotions to cool",
+            "Avoids saying hurtful things",
+            "Can provide valuable perspective"
+          ],
+          "challenges": [
+            "Problems may not get resolved",
+            "Partner may feel ignored",
+            "Issues can build up over time",
+            "May miss opportunities for growth"
+          ],
+          "tips": [
+            "Schedule specific times to discuss issues",
+            "Practice staying present for short periods",
+            "Communicate your need for space",
+            "Return to address problems after cooling off"
+          ],
+          "partnerAdvice": [
+            "Give them space when they need it",
+            "Schedule calm times to discuss issues",
+            "Be patient with their processing time"
+          ]
+        }
+      },
+      "yourChallenges": "Your Challenges",
+      "tipsForYou": "Tips for You",
+      "adviceForPartner": "Advice for Your Partner"
+    }
+  },
+  "charts": {
+    "score": "Score",
+    "chartScore": "Score: {{score}}/100",
+    "chartTooltipScore": "Score",
+    "compatibilityBreakdown": "Compatibility Breakdown",
+    "loveLanguageBreakdown": "Love Language Breakdown",
+    "communicationBreakdown": "Communication Style Breakdown",
+    "conflictStyleBreakdown": "Conflict Resolution Breakdown",
+    "futureGoalsBreakdown": "Future Goals Breakdown"
+  }
+}

@@ -1,24 +1,16 @@
 // Love Calculator Utility Functions
+import { normalizeUnicodeName, keepOnlyUnicodeLetters, hashUnicodeString } from './unicodeUtils';
 
 function normalizeString(str: string): string {
-  return str
-    .toLowerCase()
-    .replace(/\s+/g, '') // Remove spaces
-    .normalize('NFD') // Decompose accented characters
-    .replace(/[\u0300-\u036f]/g, '') // Remove combining diacritical marks
-    .replace(/[^a-z0-9]/g, ''); // Remove any remaining special characters, keep only letters and numbers
+  // Use Unicode-aware normalization and keep all Unicode letters
+  return keepOnlyUnicodeLetters(normalizeUnicodeName(str));
 }
 
 export function hashNamesToScore(name1: string, name2: string): number {
   const str = normalizeString(name1) + normalizeString(name2);
-  let hash = 0;
-  
-  for (let i = 0; i < str.length; i++) {
-    hash = str.charCodeAt(i) + ((hash << 5) - hash);
-    hash = hash & hash; // Convert to 32bit integer
-  }
-  
-  return Math.abs(hash % 101);
+  // Use Unicode-aware hashing
+  const hash = hashUnicodeString(str);
+  return hash % 101;
 }
 
 export interface LoveMessage {
@@ -504,6 +496,12 @@ export const easterEggs: Record<string, EasterEgg> = {
     message: "Web-slinging meets wise-cracking! 🕷️💬",
     emoji: "🕷️",
     shareText: "Web-slinging meets wise-cracking! 🕷️"
+  },
+  "fionashrek": {
+    score: 99,
+    message: "A fairy tale match — layers included. 🧅💚",
+    emoji: "🧅",
+    shareText: "Fairy tale match! 🧅💚"
   }
 };
 
@@ -678,9 +676,48 @@ export function calculateLoveScore(name1: string, name2: string): number {
   return hashNamesToScore(name1, name2);
 }
 
-export function getCustomMessage(name1: string, name2: string): LoveMessage | null {
+export function getCustomMessage(name1: string, name2: string, t?: (key: string) => string): LoveMessage | null {
   const easterEgg = getEasterEgg(name1, name2);
   if (easterEgg) {
+    const normalizedPair = normalizeString(name1) + normalizeString(name2);
+    const reversePair = normalizeString(name2) + normalizeString(name1);
+    const key = easterEggs[normalizedPair] ? normalizedPair : reversePair;
+    
+    if (t) {
+      // Find the category using the standard approach (works for all languages now)
+      const category = findEasterEggCategory(key);
+      
+      // Easter egg category found
+      
+      // The category finder already determined the correct structure, so try both paths
+      const nestedMessageKey = `loveCalculator.easterEggs.${category}.${key}.message`;
+      const nestedShareTextKey = `loveCalculator.easterEggs.${category}.${key}.shareText`;
+      const rootMessageKey = `easterEggs.${category}.${key}.message`;
+      const rootShareTextKey = `easterEggs.${category}.${key}.shareText`;
+      
+      // Try nested structure first (most languages)
+      let messageTranslation = t(nestedMessageKey);
+      let shareTextTranslation = t(nestedShareTextKey);
+      
+      // If nested doesn't work, try root level (Japanese/Arabic/Hindi)
+      if (messageTranslation === nestedMessageKey) {
+        messageTranslation = t(rootMessageKey);
+        shareTextTranslation = t(rootShareTextKey);
+      }
+      
+      // Translation lookup complete
+      
+      // Check if translation exists (if t() returns the key, it means no translation found)
+      const messageKey = messageTranslation !== nestedMessageKey ? rootMessageKey : nestedMessageKey;
+      const shareTextKey = shareTextTranslation !== nestedShareTextKey ? rootShareTextKey : nestedShareTextKey;
+      
+      return {
+        message: messageTranslation !== messageKey ? messageTranslation : easterEgg.message,
+        emoji: easterEgg.emoji,
+        shareText: shareTextTranslation !== shareTextKey ? shareTextTranslation : easterEgg.shareText
+      };
+    }
+    
     return {
       message: easterEgg.message,
       emoji: easterEgg.emoji,
@@ -688,4 +725,91 @@ export function getCustomMessage(name1: string, name2: string): LoveMessage | nu
     };
   }
   return null;
+}
+
+function findEasterEggCategory(key: string): string {
+  // Standard category mapping that works for all languages
+  const categoryMap: Record<string, string> = {
+    "taylorswifttraviskelce": "celebrities",
+    "willsmithjadapinkettsmith": "celebrities",
+    "blakelivelyryanreynolds": "celebrities",
+    "johnnydeppamberheard": "celebrities",
+    "barackobamamichelleobama": "celebrities",
+    "tomhollandzendaya": "celebrities",
+    "jayzbeyonce": "celebrities",
+    "cristianoronaldogeorginarodriguez": "celebrities",
+    "harrystylesoliviawilde": "celebrities",
+    "willsmithmargotrobbie": "celebrities",
+    "kanyewestkimkardashian": "celebrities",
+    "bradpittangelinajolie": "celebrities",
+    "elonmuskgrimes": "celebrities",
+    "shakiragerardpique": "celebrities",
+    "mrbeastpewdiepie": "youtubers",
+    "mrbeastchandler": "youtubers",
+    "loganpauljakepaul": "youtubers",
+    "dreamgeorgenotfound": "youtubers",
+    "charlidameliollilhuddy": "youtubers",
+    "pokimanexqc": "youtubers",
+    "ninjatfue": "youtubers",
+    "valkyraeeludwig": "youtubers",
+    "hasanabiaoc": "youtubers",
+    "khabylamesilence": "youtubers",
+    "jamescharlestatiwestbrook": "youtubers",
+    "loganpaulksi": "youtubers",
+    "elonmuskmarkzuckerberg": "controversialFigures",
+    "andrewtatergretathunberg": "controversialFigures",
+    "rossgellerrachelgreen": "tvMovieCharacters",
+    "rossrachel": "tvMovieCharacters",
+    "jackrose": "tvMovieCharacters",
+    "jonsnowdaenerystargaryen": "tvMovieCharacters",
+    "katnisseverdeenpeetamellark": "tvMovieCharacters",
+    "sherlockholmesdrwatson": "tvMovieCharacters",
+    "watsonsherlock": "tvMovieCharacters",
+    "johnwatsonsherlockholmes": "tvMovieCharacters",
+    "homersimpsonmargesimpson": "tvMovieCharacters",
+    "shaggyvelma": "tvMovieCharacters",
+    "batmanjoker": "superheroes",
+    "tonystarkpepperpotts": "superheroes",
+    "wandamaximoffvision": "superheroes",
+    "lokithor": "superheroes",
+    "batmansuperman": "superheroes",
+    "spidermandeadpool": "superheroes",
+    "jokerharleyquinn": "superheroes",
+    "marioprincesspeach": "gamingCharacters",
+    "marioluigi": "gamingCharacters",
+    "linkzelda": "gamingCharacters",
+    "masterchiefcortana": "gamingCharacters",
+    "kratosatreus": "gamingCharacters",
+    "elliedina": "gamingCharacters",
+    "gokuvegeta": "gamingCharacters",
+    "ashketchummisty": "gamingCharacters",
+    "shrekfiona": "fantasyCharacters",
+    "hansoloprincessleia": "fantasyCharacters",
+    "voldemortharrypotter": "fantasyCharacters",
+    "harryvoldemort": "fantasyCharacters",
+    "hermioneron": "fantasyCharacters",
+    "dumbledoregrindelwald": "fantasyCharacters",
+    "gandalfsaruman": "fantasyCharacters",
+    "frodosam": "fantasyCharacters",
+    "geraltyennefer": "fantasyCharacters",
+    "fionashrek": "fantasyCharacters",
+    "spongebobpatrick": "cartoonCharacters",
+    "phineasferb": "cartoonCharacters",
+    "drakerihanna": "musicians",
+    "cardiboffset": "musicians",
+    "btsjungkooklisablackpink": "musicians",
+    "oliviarodrigojoshuabassett": "musicians",
+    "dualipajackharlow": "musicians",
+    "shawnmendescamilacabello": "musicians",
+    "saltbaesteak": "chefs",
+    "saltbaegordonramsay": "chefs",
+    "bigshaqthetingoesskrrra": "memes",
+    "dogecheems": "memes",
+    "rickastleynevergonnagiveyouup": "memes",
+    "grumpycatnyancat": "memes",
+    "therockkevinhart": "memes",
+    "blakeryan": "alternatives"
+  };
+  
+  return categoryMap[key] || "alternatives";
 } 

@@ -1,0 +1,2220 @@
+{
+  "common": {
+    "calculate": "Berechnen",
+    "tryAgain": "Erneut versuchen",
+    "yourName": "Ihr Name",
+    "theirName": "Ihr Name",
+    "enterYourName": "Geben Sie Ihren Namen ein",
+    "enterTheirName": "Geben Sie ihren Namen ein",
+    "yourBirthDate": "Ihr Geburtsdatum",
+    "theirBirthDate": "Ihr Geburtsdatum",
+    "dateFormat": "tt.mm.jjjj",
+    "ghostDateFormat": "tt.mm.jjjj",
+    "datePlaceholder": "tt.mm.jjjj",
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut Versuchen",
+    "selectLanguage": "Sprache auswählen",
+    "close": "Schließen",
+    "open": "Öffnen",
+    "menu": "Menü",
+    "navigation": "Navigation",
+    "notFound": "Seite Nicht Gefunden",
+    "notFoundDescription": "Entschuldigung, wir konnten die Seite, die Sie suchen, nicht finden.",
+    "backToHome": "Zurück zur Startseite",
+    "yourZodiacSign": "Ihr Sternzeichen",
+    "theirZodiacSign": "Ihr Sternzeichen",
+    "selectSign": "Wählen Sie Ihr Zeichen",
+    "selectTheirSign": "Wählen Sie ihr Zeichen",
+    "ruledBy": "Regiert von {{ruler1}} und {{ruler2}}",
+    "score": "Punktzahl",
+    "chartScore": "Punktzahl: {{score}}/100",
+    "chartTooltipScore": "Punktzahl",
+    "compatibilityBreakdown": "Kompatibilitäts-Aufschlüsselung",
+    "loveLanguageBreakdown": "Liebessprachen-Aufschlüsselung",
+    "communicationBreakdown": "Kommunikationsstil-Aufschlüsselung",
+    "conflictStyleBreakdown": "Konfliktlösungs-Aufschlüsselung",
+    "futureGoalsBreakdown": "Zukunftsziele-Aufschlüsselung",
+    "share": {
+      "loveCompatibility": "{{name1}} + {{name2}} = {{score}}% Liebeskompatibilität!",
+      "tryCalculator": "Probieren Sie den Liebesrechner:",
+      "tryItYourself": "Probieren Sie es selbst:",
+      "imageDownloaded": "Bild heruntergeladen!",
+      "uploadToInstagram": "Laden Sie es auf Instagram hoch und verwenden Sie diese Beschreibung:",
+      "createTikTok": "Erstellen Sie ein TikTok-Video mit diesem Bild und verwenden Sie diese Beschreibung:",
+      "hashtags": "#Liebesrechner #Kompatibilität #Liebestest",
+      "shareLoveCalculator": "Liebesrechner teilen",
+      "copyToClipboard": "{{name1}} + {{name2}} = {{score}}% Liebeskompatibilität! {{shareText}} Probieren Sie es selbst: {{url}}",
+      "loveCalculatorResult": "Liebesrechner Ergebnis",
+      "relationshipScore": "{{name1}} und {{name2}} erzielten {{score}}% in unserem Beziehungsquiz!",
+      "discoveredLoveLanguage": "Ich habe entdeckt, meine Liebessprache ist {{language}}!",
+      "communicationStyle": "Mein Kommunikationsstil ist {{style}}!",
+      "conflictResolution": "Mein Konfliktlösungsstil ist {{style}}!",
+      "futureGoals": "Unsere Zukunftsziele-Kompatibilität: {{result}}!",
+      "zodiacCompatibility": "{{sign1}} und {{sign2}} = {{score}}% Sternzeichen-Kompatibilität!",
+      "dobCompatibility": "{{name1}} + {{name2}} = {{score}}% Geburtstags-Kompatibilität!",
+      "tryOurQuiz": "Machen Sie das Quiz:",
+      "discoverYours": "Entdecken Sie Ihre:",
+      "quizHashtags": "#Beziehungsquiz #Liebessprache #Kommunikationsstil #Kompatibilität",
+      "iScoredRelationship": "Ich habe gerade das Beziehungsquiz gemacht und {{score}}% erreicht! {{result}}",
+      "iScoredLoveLanguage": "Ich habe entdeckt, meine Liebessprache ist {{language}}!",
+      "iScoredCommunication": "Mein Kommunikationsstil ist {{style}}!",
+      "iScoredConflict": "Mein Konfliktlösungsstil ist {{style}}!",
+      "iScoredFutureGoals": "Unsere Zukunftsziele-Kompatibilität erreichte {{score}}%! {{result}}",
+      "dobHashtags": "#Geburtskompatibilität #Geburtsdatum #Liebestest",
+      "loveLanguageFullShare": "Ich habe meine Liebessprache entdeckt: {{language}} ({{percentage}}% primär)! {{description}} Probieren Sie es selbst: {{url}}",
+      "loveLanguageBasic": "Meine Liebessprache: {{language}} ({{percentage}}% primär)! {{description}}",
+      "loveLanguageInstagram": "Ich habe meine Liebessprache entdeckt: {{language}} ({{percentage}}% primär)! {{description}} Probieren Sie es unter {{url}} 💕",
+      "loveLanguageTikTok": "Meine Liebessprache: {{language}} ({{percentage}}% primär)! {{description}} #Liebessprache #Beziehungstipps #Selbstentdeckung",
+      "loveLanguageRedditTitle": "Ich habe meine Liebessprache entdeckt: {{language}}!",
+      "loveLanguageRedditText": "{{description}} Probieren Sie das Liebessprachen-Assessment selbst!",
+      "copyForInstagram": "Kopieren Sie diesen Text für Instagram:",
+      "futureGoalsFullShare": "Ich habe meine Zukunftsziele-Kompatibilität entdeckt: {{title}} ({{percentage}}% kompatibel)! {{description}} Probieren Sie es selbst: {{url}}",
+      "futureGoalsBasic": "Meine Zukunftsziele-Kompatibilität: {{title}} ({{percentage}}% kompatibel)! {{description}}",
+      "futureGoalsInstagram": "Ich habe meine Zukunftsziele-Kompatibilität entdeckt: {{title}} ({{percentage}}% kompatibel)! {{description}} Probieren Sie es auf {{url}} 🎯",
+      "futureGoalsTikTok": "Meine Zukunftsziele-Kompatibilität: {{title}} ({{percentage}}% kompatibel)! {{description}} #Zukunftsziele #Beziehungsziele #Persönlichkeitstest",
+      "futureGoalsRedditTitle": "Ich habe meine Zukunftsziele-Kompatibilität entdeckt: {{title}}!",
+      "futureGoalsRedditText": "{{description}} Probieren Sie den Zukunftsziele-Kompatibilitätstest selbst!",
+      "communicationStyleFullShare": "Ich habe meinen Kommunikationsstil entdeckt: {{style}} ({{percentage}}% dominant)! {{description}} Probieren Sie es selbst: {{url}}",
+      "communicationStyleBasic": "Mein Kommunikationsstil: {{style}} ({{percentage}}% dominant)! {{description}}",
+      "communicationStyleInstagram": "Ich habe meinen Kommunikationsstil entdeckt: {{style}} ({{percentage}}% dominant)! {{description}} Probieren Sie es unter {{url}} 💬",
+      "communicationStyleTikTok": "Mein Kommunikationsstil: {{style}} ({{percentage}}% dominant)! {{description}} #Kommunikationsstil #Persönlichkeitstest #Selbstentdeckung",
+      "communicationStyleRedditTitle": "Ich habe meinen Kommunikationsstil entdeckt: {{style}}!",
+      "communicationStyleRedditText": "{{description}} Probieren Sie das Kommunikationsstil-Quiz selbst aus!",
+      "shareYourResults": "Teilen Sie Ihre Ergebnisse",
+      "copyResults": "Ergebnisse Kopieren",
+      "copied": "Kopiert!",
+      "conflictResolutionBasic": "Ich habe meinen Konfiktlösungsstil entdeckt: {{style}} ({{percentage}}% primär)! {{description}}",
+      "conflictResolutionFullShare": "Ich habe meinen Konfiktlösungsstil entdeckt: {{style}} ({{percentage}}% primär)! {{description}} Probieren Sie es selbst: {{url}}",
+      "conflictResolutionInstagram": "Ich habe meinen Konfiktlösungsstil entdeckt: {{style}} ({{percentage}}% primär)! {{description}} Probieren Sie es unter {{url}} 🤝",
+      "conflictResolutionRedditTitle": "Ich habe meinen Konfiktlösungsstil entdeckt: {{style}}!",
+      "conflictResolutionRedditText": "{{description}} Probieren Sie das Konfiktlösungsstil-Quiz selbst aus!",
+      "conflictResolutionTikTok": "Mein Konfiktlösungsstil: {{style}} ({{percentage}}% primär)! {{description}} #Konfiktlösung #Beziehungskompetenzen #Persönlichkeitsquiz"
+    }
+  },
+  "loveCalculator": {
+    "title": "Liebesrechner",
+    "description": "Erleben Sie den weltweit ausgefeiltesten Liebeskompatibilitätsrechner, der von unserem exklusiven Affinitäts-Quotient (AQ) Algorithmus angetrieben wird. Erhalten Sie wissenschaftliche Analysen mit detaillierten Aufschlüsselungen Ihrer Kompatibilität über mehrere Dimensionen.",
+    "enterNames": "Geben Sie Ihre Namen ein, um Ihren Liebesprozentsatz zu entdecken!",
+    "loading": "Berechnung Ihrer Liebeskompatibilität...",
+    "calculateLove": "Liebesscore Berechnen",
+    "shareResult": "Ergebnis Teilen",
+    "error": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
+    "nameRequired": "Bitte geben Sie beide Namen ein",
+    "easterEggHint": "Psst... 100+ versteckte Prominente, Meme und ikonische Paare werden spezielle Liebesscores auslösen. Wie viele können Sie freischalten? 🎭✨",
+    "tryOtherTools": "Warum probieren Sie nicht unsere anderen lustigen Werkzeuge?",
+    "dobCalculator": "Geburtsdatum Kompatibilitätsrechner",
+    "zodiacCalculator": "Sternzeichen Kompatibilitätsrechner",
+    "whyThisScore": "Warum diese Bewertung?",
+    "scienceBehindScore": "Die Wissenschaft hinter Ihrer Bewertung:",
+    "initialSimilarity": "Anfangähnlichkeit (0-100):",
+    "initialSimilarityDescription": "Alphabetische Entfernung zwischen den ersten Buchstaben - nähere Buchstaben erzielen höhere Punkte",
+    "letterFrequency": "Buchstabenhäufigkeit (0-100):",
+    "letterFrequencyDescription": "Wie ähnlich die Buchstabenmuster in Ihren Namen sind (sprachliche Kompatibilität)",
+    "phoneticSimilarity": "Phonetische Ähnlichkeit (0-100):",
+    "phoneticSimilarityDescription": "Wie Ihre Namen klingen, wenn sie gesprochen werden (auditive Harmonie)",
+    "numerologicalCompatibility": "Numerologische Kompatibilität (0-100):",
+    "numerologicalCompatibilityDescription": "Basierend auf antiken numerologischen Prinzipien und Schicksalszahlen",
+    "vowelBalance": "Vokalbalance (0-100):",
+    "vowelBalanceDescription": "Der Rhythmus und Fluss, der durch Vokal-zu-Konsonant-Verhältnisse entsteht",
+    "algorithmExplanation": "Dieser Algorithmus kombiniert mehrere sprachliche und psychologische Faktoren aus akademischer Forschung zur Namenskompatibilität. Alle Metriken werden mit 0-100 bewertet für präzise Analyse.",
+    "shareResultsTitle": "Teilen Sie Ihre Ergebnisse",
+    "shareResultsDescription": "Verwandeln Sie Ihre Liebesbewertung in viralen Inhalt!",
+    "downloadImage": "Bild Herunterladen",
+    "copyResults": "Ergebnisse Kopieren",
+    "copied": "Kopiert!",
+    "messages": {
+      "perfectMatch": "Perfekte Übereinstimmung! Ihre Liebesgeschichte ist eine für die Ewigkeit! 💖✨",
+      "soulmates": "Seelenverwandte — ihr zwei wurdet in den Sternen geschrieben! 🌠❤️",
+      "trueLove": "Wahre Liebe vom Feinsten — ihr vervollständigt euch gegenseitig! 💕🔥",
+      "legendaryLove": "Legendäre Liebe! Ihr seid dazu bestimmt, für immer zusammen zu sein! 👑💫",
+      "powerCouple": "Ultimatives Power-Paar! Eure Liebe erobert alles! 💪❤️",
+      "matchMadeInHeaven": "Wahre Liebe Alarm — ihr seid ein im Himmel geschlossenes Paar! ✨💕",
+      "heartsAsOne": "Erstaunliche Verbindung! Eure Herzen schlagen als eins! 💓🎵",
+      "beautifulStory": "Schöne Liebesgeschichte im Entstehen! 🌹💖",
+      "incredibleChemistry": "Unglaubliche Chemie! Die Funken fliegen! ⚡💘",
+      "loveGoals": "Liebesziele! Ihr inspiriert andere mit eurer Verbindung! 🎯💝",
+      "soulmatesyoutwoMessage": "Seelenverwandte — ihr beiden ward in den Sternen geschrieben! 🌠❤️",
+      "perfectmatchyourMessage": "Perfekte Übereinstimmung! Eure Liebesgeschichte ist legendär! 💖✨",
+      "trueloveatMessage": "Wahre Liebe in Vollendung — ihr ergänzt euch perfekt! 💕🔥",
+      "legendaryloveyoureMessage": "Legendäre Liebe! Ihr seid dazu bestimmt, für immer zusammen zu sein! 👑💫",
+      "ultimatepowercoupleMessage": "Ultimatives Power-Paar! Eure Liebe erobert alles! 💪❤️",
+      "truelovealertMessage": "Wahre Liebe Alarm — ihr seid ein im Himmel gemachtes Paar! ✨💕",
+      "amazingconnectionyourMessage": "Erstaunliche Verbindung! Eure Herzen schlagen als eins! 💓🎵",
+      "beautifullovestoryMessage": "Eine wunderschöne Liebesgeschichte entsteht! 🌹💖",
+      "incrediblechemistrytheMessage": "Unglaubliche Chemie! Die Funken fliegen! ⚡💘",
+      "lovegoalsyouMessage": "Liebesziele! Ihr inspiriert andere mit eurer Verbindung! 🎯💝",
+      "asolidconnectionMessage": "Eine solide Verbindung — mal sehen, wohin sie führt! 🌷💫",
+      "goodpotentialloveMessage": "Gutes Potenzial! Die Liebe könnte aufblühen! 🌸🌱",
+      "sweetcompatibilitytheresMessage": "Süße Kompatibilität! Hier ist definitiv etwas! 🍯💕",
+      "promisingmatchtimeMessage": "Vielversprechendes Paar! Die Zeit wird eure Geschichte erzählen! ⏰💖",
+      "cuteconnectiontheMessage": "Süße Verbindung! Das Fundament ist da! 🏗️💕",
+      "alittlesparkMessage": "Ein kleiner Funke, aber wird die Flamme wachsen? 🔥🤞",
+      "somepotentialbutMessage": "Etwas Potenzial, aber Arbeit ist nötig! 🛠️💕",
+      "mixedsignalscommunicationMessage": "Gemischte Signale — Kommunikation ist der Schlüssel! 📱💭",
+      "friendshipvibesstrongMessage": "Freundschafts-Vibes stark — vielleicht folgt die Liebe! 👫❓",
+      "slowburnromanceMessage": "Langsam brennende Romanze? Manchmal braucht die beste Liebe Zeit! ⏳🔥",
+      "oppositesmayattractMessage": "Gegensätze ziehen sich vielleicht an... aber manchmal auch nicht. ⚡💔",
+      "betterasfriendsMessage": "Besser als Freunde? Manchmal ist das sogar besser! 🤝💙",
+      "notquiteaMessage": "Nicht ganz ein Match, aber hey — es gibt viele Fische im Meer! 🐠🌊",
+      "differentwavelengthsbutMessage": "Verschiedene Wellenlängen, aber das ist okay! 📻🎵",
+      "notmeanttoMessage": "Nicht dazu bestimmt zu sein, aber ihr seid beide großartig! ⭐🌟"
+    },
+    "easterEggs": {
+      "celebrities": {
+        "taylorswifttraviskelce": {
+          "message": "Ein Touchdown fürs Herz und ein Grammy fürs Leben 🏈🎤",
+          "shareText": "Touchdown fürs Herz! 🏈🎤"
+        },
+        "willsmithjadapinkettsmith": {
+          "message": "Ein Oscar-reifes Drama in Dauerschleife 🎭💔",
+          "shareText": "Oscar-reifes Drama! 🎭💔"
+        },
+        "blakelivelyryanreynolds": {
+          "message": "Das sarkastischste Paar in ganz Hollywood 😏🎬",
+          "shareText": "Sarkastischstes Paar! 😏🎬"
+        },
+        "johnnydeppamberheard": {
+          "message": "Wenn Liebe und Gerichtssaal kollidieren ⚖️💔",
+          "shareText": "Liebe trifft Gerichtssaal! ⚖️💔"
+        },
+        "barackobamamichelleobama": {
+          "message": "Ein Präsidentenpaar mit Herz und Stil 🇺🇸❤️",
+          "shareText": "Präsidentenpaar! 🇺🇸❤️"
+        },
+        "tomhollandzendaya": {
+          "message": "Ein Spinnennetz aus Liebe im Multiversum 🕸️💞",
+          "shareText": "Spinnennetz der Liebe! 🕸️💞"
+        },
+        "jayzbeyonce": {
+          "message": "Gold, Glanz und ganz viel Groove 💰🎶",
+          "shareText": "Gold und Groove! 💰🎶"
+        },
+        "cristianoronaldogeorginarodriguez": {
+          "message": "Ein Volltreffer – nicht nur auf dem Platz ⚽❤️",
+          "shareText": "Volltreffer im Herzen! ⚽❤️"
+        },
+        "harrystylesoliviawilde": {
+          "message": "Style, Skandale und ein Hauch Chaos 🕶️🗞️",
+          "shareText": "Style und Skandale! 🕶️🗞️"
+        },
+        "willsmithmargotrobbie": {
+          "message": "Hollywood-Flirt mit explosiver Chemie 🎬💥",
+          "shareText": "Hollywood-Flirt! 🎬💥"
+        },
+        "kanyewestkimkardashian": {
+          "message": "Kreatives Chaos trifft auf Modemogul 💥🖤",
+          "shareText": "Kreatives Chaos! 💥🖤"
+        },
+        "bradpittangelinajolie": {
+          "message": "Ein Märchen mit roten Teppichen und Rosenkrieg 🎞️🔥",
+          "shareText": "Märchen mit Rosenkrieg! 🎞️🔥"
+        },
+        "elonmuskgrimes": {
+          "message": "Raketenwissenschaft und Babygeschrei 👶🚀",
+          "shareText": "Raketen und Babys! 👶🚀"
+        },
+        "shakiragerardpique": {
+          "message": "Bewegung auf dem Feld, Stillstand im Herz 💃⚽",
+          "shareText": "Bewegung vs Stillstand! 💃⚽"
+        }
+      },
+      "youtubers": {
+        "mrbeastpewdiepie": {
+          "message": "YouTube-Könige vereint 💸📦",
+          "shareText": "YouTube-Könige! 💸📦"
+        },
+        "mrbeastchandler": {
+          "message": "Geld, Gags und echte Freundschaft 💸😂",
+          "shareText": "Geld und Gags! 💸😂"
+        },
+        "loganpauljakepaul": {
+          "message": "Drama, Vlogs und Bruderduelle 📲👊",
+          "shareText": "Drama und Bruderduelle! 📲👊"
+        },
+        "dreamgeorgenotfound": {
+          "message": "Minecraft mit Herzblock 🎮💚",
+          "shareText": "Minecraft Herzblock! 🎮💚"
+        },
+        "charlidameliollilhuddy": {
+          "message": "TikTok-Romance mit Trendgarantie 💃📱",
+          "shareText": "TikTok-Romance! 💃📱"
+        },
+        "pokimanexqc": {
+          "message": "Streamer-Funken im Chatroom 🎮💘",
+          "shareText": "Streamer-Funken! 🎮💘"
+        },
+        "ninjatfue": {
+          "message": "Rivalen im Spiel, Gefühle im Schatten 🎯🔥",
+          "shareText": "Rivalen mit Gefühlen! 🎯🔥"
+        },
+        "valkyraeeludwig": {
+          "message": "Livestream-Liebe mit Latenzfreiheit 🎙️❤️",
+          "shareText": "Livestream-Liebe! 🎙️❤️"
+        },
+        "hasanabiaoc": {
+          "message": "Twitch + Politik = Überraschungs-Match 🗳️💬",
+          "shareText": "Twitch trifft Politik! 🗳️💬"
+        },
+        "khabylamesilence": {
+          "message": "Stille sagt mehr als 1000 Worte 🤫📱",
+          "shareText": "Stille spricht! 🤫📱"
+        },
+        "jamescharlestatiwestbrook": {
+          "message": "Drama, Highlighter und Trennung 💄🔥",
+          "shareText": "Drama und Highlighter! 💄🔥"
+        },
+        "loganpaulksi": {
+          "message": "Boxhandschuhe und Ego-Kracher 🥊🔥",
+          "shareText": "Boxhandschuhe und Ego! 🥊🔥"
+        }
+      },
+      "controversialFigures": {
+        "elonmuskmarkzuckerberg": {
+          "message": "Tech-Titanen im Cage Fight 🥊🤖",
+          "shareText": "Tech-Titanen! 🥊🤖"
+        },
+        "andrewtatergretathunberg": {
+          "message": "Feminismus trifft Machismo – Boom 💥♀️♂️",
+          "shareText": "Feminismus vs Machismo! 💥♀️♂️"
+        }
+      },
+      "tvMovieCharacters": {
+        "rossgellerrachelgreen": {
+          "message": "Die legendäre On-Off-Serie der 90er 📺❤️😡",
+          "shareText": "Legendäre On-Off-Serie! 📺❤️"
+        },
+        "rossrachel": {
+          "message": "Die legendäre On-Off-Serie der 90er 📺❤️😡",
+          "shareText": "Legendäre On-Off-Serie! 📺❤️"
+        },
+        "jackrose": {
+          "message": "Liebe, Eisberge und ein sinkendes Herz 🚢💔",
+          "shareText": "Liebe und Eisberge! 🚢💔"
+        },
+        "jonsnowdaenerystargaryen": {
+          "message": "Eis + Feuer = heißes Fantasy-Drama 🐉❄️",
+          "shareText": "Eis + Feuer! 🐉❄️"
+        },
+        "katnisseverdeenpeetamellark": {
+          "message": "Rebellion mit Beilage Herzschmerz 🍞🔥",
+          "shareText": "Rebellion und Herzschmerz! 🍞🔥"
+        },
+        "sherlockholmesdrwatson": {
+          "message": "Detektivduo mit tieferer Verbindung 🕵️‍♂️❤️",
+          "shareText": "Detektivduo! 🕵️‍♂️❤️"
+        },
+        "watsonsherlock": {
+          "message": "Detektivduo mit tieferer Verbindung 🕵️‍♂️❤️",
+          "shareText": "Detektivduo! 🕵️‍♂️❤️"
+        },
+        "johnwatsonsherlockholmes": {
+          "message": "Detektivduo mit tieferer Verbindung 🕵️‍♂️❤️",
+          "shareText": "Detektivduo! 🕵️‍♂️❤️"
+        },
+        "homersimpsonmargesimpson": {
+          "message": "Donuts + Chaos = Simpsons-Romantik 🍩💛",
+          "shareText": "Donuts und Chaos! 🍩💛"
+        },
+        "shaggyvelma": {
+          "message": "Snacks, Spuren und süße Spannungen 🥪🔍",
+          "shareText": "Snacks und Spuren! 🥪🔍"
+        }
+      },
+      "superheroes": {
+        "batmanjoker": {
+          "message": "Liebesdrama in Gotham 🦇❤️‍🔥",
+          "shareText": "Liebesdrama Gotham! 🦇❤️‍🔥"
+        },
+        "tonystarkpepperpotts": {
+          "message": "Iron Man mit Herzschrittmacher 💘🔩",
+          "shareText": "Iron Man Herz! 💘🔩"
+        },
+        "wandamaximoffvision": {
+          "message": "Liebe in Zeiten der Realitätserweiterung 💔🔮",
+          "shareText": "Liebe in Realitätserweiterung! 💔🔮"
+        },
+        "lokithor": {
+          "message": "Bruderliebe mit Blitzen ⚡😈",
+          "shareText": "Bruderliebe mit Blitzen! ⚡😈"
+        },
+        "batmansuperman": {
+          "message": "Umhänge, Kräfte & Konflikte 🦇🦸❤️",
+          "shareText": "Umhänge und Konflikte! 🦇🦸❤️"
+        },
+        "spidermandeadpool": {
+          "message": "Spinnenbiss trifft Großmaul 🕷️😆",
+          "shareText": "Spinnenbiss trifft Großmaul! 🕷️😆"
+        },
+        "jokerharleyquinn": {
+          "message": "Verrückt, verliebt, gefährlich 🔫💋",
+          "shareText": "Verrückt verliebt! 🔫💋"
+        }
+      },
+      "gamingCharacters": {
+        "marioprincesspeach": {
+          "message": "Ein Sprung ins Abenteuer (und ins Herz) 🍄💘",
+          "shareText": "Sprung ins Herz! 🍄💘"
+        },
+        "marioluigi": {
+          "message": "Brüder im Herzen und auf dem Bildschirm 👬🔧",
+          "shareText": "Brüder im Herzen! 👬🔧"
+        },
+        "linkzelda": {
+          "message": "Hyrule's Power Couple 🗡️💚",
+          "shareText": "Hyrule Power Couple! 🗡️💚"
+        },
+        "masterchiefcortana": {
+          "message": "Digitale Sehnsucht im Rüstungsanzug 💻❤️",
+          "shareText": "Digitale Sehnsucht! 💻❤️"
+        },
+        "kratosatreus": {
+          "message": "Zorn, Ehre und Vaterliebe 🪓🔥",
+          "shareText": "Zorn und Vaterliebe! 🪓🔥"
+        },
+        "elliedina": {
+          "message": "Liebe in der Apokalypse 🧟‍♀️💋",
+          "shareText": "Liebe in Apokalypse! 🧟‍♀️💋"
+        },
+        "gokuvegeta": {
+          "message": "Rivalität mit Respekt – Saiyajin-Style 👊🔥",
+          "shareText": "Saiyajin-Style! 👊🔥"
+        },
+        "ashketchummisty": {
+          "message": "Pikachu approved ⚡💘",
+          "shareText": "Pikachu approved! ⚡💘"
+        }
+      },
+      "fantasyCharacters": {
+        "shrekfiona": {
+          "message": "Ein Märchen mit vielen, vielen Schichten 🧅💚",
+          "shareText": "Märchen mit Schichten! 🧅💚"
+        },
+        "hansoloprincessleia": {
+          "message": "Galaktische Liebe mit scharfen Kontern 🌌💋",
+          "shareText": "Galaktische Liebe! 🌌💋"
+        },
+        "voldemortharrypotter": {
+          "message": "Hass, der fast wie Liebe wirkt ⚡🧙‍♂️",
+          "shareText": "Hass wie Liebe! ⚡🧙‍♂️"
+        },
+        "harryvoldemort": {
+          "message": "Hass, der fast wie Liebe wirkt ⚡🧙‍♂️",
+          "shareText": "Hass wie Liebe! ⚡🧙‍♂️"
+        },
+        "hermioneron": {
+          "message": "Zauberhafte Überraschungspaare 📚💘",
+          "shareText": "Zauberhafte Überraschung! 📚💘"
+        },
+        "dumbledoregrindelwald": {
+          "message": "Alte Flamme, dunkles Feuer 🔮🔥",
+          "shareText": "Alte Flamme! 🔮🔥"
+        },
+        "gandalfsaruman": {
+          "message": "Von Freunden zu Feinden mit Zauberstab ✨🧙‍♂️",
+          "shareText": "Freunde zu Feinden! ✨🧙‍♂️"
+        },
+        "frodosam": {
+          "message": "Freundschaft, die ein ganzes Reich trägt 💍👣",
+          "shareText": "Freundschaft trägt Reich! 💍👣"
+        },
+        "geraltyennefer": {
+          "message": "Monster, Magie und brennende Leidenschaft ⚔️🔥",
+          "shareText": "Monster und Magie! ⚔️🔥"
+        },
+        "fionashrek": {
+          "message": "Eine Liebesgeschichte mit vielen Schichten 🧅💚",
+          "shareText": "Liebe mit Schichten! 🧅💚"
+        }
+      },
+      "cartoonCharacters": {
+        "spongebobpatrick": {
+          "message": "Unterwasser-Bromance fürs Leben 🧽💛",
+          "shareText": "Unterwasser-Bromance! 🧽💛"
+        },
+        "phineasferb": {
+          "message": "Wissenschaft, Sommer, Freundschaft ☀️🧠",
+          "shareText": "Wissenschaft und Sommer! ☀️🧠"
+        }
+      },
+      "musicians": {
+        "drakerihanna": {
+          "message": "Ein Beat, zwei gebrochene Herzen 🎤💔",
+          "shareText": "Beat und gebrochene Herzen! 🎤💔"
+        },
+        "cardiboffset": {
+          "message": "Laut, luxuriös und gelegentlich verliebt 💥🎶",
+          "shareText": "Laut und luxuriös! 💥🎶"
+        },
+        "btsjungkooklisablackpink": {
+          "message": "K-pop Power-Paar 💫🎶",
+          "shareText": "K-pop Power-Paar! 💫🎶"
+        },
+        "oliviarodrigojoshuabassett": {
+          "message": "Teen-Herzschmerz mit Chartpotenzial 🎶💔",
+          "shareText": "Teen-Herzschmerz! 🎶💔"
+        },
+        "dualipajackharlow": {
+          "message": "Flirt, Flow und ein viraler Hit 💄🎧",
+          "shareText": "Flirt und Flow! 💄🎧"
+        },
+        "shawnmendescamilacabello": {
+          "message": "Señorita-Romance in Schleife 🎤💞",
+          "shareText": "Señorita-Romance! 🎤💞"
+        }
+      },
+      "chefs": {
+        "saltbaesteak": {
+          "message": "Liebe auf den ersten Biss 🧂🥩",
+          "shareText": "Liebe auf ersten Biss! 🧂🥩"
+        },
+        "saltbaegordonramsay": {
+          "message": "Kochen mit extra Zündstoff 🔥🍳",
+          "shareText": "Kochen mit Zündstoff! 🔥🍳"
+        }
+      },
+      "memes": {
+        "bigshaqthetingoesskrrra": {
+          "message": "Der Beat ist wild, der Sinn egal 🔊🤯",
+          "shareText": "Wilder Beat! 🔊🤯"
+        },
+        "dogecheems": {
+          "message": "Meme-Liebe auf vier Pfoten 🐶😂",
+          "shareText": "Meme-Liebe! 🐶😂"
+        },
+        "rickastleynevergonnagiveyouup": {
+          "message": "Er wird dich niemals verlassen… außer emotional 🎶💔",
+          "shareText": "Niemals verlassen! 🎶💔"
+        },
+        "grumpycatnyancat": {
+          "message": "Grantig + bunt = Internet-Chaos 🐱🌈",
+          "shareText": "Grantig + bunt! 🐱🌈"
+        },
+        "therockkevinhart": {
+          "message": "Bizeps & Witze – Hollywoods stärkstes Duo 💪🎭",
+          "shareText": "Bizeps & Witze! 💪🎭"
+        }
+      },
+      "alternatives": {
+        "blakeryan": {
+          "message": "Das sarkastischste Paar in ganz Hollywood 😏🎬",
+          "shareText": "Sarkastischstes Paar! 😏🎬"
+        }
+      }
+    },
+    "breakdown": {
+      "title": "Kompatibilitätsaufschlüsselung",
+      "nameHarmony": "Namensharmonie",
+      "letterSynergy": "Buchstabensynergie",
+      "vocalBalance": "Stimmbalance",
+      "energyAlignment": "Energieausrichtung",
+      "cosmicConnection": "Kosmische Verbindung"
+    }
+  },
+  "zodiacUI": {
+    "selectYourZodiacSigns": "Wählen Sie Ihre Sternzeichen",
+    "discoverCosmicCompatibility": "Entdecken Sie Ihre kosmische Kompatibilität durch die Weisheit der Sterne!",
+    "yourName": "Ihr Name",
+    "theirName": "Ihr Name",
+    "enterYourName": "Geben Sie Ihren Namen ein",
+    "enterTheirName": "Geben Sie ihren Namen ein",
+    "yourZodiacSign": "Ihr Sternzeichen",
+    "theirZodiacSign": "Ihr Sternzeichen",
+    "selectYourSign": "Wählen Sie Ihr Zeichen",
+    "selectTheirSign": "Wählen Sie ihr Zeichen",
+    "calculateCosmicCompatibility": "Kosmische Kompatibilität Berechnen",
+    "readingTheStars": "Die Sterne Lesen...",
+    "tryAgain": "Erneut Versuchen",
+    "astrologicalCompatibilityBreakdown": "Astrologische Kompatibilitätsaufschlüsselung",
+    "whyThisScore": "Warum diese Bewertung?",
+    "scienceBehindScore": "Die Wissenschaft Hinter Ihrer Sternzeichen-Bewertung:",
+    "signs": "Zeichen",
+    "elements": "Elemente",
+    "modality": "Modalität",
+    "planets": "Planeten",
+    "aspects": "Aspekte",
+    "signHarmony": "Zeichen-Harmonie",
+    "elementalBalance": "Elementares Gleichgewicht",
+    "modalityMatching": "Modalitäts-Abgleich",
+    "planetarySync": "Planetare Synchronisation",
+    "cosmicAspects": "Kosmische Aspekte",
+    "signHarmonyDescription": "Traditionelle Sternzeichen-Kompatibilitätsmuster basierend auf klassischen astrologischen Beziehungen",
+    "elementsDescription": "Feuer-, Erde-, Luft- und Wasser-Element-Interaktionen und natürliche harmonische Kompatibilität",
+    "modalityDescription": "Synchronisation von Kardinal-, Fest- und Veränderlichen Energiemustern und dynamisches Gleichgewicht",
+    "planetsDescription": "Herrschende Planetenbeziehungen und himmlische Einflussharmonie zwischen Ihren Zeichen",
+    "cosmicAspectsDescription": "Winkelbeziehungen (Trigon, Sextil, Opposition, Quadrat) und energetische Dynamiken",
+    "algorithmExplanation": "Dieser Algorithmus kombiniert traditionelle astrologische Prinzipien, Elementartheorie, Planetenherrschaften und kosmische Aspektbeziehungen für authentische astrologische Kompatibilitätsanalyse. Alle Metriken bewertet 0-100 für präzise himmlische Harmoniebewertung.",
+    "elementalHarmony": "Elementare Harmonie",
+    "energyPatterns": "Energiemuster",
+    "planetaryInfluence": "Planetarer Einfluss",
+    "astrologicalPattern": "Astrologisches Muster",
+    "shareYourResults": "Teilen Sie Ihre Ergebnisse",
+    "turnZodiacScore": "Verwandeln Sie Ihre Sternzeichen-Bewertung in viralen Inhalt!",
+    "downloadImage": "Bild Herunterladen",
+    "copyResults": "Ergebnisse Kopieren",
+    "copied": "Kopiert!",
+    "shareYourZodiacScore": "Teilen Sie Ihre Sternzeichen-Bewertung! ⭐",
+    "choosePlatform": "Wählen Sie Ihre Lieblingsplattform zum Teilen Ihrer astrologischen Kompatibilitätsergebnisse",
+    "close": "Schließen",
+    "moreApps": "Mehr Apps",
+    "whyNotTryOtherTools": "Warum nicht unsere anderen lustigen Tools ausprobieren?",
+    "loveCalculator": "Liebesrechner",
+    "dobCalculator": "Geburtsdatum-Kompatibilitätsrechner"
+  },
+  "zodiacSigns": {
+    "aries": "Widder",
+    "taurus": "Stier",
+    "gemini": "Zwillinge",
+    "cancer": "Krebs",
+    "leo": "Löwe",
+    "virgo": "Jungfrau",
+    "libra": "Waage",
+    "scorpio": "Skorpion",
+    "sagittarius": "Schütze",
+    "capricorn": "Steinbock",
+    "aquarius": "Wassermann",
+    "pisces": "Fische"
+  },
+  "zodiacElements": {
+    "fire": "Feuer",
+    "earth": "Erde",
+    "air": "Luft",
+    "water": "Wasser"
+  },
+  "zodiacModalities": {
+    "cardinal": "Kardinal",
+    "fixed": "Fest",
+    "mutable": "Veränderlich"
+  },
+  "zodiacPlanets": {
+    "mars": "Mars",
+    "venus": "Venus",
+    "mercury": "Merkur",
+    "moon": "Mond",
+    "sun": "Sonne",
+    "pluto": "Pluto",
+    "jupiter": "Jupiter",
+    "saturn": "Saturn",
+    "uranus": "Uranus",
+    "neptune": "Neptun"
+  },
+  "zodiacMessages": {
+    "writtenInStars": "In den Sternen geschrieben! Himmlische Seelenverwandte mit kosmischer Harmonie ✨",
+    "stellarConnection": "Stellare Verbindung! Die Sterne richten sich wunderschön für euch aus ⭐",
+    "cosmicChemistry": "Kosmische Chemie! Große astrologische Kompatibilität 🌟",
+    "starlitRomance": "Sternenbeleuchtete Romantik! Gute Sternzeichen-Harmonie mit Potenzial 💫",
+    "uniqueConstellation": "Einzigartige Konstellation! Unterschiedliche Energien können Magie schaffen 🔮",
+    "cosmicChemistryGreat": "Kosmische Chemie! Große astrologische Kompatibilität ⭐"
+  },
+  "zodiacElementMessages": {
+    "fireEarth": "Feuer trifft Erde - komplementäre Energien schaffen Gleichgewicht!",
+    "fireAir": "energetisch und inspirierend!",
+    "earthWater": "erdend und nährend!",
+    "complementary": "komplementäre Energien schaffen Gleichgewicht!",
+    "sameElement": "Beide {{element}}-Zeichen - natürliche Harmonie und Verständnis!"
+  },
+  "zodiacModalityMessages": {
+    "sameModality": "Beide {{modality}}-Zeichen - geteilter Lebensansatz!",
+    "different": "{{modality1}}-Energie trifft {{modality2}}-Stil - anders aber kompatibel!"
+  },
+  "zodiacPlanetaryMessages": {
+    "samePlanet": "kosmische Zwillinge mit geteilter Planetenenergie!",
+    "different": "einzigartige Planeteneinflüsse schaffen dynamische Anziehung!"
+  },
+  "zodiacPatterns": {
+    "twinSouls": "Zwillingsseelen - perfektes Verständnis",
+    "oppositeAttraction": "Gegensätzliche Anziehung - magnetische Anziehung",
+    "harmonicTrine": "Harmonisches Trigon - müheloser Fluss",
+    "supportiveSextile": "Unterstützendes Sextil - natürliche Freundschaft",
+    "uniqueDynamic": "Einzigartige Dynamik - besondere Verbindung"
+  },
+  "dobCalculator": {
+    "title": "Geburtsdatum Kompatibilitätsrechner",
+    "description": "Entdecken Sie Ihre romantische Kompatibilität basierend auf Ihren Geburtsdaten! Unser Algorithmus analysiert Geburtstagsmuster, Altersunterschiede und numerologische Faktoren, um faszinierende Beziehungseinblicke zu enthüllen.",
+    "calculate": "Geburtsdatum Kompatibilität Berechnen",
+    "whyChooseOurBirthdayCalculatorTitle": "Warum unseren Geburtstag-Rechner wählen?",
+    "scientificFoundationTitle": "Wissenschaftliche Grundlage",
+    "scientificFoundationDescription": "Basierend auf Chronobiologie-Forschung, numerologischen Prinzipien und saisonalen Psychologie-Studien für umfassende zeitliche Analyse.",
+    "detailedBreakdownTitle": "Detaillierte Aufschlüsselung",
+    "detailedBreakdownDescription": "Erhalten Sie visuelle Diagramme und detaillierte Analysen über fünf Kompatibilitätsdimensionen mit personalisierten Einsichten für Ihre Beziehung.",
+    "socialSharingTitle": "Soziales Teilen",
+    "socialSharingDescription": "Perfekt zum Teilen in sozialen Medien, für Partyspiele und lustige Gespräche mit Freunden. Sofortige Ergebnisse, die Sie überall teilen können!",
+    "birthdayCompatibilityDescription": "Geburtstags-Kompatibilität ist ein faszinierender Weg, Beziehungsdynamiken durch die Linse von Zeit und kosmischem Timing zu erkunden. Es ist ein unterhaltsames Werkzeug, das alte Weisheit mit moderner Analyse für lustige Einblicke in Ihre Verbindungen kombiniert!",
+    "howAlgorithmWorksTitle": "Wie unser Geburtstag-Kompatibilitäts-Algorithmus funktioniert",
+    "algorithmFoundationDescription": "Unser exklusiver Geburtstag-Harmonie-Algorithmus stellt einen Durchbruch in der zeitlichen Kompatibilitätsanalyse dar. Im Gegensatz zu einfachen Datumsrechnern, die einfache Arithmetik verwenden, wendet unser System akademische Forschung in Chronobiologie, Numerologie und saisonaler Psychologie an.",
+    "comprehensiveCompatibilityProfile": "Wir analysieren Geburtsdaten über fünf wissenschaftliche Dimensionen, um ein umfassendes Kompatibilitätsprofil zu erstellen, das nicht nur berücksichtigt, wann Sie geboren wurden, sondern wie diese kosmischen Timing-Muster Ihr Beziehungspotential beeinflussen.",
+    "academicFoundation": "Akademische Grundlage",
+    "algorithmIncorporates": "Unser Algorithmus integriert Prinzipien aus Chronobiologie-Forschung, traditionellen Numerologie-Systemen und saisonalen Persönlichkeitsstudien, um wissenschaftlich informierte Unterhaltung zu bieten.",
+    "birthDateAnalysisProcessTitle": "Geburtsdatum-Analyseprozess",
+    "extractTemporalPatterns": "Zeitliche Muster aus Geburtsdaten extrahieren",
+    "calculateNumerologicalPaths": "Numerologische Lebenswege berechnen",
+    "analyzeSeasonalPersonalityAlignment": "Saisonale Persönlichkeitsausrichtung analysieren",
+    "evaluateGenerationalHarmony": "Generationale Harmonie bewerten",
+    "generateComprehensiveCompatibilityScore": "Umfassenden Kompatibilitätsscore generieren",
+    "fivePillarsTitle": "Die fünf Säulen der Geburtstag-Kompatibilitätsanalyse",
+    "ageHarmony": "Altersharmonie",
+    "ageHarmonyDescription": "Analysiert Altersunterschiede und Lebensphasen-Kompatibilität - nähere Alter erzielen höhere Punkte",
+    "seasonalPatterns": "Saisonale Muster",
+    "seasonalPatternsDescription": "Geburtsmonat-Persönlichkeitsmerkmale und saisonale Energie-Abstimmung",
+    "numerologicalPaths": "Numerologische Wege",
+    "numerologicalPathsDescription": "Lebensweg-Zahlen-Kompatibilität mit alter Numerologie",
+    "cosmicSync": "Kosmische Synchronisation",
+    "cosmicSyncDescription": "Geburtstag-Muster, himmlisches Timing und kosmische Verbindungsanalyse",
+    "generationalEnergy": "Generationsenergie",
+    "generationalEnergyDescription": "Geburtsjahr-Kohortenanalyse und epochenbasierte Kompatibilität",
+    "whyBirthdayCompatibilityMattersTitle": "Warum Geburtstag-Kompatibilität wichtig ist",
+    "temporalPsychology": "Zeitpsychologie",
+    "temporalPsychologyDescription": "Forschung zeigt, dass zeitliche Faktoren wie Geburtsjahr, -monat und -tag Persönlichkeitsmerkmale und Beziehungstendenzen beeinflussen können, wodurch einzigartige Kompatibilitätsmuster entstehen.",
+    "numerologicalWisdom": "Numerologische Weisheit",
+    "numerologicalWisdomDescription": "Uralte numerologische Prinzipien legen nahe, dass Zahlen in unserem Geburtsdatum energetische Eigenschaften tragen, die Persönlichkeit und zwischenmenschliche Harmonie beeinflussen.",
+    "lifeStageSynchronization": "Lebensphasen-Synchronisation",
+    "lifeStageSynchronizationDescription": "Ähnliche Altersgruppen und Lebensphasen können zu gemeinsamen Erfahrungen, Zielen und Perspektiven führen, die die Beziehungskompatibilität verbessern.",
+    "seasonalInfluences": "Saisonale Einflüsse",
+    "seasonalInfluencesDescription": "Menschen, die in ähnlichen Jahreszeiten geboren wurden, können komplementäre Persönlichkeitsmerkmale teilen, die durch saisonale Umwelt- und psychologische Faktoren beeinflusst werden.",
+    "poweredByAlgorithmTitle": "🎂 Angetrieben vom Geburtstag-Harmonie-Algorithmus",
+    "advancedAlgorithmDescription": "Unser fortschrittlicher Algorithmus kombiniert traditionelle numerologische Weisheit mit moderner Kompatibilitätsanalyse und bewertet zeitliche Muster, Lebenswege und saisonale Einflüsse, um personalisierte Geburtstag-Kompatibilitätseinsichten zu liefern.",
+    "numerologyBasedAnalysis": "• Numerologie-basierte Analyse",
+    "seasonalPsychologyPatterns": "• Saisonale Psychologie-Muster",
+    "fiveFactorTemporalScoring": "• 5-Faktor zeitliche Bewertung",
+    "entertainmentOnlyTitle": "💗 Nur zur Unterhaltung",
+    "important": "Wichtig",
+    "entertainmentOnlyDescription": "Dies ist eine lustige Aktivität, die für Unterhaltung und soziales Teilen entwickelt wurde, nicht für tatsächliche Dating- oder Beziehungsberatung!",
+    "birthdayCompatibilityTestOnlineTitle": "Online Geburtstag-Kompatibilitätstest",
+    "birthdayCompatibilityTestOnlineDescription": "Erleben Sie die Magie der zeitlichen Kompatibilität mit unserem umfassenden Geburtstag-Rechner. Entdecken Sie kosmische Verbindungen, erkunden Sie numerologische Harmonie und gewinnen Sie Einblicke in Ihre zeitliche Liebesgeschichte.",
+    "calculateYourBirthdayCompatibilityNow": "Berechnen Sie jetzt Ihre Geburtstag-Kompatibilität",
+    "whyThisScore": "Warum diese Bewertung?",
+    "scienceBehindScore": "Die Wissenschaft hinter Ihrer Bewertung:",
+    "ageHarmonyScore": "Altersharmonie (0-100):",
+    "ageHarmonyScoreDescription": "Lebensphasen-Ausrichtung und generationale Kompatibilitätsanalyse basierend auf Altersunterschieden",
+    "seasonalPatternScore": "Saisonale Muster (0-100):",
+    "seasonalPatternScoreDescription": "Geburtsmonat-Persönlichkeitsmerkmale und saisonale Energie-Übereinstimmung zwischen Ihren Geburtsmomenten",
+    "numerologicalPathScore": "Numerologische Wege (0-100):",
+    "numerologicalPathScoreDescription": "Lebensweg-Zahlen-Kompatibilität mit alter Numerologie und Schicksalszahlen-Harmonie",
+    "cosmicSyncScore": "Kosmische Synchronisation (0-100):",
+    "cosmicSyncScoreDescription": "Geburtstag-Muster, himmlische Timing-Ausrichtung und kosmische Resonanz zwischen Ihren Daten",
+    "generationalEnergyScore": "Generationsenergie (0-100):",
+    "generationalEnergyScoreDescription": "Geburtsjahr-Kohortenanalyse, epochenbasierte Kompatibilität und generationale Harmonie",
+    "algorithmExplanation": "Dieser Algorithmus kombiniert mehrere zeitliche und numerologische Faktoren aus akademischer Forschung zur Geburtstag-Kompatibilität. Alle Metriken werden mit 0-100 bewertet für präzise zeitliche Analyse.",
+    "shareResultsTitle": "Teilen Sie Ihre Ergebnisse",
+    "shareResultsDescription": "Verwandeln Sie Ihre Geburtstag-Kompatibilität in viralen Inhalt!",
+    "downloadImage": "Bild Herunterladen",
+    "copyResults": "Ergebnisse Kopieren",
+    "copied": "Kopiert!",
+    "shareYourBirthdayScore": "Teilen Sie Ihre Geburtstag-Bewertung! 🎂",
+    "choosePlatform": "Wählen Sie Ihre Lieblingsplattform zum Teilen Ihrer Geburtstag-Kompatibilitätsergebnisse",
+    "close": "Schließen",
+    "moreApps": "Mehr Apps",
+    "enterYourBirthDates": "Geben Sie Ihre Geburtsdaten ein",
+    "enterYourBirthDatesDescription": "Entdecken Sie Ihre zeitliche Kompatibilität durch Geburtsdatum-Analyse!",
+    "enterYourBirthDatesTitle": "Geben Sie Ihre Geburtsdaten ein",
+    "yourName": "Ihr Name",
+    "theirName": "Ihr Name",
+    "enterYourName": "Geben Sie Ihren Namen ein",
+    "enterTheirName": "Geben Sie ihren Namen ein",
+    "yourBirthDate": "Ihr Geburtsdatum",
+    "theirBirthDate": "Ihr Geburtsdatum",
+    "ddmmyyyy": "tt.mm.jjjj",
+    "tryAgain": "Erneut versuchen",
+    "whyNotTryOtherTools": "Warum nicht unsere anderen lustigen Werkzeuge ausprobieren?",
+    "loveCalculator": "Liebesrechner",
+    "zodiacCompatibilityCalculator": "Sternzeichen Kompatibilitätsrechner",
+    "age": "Alter",
+    "season": "Saison",
+    "numbers": "Zahlen",
+    "cosmic": "Kosmisch",
+    "generation": "Generation",
+    "ageHarmonyFull": "Altersharmonie",
+    "seasonalPatternsFull": "Saisonale Muster",
+    "numerologicalPathsFull": "Numerologische Wege",
+    "cosmicSyncFull": "Kosmische Synchronisation",
+    "generationalEnergyFull": "Generationsenergie",
+    "seasonPatternsDescription": "Geburtsmonat-Persönlichkeitsmerkmale und saisonale Energie-Übereinstimmung basierend auf psychologischer Forschung",
+    "numbersDescription": "Lebensweg-Zahlen-Kompatibilität mit antiken Berechnungsmethoden und Schicksalszahlen",
+    "generationDescription": "Geburtsjahr-Kohortenanalyse und Bewertung der Generationsenergie-Harmonie",
+    "lifeStageAnalysis": "Lebensphasen-Analyse",
+    "seasonalHarmony": "Saisonale Harmonie",
+    "numerologicalInsight": "Numerologische Einsicht",
+    "compatibility": "Kompatibilität",
+    "compatibilityScore": "Kompatibilitätsscore",
+    "viewAnalysisChart": "Analyse-Diagramm Anzeigen",
+    "analysisChart": "Analyse-Diagramm",
+    "hideChart": "Diagramm Verbergen",
+    "viewShareOptions": "Teilen-Optionen Anzeigen",
+    "shareOptions": "Teilen-Optionen",
+    "hideShareOptions": "Teilen-Optionen Verbergen",
+    "perfectBirthMatch": "Perfekte Geburts-Übereinstimmung! 🎂✨",
+    "excellentBirthCompatibility": "Ausgezeichnete Geburts-Kompatibilität! 🌟🎈",
+    "goodBirthHarmony": "Gute Geburts-Harmonie! 🎉💫",
+    "decentBirthConnection": "Ordentliche Geburts-Verbindung! 🎂🌙",
+    "birthdayDifferences": "Geburtstag-Unterschiede schaffen einzigartige Dynamik! 🎭🎪",
+    "shareYourResults": "Teilen Sie Ihre Ergebnisse",
+    "shareYourResultsDescription": "Verwandeln Sie Ihre Geburtstag-Kompatibilität in viralen Inhalt!",
+    "xTwitter": "X (Twitter)",
+    "lifeStageMessages": {
+      "perfectSync": "Perfekte Lebensphasen-Synchronisation!",
+      "greatAlignment": "Großartige Altersausrichtung!",
+      "complementaryStages": "Komplementäre Lebensphasen!",
+      "differentPerspectives": "Verschiedene Lebensperspektiven bringen Vielfalt!"
+    },
+    "seasons": {
+      "spring": "Frühling",
+      "summer": "Sommer",
+      "autumn": "Herbst",
+      "winter": "Winter"
+    },
+    "seasonalMatchMessages": {
+      "bothSame": "Beide im {{season}} geboren - geteilte saisonale Energie!",
+      "different": "{{season1}} trifft {{season2}} - komplementäre saisonale Harmonien!"
+    },
+    "numerologyMessages": {
+      "lifePaths": "Lebensweg {{path1}} + Lebensweg {{path2}} = {{message}}",
+      "twinSouls": "Zwillingsseelen mit identischen numerologischen Pfaden!",
+      "complementaryEnergies": "Komplementäre numerologische Energien!"
+    },
+    "overallMessages": {
+      "cosmicSoulmates": "Kosmische Seelenverwandte! 🌟✨",
+      "writtenInStars": "In den Sternen geschrieben! 💫❤️",
+      "beautifulConnection": "Schöne zeitliche Verbindung! 🎂💕",
+      "goodVibes": "Gute Geburtstag-Vibes! 🎉🌙",
+      "uniquePairing": "Einzigartige zeitliche Paarung! 🎭🎪"
+    },
+    "calculateCompatibility": "Kompatibilität Berechnen",
+    "analyzingBirthDates": "Analysiere Geburtsdaten...",
+    "birthdayCompatibilityBreakdown": "Geburtstag-Kompatibilitätsaufschlüsselung",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "linkedin": "LinkedIn",
+    "pinterest": "Pinterest",
+    "reddit": "Reddit",
+    "tiktok": "TikTok",
+    "snapchat": "Snapchat",
+    "messages": {
+      "perfectMatch": "Perfekte zeitliche Übereinstimmung! Ihre Geburtsdaten harmonieren wunderschön! 🎂✨",
+      "soulmates": "Zeitliche Seelenverwandte — Ihre Geburtsmuster waren für einander bestimmt! 🌟🎈",
+      "trueLove": "Wahre Geburts-Harmonie — Ihre zeitlichen Energien ergänzen sich perfekt! 🎉💫",
+      "beautifulStory": "Schöne zeitliche Geschichte im Entstehen! 🎂🌙",
+      "goodConnection": "Gute Geburts-Verbindung mit interessanten zeitlichen Mustern! 🎭🎪"
+    },
+    "breakdown": {
+      "title": "Zeitliche Kompatibilitätsaufschlüsselung",
+      "ageHarmony": "Altersharmonie",
+      "seasonalPatterns": "Saisonale Muster",
+      "numerologicalPaths": "Numerologische Wege",
+      "cosmicSync": "Kosmische Synchronisation",
+      "generationalEnergy": "Generationsenergie"
+    }
+  },
+  "zodiacCalculator": {
+    "title": "Sternzeichen Kompatibilitätsrechner",
+    "description": "Entdecken Sie die kosmische Verbindung zwischen Ihnen und Ihrem Partner mit unserem fortschrittlichen Sternzeichen-Kompatibilitätsrechner. Testen Sie Ihre Sternzeichen und erkunden Sie astrologische Liebesbeziehungen mit himmlischen Einsichten.",
+    "whyChooseOurZodiacCalculatorTitle": "Warum unseren Sternzeichen-Rechner wählen?",
+    "traditionalAstrologyTitle": "Traditionelle Astrologie",
+    "traditionalAstrologyDescription": "Basierend auf jahrhundertealter astrologischer Weisheit und traditionellen Sternzeichen-Kompatibilitätsmustern, die von Astrologen weltweit verwendet werden.",
+    "comprehensiveAnalysisTitle": "Umfassende Analyse",
+    "comprehensiveAnalysisDescription": "Unser Algorithmus analysiert elementare Harmonie, Planetenherrscher, Modalitäten und kosmische Aspekte für tiefe Kompatibilitätseinsichten.",
+    "cosmicEntertainmentTitle": "Kosmische Unterhaltung",
+    "cosmicEntertainmentDescription": "Eine unterhaltsame und fesselnde Art, Persönlichkeitsmerkmale und Beziehungsdynamiken durch die Linse der Astrologie zu erkunden.",
+    "zodiacCompatibilityDescription": "Ob Sie ein feuriger Widder sind, der Harmonie mit einem geerdeten Stier sucht, oder ein träumerischer Fisch, der sich mit einer analytischen Jungfrau verbindet, unser Sternzeichen-Kompatibilitätsrechner bietet Unterhaltung und Einblicke in den kosmischen Tanz der Beziehungen.",
+    "howAlgorithmWorksTitle": "Wie unser Sternzeichen-Kompatibilitäts-Algorithmus funktioniert",
+    "exclusiveCelestialHarmonyAlgorithm": "Unser exklusiver Celestial Harmony Algorithmus kombiniert traditionelle astrologische Prinzipien mit moderner Kompatibilitätsanalyse, um Ihnen genaue und unterhaltsame Sternzeichen-Kompatibilitätswerte zu liefern.",
+    "systemAppliesTraditionalAstrology": "Das System wendet traditionelle Astrologiemethoden an und analysiert die grundlegenden Beziehungen zwischen Sternzeichen, ihren herrschenden Planeten, elementaren Eigenschaften und modalen Charakteristiken zur Bestimmung der kosmischen Kompatibilität.",
+    "astrologicalFoundation": "Astrologische Grundlage",
+    "algorithmIncorporates": "Unser Algorithmus integriert klassische astrologische Prinzipien einschließlich elementarer Interaktionen, Planetenherrschaften, modaler Energien und traditioneller Aspektbeziehungen zwischen Sternzeichen.",
+    "zodiacAnalysisProcessTitle": "Sternzeichen-Analyseprozess",
+    "analyzeTraditionalSignCompatibilityPatterns": "Analysiere traditionelle Zeichenkompatibilitätsmuster und historische astrologische Beziehungen",
+    "calculateElementalHarmony": "Berechne elementare Harmonie zwischen Feuer-, Erd-, Luft- und Wasserzeichen",
+    "evaluateModalitySynchronization": "Bewerte Modalitätssynchronisation (Kardinal-, Fest-, Veränderliche Energien)",
+    "assessPlanetaryRulerRelationships": "Bewerte Planetenherrscher-Beziehungen und kosmische Einflüsse",
+    "calculateCosmicAspectDynamics": "Berechne kosmische Aspektdynamiken und astrologische Resonanzmuster",
+    "fivePillarsTitle": "Fünf Säulen der Sternzeichen-Kompatibilitätsanalyse",
+    "signHarmonyTitle": "Zeichen-Harmonie",
+    "traditionalZodiacCompatibilityPatterns": "Traditionelle Sternzeichen-Kompatibilitätsmuster und astrologische Beziehungen",
+    "elementalBalance": "Elementares Gleichgewicht",
+    "fireEarthAirWaterElementInteractions": "Feuer-, Erd-, Luft-, Wasser-Element-Interaktionen und kosmische Harmonie",
+    "modalityMatching": "Modalitäts-Abgleich",
+    "cardinalFixedMutableEnergyPatternSynchronization": "Kardinal-, Fest-, Veränderliche Energiemuster-Synchronisation",
+    "planetarySyncTitle": "Planetare Synchronisation",
+    "rulingPlanetRelationships": "Herrschende Planetenbeziehungen und himmlische Einflüsse",
+    "cosmicAspects": "Kosmische Aspekte",
+    "trineSextileOppositionSquareRelationshipDynamics": "Trigon-, Sextil-, Opposition-, Quadrat-Beziehungsdynamiken",
+    "whyZodiacCompatibilityMattersTitle": "Warum Sternzeichen-Kompatibilität wichtig ist",
+    "astrologicalWisdom": "Astrologische Weisheit",
+    "astrologicalWisdomDescription": "Jahrtausende astrologischer Tradition deuten darauf hin, dass Himmelskörper Persönlichkeitsmerkmale und Beziehungsdynamiken beeinflussen und Einblicke in Kompatibilitätsmuster bieten.",
+    "planetaryInfluences": "Planetare Einflüsse",
+    "planetaryInfluencesDescription": "Jedes Sternzeichen wird von bestimmten Planeten regiert, die Charakteristika, Kommunikationsstile und emotionale Ausdrücke in Beziehungen beeinflussen.",
+    "elementalChemistry": "Elementare Chemie",
+    "elementalChemistryDescription": "Die vier Elemente (Feuer, Erde, Luft, Wasser) schaffen natürliche Anziehungs- und Kompatibilitätsmuster, die das Verständnis zwischen Partnern verbessern können.",
+    "cosmicTiming": "Kosmisches Timing",
+    "cosmicTimingDescription": "Astrologische Kompatibilität kann Einblicke in Beziehungstiming, Herausforderungen und Wachstums- und Harmoniemöglichkeiten bieten.",
+    "poweredByAlgorithmTitle": "🌟 Angetrieben vom Celestial Harmony Algorithmus",
+    "advancedAlgorithmDescription": "Unser fortschrittlicher Algorithmus kombiniert traditionelle astrologische Weisheit mit moderner Kompatibilitätsanalyse und bewertet elementare Interaktionen, Planetenbeziehungen und kosmische Aspekte, um personalisierte Sternzeichen-Kompatibilitätseinsichten zu liefern.",
+    "traditionalAstrologyBased": "Basierend auf traditioneller Astrologie",
+    "elementalPlanetaryAnalysis": "Elementare & Planetare Analyse",
+    "5FactorCosmicScoring": "5-Faktor Kosmische Bewertung",
+    "astrologicalInsightsTitle": "Astrologische Einsichten & Kosmische Weisheit",
+    "astrologicalInsights": {
+      "item1": "Elementare Kompatibilität offenbart natürliche Anziehungsmuster zwischen Feuer-, Erd-, Luft- und Wasserzeichen",
+      "item2": "Planetenherrschaften beeinflussen Kommunikationsstile und emotionalen Ausdruck in Beziehungen",
+      "item3": "Modale Energien (Kardinal, Fest, Veränderlich) beeinflussen Beziehungsdynamiken und Entscheidungsansätze",
+      "item4": "Traditionelle astrologische Aspekte bieten Einblicke in potentielle Herausforderungen und harmonische Verbindungen",
+      "item5": "Kosmisches Timing und himmlische Zyklen können das Verständnis von Beziehungsphasen und Wachstumsmöglichkeiten verbessern"
+    },
+    "entertainmentOnlyTitle": "🎭 Nur zur Unterhaltung",
+    "important": "Wichtig",
+    "entertainmentOnlyDescription": "Dieser Sternzeichen-Kompatibilitätsrechner ist nur zur Unterhaltung konzipiert. Obwohl er auf traditionellen astrologischen Prinzipien basiert, sollten die Ergebnisse nicht als einzige Grundlage für wichtige Beziehungsentscheidungen verwendet werden. Astrologie ist ein Glaubenssystem, und Kompatibilität hängt von vielen persönlichen Faktoren jenseits der Sternzeichen ab.",
+    "zodiacCompatibilityTestOnlineTitle": "Sternzeichen-Kompatibilitätstest Online",
+    "zodiacCompatibilityTestOnlineDescription": "Erleben Sie die Magie astrologischer Kompatibilität mit unserem umfassenden Sternzeichen-Rechner. Entdecken Sie kosmische Verbindungen, erkunden Sie elementare Harmonie und gewinnen Sie Einblicke in Ihre himmlische Liebesgeschichte.",
+    "calculateYourZodiacCompatibilityNow": "Berechnen Sie jetzt Ihre Sternzeichen-Kompatibilität"
+  },
+  "results": {
+    "compatibilityScore": "Kompatibilitätsscore",
+    "perfectMatch": "Perfekte Übereinstimmung!",
+    "excellentMatch": "Ausgezeichnete Übereinstimmung!",
+    "goodMatch": "Gute Übereinstimmung!",
+    "fairMatch": "Faire Übereinstimmung",
+    "challenging": "Herausfordernde Übereinstimmung",
+    "description": {
+      "10": "Sehr unterschiedliche Persönlichkeiten - Vorsicht ist geboten!",
+      "20": "Das könnte eine herausfordernde Übereinstimmung sein, aber jede Beziehung ist einzigartig.",
+      "30": "Erhebliche Unterschiede, aber Gegensätze ziehen sich manchmal an!",
+      "40": "Einige Herausforderungen stehen bevor, aber Liebe kann Hindernisse überwinden.",
+      "50": "Mäßige Kompatibilität - Freundschaft könnte besser funktionieren als Romantik.",
+      "60": "Gute Kompatibilität mit einigen Bereichen, an denen ihr zusammen arbeiten könnt.",
+      "70": "Sehr gute Übereinstimmung mit großem Potenzial für eine wunderbare Beziehung.",
+      "80": "Ausgezeichnete Kompatibilität! Ihr ergänzt euch wunderschön.",
+      "90": "Ihr beiden seid absolut perfekt füreinander! Das ist eine einmalige Verbindung im Leben."
+    }
+  },
+  "quizzes": {
+    "common": {
+      "question": "Frage {{current}} von {{total}}",
+      "tryAgain": "Erneut Versuchen",
+      "loveCalculator": "Liebesrechner",
+      "exploreOtherQuizzes": "Andere Quiz Erkunden",
+      "relationshipFocus": "Beziehungs-Fokus",
+      "strengthAndGrowth": "Stärke und Wachstum",
+      "discoverYourPatterns": "Entdecken Sie Ihre einzigartigen Beziehungsmuster",
+      "communicationFocus": "Kommunikations-Fokus",
+      "understandYourPatterns": "Verstehen Sie Ihre Kommunikationsmuster",
+      "loveFocus": "Liebes-Fokus",
+      "understandHowYouExpress": "Verstehen Sie, wie Sie Liebe ausdrücken und empfangen",
+      "conflictFocus": "Konflikt-Fokus",
+      "transformDisagreements": "Verwandeln Sie Meinungsverschiedenheiten in Wachstum",
+      "goalsFocus": "Ziel-Fokus",
+      "alignYourDreams": "Richten Sie Ihre Träume für die Zukunft aus",
+      "primary": "primär",
+      "primaryStyle": "primärer Stil",
+      "percentage": "{{percentage}}%",
+      "whyTakeOurQuiz": "Warum Unser Quiz Machen?",
+      "selfAwareness": "Selbstbewusstsein",
+      "gainInsights": "Gewinnen Sie Einblicke in Ihre Stärken und Wachstumsbereiche",
+      "communication": "Kommunikation",
+      "startMeaningfulConversations": "Beginnen Sie bedeutungsvolle Gespräche mit Ihrem Partner",
+      "growth": "Wachstum",
+      "identifyStrengths": "Identifizieren Sie Stärken und Verbesserungsmöglichkeiten",
+      "relationshipQuiz": "Beziehungsquiz",
+      "communicationStyleQuiz": "Kommunikationsstil-Quiz",
+      "loveLanguageAssessment": "Liebessprachen-Bewertung",
+      "futureGoalsCompatibility": "Zukunftsziele-Kompatibilität",
+      "conflictResolutionQuiz": "Konfliktlösungs-Quiz",
+      "answerQuestions": "Beantworten Sie Fragen über Ihre Beziehung",
+      "learnYourCommunicationStyle": "Lernen Sie Ihren Kommunikationsstil kennen",
+      "discoverYourLoveLanguage": "Entdecken Sie Ihre Liebessprache",
+      "alignYourFutureGoals": "Richten Sie Ihre Zukunftsziele aus",
+      "learnYourApproach": "Lernen Sie Ihren Konfliktlösungsansatz kennen",
+      "yourLoveLanguageScores": "Ihre Liebessprachen-Scores",
+      "whatYoullLearn": "Was Sie Lernen Werden",
+      "yourPrimaryLoveLanguage": "Ihre Primäre Liebessprache",
+      "discoverWhichLoveLanguage": "Entdecken Sie, welche Liebessprache Sie sich am meisten geliebt fühlen lässt",
+      "howToExpressLove": "Wie Man Liebe Ausdrückt",
+      "learnBestWaysToShow": "Lernen Sie die besten Wege, Ihrem Partner Liebe zu zeigen",
+      "relationshipGrowthTips": "Beziehungswachstums-Tipps",
+      "getPersonalizedAdvice": "Erhalten Sie personalisierte Ratschläge zur Stärkung Ihrer Verbindung",
+      "whyCommunicationMatters": "Warum Kommunikation Wichtig Ist",
+      "betterUnderstanding": "Besseres Verständnis",
+      "learnHowYouCommunicate": "Lernen Sie, wie Sie kommunizieren und wie Ihr Partner Sie empfängt",
+      "reduceConflicts": "Konflikte Reduzieren",
+      "understandingDifferentStyles": "Das Verstehen verschiedener Stile kann Missverständnisse verhindern",
+      "strongerConnection": "Stärkere Verbindung",
+      "adaptYourCommunication": "Passen Sie Ihre Kommunikation an, um tiefere Harmonie zu schaffen",
+      "collaborative": "Kollaborativ",
+      "competing": "Wettbewerbsorientiert",
+      "accommodating": "Entgegenkommend",
+      "avoiding": "Vermeidend",
+      "compromising": "Kompromissbereit",
+      "yourConflictStyleBreakdown": "Ihre Konfliktstil-Aufschlüsselung",
+      "whatYoullDiscoverConflict": "Was Sie Entdecken Werden",
+      "yourConflictStyle": "Ihr Konfliktstil",
+      "identifyYourPrimaryApproach": "Identifizieren Sie Ihren primären Ansatz für den Umgang mit Meinungsverschiedenheiten",
+      "resolutionStrategies": "Lösungsstrategien",
+      "learnEffectiveTechniques": "Lernen Sie effektive Techniken zur Konfliktlösung",
+      "relationshipImprovement": "Beziehungsverbesserung",
+      "discoverHowToBuild": "Entdecken Sie, wie Sie stärkere Beziehungen durch bessere Konfliktlösung aufbauen",
+      "careerGoals": "Karriereziele",
+      "familyPlans": "Familienpläne",
+      "lifestyle": "Lebensstil",
+      "financialGoals": "Finanzielle Ziele",
+      "personalGrowth": "Persönliches Wachstum",
+      "whatFutureGoalsWillReveal": "Was Ihre Zukunftsziele Enthüllen Werden",
+      "goalAlignmentScore": "Zielausrichtungs-Score",
+      "sharedPathPlanning": "Gemeinsame Wegplanung",
+      "compromiseStrategies": "Kompromissstrategien",
+      "seeHowCloselyGoals": "Sehen Sie, wie eng Ihre Ziele aufeinander abgestimmt sind",
+      "learnHowToCreate": "Lernen Sie, wie Sie eine gemeinsame Zukunft schaffen",
+      "getTipsOnNavigating": "Erhalten Sie Tipps zur Navigation von Unterschieden",
+      "compatible": "kompatibel",
+      "yourStrongestAreas": "Ihre Stärksten Bereiche",
+      "areasForDiscussion": "Diskussionsbereiche",
+      "detailedCompatibilityBreakdown": "Detaillierte Kompatibilitäts-Aufschlüsselung",
+      "significantDifferences": "Bedeutende Unterschiede"
+    },
+    "communicationStyleQuiz": {
+      "title": "Kommunikationsstil-Quiz",
+      "subtitle": "Entdecken Sie Ihre Einzigartigen Kommunikationsmuster",
+      "description": "Verstehen Sie, wie Sie und Ihr Partner unterschiedlich kommunizieren und lernen Sie, Lücken für eine bessere Verbindung zu schließen.",
+      "questions": {
+        "q1": {
+          "question": "Wenn Ihr Partner verärgert ist, ist Ihr erster Instinkt:",
+          "options": {
+            "opt1": "Aufmerksam zuhören und Fragen stellen, um zu verstehen",
+            "opt2": "Praktische Lösungen zur Problemlösung anbieten",
+            "opt3": "Ihnen eine Umarmung und emotionale Unterstützung geben",
+            "opt4": "Ihnen Raum geben, bis sie bereit sind zu sprechen"
+          }
+        },
+        "q2": {
+          "question": "Während eines Gesprächs bevorzugen Sie:",
+          "options": {
+            "opt1": "Tiefe, bedeutungsvolle Diskussionen über wichtige Themen",
+            "opt2": "Praktische Gespräche, die zu konkreten Lösungen führen",
+            "opt3": "Warme, unterstützende Austausche, die sich auf Gefühle konzentrieren",
+            "opt4": "Leichte, unbeschwerte Unterhaltungen, die Spaß machen"
+          }
+        },
+        "q3": {
+          "question": "Wenn Sie eine wichtige Nachricht übermitteln müssen, wählen Sie normalerweise:",
+          "options": {
+            "opt1": "Ein persönliches Gespräch von Angesicht zu Angesicht",
+            "opt2": "Eine klare, direkte Textnachricht oder E-Mail",
+            "opt3": "Ein Telefonat, bei dem sie meinen Tonfall hören können",
+            "opt4": "Warten auf den richtigen Moment, wenn sie entspannt sind"
+          }
+        },
+        "q4": {
+          "question": "Ihr Kommunikationsstil wird am besten beschrieben als:",
+          "options": {
+            "opt1": "Nachdenklich und tiefgreifend - ich teile gerne Einsichten",
+            "opt2": "Direkt und effizient - ich komme zur Sache",
+            "opt3": "Warmherzig und unterstützend - ich konzentriere mich auf Gefühle",
+            "opt4": "Entspannt und anpassungsfähig - ich passe mich ihrer Energie an"
+          }
+        },
+        "q5": {
+          "question": "Wenn es ein Missverständnis gibt, neigen Sie dazu zu:",
+          "options": {
+            "opt1": "Es sofort ansprechen und die Dinge klären",
+            "opt2": "Die Fakten darlegen und logisch erklären, was passiert ist",
+            "opt3": "Mich darauf konzentrieren, wie sie sich fühlen und sie zu beruhigen",
+            "opt4": "Es eine Weile ruhen lassen und später darüber sprechen"
+          }
+        },
+        "q6": {
+          "question": "In Gruppengesprächen sind Sie normalerweise derjenige, der:",
+          "options": {
+            "opt1": "Durchdachte Fragen stellt, um die Diskussion zu vertiefen",
+            "opt2": "Praktische Vorschläge und Lösungen einbringt",
+            "opt3": "Sicherstellt, dass sich jeder gehört und einbezogen fühlt",
+            "opt4": "Beobachtet und beiträgt, wenn es sich natürlich anfühlt"
+          }
+        },
+        "q7": {
+          "question": "Wenn Ihr Partner ein Problem teilt, ist Ihre erste Reaktion:",
+          "options": {
+            "opt1": "Fragen zu stellen, um das Problem vollständig zu verstehen",
+            "opt2": "Brainstorming-Lösungen und Handlungsschritte anzubieten",
+            "opt3": "Emotionale Unterstützung und Bestätigung zu geben",
+            "opt4": "Zuzuhören und ihnen zu folgen, ohne zu drängen"
+          }
+        },
+        "q8": {
+          "question": "Sie fühlen sich am meisten verstanden, wenn jemand:",
+          "options": {
+            "opt1": "Wirklich auf meine Worte hört und durchdachte Antworten gibt",
+            "opt2": "Meine Punkte versteht und konkrete Hilfe anbietet",
+            "opt3": "Meine Gefühle validiert und Empathie zeigt",
+            "opt4": "Mir den Raum gibt, mich ohne Urteil auszudrücken"
+          }
+        },
+        "q9": {
+          "question": "Bei der Entscheidungsfindung als Paar bevorzugen Sie:",
+          "options": {
+            "opt1": "Alle Optionen gründlich zu besprechen, bevor Sie sich entscheiden",
+            "opt2": "Die Vor- und Nachteile aufzulisten und die beste Wahl zu treffen",
+            "opt3": "Zu spüren, womit Sie beide sich wohl fühlen",
+            "opt4": "Flexibel zu bleiben und sich anpassen zu können"
+          }
+        },
+        "q10": {
+          "question": "Was schätzen Sie am meisten in der Kommunikation?",
+          "options": {
+            "opt1": "Tiefe, bedeutungsvolle Verbindungen durch Worte",
+            "opt2": "Klarheit, Effizienz und Ergebnisorientierung",
+            "opt3": "Emotionale Wärme und gegenseitige Unterstützung",
+            "opt4": "Entspannte, natürliche und stressfreie Interaktionen"
+          }
+        }
+      },
+      "results": {
+        "analytical": {
+          "title": "Analytischer Kommunikator 🧠",
+          "description": "Sie schätzen tiefe, durchdachte Gespräche und lieben es, komplexe Ideen zu erkunden. Sie sind ein großartiger Zuhörer und Problemlöser.",
+          "strengths": [
+            "Ausgezeichneter bei tiefgreifenden Diskussionen",
+            "Durchdachte und reflektierte Antworten",
+            "Großartiger Problemlöser",
+            "Wertschätzt unterschiedliche Perspektiven"
+          ],
+          "tips": [
+            "Denken Sie daran, auch Gefühle zu teilen, nicht nur Gedanken",
+            "Manchmal brauchen andere schnelle Antworten",
+            "Achten Sie auf nonverbale Signale"
+          ]
+        },
+        "direct": {
+          "title": "Direkter Kommunikator 🎯",
+          "description": "Sie kommunizieren klar, effizient und zielgerichtet. Menschen wissen, wo sie bei Ihnen stehen, und Sie bekommen Dinge erledigt.",
+          "strengths": [
+            "Klare und ehrliche Kommunikation",
+            "Effizient beim Lösen von Problemen",
+            "Zuverlässig und vertrauenswürdig",
+            "Gut bei der Führung von Gesprächen"
+          ],
+          "tips": [
+            "Sanfter sein bei emotionalen Themen",
+            "Anderen Zeit geben, ihre Gedanken zu verarbeiten",
+            "Auf Tonfall und Timing achten"
+          ]
+        },
+        "supportive": {
+          "title": "Unterstützender Kommunikator 💝",
+          "description": "Sie bringen Wärme, Empathie und emotionale Intelligenz in Gespräche ein. Sie schaffen sichere Räume für offene Kommunikation.",
+          "strengths": [
+            "Sehr empathisch und verständnisvoll",
+            "Schafft emotionale Sicherheit",
+            "Gut beim Validieren von Gefühlen",
+            "Baut starke emotionale Verbindungen auf"
+          ],
+          "tips": [
+            "Vergessen Sie nicht, auch Ihre eigenen Bedürfnisse zu äußern",
+            "Es ist in Ordnung, schwierige Wahrheiten zu teilen",
+            "Gleichgewicht zwischen Emotionen und Praktikabilität"
+          ]
+        },
+        "adaptive": {
+          "title": "Anpassungsfähiger Kommunikator 🌊",
+          "description": "Sie sind flexibel und reagieren auf den Kommunikationsstil anderer. Sie schaffen entspannte, stressfreie Gesprächsumgebungen.",
+          "strengths": [
+            "Sehr flexibel und anpassungsfähig",
+            "Gut darin, andere lesen zu können",
+            "Schafft entspannte Atmosphären",
+            "Friedensstiftend in Konflikten"
+          ],
+          "tips": [
+            "Üben Sie, Ihre eigenen Kommunikationsbedürfnisse zu äußern",
+            "Es ist in Ordnung, die Führung in Gesprächen zu übernehmen",
+            "Finden Sie Ihre eigene Kommunikationsstimme"
+          ]
+        },
+        "expressive": {
+          "title": "Expressiver Kommunikator 🎭",
+          "description": "Sie kommunizieren mit Leidenschaft und Energie. Sie sind ausdrucksstark und teilen Ihre Gefühle und Gedanken offen mit.",
+          "strengths": [
+            "Sehr ausdrucksstark und leidenschaftlich",
+            "Gut darin, Emotionen zu vermitteln",
+            "Inspiriert andere durch Ihre Energie",
+            "Authentisch und echt in der Kommunikation"
+          ],
+          "tips": [
+            "Achten Sie darauf, auch anderen Raum zum Sprechen zu geben",
+            "Manchmal ist weniger mehr - üben Sie prägnante Kommunikation",
+            "Achten Sie auf die Reaktionen anderer auf Ihre Intensität"
+          ]
+        }
+      }
+    },
+    "relationshipQuiz": {
+      "title": "Beziehungsquiz",
+      "subtitle": "Bewerten Sie die Stärke Ihrer Beziehung",
+      "description": "Entdecken Sie die Schlüsselbereiche Ihrer Beziehung und erhalten Sie personalisierte Einblicke für eine stärkere Verbindung.",
+      "questions": {
+        "q1": {
+          "question": "Wie gut kommunizieren Sie und Ihr Partner über wichtige Themen?",
+          "options": {
+            "opt1": "Wir sprechen offen und ehrlich über alles",
+            "opt2": "Wir kommunizieren gut, aber vermeiden manchmal schwierige Themen",
+            "opt3": "Wir haben Schwierigkeiten, über schwierige Themen zu sprechen",
+            "opt4": "Wir vermeiden es meist, über wichtige Dinge zu sprechen"
+          }
+        },
+        "q2": {
+          "question": "Wie oft fühlen Sie sich von Ihrem Partner emotional unterstützt?",
+          "options": {
+            "opt1": "Fast immer - sie sind mein größter Unterstützer",
+            "opt2": "Oft - sie sind während schwieriger Zeiten da",
+            "opt3": "Manchmal - es hängt von ihrer Stimmung/Verfügbarkeit ab",
+            "opt4": "Selten - ich fühle mich oft allein"
+          }
+        },
+        "q3": {
+          "question": "Wie handhaben Sie und Ihr Partner Meinungsverschiedenheiten?",
+          "options": {
+            "opt1": "Wir diskutieren respektvoll und finden Kompromisse",
+            "opt2": "Wir streiten manchmal, aber lösen Dinge aus",
+            "opt3": "Unsere Konflikte eskalieren oft oder bleiben ungelöst",
+            "opt4": "Wir vermeiden Konflikte oder werden feindselig"
+          }
+        },
+        "q4": {
+          "question": "Wie zufrieden sind Sie mit Ihrer körperlichen Intimität?",
+          "options": {
+            "opt1": "Sehr zufrieden - wir sind auf einer Wellenlänge",
+            "opt2": "Meist zufrieden mit gelegentlichen Herausforderungen",
+            "opt3": "Etwas unzufrieden - wir kämpfen mit Missverständnissen",
+            "opt4": "Sehr unzufrieden - es ist ein Problembereich"
+          }
+        },
+        "q5": {
+          "question": "Wie gut stimmen Ihre Zukunftsziele und -werte überein?",
+          "options": {
+            "opt1": "Wir teilen sehr ähnliche Ziele und Werte",
+            "opt2": "Wir sind meist ausgerichtet mit einigen Unterschieden",
+            "opt3": "Wir haben einige erhebliche Unterschiede",
+            "opt4": "Wir wollen sehr unterschiedliche Dinge"
+          }
+        },
+        "q6": {
+          "question": "Wie viel Qualitätszeit verbringen Sie zusammen?",
+          "options": {
+            "opt1": "Regelmäßig - wir priorisieren Zeit füreinander",
+            "opt2": "Angemessen - wir bemühen uns, Zeit zu finden",
+            "opt3": "Nicht genug - wir sind oft zu beschäftigt",
+            "opt4": "Sehr wenig - wir führen getrennte Leben"
+          }
+        },
+        "q7": {
+          "question": "Wie sehr vertrauen Sie Ihrem Partner?",
+          "options": {
+            "opt1": "Vollständig - ich habe keine Zweifel",
+            "opt2": "Meist - mit gelegentlichen kleineren Sorgen",
+            "opt3": "Etwas - es gibt Bereiche, in denen ich unsicher bin",
+            "opt4": "Wenig - Vertrauen ist ein erhebliches Problem"
+          }
+        },
+        "q8": {
+          "question": "Wie gut kennt Ihr Partner Ihre Bedürfnisse und Wünsche?",
+          "options": {
+            "opt1": "Sehr gut - sie verstehen mich zutiefst",
+            "opt2": "Ziemlich gut - sie bemerken die meisten Dinge",
+            "opt3": "Einigermaßen - sie verstehen die Grundlagen",
+            "opt4": "Nicht sehr gut - ich fühle mich oft missverstanden"
+          }
+        },
+        "q9": {
+          "question": "Wie ausgewogen fühlt sich Ihre Beziehung an?",
+          "options": {
+            "opt1": "Sehr ausgewogen - wir geben beide gleich",
+            "opt2": "Meist ausgewogen mit gelegentlichen Ungleichgewichten",
+            "opt3": "Etwas unausgewogen - einer gibt normalerweise mehr",
+            "opt4": "Sehr unausgewogen - es fühlt sich unfair an"
+          }
+        },
+        "q10": {
+          "question": "Wie optimistisch sind Sie über Ihre Zukunft zusammen?",
+          "options": {
+            "opt1": "Sehr optimistisch - wir bauen etwas Schönes auf",
+            "opt2": "Ziemlich optimistisch - wir haben gutes Potenzial",
+            "opt3": "Etwas optimistisch - mit einigen Sorgen",
+            "opt4": "Nicht sehr optimistisch - unsicher über die Zukunft"
+          }
+        }
+      },
+      "results": {
+        "thriving": {
+          "title": "Blühende Beziehung 🌟",
+          "description": "Ihre Beziehung zeigt starke Grundlagen in allen Kernbereichen. Sie haben eine gesunde, unterstützende Partnerschaft aufgebaut.",
+          "strengths": [
+            "Ausgezeichnete Kommunikation",
+            "Starkes gegenseitiges Vertrauen",
+            "Aufeinander abgestimmte Ziele und Werte",
+            "Gesunde Konfliktlösung"
+          ],
+          "tips": [
+            "Führen Sie regelmäßige Beziehungs-Check-ins durch",
+            "Setzen Sie neue gemeinsame Ziele",
+            "Planen Sie besondere Zeit zusammen",
+            "Feiern Sie Ihre Erfolge als Paar"
+          ],
+          "message": "Blühende Beziehung! Sie haben eine gesunde, unterstützende Partnerschaft aufgebaut."
+        },
+        "solid": {
+          "title": "Solide Beziehung 💪",
+          "description": "Sie haben eine starke Beziehung mit kleineren Bereichen zur Verbesserung. Mit Aufmerksamkeit können Sie noch stärker werden.",
+          "strengths": [
+            "Gute allgemeine Kommunikation",
+            "Angemessenes Vertrauen und Unterstützung",
+            "Geteilte wichtige Werte",
+            "Gesunde Bindung"
+          ],
+          "tips": [
+            "Arbeiten Sie an offenerer Kommunikation",
+            "Planen Sie mehr Qualitätszeit zusammen",
+            "Üben Sie aktives Zuhören",
+            "Adressieren Sie kleinere Probleme, bevor sie wachsen"
+          ],
+          "message": "Solide Beziehung! Sie haben eine starke Beziehung mit kleineren Bereichen zur Verbesserung."
+        },
+        "developing": {
+          "title": "Sich Entwickelnde Beziehung 🌱",
+          "description": "Ihre Beziehung hat Potenzial, aber mehrere Bereiche brauchen Aufmerksamkeit. Fokussierte Anstrengungen können erhebliche Verbesserungen bringen.",
+          "strengths": [
+            "Engagement für die Beziehung",
+            "Bereitschaft zur Verbesserung",
+            "Einige Bereiche funktionieren gut",
+            "Grundlegende Kompatibilität"
+          ],
+          "tips": [
+            "Priorisieren Sie offene, ehrliche Gespräche",
+            "Arbeiten Sie an Vertrauensbildung",
+            "Suchen Sie Paarberatung",
+            "Setzen Sie spezifische Verbesserungsziele"
+          ],
+          "message": "Sich Entwickelnde Beziehung! Ihre Beziehung hat Potenzial, aber mehrere Bereiche brauchen Aufmerksamkeit."
+        },
+        "challenging": {
+          "title": "Herausfordernde Beziehung 🚨",
+          "description": "Ihre Beziehung steht vor erheblichen Herausforderungen. Professionelle Hilfe und wichtige Veränderungen könnten notwendig sein.",
+          "strengths": [
+            "Bewusstsein für Probleme",
+            "Bereitschaft zur Selbstreflexion",
+            "Möglichkeit für Wachstum",
+            "Engagement für Veränderung"
+          ],
+          "tips": [
+            "Suchen Sie professionelle Paarberatung",
+            "Konzentrieren Sie sich auf einen Bereich nach dem anderen",
+            "Verbessern Sie Kommunikationsfähigkeiten",
+            "Berücksichtigen Sie individuelle Therapie"
+          ],
+          "message": "Herausfordernde Beziehung! Ihre Beziehung steht vor erheblichen Herausforderungen."
+        },
+        "perfectMatch": {
+          "title": "Perfekte Übereinstimmung 🌟",
+          "description": "Sie haben eine außergewöhnliche Beziehung mit starker Ausrichtung in allen Bereichen. Ihre Verbindung ist tiefgreifend und ausgewogen.",
+          "message": "Perfekte Übereinstimmung! Ihre Beziehung zeigt starke Grundlagen in allen Kernbereichen.",
+          "strengths": [
+            "Herausragende Kommunikation über Ziele",
+            "Vollständiges Vertrauen und Verständnis",
+            "Perfekt abgestimmte Zukunftsziele",
+            "Natürliche Konfliktlösung"
+          ],
+          "tips": [
+            "Pflegen Sie diese schöne Verbindung",
+            "Teilen Sie Ihre Erkenntnisse mit anderen Paaren",
+            "Bleiben Sie dankbar für das, was Sie haben",
+            "Wachsen Sie weiterhin zusammen"
+          ]
+        },
+        "goodFoundation": {
+          "title": "Gute Grundlage! 💛",
+          "description": "Sie haben eine solide Beziehung mit Raum für Wachstum und Verbesserung.",
+          "message": "Gute Grundlage! Sie haben eine solide Beziehung mit Raum für Wachstum.",
+          "strengths": [
+            "Grundlegendes Vertrauen und Verbindung",
+            "Bereitschaft zur Verbesserung",
+            "Positive Grundeinstellung",
+            "Potenzial für Wachstum"
+          ],
+          "tips": [
+            "Konzentrieren Sie sich auf Kommunikationsverbesserung",
+            "Planen Sie regelmäßige Dates",
+            "Arbeiten Sie an gemeinsamen Zielen",
+            "Feiern Sie kleine Erfolge zusammen"
+          ]
+        },
+        "workInProgress": {
+          "title": "Arbeit im Gange! 💪",
+          "description": "Jede Beziehung kann sich mit Anstrengung und Kommunikation verbessern.",
+          "message": "Arbeit im Gange! Jede Beziehung kann sich mit Anstrengung und Kommunikation verbessern.",
+          "strengths": [
+            "Bewusstsein für Verbesserungsbedarf",
+            "Bereitschaft zur Veränderung",
+            "Potenzial für Wachstum",
+            "Engagement für die Beziehung"
+          ],
+          "tips": [
+            "Kommunizieren Sie offener miteinander",
+            "Setzen Sie kleine, erreichbare Ziele",
+            "Suchen Sie bei Bedarf professionelle Hilfe",
+            "Feiern Sie kleine Verbesserungen"
+          ]
+        },
+        "greatCompatibility": {
+          "title": "Großartige Kompatibilität! 💕",
+          "description": "Sie haben eine starke Beziehung mit ausgezeichnetem Potenzial.",
+          "message": "Großartige Kompatibilität! Sie haben eine starke Beziehung mit ausgezeichnetem Potenzial.",
+          "strengths": [
+            "Starke emotionale Verbindung",
+            "Gute Kommunikation",
+            "Ausgewogene Unterstützung",
+            "Ausgezeichnetes Potenzial"
+          ],
+          "tips": [
+            "Pflegen Sie Ihre starke Verbindung",
+            "Setzen Sie gemeinsame Ziele",
+            "Unterstützen Sie weiterhin die Träume des anderen",
+            "Bleiben Sie dankbar für das, was Sie haben"
+          ]
+        },
+        "excellent": {
+          "title": "Ausgezeichnete Beziehung! 🌟",
+          "message": "Ihr zwei seid Beziehungsziele! Eure Kompatibilität ist außergewöhnlich."
+        },
+        "good": {
+          "title": "Gute Beziehung! 💫",
+          "message": "Ihr habt eine starke Beziehung mit ausgezeichnetem Potenzial."
+        },
+        "needsWork": {
+          "title": "Solide Beziehung! 🌱",
+          "message": "Ihr habt eine solide Beziehung mit Raum zum Wachsen."
+        },
+        "growing": {
+          "title": "Wachsende Beziehung! 🚀",
+          "message": "Jede Beziehung kann sich mit Anstrengung und Kommunikation verbessern."
+        }
+      }
+    },
+    "conflictResolutionQuiz": {
+      "title": "Konfliktlösungs-Quiz",
+      "subtitle": "Entdecken Sie Ihren Konfliktstil",
+      "description": "Verstehen Sie, wie Sie mit Meinungsverschiedenheiten umgehen und lernen Sie Strategien für eine gesündere Konfliktlösung.",
+      "questions": {
+        "q1": {
+          "question": "Wenn ein Konflikt mit Ihrem Partner entsteht, ist Ihre erste Reaktion:",
+          "options": {
+            "opt1": "Das Problem direkt angehen und gemeinsam eine Lösung finden",
+            "opt2": "Ihre Position klar darlegen und Ihre Rechte durchsetzen",
+            "opt3": "Sich darauf konzentrieren, was sie brauchen und flexibel sein",
+            "opt4": "Zeit und Raum nehmen, bevor Sie das Thema angehen",
+            "opt5": "Eine Lösung finden, die für beide funktioniert"
+          }
+        },
+        "q2": {
+          "question": "Während einer Meinungsverschiedenheit ist Ihre Priorität:",
+          "options": {
+            "opt1": "Sicherzustellen, dass beide Standpunkte gehört und verstanden werden",
+            "opt2": "Ihre Position zu vertreten und zu gewinnen",
+            "opt3": "Die Harmonie aufrechtzuerhalten und sie glücklich zu machen",
+            "opt4": "Überhitzung zu vermeiden und die Situation abkühlen zu lassen",
+            "opt5": "Einen fairen Kompromiss zu finden, der beide zufriedenstellt"
+          }
+        },
+        "q3": {
+          "question": "Wie handhaben Sie es, wenn Ihr Partner sehr verärgert ist?",
+          "options": {
+            "opt1": "Ruhig bleiben und sie durch das Problem sprechen lassen",
+            "opt2": "Ihre Logik mit Fakten und Gründen in Frage stellen",
+            "opt3": "Sich entschuldigen und versuchen, sie zu beruhigen",
+            "opt4": "Ihnen Raum geben, bis sie sich beruhigt haben",
+            "opt5": "Anerkennen, dass wir beide Recht haben könnten"
+          }
+        },
+        "q4": {
+          "question": "Ihr Ansatz zur Problemlösung ist:",
+          "options": {
+            "opt1": "Kreativ zusammenarbeiten, um innovative Lösungen zu finden",
+            "opt2": "Analytisch die beste logische Lösung bestimmen",
+            "opt3": "Flexibel und bereit sein, Ihren Ansatz zu ändern",
+            "opt4": "Minimalistisch - nur das Nötigste angehen",
+            "opt5": "Pragmatisch eine praktische Lösung finden, die funktioniert"
+          }
+        },
+        "q5": {
+          "question": "Wenn Sie sich über ein wichtiges Thema nicht einig sind:",
+          "options": {
+            "opt1": "Erkunden Sie tiefer, warum es für Sie beide wichtig ist",
+            "opt2": "Präsentieren Sie eine überzeugende Argumentation für Ihre Sichtweise",
+            "opt3": "Finden Sie Wege, ihre Sichtweise zu unterstützen",
+            "opt4": "Lassen Sie das Thema ruhen und hoffen, dass es sich von selbst löst",
+            "opt5": "Suchen Sie nach einem Mittelweg oder einer geteilten Lösung"
+          }
+        },
+        "q6": {
+          "question": "Nach einem Konflikt bevorzugen Sie:",
+          "options": {
+            "opt1": "Darüber zu sprechen, was passiert ist und was Sie gelernt haben",
+            "opt2": "Sicherzustellen, dass Ihre Punkte verstanden wurden",
+            "opt3": "Sich zu versöhnen und zur Normalität zurückzukehren",
+            "opt4": "Vorwärts zu gehen und den Konflikt hinter sich zu lassen",
+            "opt5": "Zu überprüfen, ob sich beide mit der Lösung wohl fühlen"
+          }
+        },
+        "q7": {
+          "question": "Wenn Ihr Partner eine Beschwerde über Sie hat:",
+          "options": {
+            "opt1": "Zuhören und gemeinsam herausfinden, wie Sie es verbessern können",
+            "opt2": "Ihr Verhalten erklären und verteidigen",
+            "opt3": "Sich entschuldigen und sofortige Änderungen vornehmen",
+            "opt4": "Ihnen versichern, dass Sie es nicht wieder tun werden",
+            "opt5": "Diskutieren, welche Veränderungen für beide funktionieren würden"
+          }
+        },
+        "q8": {
+          "question": "Ihre Haltung zu Konflikten ist:",
+          "options": {
+            "opt1": "Chancen für Wachstum und tiefere Verbindung",
+            "opt2": "Herausforderungen, die gewonnen oder verloren werden müssen",
+            "opt3": "Unglückliche Ereignisse, die vermieden werden sollten",
+            "opt4": "Störungen, die schnell gelöst werden sollten",
+            "opt5": "Natürliche Teile von Beziehungen, die fair gehandhabt werden müssen"
+          }
+        },
+        "q9": {
+          "question": "Wenn Sie wütend auf Ihren Partner sind, neigen Sie dazu:",
+          "options": {
+            "opt1": "Ihre Gefühle zu teilen und zu diskutieren, was passiert ist",
+            "opt2": "Klar zu kommunizieren, was sie falsch gemacht haben",
+            "opt3": "Ihre Wut herunterzuspielen, um sie nicht zu verletzen",
+            "opt4": "Sich abzukühlen, bevor Sie überhaupt etwas sagen",
+            "opt5": "Ihre Gefühle auszudrücken, aber offen für ihre Perspektive zu bleiben"
+          }
+        },
+        "q10": {
+          "question": "Ihr ultimatives Ziel in Konflikten ist:",
+          "options": {
+            "opt1": "Einander besser zu verstehen und näher zu kommen",
+            "opt2": "Sicherzustellen, dass die richtige Entscheidung getroffen wird",
+            "opt3": "Die Beziehung friedlich und harmonisch zu halten",
+            "opt4": "Den Konflikt schnell zu beenden und weiterzumachen",
+            "opt5": "Eine Lösung zu finden, die für beide funktioniert"
+          }
+        }
+      },
+      "results": {
+        "collaborative": {
+          "title": "Kollaborativer Löser 🤝",
+          "description": "Sie glauben an Teamarbeit und finden Lösungen, die für beide Seiten funktionieren. Sie sehen Konflikte als Wachstumschancen.",
+          "strengths": [
+            "Exzellente Kommunikationsfähigkeiten",
+            "Fokus auf Win-Win-Lösungen",
+            "Empathisch und verständnisvoll",
+            "Baut durch Konflikte stärkere Beziehungen auf"
+          ],
+          "tips": [
+            "Achten Sie auf die Zeit - nicht alle Probleme brauchen tiefe Diskussionen",
+            "Seien Sie bereit, manchmal weniger ideale Lösungen zu akzeptieren",
+            "Erkennen Sie an, wenn schnelle Entscheidungen nötig sind"
+          ]
+        },
+
+        "accommodating": {
+          "title": "Entgegenkommender Löser 🤗",
+          "description": "Sie priorisieren die Bedürfnisse und das Glück Ihres Partners. Sie schätzen Harmonie und schätzen die Beziehung über Konflikte.",
+          "strengths": [
+            "Sehr unterstützend und fürsorglich",
+            "Hält die Ruhe aufrecht",
+            "Flexibel und anpassungsfähig",
+            "Schätzt die Beziehung"
+          ],
+          "tips": [
+            "Vergessen Sie nicht, Ihre eigenen Bedürfnisse auszudrücken",
+            "Es ist in Ordnung, für wichtige Themen einzustehen",
+            "Gleichgewicht zwischen Geben und Empfangen finden"
+          ]
+        },
+        "avoiding": {
+          "title": "Vermeidender Löser 🚶",
+          "description": "Sie bevorzugen es, Konflikten aus dem Weg zu gehen und lassen Zeit und Raum die meisten Probleme lösen.",
+          "strengths": [
+            "Ruhig unter Druck",
+            "Verhindert Eskalation",
+            "Gibt Zeit zum Abkühlen",
+            "Friedliebend"
+          ],
+          "tips": [
+            "Einige Probleme müssen direkt angesprochen werden",
+            "Üben Sie, Ihre Gefühle sanft auszudrücken",
+            "Kleine Gespräche können große Probleme verhindern"
+          ]
+        },
+        "compromising": {
+          "title": "Kompromissbereiter Löser ⚖️",
+          "description": "Sie streben nach Fairness und finden Mittelwege, die für beide Seiten funktionieren. Sie schätzen praktische Lösungen.",
+          "strengths": [
+            "Fair und ausgewogen",
+            "Praktisch lösungsorientiert",
+            "Gute Verhandlungsfähigkeiten",
+            "Respektiert beide Standpunkte"
+          ],
+          "tips": [
+            "Manchmal ist eine Seite wichtiger als die andere",
+            "Erkunden Sie kreative Lösungen vor Kompromissen",
+            "Stellen Sie sicher, dass Kompromisse nachhaltig sind"
+          ]
+        },
+        "competing": {
+          "title": "Durchsetzungsfähiger Löser 💪",
+          "description": "Sie gehen Konflikte direkt mit Leidenschaft und Entschlossenheit an. Sie legen Wert darauf, gehört und verstanden zu werden.",
+          "strengths": [
+            "Geht Probleme schnell an",
+            "Kommuniziert Bedürfnisse klar",
+            "Leidenschaftlich bei der Lösungsfindung",
+            "Lässt Probleme nicht sich anstauen"
+          ],
+          "tips": [
+            "Üben Sie aktives Zuhören während Meinungsverschiedenheiten",
+            "Machen Sie Pausen, wenn Emotionen zu stark werden",
+            "Konzentrieren Sie sich darauf, die Perspektive Ihres Partners zu verstehen",
+            "Verwenden Sie Ich-Aussagen anstatt Vorwürfe"
+          ]
+        },
+        "avoiding": {
+          "title": "Konfliktvermeidender 🚪",
+          "description": "Du bevorzugst es, dich von Konflikten zurückzuziehen und Spannungen natürlich lösen zu lassen. Du brauchst Raum, um Emotionen zu verarbeiten.",
+          "strengths": [
+            "Verhindert Eskalation",
+            "Gibt Zeit für Emotionen sich zu beruhigen",
+            "Vermeidet verletzende Worte",
+            "Kann wertvolle Perspektiven bieten"
+          ],
+          "challenges": [
+            "Probleme könnten ungelöst bleiben",
+            "Partner könnte sich ignoriert fühlen",
+            "Probleme können sich mit der Zeit aufbauen",
+            "Könnte Wachstumschancen verpassen"
+          ],
+          "tips": [
+            "Plane spezifische Zeiten um Probleme zu diskutieren",
+            "Übe für kurze Perioden präsent zu bleiben",
+            "Kommuniziere dein Bedürfnis nach Raum",
+            "Kehre zurück um Probleme anzugehen nachdem du dich beruhigt hast"
+          ],
+          "partnerAdvice": [
+            "Gib ihnen Raum wenn sie es brauchen",
+            "Plane ruhige Zeiten um Probleme zu diskutieren",
+            "Sei geduldig mit ihrer Verarbeitungszeit"
+          ]
+        }
+      }
+    },
+    "exploreOtherQuizzes": "Andere Quiz Erkunden",
+    "communicationStyleQuizDescription": "Entdecken Sie, wie Sie in Beziehungen kommunizieren",
+    "loveLanguageAssessment": {
+      "title": "Liebessprachen-Bewertung",
+      "subtitle": "Entdecken Sie Ihre Liebessprache",
+      "description": "Entdecken Sie Ihre primäre Art, Liebe auszudrücken und zu empfangen, durch diese umfassende Bewertung.",
+      "questions": {
+        "q1": {
+          "question": "Was lässt Sie sich am meisten geliebt fühlen?",
+          "options": {
+            "opt1": "Wenn jemand \"Ich liebe dich\" sagt oder mir Komplimente macht",
+            "opt2": "Wenn jemand Zeit mit mir verbringt und mir seine volle Aufmerksamkeit schenkt",
+            "opt3": "Wenn jemand mir ein durchdachtes Geschenk gibt",
+            "opt4": "Wenn jemand mir hilft oder etwas für mich tut",
+            "opt5": "Wenn jemand mich umarmt, meine Hand hält oder mich berührt"
+          }
+        },
+        "q2": {
+          "question": "Womit zeigen Sie normalerweise Ihre Liebe?",
+          "options": {
+            "opt1": "Durch das Sagen lieber Worte und das Geben von Komplimenten",
+            "opt2": "Durch das Verbringen von Qualitätszeit zusammen",
+            "opt3": "Durch das Geben bedeutungsvoller Geschenke",
+            "opt4": "Durch Hilfe bei Aufgaben oder Dienstleistungen",
+            "opt5": "Durch körperliche Zuneigung und Berührung"
+          }
+        },
+        "q3": {
+          "question": "Was verletzt Sie am meisten in einer Beziehung?",
+          "options": {
+            "opt1": "Wenn jemand harte oder kritische Worte zu mir sagt",
+            "opt2": "Wenn jemand mich ignoriert oder zu beschäftigt für mich ist",
+            "opt3": "Wenn jemand wichtige Anlässe vergisst oder nachlässige Geschenke macht",
+            "opt4": "Wenn jemand Versprechen bricht oder nicht hilft, wenn ich es brauche",
+            "opt5": "Wenn jemand kalt oder körperlich distanziert ist"
+          }
+        },
+        "q4": {
+          "question": "Welches Geschenk würden Sie am meisten schätzen?",
+          "options": {
+            "opt1": "Ein handgeschriebener Brief oder eine süße Nachricht",
+            "opt2": "Ein geplanter Tag nur für uns beide",
+            "opt3": "Etwas, das zeigt, dass sie sich an etwas Wichtiges für mich erinnert haben",
+            "opt4": "Hilfe bei etwas, worum ich gekämpft habe",
+            "opt5": "Eine Massage oder körperliche Umarmung"
+          }
+        },
+        "q5": {
+          "question": "Wie drücken Sie Dankbarkeit gegenüber anderen aus?",
+          "options": {
+            "opt1": "Ich sage ihnen, wie sehr ich sie schätze",
+            "opt2": "Ich verbringe Zeit mit ihnen",
+            "opt3": "Ich gebe ihnen ein kleines Geschenk",
+            "opt4": "Ich tue etwas Hilfreiches für sie",
+            "opt5": "Ich gebe ihnen eine Umarmung oder berühre sie"
+          }
+        },
+        "q6": {
+          "question": "Was ist Ihr ideales Date?",
+          "options": {
+            "opt1": "Tiefe Gespräche führen und unsere Gefühle teilen",
+            "opt2": "Eine neue Aktivität zusammen machen",
+            "opt3": "Irgendwo hingehen, wo sie meine Interessen berücksichtigt haben",
+            "opt4": "Sie planen alles, damit ich mich entspannen kann",
+            "opt5": "Kuscheln oder körperlich nah sein"
+          }
+        },
+        "q7": {
+          "question": "Wenn Sie gestresst sind, was würden Sie am meisten brauchen?",
+          "options": {
+            "opt1": "Ermutigende Worte und verbale Unterstützung",
+            "opt2": "Jemanden, der da ist und zuhört",
+            "opt3": "Eine kleine Überraschung, um mich aufzumuntern",
+            "opt4": "Hilfe bei Aufgaben oder Verpflichtungen",
+            "opt5": "Eine Umarmung oder körperlichen Trost"
+          }
+        },
+        "q8": {
+          "question": "Welche Erinnerung schätzen Sie am meisten?",
+          "options": {
+            "opt1": "Als jemand mir etwas wirklich Bedeutungsvolles gesagt hat",
+            "opt2": "Ein perfekter Tag, den wir zusammen verbracht haben",
+            "opt3": "Ein Geschenk, das zeigt, dass sie mich wirklich kennen",
+            "opt4": "Als jemand mir wirklich geholfen hat, als ich es brauchte",
+            "opt5": "Ein Moment körperlicher Intimität oder Zärtlichkeit"
+          }
+        },
+        "q9": {
+          "question": "Wie bevorzugen Sie es, Konflikte zu lösen?",
+          "options": {
+            "opt1": "Durch Gespräche und verbale Beruhigung",
+            "opt2": "Durch das Verbringen von Zeit zusammen, um zu sprechen",
+            "opt3": "Mit einer Friedensgeste oder einem symbolischen Geschenk",
+            "opt4": "Durch Handlungen, die zeigen, dass sie es besser machen werden",
+            "opt5": "Mit körperlicher Zuneigung und Make-up-Umarmungen"
+          }
+        },
+        "q10": {
+          "question": "Was macht Sie in einer Beziehung am glücklichsten?",
+          "options": {
+            "opt1": "Regelmäßige verbale Bestätigung und liebevolle Worte",
+            "opt2": "Ungeteilte Aufmerksamkeit und bedeutungsvolle Zeit",
+            "opt3": "Durchdachte Überraschungen und Geschenke",
+            "opt4": "Wenn sie Wege finden, mir das Leben zu erleichtern",
+            "opt5": "Körperliche Nähe und liebevolle Berührung"
+          }
+        }
+      },
+      "results": {
+        "wordsOfAffirmation": {
+          "title": "Worte der Bestätigung 💬",
+          "description": "Sie gedeihen mit verbaler Ermutigung und Komplimenten. Worte haben große Macht für Sie, sowohl positive als auch negative.",
+          "strengths": [
+            "Ausgezeichnet in der Kommunikation von Gefühlen",
+            "Ermutigt andere durch Worte",
+            "Schätzt tiefe Gespräche",
+            "Gut darin, Wertschätzung auszudrücken"
+          ],
+          "tips": [
+            "Bitten Sie um die Bestätigung, die Sie brauchen",
+            "Teilen Sie diese Liebessprache mit Ihrem Partner",
+            "Achten Sie darauf, andere auch durch Worte zu ermutigen"
+          ]
+        },
+        "qualityTime": {
+          "title": "Qualitätszeit ⏰",
+          "description": "Sie fühlen sich am meisten geliebt, wenn andere Ihnen ihre ungeteilte Aufmerksamkeit schenken. Präsenz ist Ihre Sprache der Liebe.",
+          "strengths": [
+            "Sehr aufmerksam und präsent",
+            "Schätzt tiefe Verbindungen",
+            "Gut darin, anderen zuzuhören",
+            "Macht andere zu einer Priorität"
+          ],
+          "tips": [
+            "Planen Sie regelmäßige eins-zu-eins-Zeit",
+            "Setzen Sie Grenzen bei Ablenkungen",
+            "Kommunizieren Sie Ihre Bedürfnisse nach Zeit"
+          ]
+        },
+        "receivingGifts": {
+          "title": "Geschenke Empfangen 🎁",
+          "description": "Sie schätzen durchdachte Geschenke und Gesten. Für Sie sind Geschenke Symbole der Liebe und zeigen, dass jemand an Sie gedacht hat.",
+          "strengths": [
+            "Sehr durchdacht bei Geschenken für andere",
+            "Schätzt Symbolik und Bedeutung",
+            "Aufmerksam für Details",
+            "Erinnert sich an wichtige Daten"
+          ],
+          "tips": [
+            "Erklären Sie die Bedeutung von Geschenken für Sie",
+            "Es ist die Überlegung, die zählt, nicht die Kosten",
+            "Schätzen Sie kleine Gesten und Überraschungen"
+          ]
+        },
+        "actsOfService": {
+          "title": "Dienstleistungen 🤝",
+          "description": "Sie fühlen sich geliebt, wenn andere Ihnen helfen oder Dinge für Sie tun. Handlungen sprechen lauter als Worte für Sie.",
+          "strengths": [
+            "Sehr hilfsbereit und unterstützend",
+            "Sieht praktische Bedürfnisse anderer",
+            "Zuverlässig und vertrauenswürdig",
+            "Zeigt Liebe durch Handlungen"
+          ],
+          "tips": [
+            "Kommunizieren Sie spezifische Wege, wie andere helfen können",
+            "Schätzen Sie die Anstrengungen anderer an",
+            "Seien Sie geduldig mit denen, die anders Liebe zeigen"
+          ]
+        },
+        "physicalTouch": {
+          "title": "Körperliche Berührung 🤗",
+          "description": "Sie drücken und empfangen Liebe durch körperliche Berührung aus. Berührung ist ein mächtiger Kommunikator der Liebe für Sie.",
+          "strengths": [
+            "Sehr liebevoll und warmherzig",
+            "Bietet Trost durch Berührung",
+            "Intuitiv über körperliche Bedürfnisse anderer",
+            "Drückt Emotionen körperlich aus"
+          ],
+          "tips": [
+            "Kommunizieren Sie Ihre Berührungsbedürfnisse und -grenzen",
+            "Respektieren Sie die Komfortlevel anderer mit Berührung",
+            "Finden Sie angemessene Wege, Zuneigung zu zeigen"
+          ]
+        }
+      }
+    },
+    "loveLanguageAssessmentDescription": "Lernen Sie, wie Sie Liebe geben und empfangen",
+    "futureGoalsCompatibility": {
+      "title": "Zukunftsziele-Kompatibilität",
+      "subtitle": "Richten Sie Ihre Lebensziele aus",
+      "description": "Entdecken Sie, wie gut Ihre langfristigen Ziele und Werte mit denen Ihres Partners übereinstimmen.",
+      "questions": {
+        "q1": {
+          "question": "Wie wichtig ist beruflicher Erfolg für Sie?",
+          "options": {
+            "opt1": "Extrem wichtig - ich strebe nach hohen Positionen/Erfolg",
+            "opt2": "Sehr wichtig - ich möchte in meiner Karriere vorankommen",
+            "opt3": "Mäßig wichtig - Gleichgewicht ist der Schlüssel",
+            "opt4": "Etwas wichtig - andere Dinge sind wichtiger",
+            "opt5": "Nicht sehr wichtig - ich priorisiere andere Lebensbereiche"
+          }
+        },
+        "q2": {
+          "question": "Was ist Ihre ideale Work-Life-Balance?",
+          "options": {
+            "opt1": "Karrierefokussiert - bereit, lange Stunden für den Erfolg zu arbeiten",
+            "opt2": "Ehrgeizig aber ausgewogen - harte Arbeit mit persönlicher Zeit",
+            "opt3": "Ausgewogen - gleiche Priorität für Arbeit und persönliches Leben",
+            "opt4": "Lebensfokussiert - Arbeit unterstützt mein Lebensstil",
+            "opt5": "Minimal arbeiten - maximiere Zeit für andere Leidenschaften"
+          }
+        },
+        "q3": {
+          "question": "Wie sehen Sie Kinder in Ihrer Zukunft?",
+          "options": {
+            "opt1": "Definitiv möchte ich Kinder, vorzugsweise bald",
+            "opt2": "Ja, ich möchte Kinder, aber das Timing ist flexibel",
+            "opt3": "Offen für Kinder, aber nicht sicher",
+            "opt4": "Wahrscheinlich nicht, aber könnte überzeugt werden",
+            "opt5": "Definitiv keine Kinder - das ist nicht für mich"
+          }
+        },
+        "q4": {
+          "question": "Wo sehen Sie sich in 10 Jahren leben?",
+          "options": {
+            "opt1": "In einer Großstadt mit vielen Möglichkeiten",
+            "opt2": "In einer Vorstadtgemeinde mit guten Schulen",
+            "opt3": "In einer kleineren Stadt mit Gemeinschaftsgefühl",
+            "opt4": "In einer ländlichen Gegend mit viel Platz",
+            "opt5": "Reisen/Nomadenleben - kein fester Standort"
+          }
+        },
+        "q5": {
+          "question": "Wie gehen Sie mit Geld und Sparen um?",
+          "options": {
+            "opt1": "Aggressiver Sparer - maximiere Investitionen und Ruhestand",
+            "opt2": "Vorsichtiger Planer - spare stetig für die Zukunft",
+            "opt3": "Ausgewogener Ansatz - spare etwas, genieße etwas",
+            "opt4": "Lebe in der Gegenwart - minimales Sparen",
+            "opt5": "Geld ist da, um ausgegeben zu werden - YOLO-Mentalität"
+          }
+        },
+        "q6": {
+          "question": "Wie wichtig ist Reisen in Ihrem Leben?",
+          "options": {
+            "opt1": "Extrem wichtig - ich möchte die Welt erkunden",
+            "opt2": "Sehr wichtig - regelmäßige Reisen sind ein Muss",
+            "opt3": "Einigermaßen wichtig - gelegentliche Reisen sind schön",
+            "opt4": "Nicht sehr wichtig - ich bin glücklich zu Hause",
+            "opt5": "Unwichtig - ich bevorzuge Routine und Stabilität"
+          }
+        },
+        "q7": {
+          "question": "Welche Rolle spielt Familie in Ihren Zukunftsplänen?",
+          "options": {
+            "opt1": "Zentral - Familie ist meine oberste Priorität",
+            "opt2": "Sehr wichtig - ich möchte nah bei der Familie bleiben",
+            "opt3": "Wichtig - Familie ist wichtig, aber ich bin unabhängig",
+            "opt4": "Etwas wichtig - ich liebe sie, brauche aber Raum",
+            "opt5": "Weniger wichtig - ich konzentriere mich auf mein eigenes Leben"
+          }
+        },
+        "q8": {
+          "question": "Wie sehen Sie Bildung und persönliches Wachstum?",
+          "options": {
+            "opt1": "Lebenslanges Lernen - immer neue Fähigkeiten erwerben",
+            "opt2": "Wichtig - regelmäßige Weiterbildung und Verbesserung",
+            "opt3": "Wertvoll - lernen, wenn sich Gelegenheiten bieten",
+            "opt4": "Praktisch - nur lernen, was ich für die Arbeit brauche",
+            "opt5": "Nicht prioritär - ich bin mit meinem aktuellen Wissen zufrieden"
+          }
+        },
+        "q9": {
+          "question": "Was ist Ihr Ansatz für Gesundheit und Fitness?",
+          "options": {
+            "opt1": "Hochprioritär - optimale Gesundheit ist entscheidend",
+            "opt2": "Sehr wichtig - regelmäßige Bewegung und gesunde Gewohnheiten",
+            "opt3": "Mäßig wichtig - ich versuche, gesund zu bleiben",
+            "opt4": "Etwas wichtig - grundlegende Gesundheit ist genug",
+            "opt5": "Niedrige Priorität - ich mache mir keine großen Sorgen darum"
+          }
+        },
+        "q10": {
+          "question": "Wie stellen Sie sich Ihren Ruhestand vor?",
+          "options": {
+            "opt1": "Früher Ruhestand durch aggressives Sparen und Investieren",
+            "opt2": "Traditioneller Ruhestand mit komfortablen Ersparnissen",
+            "opt3": "Flexibler Ansatz - arbeiten, solange ich es genieße",
+            "opt4": "Minimaler Ruhestand - einfacher Lebensstil",
+            "opt5": "Ruhestand ist zu weit weg, um zu planen"
+          }
+        }
+      },
+      "results": {
+        "highlyCompatible": {
+          "title": "Hochkompatible Ziele 🎯",
+          "description": "Ihre Zukunftsziele sind bemerkenswert gut aufeinander abgestimmt. Sie teilen ähnliche Visionen für Ihr Leben zusammen.",
+          "message": "Hochkompatible Ziele! Ihre Zukunftsziele sind bemerkenswert gut aufeinander abgestimmt.",
+          "strengths": [
+            "Starke Ausrichtung bei wichtigen Lebensentscheidungen",
+            "Ähnliche Werte und Prioritäten",
+            "Komplementäre Ansätze für Ziele",
+            "Starke Grundlage für gemeinsame Planung"
+          ],
+          "tips": [
+            "Erstellen Sie gemeinsam einen 5-Jahres-Plan",
+            "Setzen Sie regelmäßige Ziel-Check-ins",
+            "Feiern Sie Meilensteine zusammen",
+            "Unterstützen Sie sich gegenseitig bei individuellen Träumen"
+          ]
+        },
+        "compatible": {
+          "title": "Kompatible Ziele ✅",
+          "description": "Sie haben gute Übereinstimmung in den meisten Bereichen mit einigen Unterschieden, die durch Kommunikation überbrückt werden können.",
+          "strengths": [
+            "Starke Grundlagen in wichtigen Bereichen",
+            "Respekt für unterschiedliche Prioritäten",
+            "Potenzial für Kompromisse",
+            "Geteilte Kernwerte"
+          ],
+          "tips": [
+            "Diskutieren Sie Bereiche der Meinungsverschiedenheit offen",
+            "Finden Sie Kompromisse bei unterschiedlichen Zielen",
+            "Setzen Sie einige gemeinsame und einige individuelle Ziele",
+            "Überprüfen Sie Ziele regelmäßig, während sie sich entwickeln"
+          ]
+        },
+        "someAlignment": {
+          "title": "Einige Übereinstimmungen 💭",
+          "description": "Sie haben einige gemeinsame Ziele, könnten aber Diskussion und Kompromisse in wichtigen Bereichen benötigen.",
+          "message": "Einige Übereinstimmungen! Sie haben einige gemeinsame Ziele, könnten aber Diskussion und Kompromisse in wichtigen Bereichen benötigen.",
+          "strengths": [
+            "Gemeinsame Grundwerte in einigen Bereichen",
+            "Potenzial für Wachstum zusammen",
+            "Chancen für wichtige Gespräche",
+            "Bereitschaft, an der Beziehung zu arbeiten"
+          ],
+          "tips": [
+            "Identifizieren Sie Ihre wichtigsten gemeinsamen Werte",
+            "Diskutieren Sie Bereiche der Unterschiede offen",
+            "Finden Sie Wege, unterschiedliche Ziele zu respektieren",
+            "Suchen Sie bei größeren Entscheidungen professionelle Beratung"
+          ]
+        },
+        "needsDiscussion": {
+          "title": "Braucht Diskussion 💬",
+          "description": "Sie haben einige wichtige Unterschiede in Ihren Zukunftsvisionen. Offene Kommunikation und Kompromisse sind entscheidend.",
+          "strengths": [
+            "Verschiedene Perspektiven können bereichernd sein",
+            "Chancen für Wachstum und Lernen",
+            "Potenzial für ausgewogene Entscheidungen",
+            "Komplementäre Stärken"
+          ],
+          "tips": [
+            "Führen Sie tiefe Gespräche über Prioritäten",
+            "Erkunden Sie die Gründe hinter unterschiedlichen Zielen",
+            "Suchen Sie bei wichtigen Entscheidungen einen Mittelweg",
+            "Ziehen Sie Paarberatung für komplexe Themen in Betracht"
+          ]
+        },
+        "significantDifferences": {
+          "title": "Bedeutende Unterschiede ⚠️",
+          "description": "Sie haben erhebliche Unterschiede in Ihren Zukunftsvisionen. Dies erfordert ernsthafte Gespräche und möglicherweise professionelle Beratung.",
+          "message": "Sie haben erhebliche Unterschiede in Ihren Zukunftsvisionen. Dies erfordert ernsthafte Gespräche und möglicherweise professionelle Beratung.",
+          "strengths": [
+            "Ehrlichkeit über unterschiedliche Wünsche",
+            "Möglichkeit für tiefes Verständnis",
+            "Potenzial für Wachstum und Veränderung",
+            "Klarheit über wichtige Entscheidungen"
+          ],
+          "tips": [
+            "Priorisieren Sie ehrliche, offene Kommunikation",
+            "Erkunden Sie, ob Kompromisse möglich sind",
+            "Suchen Sie professionelle Beratung",
+            "Überdenken Sie die Langzeitkompatibilität"
+          ]
+        },
+        "perfectMatch": {
+          "title": "Perfekte Übereinstimmung 🌟",
+          "description": "Sie haben eine außergewöhnliche Beziehung mit starker Ausrichtung in allen Bereichen. Ihre Verbindung ist tiefgreifend und ausgewogen.",
+          "message": "Perfekte Übereinstimmung! Ihre Beziehung zeigt starke Grundlagen in allen Kernbereichen.",
+          "strengths": [
+            "Herausragende Kommunikation über Ziele",
+            "Vollständiges Vertrauen und Verständnis",
+            "Perfekt abgestimmte Zukunftsziele",
+            "Natürliche Konfliktlösung"
+          ],
+          "tips": [
+            "Pflegen Sie diese schöne Verbindung",
+            "Teilen Sie Ihre Erkenntnisse mit anderen Paaren",
+            "Bleiben Sie dankbar für das, was Sie haben",
+            "Wachsen Sie weiterhin zusammen"
+          ]
+        },
+        "wellMatched": {
+          "title": "Gut Zusammenpassend! 🤝",
+          "message": "Gut zusammenpassend! Sie haben komplementäre Ziele mit einigen Unterschieden, die Ihrer Beziehung Gleichgewicht verleihen können.",
+          "description": "Ihr habt eine starke Kompatibilität in euren Zukunftszielen mit einigen Bereichen, die möglicherweise Diskussion und Kompromisse erfordern."
+        },
+        "excellent": {
+          "title": "Seelenverwandte der Zukunft! 🌟",
+          "description": "Ihre Zukunftsziele sind unglaublich aufeinander abgestimmt! Sie beide wollen ähnliche Dinge und haben kompatible Zeitpläne für die Verwirklichung Ihrer Träume.",
+          "message": "Seelenverwandte der Zukunft! Ihre Zukunftsziele sind unglaublich aufeinander abgestimmt!"
+        },
+        "veryGood": {
+          "title": "Großartige Lebenspartner! 💫",
+          "description": "Sie haben starke Kompatibilität in Ihren Zukunftszielen mit einigen Bereichen, die möglicherweise Diskussion und Kompromisse erfordern.",
+          "message": "Großartige Lebenspartner! Sie haben starke Kompatibilität in Ihren Zukunftszielen."
+        },
+        "good": {
+          "title": "Gute Grundlage! 🌱",
+          "description": "Sie teilen viele ähnliche Ziele, müssen aber möglicherweise einige Unterschiede in Prioritäten und Zeitplänen bearbeiten.",
+          "message": "Gute Grundlage! Sie teilen viele ähnliche Ziele."
+        }
+      }
+    },
+    "futureGoalsCompatibilityDescription": "Sehen Sie, wie gut Ihre Lebensziele aufeinander abgestimmt sind",
+    "conflictResolutionQuizDescription": "Entdecken Sie Ihren Stil im Umgang mit Meinungsverschiedenheiten",
+    "relationshipQuizDescription": "Bewerten Sie die Stärke Ihrer Beziehung"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "zh": "中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी"
+  },
+  "meta": {
+    "title": "Liebesrechner – Kostenloser Namenskompatibilitäts- & Liebeskompatibilitätstest",
+    "description": "Entdecken Sie Ihre Liebeskompatibilität mit unserem kostenlosen Liebesrechner! Testen Sie Beziehungskompatibilität, Namensübereinstimmung und erhalten Sie lustige personalisierte Ergebnisse zum Teilen.",
+    "keywords": [
+      "liebesrechner",
+      "namenskompatibilität",
+      "liebeskompatibilitätstest",
+      "beziehungsquiz",
+      "lustiger liebestest"
+    ],
+    "author": "Liebesrechner Team",
+    "creator": "Liebesrechner",
+    "publisher": "Liebesrechner",
+    "siteName": "Liebesrechner",
+    "ogImageAlt": "Liebesrechner - Testen Sie Ihre Kompatibilität"
+  },
+  "header": {
+    "loveCalculator": "Liebesrechner",
+    "moreTools": "Weitere Werkzeuge",
+    "about": "Über",
+    "contact": "Kontakt",
+    "funQuizzes": "Lustige Quiz ✨",
+    "relationshipQuiz": "Beziehungsquiz",
+    "communicationQuiz": "Kommunikationsstil-Quiz",
+    "loveLanguageAssessment": "Liebessprache-Bewertung",
+    "futureGoalsCompatibility": "Zukunftsziele-Kompatibilität",
+    "conflictResolutionQuiz": "Konfliktlösungsstil-Quiz",
+    "supportAndLegal": "Support & Rechtliches 📋",
+    "contactUs": "Kontaktieren Sie Uns",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "dateOfBirthCompatibilityCalculator": "Geburtsdatum Kompatibilitätsrechner",
+    "zodiacCompatibilityCalculator": "Sternzeichen Kompatibilitätsrechner",
+    "nameCompatibility": "Namenskompatibilität",
+    "loveCompatibilityTest": "Liebeskompatibilitätstest",
+    "funLoveTest": "Lustiger Liebestest",
+    "zodiacCalculator": "Sternzeichen Kompatibilitätsrechner",
+    "dobCalculator": "Geburtsdatum Kompatibilitätsrechner",
+    "zodiacCalculatorDescription": "Testen Sie astrologische Liebeskompatibilität",
+    "dobCalculatorDescription": "Analysieren Sie Geburtsdatum-Kompatibilitätsmuster",
+    "relationshipQuizDescription": "Beantworten Sie Fragen über Ihre Beziehung",
+    "communicationQuizDescription": "Entdecken Sie Ihre Kommunikationsmuster",
+    "loveLanguageAssessmentDescription": "Finden Sie Ihre primären Liebessprachen heraus",
+    "futureGoalsCompatibilityDescription": "Sehen Sie, wie aufeinander abgestimmt Ihre Lebensziele sind",
+    "conflictResolutionQuizDescription": "Lernen Sie Ihren Konfliktlösungsansatz kennen"
+  },
+  "footer": {
+    "description": "Entdecken Sie Ihre Liebeskompatibilität mit unserem lustigen und unterhaltsamen Liebesrechner. Testen Sie Ihre Beziehungskompatibilität und teilen Sie Ihre Ergebnisse mit Freunden!",
+    "calculators": "Liebesrechner",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontaktieren Sie uns",
+    "forLove": "für Liebe",
+    "funQuizzes": "Lustige Quiz ✨",
+    "relationshipQuiz": "Beziehungsquiz",
+    "relationshipQuizDescription": "Machen Sie unser lustiges 8-Fragen-Quiz für unterhaltsame Beziehungseinblicke",
+    "communicationQuiz": "Kommunikationsstil-Quiz",
+    "communicationQuizDescription": "Entdecken Sie, wie Sie und Ihr Partner kommunizieren und wo Sie sich verbessern können",
+    "loveLanguageAssessment": "Liebessprache-Bewertung",
+    "loveLanguageAssessmentDescription": "Finden Sie Ihre primären Liebessprachen heraus und lernen Sie, Liebe besser auszudrücken",
+    "futureGoalsCompatibility": "Zukunftsziele-Kompatibilität",
+    "futureGoalsCompatibilityDescription": "Sehen Sie, wie aufeinander abgestimmt Ihre Lebensziele und Träume für die Zukunft sind",
+    "conflictResolutionQuiz": "Konfliktlösungsstil-Quiz",
+    "conflictResolutionQuizDescription": "Lernen Sie, wie Sie mit Meinungsverschiedenheiten umgehen und Konflikte besser lösen",
+    "supportAndLegal": "Support & Rechtliches 📋",
+    "contactUs": "Kontaktieren Sie Uns",
+    "contactUsDescription": "Kontaktieren Sie unser Team für Fragen, Feedback oder Support",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "privacyPolicyDescription": "Erfahren Sie, wie wir Ihre Daten und Privatsphäre schützen, während Sie Spaß haben",
+    "termsOfService": "Nutzungsbedingungen",
+    "termsOfServiceDescription": "Allgemeine Geschäftsbedingungen für die Nutzung unserer Unterhaltungsdienste",
+    "moreTools": "Weitere Werkzeuge",
+    "dateOfBirthCompatibilityCalculator": "Geburtsdatum Kompatibilitätsrechner",
+    "zodiacCompatibilityCalculator": "Sternzeichen Kompatibilitätsrechner",
+    "nameCompatibility": "Namenskompatibilität",
+    "loveCompatibilityTest": "Liebeskompatibilitätstest",
+    "funLoveTest": "Lustiger Liebestest",
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "madeWithLove": "Gemacht mit ❤️ für alle.",
+    "copyrightNotice": "© 2025 Liebesrechner.",
+    "shareText": "Entdecken Sie Ihre Liebeskompatibilität mit unserem unterhaltsamen Liebesrechner! Testen Sie Ihre Beziehungskompatibilität und teilen Sie Ihre Ergebnisse mit Freunden! 💕",
+    "shareTextShort": "Entdecken Sie Ihre Liebeskompatibilität! 💕 Testen Sie Ihre Beziehungskompatibilität und teilen Sie Ihre Ergebnisse mit Freunden!",
+    "copyForInstagram": "Kopieren Sie diesen Text für Instagram:",
+    "createTikTok": "Erstellen Sie ein TikTok mit dieser Beschreibung:",
+    "shareRedditTitle": "Entdecken Sie Ihre Liebeskompatibilität!",
+    "shareRedditText": "Lustiger und unterhaltsamer Liebesrechner - Testen Sie Ihre Beziehungskompatibilität und teilen Sie Ihre Ergebnisse mit Freunden!"
+  },
+  "landing": {
+    "headline": "Liebesrechner",
+    "intro": "Erleben Sie den weltweit ausgefeiltesten Liebeskompatibilitätsrechner, der von unserem exklusiven Affinitäts-Quotient (AQ) Algorithmus angetrieben wird. Erhalten Sie wissenschaftliche Analysen mit detaillierten Aufschlüsselungen Ihrer Kompatibilität über mehrere Dimensionen.",
+    "subtitle": "Testen Sie Ihre Liebeskompatibilität",
+    "description": "Geben Sie Ihre Namen ein, um Ihren Liebesprozentsatz zu entdecken!",
+    "getStarted": "Loslegen",
+    "newAlgorithmBadge": "🔬 NEU: Angetrieben von Affinitäts-Quotient Algorithmus",
+    "poweredByAQTitle": "🧬 Angetrieben von Affinitäts-Quotient Technologie",
+    "poweredByAQDescription": "Im Gegensatz zu einfachen Liebesrechnern analysiert unser fortgeschrittener AQ-Algorithmus Ihre Kompatibilität über fünf wissenschaftliche Dimensionen hinweg, einschließlich phonetischer Harmonie, Buchstabenhäufigkeitsmustern, numerologischer Kompatibilität, Vokalbalance und psychologischen ersten Eindrücken.",
+    "howAlgorithmWorksTitle": "Wie Unser Fortgeschrittener Algorithmus Funktioniert",
+    "algorithmDescription1": "Unser exklusiver Affinitäts-Quotient (AQ) Algorithmus stellt einen Durchbruch in der Kompatibilitätsanalyse dar. Im Gegensatz zu grundlegenden Namensrechnern, die einfache Hash-Funktionen verwenden, wendet unser System akademische Forschung in Linguistik, Psychologie und Numerologie an.",
+    "algorithmDescription2": "Wir analysieren Namen über fünf wissenschaftliche Dimensionen hinweg, um ein umfassendes Kompatibilitätsprofil zu erstellen, das nicht nur Buchstaben, sondern linguistische Muster, phonetische Harmonie und numerologische Bedeutung berücksichtigt.",
+    "academicFoundation": "Akademische Grundlage",
+    "academicFoundationDescription": "Unser Algorithmus integriert Prinzipien aus veröffentlichter linguistischer Forschung, phonetischer Analyse und mathematischer Kompatibilitätsstudien.",
+    "analysisProcessTitle": "Analyseprozess",
+    "step1": "Phonetische Harmonieanalyse",
+    "step2": "Buchstabenhäufigkeitsmuster",
+    "step3": "Numerologische Kompatibilität",
+    "step4": "Vokalbalance-Berechnung",
+    "step5": "Psychologische erste Eindrücke",
+    "fivePillarsTitle": "Die Fünf Säulen der Kompatibilitätsanalyse",
+    "fivePillarsDescription": "Wir analysieren Namen über fünf wissenschaftliche Dimensionen hinweg, um ein umfassendes Kompatibilitätsprofil zu erstellen, das nicht nur Buchstaben, sondern linguistische Muster, phonetische Harmonie und numerologische Bedeutung berücksichtigt.",
+    "pillar1Title": "Anfangsähnlichkeit",
+    "pillar1Description": "Erste-Buchstaben-Psychologie und Sofort-Eindruck-Kompatibilität",
+    "pillar2Title": "Buchstabenhäufigkeit",
+    "pillar2Description": "26-dimensionale Vektoranalyse linguistischer Muster",
+    "pillar3Title": "Phonetische Harmonie",
+    "pillar3Description": "Klangbasierte Übereinstimmung und auditive Kompatibilität",
+    "pillar4Title": "Numerologisch",
+    "pillar4Description": "Alte Numerologie mit mathematischer Präzision",
+    "pillar5Title": "Vokalbalance",
+    "pillar5Description": "Rhythmus-, Fluss- und auditive Harmonieanalyse",
+    "nameCompatibilityExplainedTitle": "Namenskompatibilität Erklärt",
+    "funEntertainmentTitle": "Spaßige Unterhaltung",
+    "funEntertainmentDescription": "Unser spielerischer Ansatz schafft unterhaltsame Kompatibilitätswerte, die perfekt zum sozialen Teilen geeignet sind.",
+    "consistentResultsTitle": "Konsistente Ergebnisse",
+    "consistentResultsDescription": "Die gleiche Namenskombination wird immer den gleichen Liebesprozentsatz für Zuverlässigkeit erzeugen.",
+    "shareableFunTitle": "Teilbarer Spaß",
+    "shareableFunDescription": "Erstellen Sie schöne Bilder Ihrer Ergebnisse zum Teilen in sozialen Medien und mit Freunden.",
+    "nameCompatibilityDescription": "Namenskompatibilität ist eine spielerische und unterhaltsame Art, Beziehungen zu testen und Gespräche anzuregen. Es ist ein großartiger Eisbrecher und Unterhaltungswerkzeug für Partys, soziale Medien und lustige Zeiten mit Freunden!",
+    "keyFeaturesTitle": "Warum Unseren Liebesrechner Wählen?",
+    "relationshipQuizTitle": "Beziehungsquiz – Seid Ihr Ein Perfektes Paar?",
+    "relationshipQuizDescription": "Möchten Sie mehr als nur einen Liebesrechner? Machen Sie unser umfassendes Beziehungsquiz, um tiefer in Ihre Kompatibilität einzutauchen und zu entdecken, was Ihre Beziehung einzigartig macht.",
+    "takeTheQuiz": "Quiz Machen",
+    "loveCompatibilityTestOnlineTitle": "Liebeskompatibilitätstest Online",
+    "loveCompatibilityTestOnlineDescription": "Bereit, Ihre Liebeskompatibilität zu entdecken? Unser Online-Liebesrechner ist völlig kostenlos und liefert sofortige Ergebnisse. Testen Sie jetzt Ihre Beziehungskompatibilität und sehen Sie, was die Sterne für Sie bereithalten!",
+    "calculateYourLoveScoreNow": "Berechnen Sie Jetzt Ihren Liebesscore",
+    "funLoveTestToShareTitle": "Lustiger Liebestest Zum Teilen Mit Freunden",
+    "funLoveTestDescription": "Unser Liebesrechner ist nicht nur Spaß für Sie – er ist perfekt zum Teilen! Erstellen Sie schöne Ergebnisbilder, die auf Instagram, TikTok, Twitter und anderen sozialen Plattformen großartig aussehen.",
+    "downloadShareableImages": "Teilbare Bilder herunterladen",
+    "shareDirectlyToSocialMedia": "Direkt in sozialen Medien teilen",
+    "perfectForTikTokContent": "Perfekt für TikTok-Inhalte",
+    "startConversationsWithFriends": "Gespräche mit Freunden beginnen",
+    "shareYourResultsTitle": "Teile Deine Ergebnisse",
+    "shareYourResultsDescription": "Verwandle deinen Liebesscore in viralen Content!",
+    "aqDifferenceTitle": "Der AQ-Unterschied",
+    "aqDifferenceSubtitle": "Analysieren → Visualisieren → Verstehen",
+    "entertainmentDisclaimer": "Nur zur Unterhaltung: Dies ist eine lustige Aktivität für Unterhaltung und soziales Teilen, nicht für echte Dating- oder Beziehungsberatung!",
+    "features": {
+      "literatureBased": "Literaturbasierter Algorithmus",
+      "visualBreakdown": "Visuelle Aufschlüsselungsanalyse",
+      "fiveMetricScoring": "5-Metriken Wissenschaftliche Bewertung",
+      "visual": {
+        "title": "Visuelle Aufschlüsselung",
+        "description": "Sehen Sie genau, wie Ihr Score mit interaktiven Diagrammen berechnet wird"
+      },
+      "scientificMethod": {
+        "title": "Wissenschaftliche Methode",
+        "description": "Basierend auf linguistischer Forschung und Kompatibilitätsstudien"
+      },
+      "precisionAnalysis": {
+        "title": "Präzisionsanalyse",
+        "description": "Multi-Metriken-Bewertung für umfassende Erkenntnisse"
+      }
+    }
+  },
+  "charts": {
+    "score": "Punktzahl",
+    "chartScore": "Punktzahl: {{score}}/100",
+    "chartTooltipScore": "Punktzahl",
+    "compatibilityBreakdown": "Kompatibilitäts-Aufschlüsselung",
+    "loveLanguageBreakdown": "Liebessprachen-Aufschlüsselung",
+    "communicationBreakdown": "Kommunikationsstil-Aufschlüsselung",
+    "conflictStyleBreakdown": "Konfliktlösungs-Aufschlüsselung",
+    "futureGoalsBreakdown": "Zukunftsziele-Aufschlüsselung"
+  }
+}

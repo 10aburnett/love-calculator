@@ -1,5 +1,13 @@
 // Browser-compatible phonetic and string similarity algorithms
 // Avoiding Node.js dependencies by implementing core algorithms directly
+import { 
+  normalizeUnicodeName, 
+  keepOnlyUnicodeLetters, 
+  getUnicodeCharValue, 
+  getUnicodeAlphabetDistance,
+  getUnicodeCharFrequencies,
+  isUnicodeVowel 
+} from '@/utils/unicodeUtils';
 
 /**
  * Interface representing the breakdown of AQ sub-scores
@@ -70,40 +78,28 @@ export function affinityQuotientWithBreakdown(name1: string, name2: string): AQB
 }
 
 /**
- * Normalize name: trim whitespace, convert to lowercase, basic ASCII folding
- * Limitation: Non-Latin letters fall back to basic ASCII approximation
+ * Normalize name: trim whitespace, convert to lowercase, proper Unicode normalization
+ * Now supports all Unicode letters from any script
  */
 function normalizeName(name: string): string {
-  return name
-    .trim()
-    .toLowerCase()
-    .normalize('NFD') // Decompose accented characters
-    .replace(/[\u0300-\u036f]/g, '') // Remove combining diacritical marks
-    .replace(/[^a-z]/g, ''); // Keep only basic Latin letters
+  return keepOnlyUnicodeLetters(normalizeUnicodeName(name));
 }
 
 /**
  * S-metric: Initial letter proximity (0-100)
- * Uses alphabet distance scaling: S = (1 - dist/25) * 100
- * where dist = |a - b| (zero-based alphabet indices)
- * 
- * Examples:
- * - Same letters (A,A): dist=0, S=100
- * - Adjacent letters (A,B): dist=1, S=96
- * - Opposite ends (A,Z): dist=25, S=0
+ * Now supports Unicode characters from any script
  */
 function calculateInitialSimilarity(name1: string, name2: string): number {
   if (!name1 || !name2) return 0;
   
-  // Get zero-based alphabet indices (a=0, b=1, ..., z=25)
-  const a = name1.charCodeAt(0) - 97; // 'a' = 97
-  const b = name2.charCodeAt(0) - 97;
+  // Get first characters (properly handle multi-byte Unicode)
+  const chars1 = Array.from(name1);
+  const chars2 = Array.from(name2);
   
-  // Ensure valid alphabet characters
-  if (a < 0 || a > 25 || b < 0 || b > 25) return 0;
+  if (chars1.length === 0 || chars2.length === 0) return 0;
   
-  // Calculate alphabet distance
-  const dist = Math.abs(a - b);
+  // Use Unicode-aware alphabet distance
+  const dist = getUnicodeAlphabetDistance(chars1[0], chars2[0]);
   
   // Scale to 0-100: S = (1 - dist/25) * 100
   const score = (1 - dist / 25) * 100;
@@ -113,48 +109,53 @@ function calculateInitialSimilarity(name1: string, name2: string): number {
 
 /**
  * L-metric: Letter frequency cosine similarity
- * Creates 26-dimensional vectors of letter frequencies and calculates cosine similarity
+ * Now supports Unicode characters
  */
 function calculateLetterFrequencySimilarity(name1: string, name2: string): number {
   const freq1 = getLetterFrequencies(name1);
   const freq2 = getLetterFrequencies(name2);
   
-  const similarity = cosineSimilarity(freq1, freq2);
+  const similarity = cosineSimilarityMaps(freq1, freq2);
   return Math.round(similarity * 100 * 10) / 10; // Scale to 0-100, round to 1 dp
 }
 
 /**
- * Create a 26-dimensional vector of letter frequencies (a-z)
+ * Create a frequency map for all unique characters in a name
+ * Now returns a Map to handle Unicode characters properly
  */
-function getLetterFrequencies(name: string): number[] {
-  const frequencies = new Array(26).fill(0);
-  const totalLetters = name.length;
+function getLetterFrequencies(name: string): Map<string, number> {
+  const frequencies = getUnicodeCharFrequencies(name);
+  const totalLetters = Array.from(name).length;
   
   if (totalLetters === 0) return frequencies;
   
-  for (const char of name) {
-    const index = char.charCodeAt(0) - 97; // 'a' = 97
-    if (index >= 0 && index < 26) {
-      frequencies[index]++;
-    }
+  // Normalize to frequencies (0-1)
+  for (const [char, count] of frequencies) {
+    frequencies.set(char, count / totalLetters);
   }
   
-  // Normalize to frequencies (0-1)
-  return frequencies.map(count => count / totalLetters);
+  return frequencies;
 }
 
 /**
- * Calculate cosine similarity between two vectors
+ * Calculate cosine similarity between two frequency maps
+ * Updated to work with Maps instead of arrays
  */
-function cosineSimilarity(vec1: number[], vec2: number[]): number {
+function cosineSimilarityMaps(map1: Map<string, number>, map2: Map<string, number>): number {
+  // Get all unique characters from both maps
+  const allChars = new Set([...map1.keys(), ...map2.keys()]);
+  
   let dotProduct = 0;
   let norm1 = 0;
   let norm2 = 0;
   
-  for (let i = 0; i < vec1.length; i++) {
-    dotProduct += vec1[i] * vec2[i];
-    norm1 += vec1[i] * vec1[i];
-    norm2 += vec2[i] * vec2[i];
+  for (const char of allChars) {
+    const val1 = map1.get(char) || 0;
+    const val2 = map2.get(char) || 0;
+    
+    dotProduct += val1 * val2;
+    norm1 += val1 * val1;
+    norm2 += val2 * val2;
   }
   
   const magnitude = Math.sqrt(norm1) * Math.sqrt(norm2);
@@ -242,16 +243,14 @@ function calculateNumerologicalCompatibility(name1: string, name2: string): numb
 
 /**
  * Calculate destiny number (digital root 1-9) for a name
- * Each letter has a value: A=1, B=2, ..., Z=26
+ * Now uses Unicode-aware character values
  */
 function calculateDestinyNumber(name: string): number {
   let sum = 0;
+  const chars = Array.from(name); // Handle multi-byte Unicode
   
-  for (const char of name) {
-    const value = char.charCodeAt(0) - 96; // 'a' = 1, 'b' = 2, etc.
-    if (value >= 1 && value <= 26) {
-      sum += value;
-    }
+  for (const char of chars) {
+    sum += getUnicodeCharValue(char);
   }
   
   // Calculate digital root (1-9)
@@ -279,18 +278,19 @@ function calculateVowelBalanceSimilarity(name1: string, name2: string): number {
 
 /**
  * Calculate the ratio of vowels to total letters in a name
+ * Now supports vowels from multiple scripts
  */
 function getVowelRatio(name: string): number {
   if (name.length === 0) return 0;
   
-  const vowels = 'aeiou';
+  const chars = Array.from(name); // Handle multi-byte Unicode
   let vowelCount = 0;
   
-  for (const char of name) {
-    if (vowels.includes(char)) {
+  for (const char of chars) {
+    if (isUnicodeVowel(char)) {
       vowelCount++;
     }
   }
   
-  return vowelCount / name.length;
+  return vowelCount / chars.length;
 } 
