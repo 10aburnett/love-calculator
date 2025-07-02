@@ -13,23 +13,22 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://love-calculator.vercel.app'),
+  metadataBase: new URL('https://lovecalcs.com'),
   alternates: {
     canonical: '/',
   },
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.svg', sizes: '32x32' },
-      { url: '/favicon.svg', sizes: '16x16' }
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
     ],
     apple: '/favicon.svg',
-    shortcut: '/favicon.svg'
+    shortcut: '/favicon.ico'
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://love-calculator.vercel.app',
+    url: 'https://lovecalcs.com',
     title: 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
     description: 'Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.',
     siteName: 'Love Calculator',

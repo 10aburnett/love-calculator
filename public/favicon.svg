@@ -23,7 +23,7 @@
   <circle cx="32" cy="32" r="30" fill="url(#bgGradient)" stroke="white" stroke-width="2"/>
   
   <!-- Main text "LC" -->
-  <text x="32" y="32" class="favicon-text" font-size="28">LC</text>
+  <text x="32" y="40" class="favicon-text" font-size="28">LC</text>
   
   <!-- Small heart accent -->
   <path d="M45 20 C47 18, 51 18, 53 22 C55 18, 59 18, 61 20 C63 22, 63 26, 56 32 C55 33, 54 33, 53 32 C46 26, 45 22, 45 20 Z" fill="white" opacity="0.8"/>

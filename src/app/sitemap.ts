@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { locales } from '@/i18n/request'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://love-calculator.vercel.app'
+  const baseUrl = 'https://lovecalcs.com'
   
   const routes = [
     '',
