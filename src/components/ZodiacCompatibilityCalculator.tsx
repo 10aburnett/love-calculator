@@ -545,27 +545,25 @@ export default function ZodiacCompatibilityCalculator() {
 
   const shareToTwitter = () => {
     if (!result) return;
-    const text = t('common.share.zodiacCompatibility', { 
-      sign1: name1,
-      sign2: name2,
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryCalculator');
-    const mobileUrl = `twitter://post?message=${encodeURIComponent(text + ' ' + window.location.origin + '/zodiac-compatibility-calculator')}`;
+    const text = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryCalculator');
     const webUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.origin + '/zodiac-compatibility-calculator')}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Zodiac Compatibility', text, url: window.location.origin + '/zodiac-compatibility-calculator' });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToFacebook = () => {
     if (!result) return;
     const shareUrl = window.location.origin + '/zodiac-compatibility-calculator';
-    const shareText = t('common.share.zodiacCompatibility', { 
-      sign1: name1,
-      sign2: name2,
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage;
-    const mobileUrl = `fb://sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
+    const shareText = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Zodiac Compatibility', text: shareText, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToInstagram = async () => {
@@ -612,41 +610,38 @@ export default function ZodiacCompatibilityCalculator() {
 
   const shareToWhatsApp = () => {
     if (!result) return;
-    const text = t('common.share.zodiacCompatibility', { 
-      sign1: name1,
-      sign2: name2,
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/zodiac-compatibility-calculator';
-    const mobileUrl = `whatsapp://send?text=${encodeURIComponent(text)}`;
+    const text = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/zodiac-compatibility-calculator';
     const webUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Zodiac Compatibility', text, url: window.location.origin + '/zodiac-compatibility-calculator' });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToTelegram = () => {
     if (!result) return;
-    const text = t('common.share.zodiacCompatibility', { 
-      sign1: name1,
-      sign2: name2,
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage;
+    const text = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const shareUrl = window.location.origin + '/zodiac-compatibility-calculator';
-    const mobileUrl = `tg://msg_url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
     const webUrl = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Zodiac Compatibility', text, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToReddit = () => {
     if (!result) return;
-    const title = t('common.share.zodiacCompatibility', { 
-      sign1: name1,
-      sign2: name2,
-      score: result.score 
-    });
+    const title = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score });
     const text = result.analysis.overallMessage + ' ' + t('common.share.tryCalculator');
     const shareUrl = window.location.origin + '/zodiac-compatibility-calculator';
-    const mobileUrl = `reddit://submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}`;
     const webUrl = `https://reddit.com/submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}&text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Zodiac Compatibility', text: title, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const copyToClipboard = async () => {

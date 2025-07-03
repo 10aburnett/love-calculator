@@ -443,27 +443,25 @@ export default function LoveCalculator() {
 
   const shareToTwitter = () => {
     if (!result) return;
-    const text = t('common.share.loveCompatibility', { 
-      name1: result.name1, 
-      name2: result.name2, 
-      score: result.score 
-    }) + ' ' + t('common.share.tryCalculator');
-    const mobileUrl = `twitter://post?message=${encodeURIComponent(text + ' ' + window.location.origin + '/love-calculator')}`;
+    const text = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score }) + ' ' + t('common.share.tryCalculator');
     const webUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.origin + '/love-calculator')}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Love Calculator', text, url: window.location.origin + '/love-calculator' });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToFacebook = () => {
     if (!result) return;
     const shareUrl = window.location.origin + '/love-calculator';
-    const shareText = t('common.share.loveCompatibility', { 
-      name1: result.name1, 
-      name2: result.name2, 
-      score: result.score 
-    });
-    const mobileUrl = `fb://sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
+    const shareText = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score });
     const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Love Calculator', text: shareText, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToInstagram = async () => {
@@ -512,41 +510,38 @@ export default function LoveCalculator() {
 
   const shareToWhatsApp = () => {
     if (!result) return;
-    const text = t('common.share.loveCompatibility', { 
-      name1: result.name1, 
-      name2: result.name2, 
-      score: result.score 
-    }) + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/love-calculator';
-    const mobileUrl = `whatsapp://send?text=${encodeURIComponent(text)}`;
+    const text = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score }) + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/love-calculator';
     const webUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Love Calculator', text, url: window.location.origin + '/love-calculator' });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToTelegram = () => {
     if (!result) return;
-    const text = t('common.share.loveCompatibility', { 
-      name1: result.name1, 
-      name2: result.name2, 
-      score: result.score 
-    });
+    const text = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score });
     const shareUrl = window.location.origin + '/love-calculator';
-    const mobileUrl = `tg://msg_url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
     const webUrl = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Love Calculator', text, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToReddit = () => {
     if (!result) return;
-    const title = t('common.share.loveCompatibility', { 
-      name1: result.name1, 
-      name2: result.name2, 
-      score: result.score 
-    });
+    const title = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score });
     const text = t('common.share.tryCalculator');
     const shareUrl = window.location.origin + '/love-calculator';
-    const mobileUrl = `reddit://submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}`;
     const webUrl = `https://reddit.com/submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}&text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Love Calculator', text: title, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const copyToClipboard = async () => {

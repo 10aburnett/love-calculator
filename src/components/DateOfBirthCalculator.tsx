@@ -683,27 +683,25 @@ export default function DateOfBirthCalculator() {
 
   const shareToTwitter = () => {
     if (!result) return;
-    const text = t('common.share.dobCompatibility', { 
-      name1: name1, 
-      name2: name2, 
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself');
-    const mobileUrl = `twitter://post?message=${encodeURIComponent(text + ' ' + window.location.origin + '/date-of-birth-calculator')}`;
+    const text = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself');
     const webUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.origin + '/date-of-birth-calculator')}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Date of Birth Compatibility', text, url: window.location.origin + '/date-of-birth-calculator' });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToFacebook = () => {
     if (!result) return;
     const shareUrl = window.location.origin + '/date-of-birth-calculator';
-    const shareText = t('common.share.dobCompatibility', { 
-      name1: name1, 
-      name2: name2, 
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage;
-    const mobileUrl = `fb://sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
+    const shareText = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Date of Birth Compatibility', text: shareText, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToInstagram = async () => {
@@ -750,41 +748,38 @@ export default function DateOfBirthCalculator() {
 
   const shareToWhatsApp = () => {
     if (!result) return;
-    const text = t('common.share.dobCompatibility', { 
-      name1: name1, 
-      name2: name2, 
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/date-of-birth-calculator';
-    const mobileUrl = `whatsapp://send?text=${encodeURIComponent(text)}`;
+    const text = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/date-of-birth-calculator';
     const webUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Date of Birth Compatibility', text, url: window.location.origin + '/date-of-birth-calculator' });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToTelegram = () => {
     if (!result) return;
-    const text = t('common.share.dobCompatibility', { 
-      name1: name1, 
-      name2: name2, 
-      score: result.score 
-    }) + ' ' + result.analysis.overallMessage;
+    const text = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const shareUrl = window.location.origin + '/date-of-birth-calculator';
-    const mobileUrl = `tg://msg_url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
     const webUrl = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Date of Birth Compatibility', text, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const shareToReddit = () => {
     if (!result) return;
-    const title = t('common.share.dobCompatibility', { 
-      name1: name1, 
-      name2: name2, 
-      score: result.score 
-    });
+    const title = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score });
     const text = result.analysis.overallMessage + ' ' + t('common.share.tryItYourself');
     const shareUrl = window.location.origin + '/date-of-birth-calculator';
-    const mobileUrl = `reddit://submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}`;
     const webUrl = `https://reddit.com/submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}&text=${encodeURIComponent(text)}`;
-    tryMobileAppThenWeb(mobileUrl, webUrl);
+    if (navigator.share) {
+      navigator.share({ title: 'Date of Birth Compatibility', text: title, url: shareUrl });
+    } else {
+      window.open(webUrl, '_blank');
+    }
   };
 
   const copyToClipboard = async () => {
