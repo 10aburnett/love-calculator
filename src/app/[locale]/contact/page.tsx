@@ -83,10 +83,10 @@ export default function ContactPage() {
                       Send us an email and we'll get back to you as soon as possible.
                     </p>
                     <a 
-                      href="mailto:hello@lovecalculator.com" 
+                      href="mailto:infolovecalcs@gmail.com" 
                       className="text-[var(--love-pink)] hover:text-[var(--love-purple)] font-medium"
                     >
-                      hello@lovecalculator.com
+                      infolovecalcs@gmail.com
                     </a>
                   </div>
 
@@ -242,11 +242,11 @@ export default function ContactPage() {
                 We're open to discussing opportunities that align with our mission of bringing fun and entertainment to relationships.
               </p>
               <a 
-                href="mailto:business@lovecalculator.com" 
+                href="mailto:infolovecalcs@gmail.com" 
                 className="inline-flex items-center bg-gradient-to-r from-[var(--love-pink)] to-[var(--love-purple)] text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-200"
               >
                 <Mail className="w-5 h-5 mr-2" />
-                business@lovecalculator.com
+                infolovecalcs@gmail.com
               </a>
             </motion.div>
           </div>
