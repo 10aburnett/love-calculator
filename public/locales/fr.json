@@ -1,6 +1,6 @@
 {
   "landing": {
-    "headline": "Calculateur d'Amour",
+    "headline": "Calculatrice de l'Amour",
     "intro": "Découvrez le calculateur de compatibilité amoureuse le plus sophistiqué au monde, alimenté par notre algorithme exclusif Quotient d'Affinité (QA). Obtenez une analyse scientifique avec des répartitions détaillées de votre compatibilité sur plusieurs dimensions.",
     "subtitle": "Testez Votre Compatibilité Amoureuse",
     "description": "Entrez vos noms pour découvrir votre pourcentage d'amour!",
@@ -39,15 +39,15 @@
     "shareableFunTitle": "Amusement Partageable",
     "shareableFunDescription": "Générez de belles images de vos résultats à partager sur les réseaux sociaux et avec des amis.",
     "nameCompatibilityDescription": "La compatibilité des noms est une façon ludique et divertissante de tester les relations et de susciter des conversations. C'est un excellent brise-glace et outil de divertissement pour les fêtes, les réseaux sociaux et les moments amusants avec des amis!",
-    "keyFeaturesTitle": "Pourquoi Choisir Notre Calculateur d'Amour?",
+    "keyFeaturesTitle": "Pourquoi Choisir Notre Calculatrice de l'Amour?",
     "relationshipQuizTitle": "Quiz de Relation – Êtes-Vous un Couple Parfait?",
-    "relationshipQuizDescription": "Vous voulez plus qu'un simple calculateur d'amour? Faites notre quiz de relation complet pour approfondir votre compatibilité et découvrir ce qui rend votre relation unique.",
+    "relationshipQuizDescription": "Vous voulez plus qu'un simple calculatrice de l'amour? Faites notre quiz de relation complet pour approfondir votre compatibilité et découvrir ce qui rend votre relation unique.",
     "takeTheQuiz": "Faire le Quiz",
     "loveCompatibilityTestOnlineTitle": "Test de Compatibilité Amoureuse En Ligne",
-    "loveCompatibilityTestOnlineDescription": "Prêt à découvrir votre compatibilité amoureuse? Notre calculateur d'amour en ligne est complètement gratuit et fournit des résultats instantanés. Testez votre compatibilité relationnelle maintenant et voyez ce que les étoiles vous réservent!",
+    "loveCompatibilityTestOnlineDescription": "Prêt à découvrir votre compatibilité amoureuse? Notre calculatrice de l'amour en ligne est complètement gratuit et fournit des résultats instantanés. Testez votre compatibilité relationnelle maintenant et voyez ce que les étoiles vous réservent!",
     "calculateYourLoveScoreNow": "Calculez Votre Score d'Amour Maintenant",
     "funLoveTestToShareTitle": "Test d'Amour Amusant à Partager avec des Amis",
-    "funLoveTestDescription": "Notre calculateur d'amour n'est pas seulement amusant pour vous – il est parfait pour partager! Générez de belles images de résultats qui ont l'air superbes sur Instagram, TikTok, Twitter et autres plateformes sociales.",
+    "funLoveTestDescription": "Notre calculatrice de l'amour n'est pas seulement amusant pour vous – il est parfait pour partager! Générez de belles images de résultats qui ont l'air superbes sur Instagram, TikTok, Twitter et autres plateformes sociales.",
     "downloadShareableImages": "Télécharger des images partageables",
     "shareDirectlyToSocialMedia": "Partager directement sur les réseaux sociaux",
     "perfectForTikTokContent": "Parfait pour le contenu TikTok",
@@ -113,15 +113,15 @@
     "futureGoalsBreakdown": "Répartition des Objectifs Futurs",
     "share": {
       "loveCompatibility": "{{name1}} + {{name2}} = {{score}}% compatibilité d'amour!",
-      "tryCalculator": "Essayez le Calculateur d'Amour:",
+      "tryCalculator": "Essayez le Calculatrice de l'Amour:",
       "tryItYourself": "Essayez-le vous-même:",
       "imageDownloaded": "Image téléchargée!",
       "uploadToInstagram": "Téléchargez-la sur Instagram et utilisez cette légende:",
       "createTikTok": "Créez une vidéo TikTok avec cette image et utilisez cette légende:",
       "hashtags": "#CalculateurAmour #Compatibilité #TestAmour",
-      "shareLoveCalculator": "Partager le Calculateur d'Amour",
+      "shareLoveCalculator": "Partager le Calculatrice de l'Amour",
       "copyToClipboard": "{{name1}} + {{name2}} = {{score}}% compatibilité d'amour! {{shareText}} Essayez-le vous-même: {{url}}",
-      "loveCalculatorResult": "Résultat Calculateur d'Amour",
+      "loveCalculatorResult": "Résultat Calculatrice de l'Amour",
       "relationshipScore": "{{name1}} et {{name2}} ont obtenu {{score}}% à notre quiz relationnel!",
       "discoveredLoveLanguage": "J'ai découvert que mon langage d'amour est {{language}}!",
       "communicationStyle": "Mon style de communication est {{style}}!",
@@ -169,7 +169,7 @@
     }
   },
   "loveCalculator": {
-    "title": "Calculateur d'Amour",
+    "title": "Calculatrice de l'Amour",
     "description": "Découvrez le calculateur de compatibilité amoureuse le plus sophistiqué au monde, alimenté par notre algorithme exclusif Quotient d'Affinité (QA). Obtenez une analyse scientifique avec des répartitions détaillées de votre compatibilité sur plusieurs dimensions.",
     "enterNames": "Entrez vos noms pour découvrir votre pourcentage d'amour!",
     "loading": "Calcul de votre compatibilité amoureuse...",
@@ -699,7 +699,7 @@
     "analyzingBirthDates": "Analyse des Dates de Naissance...",
     "tryAgain": "Réessayer",
     "whyNotTryOtherTools": "Pourquoi ne pas essayer nos autres outils amusants?",
-    "loveCalculator": "Calculateur d'Amour",
+    "loveCalculator": "Calculatrice de l'Amour",
     "zodiacCompatibilityCalculator": "Calculateur de Compatibilité Zodiacale",
     "birthdayCompatibilityBreakdown": "Répartition de Compatibilité d'Anniversaire",
     "age": "Âge",
@@ -848,7 +848,7 @@
     "close": "Fermer",
     "moreApps": "Plus d'Apps",
     "whyNotTryOtherTools": "Pourquoi ne pas essayer nos autres outils amusants ?",
-    "loveCalculator": "Calculateur d'Amour",
+    "loveCalculator": "Calculatrice de l'Amour",
     "dobCalculator": "Calculateur de Compatibilité par Date de Naissance"
   },
   "zodiacMessages": {
@@ -966,7 +966,7 @@
     "common": {
       "question": "Question {{current}} sur {{total}}",
       "tryAgain": "Réessayer",
-      "loveCalculator": "Calculateur d'Amour",
+      "loveCalculator": "Calculatrice de l'Amour",
       "exploreOtherQuizzes": "Explorer d'Autres Quiz",
       "relationshipFocus": "Focus Relationnel",
       "strengthAndGrowth": "Force et Croissance",
@@ -1869,23 +1869,23 @@
     "hi": "हिन्दी"
   },
   "meta": {
-    "title": "Calculateur d'Amour – Test Gratuit de Compatibilité des Noms et d'Amour",
-    "description": "Découvrez votre compatibilité amoureuse avec notre Calculateur d'Amour gratuit! Testez la compatibilité relationnelle, la correspondance des noms et obtenez des résultats personnalisés amusants à partager.",
+    "title": "Calculatrice de l'Amour – Test Gratuit de Compatibilité des Noms et d'Amour",
+    "description": "Découvrez votre compatibilité amoureuse avec notre Calculatrice de l'Amour gratuit! Testez la compatibilité relationnelle, la correspondance des noms et obtenez des résultats personnalisés amusants à partager.",
     "keywords": [
-      "calculateur d'amour",
+      "calculatrice de l'amour",
       "compatibilité des noms",
       "test de compatibilité amoureuse",
       "quiz de relation",
       "test d'amour amusant"
     ],
-    "author": "Équipe Calculateur d'Amour",
-    "creator": "Calculateur d'Amour",
-    "publisher": "Calculateur d'Amour",
-    "siteName": "Calculateur d'Amour",
-    "ogImageAlt": "Calculateur d'Amour - Testez Votre Compatibilité"
+    "author": "Équipe Calculatrice de l'Amour",
+    "creator": "Calculatrice de l'Amour",
+    "publisher": "Calculatrice de l'Amour",
+    "siteName": "Calculatrice de l'Amour",
+    "ogImageAlt": "Calculatrice de l'Amour - Testez Votre Compatibilité"
   },
   "header": {
-    "loveCalculator": "Calculateur d'Amour",
+    "loveCalculator": "Calculatrice de l'Amour",
     "moreTools": "Plus d'Outils",
     "about": "À Propos",
     "contact": "Contact",
@@ -1915,7 +1915,7 @@
     "conflictResolutionQuizDescription": "Apprenez votre approche de résolution de conflits"
   },
   "footer": {
-    "description": "Découvrez votre compatibilité amoureuse avec notre calculateur d'amour amusant et divertissant. Testez votre compatibilité relationnelle et partagez vos résultats avec des amis!",
+    "description": "Découvrez votre compatibilité amoureuse avec notre calculatrice de l'amour amusant et divertissant. Testez votre compatibilité relationnelle et partagez vos résultats avec des amis!",
     "calculators": "Calculateurs d'Amour",
     "company": "Entreprise",
     "about": "À propos de nous",
@@ -1949,8 +1949,8 @@
     "funLoveTest": "Test d'Amour Amusant",
     "allRightsReserved": "Tous droits réservés.",
     "madeWithLove": "Fait avec ❤️ pour tous.",
-    "copyrightNotice": "© 2025 Calculateur d'Amour.",
-    "shareText": "Découvrez votre compatibilité amoureuse avec notre calculateur d'amour amusant et divertissant! Testez votre compatibilité relationnelle et partagez vos résultats avec des amis! 💕",
+    "copyrightNotice": "© 2025 Calculatrice de l'Amour.",
+    "shareText": "Découvrez votre compatibilité amoureuse avec notre calculatrice de l'amour amusant et divertissant! Testez votre compatibilité relationnelle et partagez vos résultats avec des amis! 💕",
     "shareTextShort": "Découvrez votre compatibilité amoureuse! 💕 Testez votre compatibilité relationnelle et partagez vos résultats avec des amis!",
     "copyForInstagram": "Copiez ce texte pour Instagram:",
     "createTikTok": "Créez un TikTok avec cette légende:",
