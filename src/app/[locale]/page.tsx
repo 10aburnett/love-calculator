@@ -8,6 +8,6 @@ export default async function LocalePage({
 }) {
   const { locale } = await params;
   
-  // Show the love calculator directly instead of redirecting
+  // Render the love calculator directly instead of redirecting
   return <LoveCalculatorPageContent />;
 }
