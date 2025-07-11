@@ -57,7 +57,7 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link 
-              href={`/${locale}/love-calculator`}
+              href={locale === 'en' ? '/' : `/${locale}`}
               className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform"
             >
               {t('header.loveCalculator') || 'Love Calculator'}
@@ -130,7 +130,7 @@ export default function Header() {
         <div className="md:hidden bg-white border-t border-gray-200 shadow-lg slide-in">
           <div className="px-4 py-3 space-y-3">
             <Link 
-              href={`/${locale}/love-calculator`}
+              href={locale === 'en' ? '/' : `/${locale}`}
               className="block text-gray-700 hover:text-[var(--love-pink)] font-medium py-2 transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
