@@ -47,7 +47,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center space-x-2 group">
+          <Link href={locale === 'en' ? '/' : `/${locale}`} className="flex items-center space-x-2 group">
             <Heart className="w-8 h-8 text-[var(--love-pink)] icon-bounce" />
             <span className="text-xl font-playfair font-bold love-gradient-text transition-all duration-200 group-hover:scale-105">
               {t('header.loveCalculator') || 'Love Calculator'}

@@ -1,4 +1,3 @@
-import { getMessages } from 'next-intl/server';
 import LoveCalculatorPageContent from './love-calculator/LoveCalculatorPageContent';
 
 export default async function LocalePage({
