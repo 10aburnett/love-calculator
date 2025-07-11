@@ -92,28 +92,14 @@ export default function AboutPage() {
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-6">
-              <motion.div 
+              <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="flex justify-center items-center mb-4 fade-in"
+                className="text-4xl md:text-6xl font-playfair font-bold love-gradient-text mb-4 fade-in"
               >
-                <motion.h1 
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.3 }}
-                  className="text-4xl md:text-6xl font-playfair font-bold love-gradient-text fade-in"
-                >
-                  About Love Calculator
-                </motion.h1>
-                <motion.div 
-                  animate={{ rotate: [0, 10, -10, 0] }}
-                  transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
-                  className="ml-4 p-4 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full card-hover"
-                >
-                  <Heart className="w-10 h-10 md:w-12 md:h-12 text-purple-600 heartbeat" />
-                </motion.div>
-              </motion.div>
+                About Love Calculator
+              </motion.h1>
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
