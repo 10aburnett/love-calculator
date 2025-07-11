@@ -1,6 +1,5 @@
 {
   "buildCommand": "cd love-calculator && npm run build",
   "outputDirectory": "love-calculator/.next",
-  "installCommand": "cd love-calculator && npm install",
-  "rootDirectory": "love-calculator"
+  "installCommand": "cd love-calculator && npm install"
 }
