@@ -948,7 +948,32 @@
     "creator": "Love Calculator",
     "publisher": "Love Calculator",
     "siteName": "Love Calculator",
-    "ogImageAlt": "Love Calculator - Test Your Compatibility"
+    "ogImageAlt": "Love Calculator - Test Your Compatibility",
+    "relationshipQuiz": {
+      "title": "Relationship Quiz - Are You Compatible? Free Couples Test | LoveCalcs",
+      "description": "Take our comprehensive 8-question relationship quiz to discover your compatibility score. Free couples test with personalized insights about your relationship strength and dynamics.",
+      "keywords": ["relationship quiz", "couples quiz", "compatibility quiz", "relationship test", "couples compatibility", "relationship assessment"]
+    },
+    "communicationQuiz": {
+      "title": "Communication Style Quiz - Discover Your Relationship Communication Patterns | LoveCalcs",
+      "description": "Take our communication style quiz to discover how you and your partner communicate. Learn your communication patterns, improve dialogue, and strengthen relationship dynamics.",
+      "keywords": ["communication quiz", "communication style test", "relationship communication", "communication patterns", "couples communication", "communication skills"]
+    },
+    "loveLanguageAssessment": {
+      "title": "Love Language Assessment - Discover How You Give and Receive Love | LoveCalcs",
+      "description": "Take our love language assessment to discover your primary love languages. Learn how you express and receive love in relationships with this comprehensive five love languages test.",
+      "keywords": ["love language quiz", "love language test", "five love languages", "relationship assessment", "love language assessment", "Gary Chapman love languages"]
+    },
+    "futureGoalsCompatibility": {
+      "title": "Future Goals Compatibility Quiz - Test Life Goals Alignment | LoveCalcs",
+      "description": "Take our future goals compatibility quiz to see how aligned your life dreams and plans are with your partner. Test lifestyle compatibility, career goals, and relationship future planning.",
+      "keywords": ["future goals quiz", "life goals compatibility", "lifestyle compatibility", "relationship goals test", "life planning quiz", "couples future planning"]
+    },
+    "conflictResolutionQuiz": {
+      "title": "Conflict Resolution Style Quiz - Discover Your Approach to Conflicts | LoveCalcs",
+      "description": "Take our conflict resolution quiz to discover how you handle disagreements and conflicts in relationships. Learn your resolution style, improve communication, and strengthen partnerships.",
+      "keywords": ["conflict resolution quiz", "conflict style test", "relationship conflicts", "communication skills", "conflict management", "relationship problem solving"]
+    }
   },
   "header": {
     "loveCalculator": "Love Calculator",

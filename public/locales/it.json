@@ -992,7 +992,42 @@
     "creator": "Calcolatrice d'amore",
     "publisher": "Calcolatrice d'amore",
     "siteName": "Calcolatrice d'amore",
-    "ogImageAlt": "Calcolatrice d'amore - Testa la Tua Compatibilità"
+    "ogImageAlt": "Calcolatrice d'amore - Testa la Tua Compatibilità",
+    "relationshipQuiz": {
+      "title": "Quiz di Relazione - Siete Compatibili? Test Gratuito per Coppie | LoveCalcs",
+      "description": "Fai il nostro quiz di relazione completo di 8 domande per scoprire il tuo punteggio di compatibilità. Test gratuito per coppie con approfondimenti personalizzati sulla forza e dinamiche della vostra relazione.",
+      "keywords": ["quiz di relazione", "questionario per coppie", "quiz di compatibilità", "test di relazione", "compatibilità di coppia", "valutazione di relazione"]
+    },
+    "communicationQuiz": {
+      "title": "Quiz Stile di Comunicazione - Scopri i Tuoi Modelli di Comunicazione | LoveCalcs",
+      "description": "Fai il nostro quiz dello stile di comunicazione per scoprire come comunicate tu e il tuo partner. Impara i tuoi modelli di comunicazione, migliora il dialogo e rafforza le dinamiche relazionali.",
+      "keywords": ["quiz di comunicazione", "test stile di comunicazione", "comunicazione relazionale", "modelli di comunicazione", "comunicazione di coppia", "competenze comunicative"]
+    },
+    "loveLanguageAssessment": {
+      "title": "Valutazione Linguaggi dell'Amore - Scopri Come Dai e Ricevi Amore | LoveCalcs",
+      "description": "Fai la nostra valutazione dei linguaggi dell'amore per scoprire i tuoi linguaggi dell'amore principali. Impara come esprimi e ricevi amore nelle relazioni con questo test completo dei cinque linguaggi dell'amore.",
+      "keywords": ["quiz linguaggi dell'amore", "test linguaggi dell'amore", "cinque linguaggi dell'amore", "valutazione di relazione", "valutazione linguaggi dell'amore", "linguaggi dell'amore Gary Chapman"]
+    },
+    "futureGoalsCompatibility": {
+      "title": "Quiz Compatibilità Obiettivi Futuri - Testa l'Allineamento dei Tuoi Obiettivi di Vita | LoveCalcs",
+      "description": "Fai il nostro quiz di compatibilità degli obiettivi futuri per vedere quanto sono allineati i vostri sogni e piani di vita con il vostro partner. Testa la compatibilità dello stile di vita, obiettivi di carriera e pianificazione futura della relazione.",
+      "keywords": ["quiz obiettivi futuri", "compatibilità obiettivi di vita", "compatibilità stile di vita", "test obiettivi relazionali", "quiz pianificazione vita", "pianificazione futura coppie"]
+    },
+    "conflictResolutionQuiz": {
+      "title": "Quiz Stile Risoluzione Conflitti - Scopri il Tuo Approccio ai Conflitti | LoveCalcs",
+      "description": "Fai il nostro quiz di risoluzione dei conflitti per scoprire come gestisci disaccordi e conflitti nelle relazioni. Impara il tuo stile di risoluzione, migliora la comunicazione e rafforza le partnership.",
+      "keywords": ["quiz risoluzione conflitti", "test stile conflitto", "conflitti relazionali", "competenze comunicative", "gestione conflitti", "risoluzione problemi relazionali"]
+    },
+    "dobCalculator": {
+      "title": "Calcolatrice Compatibilità Data di Nascita - Test Compatibilità Compleanno | LoveCalcs",
+      "description": "Calcola la compatibilità amorosa basata sulle date di nascita. Scopri se i vostri compleanni predicono compatibilità romantica con la nostra divertente calcolatrice di date.",
+      "keywords": ["calcolatrice data di nascita", "compatibilità compleanno", "compatibilità data di nascita", "test amore compleanno", "numerologia data di nascita"]
+    },
+    "zodiacCalculator": {
+      "title": "Calcolatrice Compatibilità Zodiacale - Test Match Amoroso Astrologico | LoveCalcs",
+      "description": "Testa la compatibilità dei segni zodiacali per amore e relazioni. Scopri la compatibilità astrologica tra i vostri segni stellari con la nostra divertente calcolatrice zodiacale.",
+      "keywords": ["compatibilità zodiacale", "compatibilità segni stellari", "match amoroso astrologico", "compatibilità oroscopo", "astrologia dell'amore"]
+    }
   },
   "header": {
     "loveCalculator": "Calcolatrice d'amore",

@@ -2056,7 +2056,42 @@
     "creator": "Liebesrechner",
     "publisher": "Liebesrechner",
     "siteName": "Liebesrechner",
-    "ogImageAlt": "Liebesrechner - Testen Sie Ihre Kompatibilität"
+    "ogImageAlt": "Liebesrechner - Testen Sie Ihre Kompatibilität",
+    "relationshipQuiz": {
+      "title": "Beziehungsquiz - Seid Ihr Kompatibel? Kostenloses Paar-Quiz | LoveCalcs",
+      "description": "Machen Sie unser umfassendes 8-Fragen-Beziehungsquiz um Ihren Kompatibilitätsscore zu entdecken. Kostenloses Paar-Quiz mit personalisierten Einsichten über Ihre Beziehungsstärke und Dynamik.",
+      "keywords": ["beziehungsquiz", "paar quiz", "kompatibilitätsquiz", "beziehungstest", "paar kompatibilität", "beziehungsbewertung"]
+    },
+    "communicationQuiz": {
+      "title": "Kommunikationsstil-Quiz - Entdecken Sie Ihre Kommunikationsmuster | LoveCalcs",
+      "description": "Machen Sie unser Kommunikationsstil-Quiz um zu entdecken, wie Sie und Ihr Partner kommunizieren. Lernen Sie Ihre Kommunikationsmuster, verbessern Sie den Dialog und stärken Sie die Beziehungsdynamik.",
+      "keywords": ["kommunikationsquiz", "kommunikationsstil test", "beziehungskommunikation", "kommunikationsmuster", "paar kommunikation", "kommunikationsfähigkeiten"]
+    },
+    "loveLanguageAssessment": {
+      "title": "Liebessprachen-Bewertung - Entdecken Sie Wie Sie Liebe Geben und Empfangen | LoveCalcs",
+      "description": "Machen Sie unsere Liebessprachen-Bewertung um Ihre primären Liebessprachen zu entdecken. Lernen Sie, wie Sie Liebe in Beziehungen ausdrücken und empfangen mit diesem umfassenden Fünf-Liebessprachen-Test.",
+      "keywords": ["liebessprachen quiz", "liebessprachen test", "fünf liebessprachen", "beziehungsbewertung", "liebessprachen bewertung", "Gary Chapman liebessprachen"]
+    },
+    "futureGoalsCompatibility": {
+      "title": "Zukunftsziele-Kompatibilitätsquiz - Testen Sie die Ausrichtung Ihrer Lebensziele | LoveCalcs",
+      "description": "Machen Sie unser Zukunftsziele-Kompatibilitätsquiz um zu sehen, wie gut Ihre Lebensträume und Pläne mit Ihrem Partner übereinstimmen. Testen Sie Lebensstil-Kompatibilität, Karriereziele und Zukunftsplanung der Beziehung.",
+      "keywords": ["zukunftsziele quiz", "lebensziele kompatibilität", "lebensstil kompatibilität", "beziehungsziele test", "lebensplanung quiz", "paar zukunftsplanung"]
+    },
+    "conflictResolutionQuiz": {
+      "title": "Konfliktlösungsstil-Quiz - Entdecken Sie Ihren Umgang mit Konflikten | LoveCalcs",
+      "description": "Machen Sie unser Konfliktlösungsquiz um zu entdecken, wie Sie Meinungsverschiedenheiten und Konflikte in Beziehungen handhaben. Lernen Sie Ihren Lösungsstil, verbessern Sie die Kommunikation und stärken Sie Partnerschaften.",
+      "keywords": ["konfliktlösungsquiz", "konfliktstil test", "beziehungskonflikte", "kommunikationsfähigkeiten", "konfliktmanagement", "beziehungsproblem lösung"]
+    },
+    "dobCalculator": {
+      "title": "Geburtsdatum-Kompatibilitätsrechner - Geburtstags-Kompatibilitätstest | LoveCalcs",
+      "description": "Berechnen Sie Liebeskompatibilität basierend auf Geburtsdaten. Entdecken Sie, ob Ihre Geburtstage romantische Kompatibilität vorhersagen mit unserem lustigen Datumsrechner.",
+      "keywords": ["geburtsdatum rechner", "geburtstag kompatibilität", "geburtsdatum kompatibilität", "geburtstag liebestest", "geburtsdatum numerologie"]
+    },
+    "zodiacCalculator": {
+      "title": "Sternzeichen-Kompatibilitätsrechner - Astrologischer Liebes-Match-Test | LoveCalcs",
+      "description": "Testen Sie Sternzeichen-Kompatibilität für Liebe und Beziehungen. Entdecken Sie astrologische Kompatibilität zwischen Ihren Sternzeichen mit unserem lustigen Sternzeichen-Rechner.",
+      "keywords": ["sternzeichen kompatibilität", "tierkreiszeichen kompatibilität", "astrologisches liebes-match", "horoskop kompatibilität", "liebe astrologie"]
+    }
   },
   "header": {
     "loveCalculator": "Liebesrechner",
