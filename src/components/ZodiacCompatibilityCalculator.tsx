@@ -776,13 +776,13 @@ export default function ZodiacCompatibilityCalculator() {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <motion.button
                 type="submit"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 disabled={!sign1 || !sign2 || !name1.trim() || !name2.trim() || isCalculating}
-                className="flex-1 bg-gradient-to-r from-[var(--love-pink)] to-[var(--love-purple)] text-white font-semibold py-3 px-6 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed pulse-love hover:shadow-lg transition-all duration-200 btn-love"
+                className="flex-1 bg-gradient-to-r from-[var(--love-pink)] to-[var(--love-purple)] text-white font-medium sm:font-semibold py-3 px-3 sm:px-4 md:px-6 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed pulse-love hover:shadow-lg transition-all duration-200 btn-love text-sm sm:text-base text-center break-words"
               >
                 {isCalculating ? (
                   <div className="flex items-center justify-center">
@@ -802,7 +802,7 @@ export default function ZodiacCompatibilityCalculator() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={reset}
-                  className="px-6 py-3 border-2 border-[var(--love-pink)] text-[var(--love-pink)] font-semibold rounded-lg hover:bg-[var(--love-pink)] hover:text-white transition-all duration-200 btn-love"
+                  className="px-3 sm:px-4 md:px-6 py-3 border-2 border-[var(--love-pink)] text-[var(--love-pink)] font-medium sm:font-semibold rounded-lg hover:bg-[var(--love-pink)] hover:text-white transition-all duration-200 btn-love text-sm sm:text-base text-center break-words"
                 >
                   {t('zodiacUI.tryAgain')}
                 </motion.button>
@@ -863,7 +863,7 @@ export default function ZodiacCompatibilityCalculator() {
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">
                   {t('zodiacUI.astrologicalCompatibilityBreakdown')}
                 </h4>
-                <div className="h-80 w-full min-h-[280px] overflow-hidden">
+                <div className="h-80 w-full min-h-[280px] overflow-hidden flex items-center justify-center">
                   <ResponsiveContainer width="100%" height="100%" minHeight={200}>
                     <BarChart
                       data={[
@@ -898,7 +898,7 @@ export default function ZodiacCompatibilityCalculator() {
                           color: '#00b894' 
                         },
                       ]}
-                      margin={{ top: 20, right: 30, left: 10, bottom: 70 }}
+                      margin={{ top: 20, right: 50, left: 5, bottom: 70 }}
                     >
                       <defs>
                         <linearGradient id="signs" x1="0" y1="0" x2="0" y2="1">

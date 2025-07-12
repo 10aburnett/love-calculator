@@ -596,4 +596,20 @@ input[type="search"].bg-transparent {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
   }
+  
+  /* Responsive button styling for mobile */
+  .btn-love {
+    font-size: 0.875rem !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    word-break: break-word;
+  }
+}
+
+@media (min-width: 640px) {
+  .btn-love {
+    font-size: 1rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
 }

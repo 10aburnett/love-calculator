@@ -567,7 +567,7 @@ function getCompatibilityResult(careerScore: number, familyScore: number, lifest
                   <div className="flex flex-wrap justify-center gap-4 mb-8">
                     <button
                       onClick={resetQuiz}
-                      className="bg-gradient-to-r from-[var(--love-pink)] to-[var(--love-purple)] text-white font-semibold py-3 px-6 rounded-lg pulse-love hover:shadow-lg transition-all duration-200 btn-love"
+                      className="bg-gradient-to-r from-[var(--love-pink)] to-[var(--love-purple)] text-white font-medium sm:font-semibold py-3 px-3 sm:px-4 md:px-6 rounded-lg pulse-love hover:shadow-lg transition-all duration-200 btn-love text-sm sm:text-base text-center break-words"
                     >
                       {t('quizzes.common.tryAgain')}
                     </button>
