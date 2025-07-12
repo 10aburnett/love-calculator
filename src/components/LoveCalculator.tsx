@@ -34,6 +34,7 @@ export default function LoveCalculator() {
   const [validationError, setValidationError] = useState<string | null>(null);
 
   const [copySuccess, setCopySuccess] = useState(false);
+  const [isSharing, setIsSharing] = useState(false);
   const resultRef = useRef<HTMLDivElement>(null);
 
   // Function to translate result messages (now handled in getCustomMessage for easter eggs)
@@ -442,26 +443,18 @@ export default function LoveCalculator() {
   };
 
   const shareToTwitter = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score }) + ' ' + t('common.share.tryCalculator');
     const webUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.origin + '/love-calculator')}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Love Calculator', text, url: window.location.origin + '/love-calculator' });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToFacebook = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const shareUrl = window.location.origin + '/love-calculator';
     const shareText = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score });
     const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Love Calculator', text: shareText, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToInstagram = async () => {
@@ -509,39 +502,27 @@ export default function LoveCalculator() {
   };
 
   const shareToWhatsApp = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score }) + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/love-calculator';
     const webUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Love Calculator', text, url: window.location.origin + '/love-calculator' });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToTelegram = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score });
     const shareUrl = window.location.origin + '/love-calculator';
     const webUrl = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Love Calculator', text, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToReddit = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const title = t('common.share.loveCompatibility', { name1: result.name1, name2: result.name2, score: result.score });
     const text = t('common.share.tryCalculator');
     const shareUrl = window.location.origin + '/love-calculator';
     const webUrl = `https://reddit.com/submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}&text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Love Calculator', text: title, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const copyToClipboard = async () => {
@@ -570,7 +551,9 @@ export default function LoveCalculator() {
   };
 
   const shareViaWebAPI = async () => {
-    if (!result) return;
+    if (!result || isSharing) return;
+    
+    setIsSharing(true);
     const shareData = {
       title: t('common.share.loveCalculatorResult'),
       text: t('common.share.loveCompatibility', { 
@@ -596,6 +579,8 @@ export default function LoveCalculator() {
         await copyToClipboard();
       }
       // If user canceled, do nothing (this is expected behavior)
+    } finally {
+      setIsSharing(false);
     }
   };
 

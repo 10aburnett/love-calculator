@@ -294,6 +294,7 @@ export default function ZodiacCompatibilityCalculator() {
   const [showExplanation, setShowExplanation] = useState(false);
 
   const [copySuccess, setCopySuccess] = useState(false);
+  const [isSharing, setIsSharing] = useState(false);
   const resultRef = useRef<HTMLDivElement>(null);
 
   const handleCalculate = async () => {
@@ -544,26 +545,18 @@ export default function ZodiacCompatibilityCalculator() {
   };
 
   const shareToTwitter = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryCalculator');
     const webUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.origin + '/zodiac-compatibility-calculator')}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Zodiac Compatibility', text, url: window.location.origin + '/zodiac-compatibility-calculator' });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToFacebook = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const shareUrl = window.location.origin + '/zodiac-compatibility-calculator';
     const shareText = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Zodiac Compatibility', text: shareText, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToInstagram = async () => {
@@ -609,39 +602,27 @@ export default function ZodiacCompatibilityCalculator() {
   };
 
   const shareToWhatsApp = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/zodiac-compatibility-calculator';
     const webUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Zodiac Compatibility', text, url: window.location.origin + '/zodiac-compatibility-calculator' });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToTelegram = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const shareUrl = window.location.origin + '/zodiac-compatibility-calculator';
     const webUrl = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Zodiac Compatibility', text, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToReddit = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const title = t('common.share.zodiacCompatibility', { sign1: name1, sign2: name2, score: result.score });
     const text = result.analysis.overallMessage + ' ' + t('common.share.tryCalculator');
     const shareUrl = window.location.origin + '/zodiac-compatibility-calculator';
     const webUrl = `https://reddit.com/submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}&text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Zodiac Compatibility', text: title, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const copyToClipboard = async () => {
@@ -670,7 +651,9 @@ export default function ZodiacCompatibilityCalculator() {
   };
 
   const shareViaWebAPI = async () => {
-    if (!result) return;
+    if (!result || isSharing) return;
+    
+    setIsSharing(true);
     const shareData = {
       title: t('zodiacUI.shareTitle') || 'Zodiac Compatibility Result',
       text: t('common.share.zodiacCompatibility', { 
@@ -696,6 +679,8 @@ export default function ZodiacCompatibilityCalculator() {
         await copyToClipboard();
       }
       // If user canceled, do nothing (this is expected behavior)
+    } finally {
+      setIsSharing(false);
     }
   };
 

@@ -275,6 +275,7 @@ export default function DateOfBirthCalculator() {
   const [showExplanation, setShowExplanation] = useState(false);
 
   const [copySuccess, setCopySuccess] = useState(false);
+  const [isSharing, setIsSharing] = useState(false);
   const resultRef = useRef<HTMLDivElement>(null);
   const date1Ref = useRef<HTMLInputElement>(null);
   const date2Ref = useRef<HTMLInputElement>(null);
@@ -682,26 +683,18 @@ export default function DateOfBirthCalculator() {
   };
 
   const shareToTwitter = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself');
     const webUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.origin + '/date-of-birth-calculator')}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Date of Birth Compatibility', text, url: window.location.origin + '/date-of-birth-calculator' });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToFacebook = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const shareUrl = window.location.origin + '/date-of-birth-calculator';
     const shareText = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Date of Birth Compatibility', text: shareText, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToInstagram = async () => {
@@ -747,39 +740,27 @@ export default function DateOfBirthCalculator() {
   };
 
   const shareToWhatsApp = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/date-of-birth-calculator';
     const webUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Date of Birth Compatibility', text, url: window.location.origin + '/date-of-birth-calculator' });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToTelegram = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const text = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
     const shareUrl = window.location.origin + '/date-of-birth-calculator';
     const webUrl = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Date of Birth Compatibility', text, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const shareToReddit = () => {
-    if (!result) return;
+    if (!result || isSharing) return;
     const title = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score });
     const text = result.analysis.overallMessage + ' ' + t('common.share.tryItYourself');
     const shareUrl = window.location.origin + '/date-of-birth-calculator';
     const webUrl = `https://reddit.com/submit?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}&text=${encodeURIComponent(text)}`;
-    if (navigator.share) {
-      navigator.share({ title: 'Date of Birth Compatibility', text: title, url: shareUrl });
-    } else {
-      window.open(webUrl, '_blank');
-    }
+    window.open(webUrl, '_blank');
   };
 
   const copyToClipboard = async () => {
@@ -808,7 +789,9 @@ export default function DateOfBirthCalculator() {
   };
 
   const shareViaWebAPI = async () => {
-    if (!result) return;
+    if (!result || isSharing) return;
+    
+    setIsSharing(true);
     const shareData = {
       title: t('common.share.loveCalculatorResult'),
       text: t('common.share.dobCompatibility', { 
@@ -834,6 +817,8 @@ export default function DateOfBirthCalculator() {
         await copyToClipboard();
       }
       // If user canceled, do nothing (this is expected behavior)
+    } finally {
+      setIsSharing(false);
     }
   };
 
