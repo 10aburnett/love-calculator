@@ -503,14 +503,14 @@
           "message": "El verdadero anillo fue su amistad 💍👣",
           "shareText": "Anillo de amistad! 💍👣"
         },
-              "geraltyennefer": {
-        "message": "Monstruos fuera, pasión dentro ⚔️🔥",
-        "shareText": "Monstruos y pasión! ⚔️🔥"
-      },
-      "fionashrek": {
-        "message": "Una historia de amor con muchas capas 🧅💚",
-        "shareText": "Amor con capas! 🧅💚"
-      }
+        "geraltyennefer": {
+          "message": "Monstruos fuera, pasión dentro ⚔️🔥",
+          "shareText": "Monstruos y pasión! ⚔️🔥"
+        },
+        "fionashrek": {
+          "message": "Una historia de amor con muchas capas 🧅💚",
+          "shareText": "Amor con capas! 🧅💚"
+        }
       },
       "cartoonCharacters": {
         "spongebobpatrick": {
@@ -586,7 +586,9 @@
           "shareText": "Sarcasmo de Hollywood! 💁‍♀️😏"
         }
       }
-    }
+    },
+    "invalidCharacters": "Los nombres solo pueden contener letras, espacios, guiones y apostrofes",
+    "pleaseEnterBothNames": "Por favor ingrese ambos nombres"
   },
   "dobCalculator": {
     "title": "Calculadora de Compatibilidad por Fecha de Nacimiento",
@@ -805,7 +807,8 @@
     "moreApps": "Más Apps",
     "whyNotTryOtherTools": "¿Por qué no pruebas nuestras otras herramientas divertidas?",
     "loveCalculator": "Calculadora de Amor",
-    "dobCalculator": "Calculadora de Compatibilidad por Fecha de Nacimiento"
+    "dobCalculator": "Calculadora de Compatibilidad por Fecha de Nacimiento",
+    "shareTitle": "Resultado de Compatibilidad Zodiacal"
   },
   "zodiacMessages": {
     "writtenInStars": "¡Escrito en las estrellas! Almas gemelas celestiales con armonía cósmica ✨",
@@ -949,37 +952,84 @@
     "relationshipQuiz": {
       "title": "Quiz de Relación - ¿Son Compatibles? Prueba Gratuita de Parejas | LoveCalcs",
       "description": "Haz nuestro quiz integral de relación de 8 preguntas para descubrir tu puntuación de compatibilidad. Prueba gratuita de parejas con información personalizada sobre la fortaleza y dinámicas de tu relación.",
-      "keywords": ["quiz de relación", "cuestionario de parejas", "quiz de compatibilidad", "prueba de relación", "compatibilidad de parejas", "evaluación de relación"]
+      "keywords": [
+        "quiz de relación",
+        "cuestionario de parejas",
+        "quiz de compatibilidad",
+        "prueba de relación",
+        "compatibilidad de parejas",
+        "evaluación de relación"
+      ]
     },
     "communicationQuiz": {
       "title": "Quiz de Estilo de Comunicación - Descubre Tus Patrones de Comunicación | LoveCalcs",
       "description": "Haz nuestro quiz de estilo de comunicación para descubrir cómo te comunicas tú y tu pareja. Aprende tus patrones de comunicación, mejora el diálogo y fortalece las dinámicas de relación.",
-      "keywords": ["quiz de comunicación", "prueba de estilo de comunicación", "comunicación en relaciones", "patrones de comunicación", "comunicación de parejas", "habilidades de comunicación"]
+      "keywords": [
+        "quiz de comunicación",
+        "prueba de estilo de comunicación",
+        "comunicación en relaciones",
+        "patrones de comunicación",
+        "comunicación de parejas",
+        "habilidades de comunicación"
+      ]
     },
     "loveLanguageAssessment": {
       "title": "Evaluación de Lenguajes del Amor - Descubre Cómo Das y Recibes Amor | LoveCalcs",
       "description": "Haz nuestra evaluación de lenguajes del amor para descubrir tus lenguajes del amor principales. Aprende cómo expresas y recibes amor en relaciones con esta prueba integral de cinco lenguajes del amor.",
-      "keywords": ["quiz de lenguajes del amor", "prueba de lenguajes del amor", "cinco lenguajes del amor", "evaluación de relación", "evaluación de lenguajes del amor", "lenguajes del amor Gary Chapman"]
+      "keywords": [
+        "quiz de lenguajes del amor",
+        "prueba de lenguajes del amor",
+        "cinco lenguajes del amor",
+        "evaluación de relación",
+        "evaluación de lenguajes del amor",
+        "lenguajes del amor Gary Chapman"
+      ]
     },
     "futureGoalsCompatibility": {
       "title": "Quiz de Compatibilidad de Metas Futuras - Prueba la Alineación de Objetivos de Vida | LoveCalcs",
       "description": "Haz nuestro quiz de compatibilidad de metas futuras para ver qué tan alineados están tus sueños y planes de vida con tu pareja. Prueba la compatibilidad de estilo de vida, metas profesionales y planificación futura de relación.",
-      "keywords": ["quiz de metas futuras", "compatibilidad de objetivos de vida", "compatibilidad de estilo de vida", "prueba de metas de relación", "quiz de planificación de vida", "planificación futura de parejas"]
+      "keywords": [
+        "quiz de metas futuras",
+        "compatibilidad de objetivos de vida",
+        "compatibilidad de estilo de vida",
+        "prueba de metas de relación",
+        "quiz de planificación de vida",
+        "planificación futura de parejas"
+      ]
     },
     "conflictResolutionQuiz": {
       "title": "Quiz de Estilo de Resolución de Conflictos - Descubre Tu Enfoque a los Conflictos | LoveCalcs",
       "description": "Haz nuestro quiz de resolución de conflictos para descubrir cómo manejas desacuerdos y conflictos en relaciones. Aprende tu estilo de resolución, mejora la comunicación y fortalece las asociaciones.",
-      "keywords": ["quiz de resolución de conflictos", "prueba de estilo de conflicto", "conflictos en relaciones", "habilidades de comunicación", "manejo de conflictos", "resolución de problemas en relaciones"]
+      "keywords": [
+        "quiz de resolución de conflictos",
+        "prueba de estilo de conflicto",
+        "conflictos en relaciones",
+        "habilidades de comunicación",
+        "manejo de conflictos",
+        "resolución de problemas en relaciones"
+      ]
     },
     "dobCalculator": {
       "title": "Calculadora de Compatibilidad por Fecha de Nacimiento - Prueba Compatibilidad de Cumpleaños | LoveCalcs",
       "description": "Calcula la compatibilidad amorosa basada en fechas de nacimiento. Descubre si tus cumpleaños predicen compatibilidad romántica con nuestra divertida calculadora de fechas de nacimiento.",
-      "keywords": ["calculadora de fecha de nacimiento", "compatibilidad de cumpleaños", "compatibilidad de fecha de nacimiento", "prueba de amor por cumpleaños", "numerología de fecha de nacimiento"]
+      "keywords": [
+        "calculadora de fecha de nacimiento",
+        "compatibilidad de cumpleaños",
+        "compatibilidad de fecha de nacimiento",
+        "prueba de amor por cumpleaños",
+        "numerología de fecha de nacimiento"
+      ]
     },
     "zodiacCalculator": {
       "title": "Calculadora de Compatibilidad Zodiacal - Prueba de Combinación Amorosa Astrológica | LoveCalcs",
       "description": "Prueba la compatibilidad de signos zodiacales para amor y relaciones. Descubre la compatibilidad astrológica entre tus signos estelares con nuestra calculadora zodiacal divertida.",
-      "keywords": ["compatibilidad zodiacal", "compatibilidad de signos estelares", "combinación amorosa astrológica", "compatibilidad de horóscopo", "astrología del amor"]
+      "keywords": [
+        "compatibilidad zodiacal",
+        "compatibilidad de signos estelares",
+        "combinación amorosa astrológica",
+        "compatibilidad de horóscopo",
+        "astrología del amor"
+      ]
     }
   },
   "header": {

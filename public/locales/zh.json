@@ -491,14 +491,14 @@
           "message": "友情满级，直达魔多 💍👣",
           "shareText": "我们获得了霍比特匹配！就像Frodo和Sam - 直达魔多！💍👣"
         },
-              "geraltyennefer": {
-        "message": "怪物猎人也谈恋爱 ⚔️🔥",
-        "shareText": "我们的名字就像Geralt和Yennefer - 怪物猎人也谈恋爱！⚔️🔥"
-      },
-      "fionashrek": {
-        "message": "洋葱一样的爱情故事 🧅💚",
-        "shareText": "我们获得了怪物匹配！就像Shrek和Fiona - 洋葱般的爱情！🧅💚"
-      },
+        "geraltyennefer": {
+          "message": "怪物猎人也谈恋爱 ⚔️🔥",
+          "shareText": "我们的名字就像Geralt和Yennefer - 怪物猎人也谈恋爱！⚔️🔥"
+        },
+        "fionashrek": {
+          "message": "洋葱一样的爱情故事 🧅💚",
+          "shareText": "我们获得了怪物匹配！就像Shrek和Fiona - 洋葱般的爱情！🧅💚"
+        },
         "hermioneron": {
           "message": "书呆子的校园初恋 📚💘",
           "shareText": "我们就像Hermione和Ron - 书呆子的校园初恋！📚💘"
@@ -586,7 +586,9 @@
           "shareText": "我们的名字就像Blake Lively和Ryan Reynolds - 好莱坞最毒舌的情侣！😏🎬"
         }
       }
-    }
+    },
+    "invalidCharacters": "姓名只能包含字母、空格、连字符和撇号",
+    "pleaseEnterBothNames": "请输入两个姓名"
   },
   "zodiacSigns": {
     "aries": "白羊座",
@@ -648,7 +650,8 @@
     "compatible": "兼容的行星促进相互理解。",
     "complementary": "互补的行星能量创造了迷人的动力。",
     "different": "不同的行星影响增添了丰富性和复杂性。",
-    "challenging": "具有挑战性的行星相位需要理解和耐心。"
+    "challenging": "具有挑战性的行星相位需要理解和耐心。",
+    "samePlanet": "同一行星"
   },
   "zodiacPatterns": {
     "perfectHarmony": "绝对的星际和谐——你们写在星星里！",
@@ -666,7 +669,10 @@
     "growthCatalyst": "成长催化剂——你们激励彼此进化！",
     "uniqueDynamic": "独特动力——你们的连接定义自己的道路！",
     "karmicConnection": "业力连接——命运将你们聚在一起！",
-    "supportiveSextile": "支持性六分相——你们的关系建立在相互支持和成长之上！"
+    "supportiveSextile": "支持性六分相——你们的关系建立在相互支持和成长之上！",
+    "harmonicTrine": "和谐三角",
+    "oppositeAttraction": "异性相吸",
+    "twinSouls": "双胞胎灵魂"
   },
   "zodiacMessages": {
     "perfectMatch": "完美匹配！星星为你们两个对齐了！",
@@ -679,7 +685,10 @@
     "stellarAdventure": "星际冒险！你们一起探索未知领域！",
     "cosmicChallenge": "宇宙挑战！你们的差异提供了深度成长的机会！",
     "universalLearning": "宇宙学习！每一个连接都提供宝贵的人生课程！",
-    "stellarConnection": "星际连接！你们的爱在宇宙中回响。"
+    "stellarConnection": "星际连接！你们的爱在宇宙中回响。",
+    "starlitRomance": "星光浪漫",
+    "uniqueConstellation": "独特星座",
+    "writtenInStars": "星辰注定"
   },
   "zodiacUI": {
     "selectYourZodiacSigns": "选择您的星座",
@@ -731,7 +740,8 @@
     "turnZodiacScore": "将您的星座分数转化为病毒式内容！",
     "whyNotTryOtherTools": "为什么不试试我们其他有趣的工具？",
     "loveCalculator": "爱情计算器",
-    "dobCalculator": "出生日期兼容性计算器"
+    "dobCalculator": "出生日期兼容性计算器",
+    "shareTitle": "星座兼容性结果"
   },
   "dobCalculator": {
     "title": "出生日期兼容性计算器",
@@ -1026,37 +1036,84 @@
     "relationshipQuiz": {
       "title": "关系测验 - 你们兼容吗？免费情侣测试 | LoveCalcs",
       "description": "参加我们综合的8题关系测验，发现您的兼容性分数。免费情侣测试，提供关于您关系强度和动态的个性化洞察。",
-      "keywords": ["关系测验", "情侣问卷", "兼容性测验", "关系测试", "情侣兼容性", "关系评估"]
+      "keywords": [
+        "关系测验",
+        "情侣问卷",
+        "兼容性测验",
+        "关系测试",
+        "情侣兼容性",
+        "关系评估"
+      ]
     },
     "communicationQuiz": {
       "title": "沟通风格测验 - 发现您的沟通模式 | LoveCalcs",
       "description": "参加我们的沟通风格测验，发现您和伴侣如何沟通。学习您的沟通模式，改善对话，加强关系动态。",
-      "keywords": ["沟通测验", "沟通风格测试", "关系沟通", "沟通模式", "情侣沟通", "沟通技巧"]
+      "keywords": [
+        "沟通测验",
+        "沟通风格测试",
+        "关系沟通",
+        "沟通模式",
+        "情侣沟通",
+        "沟通技巧"
+      ]
     },
     "loveLanguageAssessment": {
       "title": "爱语评估 - 发现您如何给予和接受爱 | LoveCalcs",
       "description": "参加我们的爱语评估，发现您的主要爱语。通过这个全面的五种爱语测试，学习您如何在关系中表达和接受爱。",
-      "keywords": ["爱语测验", "爱语测试", "五种爱语", "关系评估", "爱语评估", "盖里·查普曼爱语"]
+      "keywords": [
+        "爱语测验",
+        "爱语测试",
+        "五种爱语",
+        "关系评估",
+        "爱语评估",
+        "盖里·查普曼爱语"
+      ]
     },
     "futureGoalsCompatibility": {
       "title": "未来目标兼容性测验 - 测试人生目标一致性 | LoveCalcs",
       "description": "参加我们的未来目标兼容性测验，看看您的生活梦想和计划与伴侣有多一致。测试生活方式兼容性、职业目标和关系未来规划。",
-      "keywords": ["未来目标测验", "人生目标兼容性", "生活方式兼容性", "关系目标测试", "人生规划测验", "情侣未来规划"]
+      "keywords": [
+        "未来目标测验",
+        "人生目标兼容性",
+        "生活方式兼容性",
+        "关系目标测试",
+        "人生规划测验",
+        "情侣未来规划"
+      ]
     },
     "conflictResolutionQuiz": {
       "title": "冲突解决风格测验 - 发现您处理冲突的方式 | LoveCalcs",
       "description": "参加我们的冲突解决测验，发现您如何处理关系中的分歧和冲突。学习您的解决风格，改善沟通，加强伙伴关系。",
-      "keywords": ["冲突解决测验", "冲突风格测试", "关系冲突", "沟通技巧", "冲突管理", "关系问题解决"]
+      "keywords": [
+        "冲突解决测验",
+        "冲突风格测试",
+        "关系冲突",
+        "沟通技巧",
+        "冲突管理",
+        "关系问题解决"
+      ]
     },
     "dobCalculator": {
       "title": "出生日期兼容性计算器 - 生日兼容性测试 | LoveCalcs",
       "description": "基于出生日期计算爱情兼容性。通过我们有趣的日期计算器，发现您的生日是否预示着浪漫兼容性。",
-      "keywords": ["出生日期计算器", "生日兼容性", "出生日期兼容性", "生日爱情测试", "出生日期数字学"]
+      "keywords": [
+        "出生日期计算器",
+        "生日兼容性",
+        "出生日期兼容性",
+        "生日爱情测试",
+        "出生日期数字学"
+      ]
     },
     "zodiacCalculator": {
       "title": "星座兼容性计算器 - 占星爱情匹配测试 | LoveCalcs",
       "description": "测试星座对爱情和关系的兼容性。通过我们有趣的星座计算器，发现您星座之间的占星兼容性。",
-      "keywords": ["星座兼容性", "星象兼容性", "占星爱情匹配", "星座配对", "爱情占星学"]
+      "keywords": [
+        "星座兼容性",
+        "星象兼容性",
+        "占星爱情匹配",
+        "星座配对",
+        "爱情占星学"
+      ]
     }
   },
   "header": {
@@ -1134,7 +1191,7 @@
   },
   "quizzes": {
     "common": {
-      "tryAgain": "重试",
+      "tryAgain": "重新尝试",
       "loveCalculator": "爱情计算器",
       "exploreOtherQuizzes": "探索其他测验",
       "relationshipQuiz": "关系测验",
@@ -1178,7 +1235,6 @@
       "goodFoundation": "良好基础",
       "workInProgress": "需要努力",
       "analytical": "分析型",
-      "competing": "自信型",
       "expressive": "表达型",
       "diplomatic": "外交型",
       "greatCompatibility": "极佳兼容性",
@@ -1186,7 +1242,7 @@
       "goodPotential": "良好潜力",
       "needsWork": "需要改进",
       "relationshipFocus": "关系焦点",
-      "strengthAndGrowth": "力量与成长",
+      "strengthAndGrowth": "力量和成长",
       "discoverYourPatterns": "发现您的模式",
       "whyTakeOurQuiz": "为什么参加我们的测验",
       "selfAwareness": "自我认知",
@@ -1205,7 +1261,7 @@
       "strongerConnection": "更强的连接",
       "adaptYourCommunication": "调整您的沟通",
       "loveFocus": "爱情焦点",
-      "understandHowYouExpress": "了解您如何表达",
+      "understandHowYouExpress": "了解您如何表达爱意",
       "whatYoullLearn": "您将学到什么",
       "yourPrimaryLoveLanguage": "您的主要爱语",
       "discoverWhichLoveLanguage": "发现哪种爱语",
@@ -1231,34 +1287,7 @@
       "learnEffectiveTechniques": "学习有效技巧",
       "relationshipImprovement": "关系改善",
       "discoverHowToBuild": "发现如何建立",
-      "understandingDifferentStyles": "理解不同风格",
-      "compatible": "兼容",
-      "yourStrongestAreas": "您最强的领域",
-      "areasForDiscussion": "讨论领域",
-      "detailedCompatibilityBreakdown": "详细兼容性分析",
-      "careerGoals": "职业目标",
-      "familyPlans": "家庭计划",
-      "lifestyle": "生活方式",
-      "financialGoals": "财务目标",
-      "personalGrowth": "个人成长",
-      "question": "问题 {{current}} / {{total}}",
-      "tryAgain": "重新尝试",
-      "exploreOtherQuizzes": "探索其他测验",
-      "collaborative": "协作型",
-      "competing": "竞争型",
-      "accommodating": "迁就型",
-      "avoiding": "回避型",
-      "compromising": "妥协型",
-      "relationshipFocus": "关系焦点",
-      "strengthAndGrowth": "力量和成长",
-      "loveFocus": "爱情焦点",
-      "understandHowYouExpress": "了解您如何表达爱意",
-      "communicationFocus": "沟通焦点",
-      "understandYourPatterns": "了解您的模式",
-      "conflictFocus": "冲突焦点",
-      "transformDisagreements": "转化分歧",
-      "primaryStyle": "主要风格",
-      "yourConflictStyleBreakdown": "您的冲突风格分析"
+      "understandingDifferentStyles": "理解不同风格"
     },
     "relationshipQuiz": {
       "title": "关系测验",
@@ -1508,7 +1537,8 @@
       "results": {
         "direct": {
           "title": "直接型",
-          "message": "您价值清晰、高效的沟通。您直接表达想法，欣赏诚实和坦率。"
+          "message": "您价值清晰、高效的沟通。您直接表达想法，欣赏诚实和坦率。",
+          "description": "您重视沟通中的诚实和直接。您的伴侣欣赏这种开放性。"
         },
         "analytical": {
           "title": "分析型",
@@ -1517,7 +1547,8 @@
         },
         "supportive": {
           "title": "支持型",
-          "message": "您专注于建立他人，创造积极的沟通环境，重视情感连接。"
+          "message": "您专注于建立他人，创造积极的沟通环境，重视情感连接。",
+          "description": "您创造了支持和理解的空间。您的沟通建立在共情的基础上。"
         },
         "diplomatic": {
           "title": "外交型",
@@ -1643,15 +1674,18 @@
         },
         "physicalTouch": {
           "title": "身体接触",
-          "message": "您通过身体亲密和接触感受到爱。拥抱、亲吻和温柔的触摸对您意义重大。"
+          "message": "您通过身体亲密和接触感受到爱。拥抱、亲吻和温柔的触摸对您意义重大。",
+          "description": "身体接触对您来说非常重要。拥抱、牵手和其他温柔的触碰是您感受和表达爱的主要方式。"
         },
         "receivingGifts": {
           "title": "接受礼物",
-          "message": "您欣赏周到的礼物和手势。对您来说，礼物象征着爱意和关怀。"
+          "message": "您欣赏周到的礼物和手势。对您来说，礼物象征着爱意和关怀。",
+          "description": "礼物对您有特殊意义。不是因为物质价值，而是因为它们代表着对方的心意和关怀。"
         },
         "actsOfService": {
           "title": "服务行为",
-          "message": "您通过行动感受到爱。当有人为您做事或帮助您时，您感到最被爱。"
+          "message": "您通过行动感受到爱。当有人为您做事或帮助您时，您感到最被爱。",
+          "description": "您通过行动表达爱意。为伴侣做事、提供帮助是您展现关怀的方式。"
         },
         "qualityTime": {
           "title": "质量时间",
@@ -1795,6 +1829,10 @@
         "significantDifferences": {
           "title": "显著差异",
           "message": "您们的未来目标存在重要差异。需要开放的沟通和妥协来找到共同道路。"
+        },
+        "wellMatched": {
+          "message": "您的未来目标很好地互补。你们都有清晰的方向，可以相互支持实现梦想。",
+          "title": "目标匹配"
         }
       }
     },
@@ -1904,14 +1942,14 @@
         }
       },
       "results": {
-
         "collaborating": {
           "title": "协作型",
           "message": "您寻求双赢解决方案，重视理解和合作寻找最佳结果。"
         },
         "compromising": {
           "title": "妥协型",
-          "message": "您寻找中间地带，愿意放弃一些东西以达成协议。"
+          "message": "您寻找中间地带，愿意放弃一些东西以达成协议。",
+          "description": "您擅长寻找中间地带，愿意为了关系和谐而做出让步。这是维持健康关系的宝贵技能。"
         },
         "accommodating": {
           "title": "迁就型",
@@ -1920,7 +1958,8 @@
         },
         "avoiding": {
           "title": "回避型",
-          "message": "您更喜欢避免冲突，重视和平并可能需要时间处理分歧。"
+          "message": "您更喜欢避免冲突，重视和平并可能需要时间处理分歧。",
+          "description": "您倾向于避免冲突，更喜欢和谐的环境。这可以保持平静，但重要的是也要能处理必要的讨论。"
         },
         "competing": {
           "title": "竞争策略师 🏆",

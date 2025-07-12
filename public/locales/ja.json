@@ -403,7 +403,9 @@
       "vocalBalance": "声のバランス",
       "energyAlignment": "エネルギーの整列",
       "cosmicConnection": "宇宙的つながり"
-    }
+    },
+    "invalidCharacters": "名前には文字、スペース、ハイフン、アポストロフィのみ使用できます",
+    "pleaseEnterBothNames": "両方の名前を入力してください"
   },
   "zodiacSigns": {
     "aries": "牡羊座",
@@ -449,7 +451,8 @@
     "complementary": "補完的なエレメントが魅力的なダイナミクスを創造しています。",
     "challenging": "異なるエレメントは調和のために理解が必要です。",
     "conflicting": "衝突するエレメントは忍耐と妥協が必要です。",
-    "fireAir": "火と風のエレメントが活気あるダイナミックな関係を創造します。"
+    "fireAir": "火と風のエレメントが活気あるダイナミックな関係を創造します。",
+    "earthWater": "土と水"
   },
   "zodiacModalityMessages": {
     "same": "同一のモダリティが自然な理解とリズムを創造します。",
@@ -465,7 +468,8 @@
     "compatible": "互換性のある惑星が相互理解を促進します。",
     "complementary": "補完的な惑星エネルギーが魅力的なダイナミクスを創造します。",
     "different": "異なる惑星影響が豊かさと複雑さを加えます。",
-    "challenging": "挑戦的な惑星アスペクトは理解と忍耐が必要です。"
+    "challenging": "挑戦的な惑星アスペクトは理解と忍耐が必要です。",
+    "samePlanet": "同じ惑星"
   },
   "zodiacPatterns": {
     "perfectHarmony": "絶対的な星の調和——あなたたちは星に書かれています！",
@@ -483,7 +487,10 @@
     "growthCatalyst": "成長の触媒——あなたたちはお互いの進化を刺激します！",
     "uniqueDynamic": "ユニークなダイナミクス——あなたたちの繋がりが独自の道を定義します！",
     "karmicConnection": "カルマ的な繋がり——運命があなたたちを一緒にしました！",
-    "supportiveSextile": "支援的なセクスタイル——あなたたちの関係は相互支援と成長に基づいています！"
+    "supportiveSextile": "支援的なセクスタイル——あなたたちの関係は相互支援と成長に基づいています！",
+    "harmonicTrine": "ハーモニックトライン",
+    "oppositeAttraction": "対極の魅力",
+    "twinSouls": "ツインソウル"
   },
   "zodiacMessages": {
     "perfectMatch": "完璧なマッチ！星があなたたち二人のために整列しました！",
@@ -496,7 +503,10 @@
     "stellarAdventure": "星の冒険！一緒に未知の領域を探索します！",
     "cosmicChallenge": "宇宙の挑戦！あなたたちの違いが深い成長の機会を提供しています！",
     "universalLearning": "宇宙的学習！すべての繋がりが貴重な人生の教訓を提供します！",
-    "stellarConnection": "星の繋がり！あなたたちの愛が宇宙に響いています。"
+    "stellarConnection": "星の繋がり！あなたたちの愛が宇宙に響いています。",
+    "starlitRomance": "星降る夜のロマンス",
+    "uniqueConstellation": "ユニークな星座",
+    "writtenInStars": "星に刻まれた運命"
   },
   "zodiacUI": {
     "selectYourZodiacSigns": "あなたの星座を選択してください",
@@ -548,7 +558,8 @@
     "turnZodiacScore": "あなたの星座スコアをバイラルコンテンツに変換しましょう！",
     "whyNotTryOtherTools": "他の楽しいツールも試してみませんか？",
     "loveCalculator": "相性診断",
-    "dobCalculator": "生年月日相性計算機"
+    "dobCalculator": "生年月日相性計算機",
+    "shareTitle": "星座相性結果"
   },
   "dobCalculator": {
     "title": "生年月日相性計算機",

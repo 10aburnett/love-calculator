@@ -10,6 +10,10 @@ export default function Footer() {
   const params = useParams();
   const locale = params.locale as string;
 
+  const getLocalizedPath = (path: string) => {
+    return locale === 'en' ? path : `/${locale}${path}`;
+  };
+
   // Share functions
   const shareText = t('footer.shareText') || 'Discover your love compatibility with our fun and entertaining Love Calculator! Test your relationship compatibility and share your results with friends! 💕';
   const shareTextShort = t('footer.shareTextShort') || 'Discover your love compatibility! 💕 Test your relationship compatibility and share your results with friends!';
@@ -178,19 +182,19 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-gray-900">{t('footer.calculators') || 'Calculators'}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${locale}/love-calculator`} 
+                <Link href={locale === 'en' ? '/' : `/${locale}/love-calculator`} 
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.loveCalculator') || 'Love Calculator'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/zodiac-compatibility-calculator`}
+                <Link href={getLocalizedPath('/zodiac-calculator')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.zodiacCalculator') || 'Zodiac Compatibility'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/date-of-birth-calculator`}
+                <Link href={getLocalizedPath('/date-of-birth-calculator')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.dobCalculator') || 'Date of Birth Calculator'}
                 </Link>
@@ -203,31 +207,31 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-gray-900">{t('footer.moreTools') || 'More Tools'}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${locale}/relationship-quiz`}
+                <Link href={getLocalizedPath('/relationship-quiz')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.relationshipQuiz') || 'Relationship Quiz'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/communication-style-quiz`}
+                <Link href={getLocalizedPath('/communication-style-quiz')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.communicationQuiz') || 'Communication Style Quiz'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/love-language-assessment`}
+                <Link href={getLocalizedPath('/love-language-assessment')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.loveLanguageAssessment') || 'Love Language Assessment'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/future-goals-compatibility`}
+                <Link href={getLocalizedPath('/future-goals-compatibility')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.futureGoalsCompatibility') || 'Future Goals Compatibility'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/conflict-resolution-style`}
+                <Link href={getLocalizedPath('/conflict-resolution-style')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.conflictResolutionQuiz') || 'Conflict Resolution Style'}
                 </Link>
@@ -240,25 +244,25 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-gray-900">{t('footer.company') || 'Company'}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${locale}/about`}
+                <Link href={getLocalizedPath('/about')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('footer.about') || 'About Us'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/privacy`}
+                <Link href={getLocalizedPath('/privacy')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('footer.privacy') || 'Privacy Policy'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/terms`}
+                <Link href={getLocalizedPath('/terms')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('footer.terms') || 'Terms of Service'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/contact`}
+                <Link href={getLocalizedPath('/contact')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('footer.contact') || 'Contact Us'}
                 </Link>

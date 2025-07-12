@@ -244,7 +244,9 @@
       "vocalBalance": "التوازن الصوتي",
       "energyAlignment": "محاذاة الطاقة",
       "cosmicConnection": "الاتصال الكوني"
-    }
+    },
+    "invalidCharacters": "يمكن أن تحتوي الأسماء على أحرف ومسافات وشرطات وفواصل عليا فقط",
+    "pleaseEnterBothNames": "يرجى إدخال كلا الاسمين"
   },
   "easterEggs": {
     "celebrities": {
@@ -817,7 +819,8 @@
     "shareYourZodiacScore": "شارك نتيجة برجك! ⭐",
     "choosePlatform": "اختر منصتك المفضلة لمشاركة نتائج التوافق الفلكي",
     "close": "إغلاق",
-    "moreApps": "المزيد من التطبيقات"
+    "moreApps": "المزيد من التطبيقات",
+    "shareTitle": "نتيجة توافق الأبراج"
   },
   "zodiacMessages": {
     "writtenInStars": "مكتوب في النجوم! توائم روح سماوية بانسجام كوني ✨",

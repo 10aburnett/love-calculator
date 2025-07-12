@@ -509,7 +509,9 @@
       "vocalBalance": "Stimmbalance",
       "energyAlignment": "Energieausrichtung",
       "cosmicConnection": "Kosmische Verbindung"
-    }
+    },
+    "invalidCharacters": "Namen können nur Buchstaben, Leerzeichen, Bindestriche und Apostrophe enthalten",
+    "pleaseEnterBothNames": "Bitte geben Sie beide Namen ein"
   },
   "zodiacUI": {
     "selectYourZodiacSigns": "Wählen Sie Ihre Sternzeichen",
@@ -559,7 +561,8 @@
     "moreApps": "Mehr Apps",
     "whyNotTryOtherTools": "Warum nicht unsere anderen lustigen Tools ausprobieren?",
     "loveCalculator": "Liebesrechner",
-    "dobCalculator": "Geburtsdatum-Kompatibilitätsrechner"
+    "dobCalculator": "Geburtsdatum-Kompatibilitätsrechner",
+    "shareTitle": "Sternzeichen-Kompatibilitätsergebnis"
   },
   "zodiacSigns": {
     "aries": "Widder",
@@ -1518,7 +1521,6 @@
             "Erkennen Sie an, wenn schnelle Entscheidungen nötig sind"
           ]
         },
-
         "accommodating": {
           "title": "Entgegenkommender Löser 🤗",
           "description": "Sie priorisieren die Bedürfnisse und das Glück Ihres Partners. Sie schätzen Harmonie und schätzen die Beziehung über Konflikte.",
@@ -1535,18 +1537,30 @@
           ]
         },
         "avoiding": {
-          "title": "Vermeidender Löser 🚶",
-          "description": "Sie bevorzugen es, Konflikten aus dem Weg zu gehen und lassen Zeit und Raum die meisten Probleme lösen.",
+          "title": "Konfliktvermeidender 🚪",
+          "description": "Du bevorzugst es, dich von Konflikten zurückzuziehen und Spannungen natürlich lösen zu lassen. Du brauchst Raum, um Emotionen zu verarbeiten.",
           "strengths": [
-            "Ruhig unter Druck",
             "Verhindert Eskalation",
-            "Gibt Zeit zum Abkühlen",
-            "Friedliebend"
+            "Gibt Zeit für Emotionen sich zu beruhigen",
+            "Vermeidet verletzende Worte",
+            "Kann wertvolle Perspektiven bieten"
+          ],
+          "challenges": [
+            "Probleme könnten ungelöst bleiben",
+            "Partner könnte sich ignoriert fühlen",
+            "Probleme können sich mit der Zeit aufbauen",
+            "Könnte Wachstumschancen verpassen"
           ],
           "tips": [
-            "Einige Probleme müssen direkt angesprochen werden",
-            "Üben Sie, Ihre Gefühle sanft auszudrücken",
-            "Kleine Gespräche können große Probleme verhindern"
+            "Plane spezifische Zeiten um Probleme zu diskutieren",
+            "Übe für kurze Perioden präsent zu bleiben",
+            "Kommuniziere dein Bedürfnis nach Raum",
+            "Kehre zurück um Probleme anzugehen nachdem du dich beruhigt hast"
+          ],
+          "partnerAdvice": [
+            "Gib ihnen Raum wenn sie es brauchen",
+            "Plane ruhige Zeiten um Probleme zu diskutieren",
+            "Sei geduldig mit ihrer Verarbeitungszeit"
           ]
         },
         "compromising": {
@@ -1578,33 +1592,6 @@
             "Machen Sie Pausen, wenn Emotionen zu stark werden",
             "Konzentrieren Sie sich darauf, die Perspektive Ihres Partners zu verstehen",
             "Verwenden Sie Ich-Aussagen anstatt Vorwürfe"
-          ]
-        },
-        "avoiding": {
-          "title": "Konfliktvermeidender 🚪",
-          "description": "Du bevorzugst es, dich von Konflikten zurückzuziehen und Spannungen natürlich lösen zu lassen. Du brauchst Raum, um Emotionen zu verarbeiten.",
-          "strengths": [
-            "Verhindert Eskalation",
-            "Gibt Zeit für Emotionen sich zu beruhigen",
-            "Vermeidet verletzende Worte",
-            "Kann wertvolle Perspektiven bieten"
-          ],
-          "challenges": [
-            "Probleme könnten ungelöst bleiben",
-            "Partner könnte sich ignoriert fühlen",
-            "Probleme können sich mit der Zeit aufbauen",
-            "Könnte Wachstumschancen verpassen"
-          ],
-          "tips": [
-            "Plane spezifische Zeiten um Probleme zu diskutieren",
-            "Übe für kurze Perioden präsent zu bleiben",
-            "Kommuniziere dein Bedürfnis nach Raum",
-            "Kehre zurück um Probleme anzugehen nachdem du dich beruhigt hast"
-          ],
-          "partnerAdvice": [
-            "Gib ihnen Raum wenn sie es brauchen",
-            "Plane ruhige Zeiten um Probleme zu diskutieren",
-            "Sei geduldig mit ihrer Verarbeitungszeit"
           ]
         }
       }
@@ -2060,37 +2047,84 @@
     "relationshipQuiz": {
       "title": "Beziehungsquiz - Seid Ihr Kompatibel? Kostenloses Paar-Quiz | LoveCalcs",
       "description": "Machen Sie unser umfassendes 8-Fragen-Beziehungsquiz um Ihren Kompatibilitätsscore zu entdecken. Kostenloses Paar-Quiz mit personalisierten Einsichten über Ihre Beziehungsstärke und Dynamik.",
-      "keywords": ["beziehungsquiz", "paar quiz", "kompatibilitätsquiz", "beziehungstest", "paar kompatibilität", "beziehungsbewertung"]
+      "keywords": [
+        "beziehungsquiz",
+        "paar quiz",
+        "kompatibilitätsquiz",
+        "beziehungstest",
+        "paar kompatibilität",
+        "beziehungsbewertung"
+      ]
     },
     "communicationQuiz": {
       "title": "Kommunikationsstil-Quiz - Entdecken Sie Ihre Kommunikationsmuster | LoveCalcs",
       "description": "Machen Sie unser Kommunikationsstil-Quiz um zu entdecken, wie Sie und Ihr Partner kommunizieren. Lernen Sie Ihre Kommunikationsmuster, verbessern Sie den Dialog und stärken Sie die Beziehungsdynamik.",
-      "keywords": ["kommunikationsquiz", "kommunikationsstil test", "beziehungskommunikation", "kommunikationsmuster", "paar kommunikation", "kommunikationsfähigkeiten"]
+      "keywords": [
+        "kommunikationsquiz",
+        "kommunikationsstil test",
+        "beziehungskommunikation",
+        "kommunikationsmuster",
+        "paar kommunikation",
+        "kommunikationsfähigkeiten"
+      ]
     },
     "loveLanguageAssessment": {
       "title": "Liebessprachen-Bewertung - Entdecken Sie Wie Sie Liebe Geben und Empfangen | LoveCalcs",
       "description": "Machen Sie unsere Liebessprachen-Bewertung um Ihre primären Liebessprachen zu entdecken. Lernen Sie, wie Sie Liebe in Beziehungen ausdrücken und empfangen mit diesem umfassenden Fünf-Liebessprachen-Test.",
-      "keywords": ["liebessprachen quiz", "liebessprachen test", "fünf liebessprachen", "beziehungsbewertung", "liebessprachen bewertung", "Gary Chapman liebessprachen"]
+      "keywords": [
+        "liebessprachen quiz",
+        "liebessprachen test",
+        "fünf liebessprachen",
+        "beziehungsbewertung",
+        "liebessprachen bewertung",
+        "Gary Chapman liebessprachen"
+      ]
     },
     "futureGoalsCompatibility": {
       "title": "Zukunftsziele-Kompatibilitätsquiz - Testen Sie die Ausrichtung Ihrer Lebensziele | LoveCalcs",
       "description": "Machen Sie unser Zukunftsziele-Kompatibilitätsquiz um zu sehen, wie gut Ihre Lebensträume und Pläne mit Ihrem Partner übereinstimmen. Testen Sie Lebensstil-Kompatibilität, Karriereziele und Zukunftsplanung der Beziehung.",
-      "keywords": ["zukunftsziele quiz", "lebensziele kompatibilität", "lebensstil kompatibilität", "beziehungsziele test", "lebensplanung quiz", "paar zukunftsplanung"]
+      "keywords": [
+        "zukunftsziele quiz",
+        "lebensziele kompatibilität",
+        "lebensstil kompatibilität",
+        "beziehungsziele test",
+        "lebensplanung quiz",
+        "paar zukunftsplanung"
+      ]
     },
     "conflictResolutionQuiz": {
       "title": "Konfliktlösungsstil-Quiz - Entdecken Sie Ihren Umgang mit Konflikten | LoveCalcs",
       "description": "Machen Sie unser Konfliktlösungsquiz um zu entdecken, wie Sie Meinungsverschiedenheiten und Konflikte in Beziehungen handhaben. Lernen Sie Ihren Lösungsstil, verbessern Sie die Kommunikation und stärken Sie Partnerschaften.",
-      "keywords": ["konfliktlösungsquiz", "konfliktstil test", "beziehungskonflikte", "kommunikationsfähigkeiten", "konfliktmanagement", "beziehungsproblem lösung"]
+      "keywords": [
+        "konfliktlösungsquiz",
+        "konfliktstil test",
+        "beziehungskonflikte",
+        "kommunikationsfähigkeiten",
+        "konfliktmanagement",
+        "beziehungsproblem lösung"
+      ]
     },
     "dobCalculator": {
       "title": "Geburtsdatum-Kompatibilitätsrechner - Geburtstags-Kompatibilitätstest | LoveCalcs",
       "description": "Berechnen Sie Liebeskompatibilität basierend auf Geburtsdaten. Entdecken Sie, ob Ihre Geburtstage romantische Kompatibilität vorhersagen mit unserem lustigen Datumsrechner.",
-      "keywords": ["geburtsdatum rechner", "geburtstag kompatibilität", "geburtsdatum kompatibilität", "geburtstag liebestest", "geburtsdatum numerologie"]
+      "keywords": [
+        "geburtsdatum rechner",
+        "geburtstag kompatibilität",
+        "geburtsdatum kompatibilität",
+        "geburtstag liebestest",
+        "geburtsdatum numerologie"
+      ]
     },
     "zodiacCalculator": {
       "title": "Sternzeichen-Kompatibilitätsrechner - Astrologischer Liebes-Match-Test | LoveCalcs",
       "description": "Testen Sie Sternzeichen-Kompatibilität für Liebe und Beziehungen. Entdecken Sie astrologische Kompatibilität zwischen Ihren Sternzeichen mit unserem lustigen Sternzeichen-Rechner.",
-      "keywords": ["sternzeichen kompatibilität", "tierkreiszeichen kompatibilität", "astrologisches liebes-match", "horoskop kompatibilität", "liebe astrologie"]
+      "keywords": [
+        "sternzeichen kompatibilität",
+        "tierkreiszeichen kompatibilität",
+        "astrologisches liebes-match",
+        "horoskop kompatibilität",
+        "liebe astrologie"
+      ]
     }
   },
   "header": {
