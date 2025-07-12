@@ -483,13 +483,13 @@ function getCompatibilityResult(careerScore: number, familyScore: number, lifest
                 >
                   <div className="text-center mb-8">
                     <div className="text-6xl mb-6">{result.emoji}</div>
-                    <h2 className="text-3xl font-playfair font-bold text-gray-900 mb-4">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-playfair font-bold text-gray-900 mb-4 break-words">
                       {result.title}
                     </h2>
-                    <div className="text-4xl font-bold text-emerald-600 mb-6">
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-emerald-600 mb-6 break-words">
                       {result.percentage}% {t('quizzes.common.compatible')}
                     </div>
-                    <p className="text-lg text-gray-700 mb-8">
+                    <p className="text-base sm:text-lg text-gray-700 mb-8 break-words">
                       {result.description}
                     </p>
                   </div>
