@@ -573,3 +573,27 @@ input[type="search"].bg-transparent {
 .recharts-responsive-container {
   min-height: 280px !important;
 }
+
+/* German compound word breaking for mobile */
+.break-words {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.hyphens-auto {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+/* Specific handling for German compound words on mobile */
+@media (max-width: 640px) {
+  h1, h2, h3 {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+  }
+}

@@ -532,19 +532,19 @@ function getConflictStyleResult(collaborativeScore: number, competingScore: numb
                     <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('quizzes.common.yourConflictStyleBreakdown')}</h3>
                     <div className="space-y-3">
                       {result.sortedStyles.map((styleData: any, index: number) => (
-                        <div key={styleData.style} className="flex items-center justify-between">
-                          <div className="flex items-center">
-                            <span className="text-xl mr-3">{getStyleEmoji(styleData.style)}</span>
-                            <span className="font-medium text-gray-900">{getStyleName(styleData.style)}</span>
-                          </div>
-                          <div className="flex items-center">
-                            <div className="w-24 bg-gray-200 rounded-full h-2 mr-3">
-                              <div 
-                                className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 rounded-full"
-                                style={{ width: `${styleData.percentage}%` }}
-                              ></div>
+                        <div key={styleData.style} className="block">
+                          <div className="flex items-center justify-between mb-2">
+                            <div className="flex items-center">
+                              <span className="text-xl mr-3">{getStyleEmoji(styleData.style)}</span>
+                              <span className="font-medium text-gray-900">{getStyleName(styleData.style)}</span>
                             </div>
                             <span className="text-sm font-medium text-gray-600">{styleData.percentage}%</span>
+                          </div>
+                          <div className="bg-gray-200 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 rounded-full"
+                              style={{ width: `${styleData.percentage}%` }}
+                            ></div>
                           </div>
                         </div>
                       ))}

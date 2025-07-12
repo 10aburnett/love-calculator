@@ -544,18 +544,20 @@ function getCompatibilityResult(careerScore: number, familyScore: number, lifest
                       {Object.entries(result.categoryScores).map(([category, score]) => {
                         const IconComponent = getCategoryIcon(category);
                         return (
-                          <div key={category} className="flex items-center justify-between">
-                            <div className="flex items-center flex-1">
-                              <IconComponent className="w-5 h-5 text-emerald-600 mr-3" />
-                              <span className="font-medium text-gray-900 mr-4">{getCategoryName(category)}</span>
-                              <div className="flex-1 bg-gray-200 rounded-full h-2 mr-4">
-                                <div 
-                                  className="bg-gradient-to-r from-emerald-500 to-teal-600 h-2 rounded-full"
-                                  style={{ width: `${score}%` }}
-                                ></div>
+                          <div key={category} className="block">
+                            <div className="flex items-center justify-between mb-2">
+                              <div className="flex items-center">
+                                <IconComponent className="w-5 h-5 text-emerald-600 mr-3" />
+                                <span className="font-medium text-gray-900">{getCategoryName(category)}</span>
                               </div>
+                              <span className="text-sm font-medium text-gray-600">{Number(score)}%</span>
                             </div>
-                            <span className="text-sm font-medium text-gray-600">{Number(score)}%</span>
+                            <div className="bg-gray-200 rounded-full h-2">
+                              <div 
+                                className="bg-gradient-to-r from-emerald-500 to-teal-600 h-2 rounded-full"
+                                style={{ width: `${score}%` }}
+                              ></div>
+                            </div>
                           </div>
                         );
                       })}

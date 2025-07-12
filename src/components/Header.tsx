@@ -55,10 +55,10 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-4 md:space-x-6 lg:space-x-8">
             <Link 
               href={locale === 'en' ? '/' : `/${locale}`}
-              className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform ml-8 md:ml-16 lg:ml-20 text-center"
             >
               {t('header.loveCalculator') || 'Love Calculator'}
             </Link>
@@ -67,7 +67,7 @@ export default function Header() {
             <div className="relative quiz-dropdown">
               <button
                 onClick={() => setIsQuizDropdownOpen(!isQuizDropdownOpen)}
-                className="flex items-center text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform"
+                className="flex items-center text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform text-center"
               >
                 {t('header.moreTools') || 'More Tools'}
                 <ChevronDown className={`w-4 h-4 ml-1 transition-transform duration-200 ${isQuizDropdownOpen ? 'rotate-180' : ''}`} />
@@ -92,13 +92,13 @@ export default function Header() {
             
             <Link 
               href={`/${locale}/about`}
-              className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform text-center"
             >
               {t('header.about') || 'About'}
             </Link>
             <Link 
               href={`/${locale}/contact`}
-              className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform text-center"
             >
               {t('header.contact') || 'Contact'}
             </Link>

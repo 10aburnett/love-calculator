@@ -35,7 +35,7 @@ export default function DateOfBirthCalculatorPageContent() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-4xl md:text-6xl font-playfair font-bold text-gray-900 mb-6 fade-in"
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-playfair font-bold text-gray-900 mb-6 fade-in break-words hyphens-auto"
               >
                 {t('dobCalculator.title')}
               </motion.h1>

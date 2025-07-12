@@ -538,21 +538,21 @@ function getLoveLanguageResult(wordsScore: number, qualityScore: number, touchSc
                     <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('quizzes.common.yourLoveLanguageScores')}</h3>
                     <div className="space-y-3">
                       {result.sortedLanguages.map((lang: any, index: number) => (
-                        <div key={lang.language} className="flex items-center justify-between">
-                          <div className="flex items-center">
-                            <span className="text-xl mr-3">{getLanguageEmoji(lang.language)}</span>
-                            <span className="font-medium text-gray-900 capitalize">
-                              {getLanguageName(lang.language)}
-                            </span>
-                          </div>
-                          <div className="flex items-center">
-                            <div className="w-24 bg-gray-200 rounded-full h-2 mr-3">
-                              <div 
-                                className="bg-gradient-to-r from-rose-500 to-pink-600 h-2 rounded-full"
-                                style={{ width: `${lang.percentage}%` }}
-                              ></div>
+                        <div key={lang.language} className="block">
+                          <div className="flex items-center justify-between mb-2">
+                            <div className="flex items-center">
+                              <span className="text-xl mr-3">{getLanguageEmoji(lang.language)}</span>
+                              <span className="font-medium text-gray-900 capitalize">
+                                {getLanguageName(lang.language)}
+                              </span>
                             </div>
                             <span className="text-sm font-medium text-gray-600">{lang.percentage}%</span>
+                          </div>
+                          <div className="bg-gray-200 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-rose-500 to-pink-600 h-2 rounded-full"
+                              style={{ width: `${lang.percentage}%` }}
+                            ></div>
                           </div>
                         </div>
                       ))}
