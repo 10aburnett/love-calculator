@@ -294,15 +294,38 @@ function getLoveLanguageResult(wordsScore: number, qualityScore: number, touchSc
     window.open(url, '_blank');
   };
 
-  const shareToFacebook = () => {
+  const isMobile = () => {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  };
+
+  const shareToFacebook = async () => {
     if (!result) return;
-    const text = t('common.share.loveLanguageBasic', { 
+    const shareUrl = window.location.origin + '/love-language-assessment';
+    const shareText = t('common.share.loveLanguageBasic', { 
       language: result.title, 
       percentage: result.percentage, 
       description: result.description 
-    });
-    const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.origin + '/love-language-assessment')}&quote=${encodeURIComponent(text)}`;
-    window.open(url, '_blank');
+    }) + ' ' + shareUrl;
+    
+    if (isMobile()) {
+      // Try Facebook app first, then fallback to copy text
+      const mobileUrl = `fb://share?link=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`;
+      
+      // Try mobile app first
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = mobileUrl;
+      document.body.appendChild(iframe);
+      
+      // Fallback to copy text after short delay if app doesn't open
+      setTimeout(() => {
+        document.body.removeChild(iframe);
+        alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + shareText);
+      }, 1000);
+    } else {
+      // Desktop: show copy text option
+      alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + shareText);
+    }
   };
 
   const shareToInstagram = async () => {

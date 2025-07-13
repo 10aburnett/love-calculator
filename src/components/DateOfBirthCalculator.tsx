@@ -689,12 +689,30 @@ export default function DateOfBirthCalculator() {
     window.open(webUrl, '_blank');
   };
 
-  const shareToFacebook = () => {
+  const shareToFacebook = async () => {
     if (!result || isSharing) return;
     const shareUrl = window.location.origin + '/date-of-birth-calculator';
-    const shareText = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage;
-    const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    window.open(webUrl, '_blank');
+    const shareText = t('common.share.dobCompatibility', { name1: name1, name2: name2, score: result.score }) + ' ' + result.analysis.overallMessage + ' ' + shareUrl;
+    
+    if (isMobile()) {
+      // Try Facebook app first, then fallback to copy text
+      const mobileUrl = `fb://share?link=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`;
+      
+      // Try mobile app first
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = mobileUrl;
+      document.body.appendChild(iframe);
+      
+      // Fallback to copy text after short delay if app doesn't open
+      setTimeout(() => {
+        document.body.removeChild(iframe);
+        alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + shareText);
+      }, 1000);
+    } else {
+      // Desktop: show copy text option
+      alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + shareText);
+    }
   };
 
   const shareToInstagram = async () => {
