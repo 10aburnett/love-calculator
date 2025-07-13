@@ -863,7 +863,7 @@ export default function ZodiacCompatibilityCalculator() {
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">
                   {t('zodiacUI.astrologicalCompatibilityBreakdown')}
                 </h4>
-                <div className="h-80 w-full min-h-[280px] overflow-hidden flex items-center justify-center">
+                <div className="h-80 w-full min-h-[280px] overflow-hidden flex items-center justify-center chart-container-mobile">
                   <ResponsiveContainer width="100%" height="100%" minHeight={200}>
                     <BarChart
                       data={[
@@ -898,7 +898,7 @@ export default function ZodiacCompatibilityCalculator() {
                           color: '#00b894' 
                         },
                       ]}
-                      margin={{ top: 20, right: 50, left: 5, bottom: 70 }}
+                      margin={{ top: 20, right: 46, left: 2, bottom: 70 }}
                     >
                       <defs>
                         <linearGradient id="signs" x1="0" y1="0" x2="0" y2="1">

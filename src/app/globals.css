@@ -613,3 +613,24 @@ input[type="search"].bg-transparent {
     padding-right: 1rem !important;
   }
 }
+
+/* Mobile-only chart positioning adjustments */
+@media (max-width: 639px) {
+  .chart-container-mobile {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  .chart-container-mobile .recharts-wrapper {
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+    width: calc(100% + 10px) !important;
+  }
+  
+  .chart-container-mobile .recharts-responsive-container {
+    width: 100% !important;
+    min-height: 320px !important;
+  }
+}

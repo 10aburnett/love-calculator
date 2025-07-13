@@ -743,7 +743,7 @@ export default function LoveCalculator() {
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
                     {t('loveCalculator.breakdown.title') || 'Compatibility Breakdown'}
                   </h4>
-                  <div className="h-72 w-full">
+                  <div className="h-72 w-full chart-container-mobile">
                     <ResponsiveContainer width="100%" height="100%" minHeight={200}>
                       <BarChart
                         data={[
@@ -753,7 +753,7 @@ export default function LoveCalculator() {
                           { name: t('loveCalculator.breakdown.energyAlignment') || 'Energy Alignment', score: result.breakdown.N || 0},
                           { name: t('loveCalculator.breakdown.cosmicConnection') || 'Cosmic Connection', score: result.breakdown.B || 0}
                         ]}
-                        margin={{ top: 20, right: 30, left: 10, bottom: 70 }}
+                        margin={{ top: 20, right: 46, left: 2, bottom: 70 }}
                       >
                         <defs>
                           <linearGradient id="initial" x1="0" y1="0" x2="0" y2="1">
