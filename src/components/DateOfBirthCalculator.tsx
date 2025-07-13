@@ -1159,7 +1159,7 @@ export default function DateOfBirthCalculator() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1 }}
-                className="mt-[-24px] mb-8"
+                className="mt-[-48px] mb-8"
               >
                 <button
                   onClick={() => setShowExplanation(!showExplanation)}
@@ -1222,7 +1222,7 @@ export default function DateOfBirthCalculator() {
                   <p className="text-sm text-gray-700">{result.analysis.numerologyMessage}</p>
                 </div>
                 
-                <div className="text-center mt-8 pt-6">
+                <div className="text-center mt-12 pt-6">
                   <div className="text-6xl mb-6 icon-bounce">
                     {result.score >= 85 ? '💫' : result.score >= 75 ? '⭐' : result.score >= 65 ? '🌟' : result.score >= 55 ? '🎂' : '🎭'}
                   </div>

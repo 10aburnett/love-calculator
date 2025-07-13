@@ -743,15 +743,15 @@ export default function LoveCalculator() {
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
                     {t('loveCalculator.breakdown.title') || 'Compatibility Breakdown'}
                   </h4>
-                  <div className="h-72 w-full chart-container-mobile">
+                  <div className="h-80 w-full min-h-[280px] overflow-hidden flex items-center justify-center chart-container-mobile">
                     <ResponsiveContainer width="100%" height="100%" minHeight={200}>
                       <BarChart
                         data={[
-                          { name: t('loveCalculator.breakdown.nameHarmony') || 'Name Harmony', score: result.breakdown.S || 0},
-                          { name: t('loveCalculator.breakdown.letterSynergy') || 'Letter Synergy', score: result.breakdown.L || 0},
-                          { name: t('loveCalculator.breakdown.vocalBalance') || 'Vocal Balance', score: result.breakdown.P || 0},
-                          { name: t('loveCalculator.breakdown.energyAlignment') || 'Energy Alignment', score: result.breakdown.N || 0},
-                          { name: t('loveCalculator.breakdown.cosmicConnection') || 'Cosmic Connection', score: result.breakdown.B || 0}
+                          { name: t('loveCalculator.breakdown.nameHarmonyShort') || 'Names', score: result.breakdown.S || 0, fullName: t('loveCalculator.breakdown.nameHarmony') || 'Name Harmony'},
+                          { name: t('loveCalculator.breakdown.letterSynergyShort') || 'Letters', score: result.breakdown.L || 0, fullName: t('loveCalculator.breakdown.letterSynergy') || 'Letter Synergy'},
+                          { name: t('loveCalculator.breakdown.vocalBalanceShort') || 'Vocals', score: result.breakdown.P || 0, fullName: t('loveCalculator.breakdown.vocalBalance') || 'Vocal Balance'},
+                          { name: t('loveCalculator.breakdown.energyAlignmentShort') || 'Energy', score: result.breakdown.N || 0, fullName: t('loveCalculator.breakdown.energyAlignment') || 'Energy Alignment'},
+                          { name: t('loveCalculator.breakdown.cosmicConnectionShort') || 'Cosmic', score: result.breakdown.B || 0, fullName: t('loveCalculator.breakdown.cosmicConnection') || 'Cosmic Connection'}
                         ]}
                         margin={{ top: 20, right: 46, left: 2, bottom: 70 }}
                       >
@@ -844,7 +844,7 @@ export default function LoveCalculator() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1 }}
-                    className="mt-0"
+                    className="mt-[-48px]"
                   >
                     <button
                       onClick={() => setShowExplanation(!showExplanation)}
@@ -889,7 +889,7 @@ export default function LoveCalculator() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1 }}
-                className="mb-6"
+                className="mb-6 mt-8"
               >
                 <div className="text-6xl mb-4 icon-bounce">{result.message.emoji}</div>
                 <p className="text-lg text-gray-700 dark:text-gray-300 font-medium slide-in">
