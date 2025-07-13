@@ -240,10 +240,15 @@
     "breakdown": {
       "title": "تفكيك التوافق",
       "nameHarmony": "انسجام الأسماء",
+      "nameHarmonyShort": "أسماء",
       "letterSynergy": "تآزر الحروف",
+      "letterSynergyShort": "حروف",
       "vocalBalance": "التوازن الصوتي",
+      "vocalBalanceShort": "حروف علة",
       "energyAlignment": "محاذاة الطاقة",
-      "cosmicConnection": "الاتصال الكوني"
+      "energyAlignmentShort": "طاقة",
+      "cosmicConnection": "الاتصال الكوني",
+      "cosmicConnectionShort": "كوني"
     },
     "invalidCharacters": "يمكن أن تحتوي الأسماء على أحرف ومسافات وشرطات وفواصل عليا فقط",
     "pleaseEnterBothNames": "يرجى إدخال كلا الاسمين"

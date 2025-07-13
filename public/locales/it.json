@@ -224,10 +224,15 @@
     "breakdown": {
       "title": "Ripartizione di Compatibilità",
       "nameHarmony": "Armonia dei Nomi",
+      "nameHarmonyShort": "Nomi",
       "letterSynergy": "Sinergia delle Lettere",
+      "letterSynergyShort": "Lettere",
       "vocalBalance": "Equilibrio Vocale",
+      "vocalBalanceShort": "Vocali",
       "energyAlignment": "Allineamento Energetico",
-      "cosmicConnection": "Connessione Cosmica"
+      "energyAlignmentShort": "Energia",
+      "cosmicConnection": "Connessione Cosmica",
+      "cosmicConnectionShort": "Cosmico"
     },
     "whyThisScore": "Perché questo punteggio?",
     "scienceBehindScore": "La Scienza Dietro il Tuo Punteggio:",

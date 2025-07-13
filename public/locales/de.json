@@ -505,10 +505,15 @@
     "breakdown": {
       "title": "Kompatibilitätsaufschlüsselung",
       "nameHarmony": "Namensharmonie",
+      "nameHarmonyShort": "Namen",
       "letterSynergy": "Buchstabensynergie",
+      "letterSynergyShort": "Buchstaben",
       "vocalBalance": "Stimmbalance",
+      "vocalBalanceShort": "Vokale",
       "energyAlignment": "Energieausrichtung",
-      "cosmicConnection": "Kosmische Verbindung"
+      "energyAlignmentShort": "Energie",
+      "cosmicConnection": "Kosmische Verbindung",
+      "cosmicConnectionShort": "Kosmisch"
     },
     "invalidCharacters": "Namen können nur Buchstaben, Leerzeichen, Bindestriche und Apostrophe enthalten",
     "pleaseEnterBothNames": "Bitte geben Sie beide Namen ein"

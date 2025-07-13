@@ -112,10 +112,15 @@
     "breakdown": {
       "title": "Разбор Совместимости",
       "nameHarmony": "Гармония Имен",
+      "nameHarmonyShort": "Имена",
       "letterSynergy": "Синергия Букв",
+      "letterSynergyShort": "Буквы",
       "vocalBalance": "Вокальный Баланс",
+      "vocalBalanceShort": "Гласные",
       "energyAlignment": "Энергетическое Выравнивание",
-      "cosmicConnection": "Космическая Связь"
+      "energyAlignmentShort": "Энергия",
+      "cosmicConnection": "Космическая Связь",
+      "cosmicConnectionShort": "Космос"
     },
     "whyThisScore": "Почему такой счёт?",
     "scienceBehindScore": "Наука за Вашим Счётом:",

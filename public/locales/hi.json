@@ -240,10 +240,15 @@
     "breakdown": {
       "title": "संगतता विभाजन",
       "nameHarmony": "नाम सामंजस्य",
+      "nameHarmonyShort": "नाम",
       "letterSynergy": "अक्षर तालमेल",
+      "letterSynergyShort": "अक्षर",
       "vocalBalance": "स्वर संतुलन",
+      "vocalBalanceShort": "स्वर",
       "energyAlignment": "ऊर्जा संरेखण",
-      "cosmicConnection": "ब्रह्मांडीय संबंध"
+      "energyAlignmentShort": "ऊर्जा",
+      "cosmicConnection": "ब्रह्मांडीय संबंध",
+      "cosmicConnectionShort": "ब्रह्मांडीय"
     },
     "invalidCharacters": "नामों में केवल अक्षर, स्थान, हाइफ़न और एपोस्ट्रोफ़ी हो सकते हैं",
     "pleaseEnterBothNames": "कृपया दोनों नाम दर्ज करें"

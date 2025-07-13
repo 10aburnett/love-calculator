@@ -209,10 +209,15 @@
     "breakdown": {
       "title": "Compatibility Breakdown",
       "nameHarmony": "Name Harmony",
-      "letterSynergy": "Letter Synergy",
+      "nameHarmonyShort": "Names",
+      "letterSynergy": "Letter Synergy", 
+      "letterSynergyShort": "Letters",
       "vocalBalance": "Vocal Balance",
+      "vocalBalanceShort": "Vocals",
       "energyAlignment": "Energy Alignment",
-      "cosmicConnection": "Cosmic Connection"
+      "energyAlignmentShort": "Energy",
+      "cosmicConnection": "Cosmic Connection",
+      "cosmicConnectionShort": "Cosmic"
     },
     "messages": {
       "perfectMatch": "Perfect match! Your love story is one for the ages! 💖✨",

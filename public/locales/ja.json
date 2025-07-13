@@ -399,10 +399,15 @@
     "breakdown": {
       "title": "相性分解",
       "nameHarmony": "名前の調和",
+      "nameHarmonyShort": "名前",
       "letterSynergy": "文字のシナジー",
+      "letterSynergyShort": "文字",
       "vocalBalance": "声のバランス",
+      "vocalBalanceShort": "母音",
       "energyAlignment": "エネルギーの整列",
-      "cosmicConnection": "宇宙的つながり"
+      "energyAlignmentShort": "エネルギー",
+      "cosmicConnection": "宇宙的つながり",
+      "cosmicConnectionShort": "宇宙"
     },
     "invalidCharacters": "名前には文字、スペース、ハイフン、アポストロフィのみ使用できます",
     "pleaseEnterBothNames": "両方の名前を入力してください"

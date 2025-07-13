@@ -240,10 +240,15 @@
     "breakdown": {
       "title": "Detalhamento de Compatibilidade",
       "nameHarmony": "Harmonia de Nomes",
+      "nameHarmonyShort": "Nomes",
       "letterSynergy": "Sinergia de Letras",
+      "letterSynergyShort": "Letras",
       "vocalBalance": "Equilíbrio Vocal",
+      "vocalBalanceShort": "Vogais",
       "energyAlignment": "Alinhamento Energético",
-      "cosmicConnection": "Conexão Cósmica"
+      "energyAlignmentShort": "Energia",
+      "cosmicConnection": "Conexão Cósmica",
+      "cosmicConnectionShort": "Cósmico"
     },
     "easterEggs": {
       "celebrities": {

@@ -184,10 +184,15 @@
     "breakdown": {
       "title": "兼容性分解",
       "nameHarmony": "姓名和谐",
+      "nameHarmonyShort": "姓名",
       "letterSynergy": "字母协同",
+      "letterSynergyShort": "字母",
       "vocalBalance": "声音平衡",
+      "vocalBalanceShort": "元音",
       "energyAlignment": "能量对齐",
-      "cosmicConnection": "宇宙连接"
+      "energyAlignmentShort": "能量",
+      "cosmicConnection": "宇宙连接",
+      "cosmicConnectionShort": "宇宙"
     },
     "whyThisScore": "为什么是这个分数？",
     "scienceBehindScore": "您分数背后的科学：",
