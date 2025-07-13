@@ -1,0 +1,26 @@
+
+> love-calculator@0.1.0 dev
+> next dev --turbopack
+
+ ⚠ Port 3000 is in use, using available port 3004 instead.
+   ▲ Next.js 15.3.3 (Turbopack)
+   - Local:        http://localhost:3004
+   - Network:      http://192.168.1.18:3004
+
+ ✓ Starting...
+ ✓ Compiled middleware in 154ms
+ ✓ Ready in 1032ms
+ ○ Compiling /[locale]/love-calculator ...
+ ✓ Compiled /[locale]/love-calculator in 2.4s
+ GET /love-calculator 200 in 2966ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 931ms
+ GET / 200 in 1233ms
+ GET / 200 in 109ms
+ GET / 200 in 113ms
+ GET / 200 in 114ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 701ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 775ms
+ GET / 200 in 87ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 192ms

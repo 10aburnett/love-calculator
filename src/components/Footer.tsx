@@ -27,29 +27,10 @@ export default function Footer() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   };
 
-  const shareToFacebook = async () => {
+  const shareToFacebook = () => {
     const shareUrl = window.location.origin;
-    const fullShareText = shareText + ' ' + shareUrl;
-    
-    if (isMobile()) {
-      // Try Facebook app first, then fallback to copy text
-      const mobileUrl = `fb://share?link=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(fullShareText)}`;
-      
-      // Try mobile app first
-      const iframe = document.createElement('iframe');
-      iframe.style.display = 'none';
-      iframe.src = mobileUrl;
-      document.body.appendChild(iframe);
-      
-      // Fallback to copy text after short delay if app doesn't open
-      setTimeout(() => {
-        document.body.removeChild(iframe);
-        alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + fullShareText);
-      }, 1000);
-    } else {
-      // Desktop: show copy text option
-      alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + fullShareText);
-    }
+    const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
+    window.open(webUrl, '_blank');
   };
 
   const shareToInstagram = async () => {
@@ -79,8 +60,9 @@ export default function Footer() {
   };
 
   const shareToSnapchat = () => {
-    const url = `https://www.snapchat.com/share?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(window.location.origin)}`;
-    window.open(url, '_blank');
+    const text = shareText + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin;
+    const webUrl = `https://www.snapchat.com/share?text=${encodeURIComponent(text)}`;
+    window.open(webUrl, '_blank');
   };
 
   return (

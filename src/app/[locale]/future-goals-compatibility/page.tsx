@@ -258,34 +258,16 @@ function getCompatibilityResult(careerScore: number, familyScore: number, lifest
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   };
 
-  const shareToFacebook = async () => {
+  const shareToFacebook = () => {
     if (!result) return;
-    const shareUrl = window.location.origin + '/future-goals-compatibility';
-    const shareText = t('common.share.futureGoalsBasic', { 
+    const text = t('common.share.futureGoalsBasic', { 
       title: result.title, 
       percentage: result.percentage, 
       description: result.description 
-    }) + ' ' + shareUrl;
-    
-    if (isMobile()) {
-      // Try Facebook app first, then fallback to copy text
-      const mobileUrl = `fb://share?link=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`;
-      
-      // Try mobile app first
-      const iframe = document.createElement('iframe');
-      iframe.style.display = 'none';
-      iframe.src = mobileUrl;
-      document.body.appendChild(iframe);
-      
-      // Fallback to copy text after short delay if app doesn't open
-      setTimeout(() => {
-        document.body.removeChild(iframe);
-        alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + shareText);
-      }, 1000);
-    } else {
-      // Desktop: show copy text option
-      alert(t('common.share.copyForFacebook') || 'Copy this text to share on Facebook:' + '\n\n' + shareText);
-    }
+    });
+    const shareUrl = window.location.origin + '/future-goals-compatibility';
+    const webUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(text)}`;
+    window.open(webUrl, '_blank');
   };
 
   const shareToInstagram = async () => {
@@ -306,9 +288,9 @@ function getCompatibilityResult(careerScore: number, familyScore: number, lifest
       title: result.title, 
       percentage: result.percentage, 
       description: result.description 
-    });
-    const url = `https://www.snapchat.com/share?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.origin + '/future-goals-compatibility')}`;
-    window.open(url, '_blank');
+    }) + ' ' + t('common.share.tryItYourself') + ' ' + window.location.origin + '/future-goals-compatibility';
+    const webUrl = `https://www.snapchat.com/share?text=${encodeURIComponent(text)}`;
+    window.open(webUrl, '_blank');
   };
 
   const shareToTelegram = () => {
