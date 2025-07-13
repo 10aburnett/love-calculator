@@ -848,7 +848,8 @@ export default function LoveCalculator() {
                   >
                     <button
                       onClick={() => setShowExplanation(!showExplanation)}
-                      className="group flex items-center justify-center space-x-2 bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 dark:from-gray-700 dark:to-gray-600 dark:hover:from-gray-600 dark:hover:to-gray-500 border border-purple-200 hover:border-purple-300 dark:border-gray-600 dark:hover:border-gray-500 rounded-full px-6 py-3 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-300 hover:shadow-md hover:scale-[1.02] mx-auto"
+                      className="group flex items-center justify-center space-x-2 bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 dark:from-gray-700 dark:to-gray-600 dark:hover:from-gray-600 dark:hover:to-gray-500 border border-purple-200 hover:border-purple-300 dark:border-gray-600 dark:hover:border-gray-500 rounded-full px-6 py-3 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-300 hover:shadow-md hover:scale-[1.02] mx-auto relative z-10 cursor-pointer"
+                      style={{ pointerEvents: 'auto' }}
                     >
                       <span className="text-purple-600 dark:text-purple-400 group-hover:text-purple-700 dark:group-hover:text-purple-300 transition-colors duration-200">🔍</span>
                       <span>{t('loveCalculator.whyThisScore') || 'Why this score?'}</span>
