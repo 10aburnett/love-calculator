@@ -858,13 +858,14 @@ export default function LoveCalculator() {
                     <AnimatePresence>
                       {showExplanation && (
                         <motion.div
-                          initial={{ opacity: 0, scaleY: 0 }}
-                          animate={{ opacity: 1, scaleY: 1 }}
-                          exit={{ opacity: 0, scaleY: 0 }}
-                          transition={{ duration: 0.3, ease: "easeInOut" }}
-                          style={{ transformOrigin: 'top' }}
-                          className="mt-3 text-left text-xs text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-600 overflow-hidden"
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: "auto" }}
+                          exit={{ opacity: 0, height: 0 }}
+                          transition={{ duration: 0.25, ease: "easeOut" }}
+                          style={{ transform: 'translateZ(0)', overflow: 'hidden' }}
+                          className="mt-3 text-left text-xs text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600"
                         >
+                          <div className="p-4">
                           <h5 className="font-semibold mb-2 text-gray-800 dark:text-gray-200">{t('loveCalculator.scienceBehindScore') || 'The Science Behind Your Score:'}</h5>
                           <ul className="space-y-1 list-disc list-inside">
                             <li><strong>{t('loveCalculator.initialSimilarity') || 'Initial Similarity (0-100):'}</strong> {t('loveCalculator.initialSimilarityDescription') || 'Alphabet distance between first letters - closer letters score higher'}</li>
@@ -876,6 +877,7 @@ export default function LoveCalculator() {
                           <p className="mt-2 text-xs italic text-gray-500 dark:text-gray-400">
                             {t('loveCalculator.algorithmExplanation') || 'This algorithm combines multiple linguistic and psychological factors from academic research on name compatibility. All metrics are scored 0-100 for precise analysis.'}
                           </p>
+                          </div>
                         </motion.div>
                       )}
                     </AnimatePresence>

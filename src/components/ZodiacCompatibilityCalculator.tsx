@@ -1003,13 +1003,14 @@ export default function ZodiacCompatibilityCalculator() {
                 <AnimatePresence>
                   {showExplanation && (
                     <motion.div
-                      initial={{ opacity: 0, scaleY: 0 }}
-                      animate={{ opacity: 1, scaleY: 1 }}
-                      exit={{ opacity: 0, scaleY: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
-                      style={{ transformOrigin: 'top' }}
-                      className="mt-4 text-left text-xs text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-600 overflow-hidden"
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: "auto" }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.25, ease: "easeOut" }}
+                      style={{ transform: 'translateZ(0)', overflow: 'hidden' }}
+                      className="mt-4 text-left text-xs text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600"
                     >
+                      <div className="p-4">
                       <h5 className="font-semibold mb-2 text-gray-800 dark:text-gray-200">{t('zodiacUI.scienceBehindScore')}</h5>
                       <ul className="space-y-1 list-disc list-inside">
                         <li><strong>{t('zodiacUI.signHarmony')}</strong> {t('zodiacUI.signHarmonyDescription')}</li>
@@ -1021,6 +1022,7 @@ export default function ZodiacCompatibilityCalculator() {
                       <p className="mt-2 text-xs italic text-gray-500 dark:text-gray-400">
                         {t('zodiacUI.algorithmExplanation')}
                       </p>
+                      </div>
                     </motion.div>
                   )}
                 </AnimatePresence>
