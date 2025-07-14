@@ -1013,11 +1013,11 @@ export default function ZodiacCompatibilityCalculator() {
                       <div className="p-4">
                       <h5 className="font-semibold mb-2 text-gray-800 dark:text-gray-200">{t('zodiacUI.scienceBehindScore')}</h5>
                       <ul className="space-y-1 list-disc list-inside">
-                        <li><strong>{t('zodiacUI.signHarmony')}</strong> {t('zodiacUI.signHarmonyDescription')}</li>
-                        <li><strong>{t('zodiacUI.elements')}</strong> {t('zodiacUI.elementsDescription')}</li>
-                        <li><strong>{t('zodiacUI.modality')}</strong> {t('zodiacUI.modalityDescription')}</li>
-                        <li><strong>{t('zodiacUI.planets')}</strong> {t('zodiacUI.planetsDescription')}</li>
-                        <li><strong>{t('zodiacUI.cosmicAspects')}</strong> {t('zodiacUI.cosmicAspectsDescription')}</li>
+                        <li><strong>{t('zodiacUI.signHarmony')} (0-100):</strong> {t('zodiacUI.signHarmonyDescription')}</li>
+                        <li><strong>{t('zodiacUI.elements')} (0-100):</strong> {t('zodiacUI.elementsDescription')}</li>
+                        <li><strong>{t('zodiacUI.modality')} (0-100):</strong> {t('zodiacUI.modalityDescription')}</li>
+                        <li><strong>{t('zodiacUI.planets')} (0-100):</strong> {t('zodiacUI.planetsDescription')}</li>
+                        <li><strong>{t('zodiacUI.cosmicAspects')} (0-100):</strong> {t('zodiacUI.cosmicAspectsDescription')}</li>
                       </ul>
                       <p className="mt-2 text-xs italic text-gray-500 dark:text-gray-400">
                         {t('zodiacUI.algorithmExplanation')}
