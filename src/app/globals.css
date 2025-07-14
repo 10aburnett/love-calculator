@@ -587,14 +587,14 @@ input[type="search"].bg-transparent {
   -ms-hyphens: auto;
 }
 
-/* Specific handling for German compound words on mobile */
+/* Prevent automatic hyphenation while allowing word wrapping on mobile */
 @media (max-width: 640px) {
   h1, h2, h3 {
-    word-break: break-word;
+    word-break: normal;
     overflow-wrap: break-word;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
   }
   
   /* Responsive button styling for mobile */
