@@ -72,7 +72,7 @@ export default function LoveCalculatorPageContent() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="block sm:hidden mt-8 text-center"
+              className="block sm:hidden mt-8 mb-4 text-center"
             >
               <div className="bg-pink-50 border border-pink-100 rounded-xl p-6 mx-4">
                 <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
