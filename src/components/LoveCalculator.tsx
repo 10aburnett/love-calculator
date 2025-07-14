@@ -663,12 +663,14 @@ export default function LoveCalculator() {
               {result && (
                 <motion.button
                   type="button"
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.2, ease: "easeOut" }}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
                   onClick={reset}
                   className="px-4 py-3 border-2 border-[var(--love-pink)] text-[var(--love-pink)] font-semibold rounded-lg hover:bg-[var(--love-pink)] hover:text-white transition-all duration-200 btn-love text-center"
+                  style={{ transform: 'translateZ(0)' }}
                 >
                   {t('common.tryAgain') || 'Try Again'}
                 </motion.button>
