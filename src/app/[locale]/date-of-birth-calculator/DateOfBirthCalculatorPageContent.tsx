@@ -43,7 +43,7 @@ export default function DateOfBirthCalculatorPageContent() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed slide-in"
+                className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed slide-in hidden sm:block"
               >
                 {t('dobCalculator.description')}
               </motion.p>
@@ -61,6 +61,20 @@ export default function DateOfBirthCalculatorPageContent() {
         >
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <DateOfBirthCalculator />
+            
+            {/* Mobile-only description moved below calculator */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="block sm:hidden mt-8 text-center"
+            >
+              <div className="bg-blue-50 border border-blue-100 rounded-xl p-6 mx-4">
+                <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                  {t('dobCalculator.description')}
+                </p>
+              </div>
+            </motion.div>
           </div>
         </motion.section>
 

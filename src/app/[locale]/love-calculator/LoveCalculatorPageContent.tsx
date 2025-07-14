@@ -48,7 +48,7 @@ export default function LoveCalculatorPageContent() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed slide-in"
+                className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed slide-in hidden sm:block"
               >
                 {t('landing.intro')}
               </motion.p>
@@ -66,6 +66,20 @@ export default function LoveCalculatorPageContent() {
         >
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <LoveCalculator />
+            
+            {/* Mobile-only description moved below calculator */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="block sm:hidden mt-8 text-center"
+            >
+              <div className="bg-pink-50 border border-pink-100 rounded-xl p-6 mx-4">
+                <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                  {t('landing.intro')}
+                </p>
+              </div>
+            </motion.div>
           </div>
         </motion.section>
 
