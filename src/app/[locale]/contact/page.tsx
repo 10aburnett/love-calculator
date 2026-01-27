@@ -82,12 +82,15 @@ export default function ContactPage() {
                     <p className="text-gray-700 mb-3">
                       Send us an email and we'll get back to you as soon as possible.
                     </p>
-                    <a 
-                      href="mailto:infolovecalcs@gmail.com" 
-                      className="text-[var(--love-pink)] hover:text-[var(--love-purple)] font-medium"
+                    <button
+                      onClick={() => {
+                        navigator.clipboard.writeText('lovecalcscontact@gmail.com');
+                        alert('Email copied to clipboard: lovecalcscontact@gmail.com');
+                      }}
+                      className="text-[var(--love-pink)] hover:text-[var(--love-purple)] font-medium cursor-pointer underline"
                     >
-                      infolovecalcs@gmail.com
-                    </a>
+                      lovecalcscontact@gmail.com (click to copy)
+                    </button>
                   </div>
 
                   {/* Response Time */}
@@ -241,13 +244,16 @@ export default function ContactPage() {
                 Interested in partnerships, collaborations, or have business-related questions? 
                 We're open to discussing opportunities that align with our mission of bringing fun and entertainment to relationships.
               </p>
-              <a 
-                href="mailto:infolovecalcs@gmail.com" 
-                className="inline-flex items-center bg-gradient-to-r from-[var(--love-pink)] to-[var(--love-purple)] text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-200"
+              <button
+                onClick={() => {
+                  navigator.clipboard.writeText('lovecalcscontact@gmail.com');
+                  alert('Email copied to clipboard: lovecalcscontact@gmail.com');
+                }}
+                className="inline-flex items-center bg-gradient-to-r from-[var(--love-pink)] to-[var(--love-purple)] text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-200 cursor-pointer"
               >
                 <Mail className="w-5 h-5 mr-2" />
-                infolovecalcs@gmail.com
-              </a>
+                lovecalcscontact@gmail.com (click to copy)
+              </button>
             </motion.div>
           </div>
         </section>

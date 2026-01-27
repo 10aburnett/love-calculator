@@ -193,7 +193,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href={getLocalizedPath('/zodiac-calculator')}
+                <Link href={getLocalizedPath('/zodiac-compatibility-calculator')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
                   {t('header.zodiacCalculator') || 'Zodiac Compatibility'}
                 </Link>
