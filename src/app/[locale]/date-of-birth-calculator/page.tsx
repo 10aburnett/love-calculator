@@ -39,12 +39,46 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonicalUrl,
       locale: locale,
       type: 'website',
+      images: [{ url: 'https://lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Date of Birth Compatibility Test' }],
     },
   };
 }
 
 export default async function DateOfBirthCalculatorPage({ params }: Props) {
   const { locale } = await params;
-  
-  return <DateOfBirthCalculatorPageContent />;
+  const translations = await getTranslations(locale);
+
+  const baseUrl = 'https://lovecalcs.com';
+  const currentUrl = locale === 'en' ? `${baseUrl}/date-of-birth-calculator` : `${baseUrl}/${locale}/date-of-birth-calculator`;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": translations?.meta?.dobCalculator?.title || 'Date of Birth Compatibility Calculator',
+    "description": translations?.meta?.dobCalculator?.description || 'Calculate love compatibility based on birth dates.',
+    "url": currentUrl,
+    "applicationCategory": "Entertainment",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "inLanguage": locale,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "LoveCalcs",
+      "url": baseUrl
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <DateOfBirthCalculatorPageContent />
+    </>
+  );
 } 

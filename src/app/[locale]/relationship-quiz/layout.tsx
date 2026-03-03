@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonicalUrl,
       locale: locale,
       type: 'website',
+      images: [{ url: 'https://lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Relationship Quiz' }],
     },
   };
 }

@@ -39,12 +39,46 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonicalUrl,
       locale: locale,
       type: 'website',
+      images: [{ url: 'https://lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Zodiac Compatibility Test' }],
     },
   };
 }
 
 export default async function ZodiacCompatibilityCalculatorPage({ params }: Props) {
   const { locale } = await params;
-  
-  return <ZodiacCompatibilityCalculatorPageContent />;
+  const translations = await getTranslations(locale);
+
+  const baseUrl = 'https://lovecalcs.com';
+  const currentUrl = locale === 'en' ? `${baseUrl}/zodiac-compatibility-calculator` : `${baseUrl}/${locale}/zodiac-compatibility-calculator`;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": translations?.meta?.zodiacCalculator?.title || 'Zodiac Compatibility Calculator',
+    "description": translations?.meta?.zodiacCalculator?.description || 'Test zodiac sign compatibility for love and relationships.',
+    "url": currentUrl,
+    "applicationCategory": "Entertainment",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "inLanguage": locale,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "LoveCalcs",
+      "url": baseUrl
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <ZodiacCompatibilityCalculatorPageContent />
+    </>
+  );
 } 
