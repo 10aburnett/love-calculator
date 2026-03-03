@@ -25,16 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz - Discover Your Relationship Communication Patterns',
-    description: translations?.meta?.communicationQuiz?.description || 'Take our communication style quiz to discover how you and your partner communicate. Learn your communication patterns and improve relationship dynamics.',
-    keywords: translations?.meta?.communicationQuiz?.keywords || ['communication quiz', 'communication style test', 'relationship communication', 'communication patterns'],
+    title: translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz - What\'s Your Communication Type?',
+    description: translations?.meta?.communicationQuiz?.description || 'Discover your communication style with our free quiz. Learn how you express yourself in relationships and get tips to communicate better with your partner.',
+    keywords: translations?.meta?.communicationQuiz?.keywords || ['communication style quiz', 'communication styles test', 'how do i communicate in relationships', 'communication patterns quiz', 'communication type quiz'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz - Discover Your Communication Patterns',
-      description: translations?.meta?.communicationQuiz?.description || 'Discover how you and your partner communicate and where you can improve.',
+      title: translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz - What\'s Your Communication Type?',
+      description: translations?.meta?.communicationQuiz?.description || 'Discover your communication style with our free quiz. Learn how you express yourself in relationships.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -58,8 +58,8 @@ export default async function CommunicationQuizLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz',
-    "description": translations?.meta?.communicationQuiz?.description || 'Discover your communication patterns in relationships.',
+    "name": translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz - What\'s Your Communication Type?',
+    "description": translations?.meta?.communicationQuiz?.description || 'Discover your communication style with our free quiz.',
     "url": currentUrl,
     "inLanguage": locale,
     "isPartOf": {
@@ -74,8 +74,8 @@ export default async function CommunicationQuizLayout({
     },
     "mainEntity": {
       "@type": "Quiz",
-      "name": translations?.meta?.communicationQuiz?.title || 'Communication Style Assessment',
-      "description": translations?.meta?.communicationQuiz?.description || 'Discover your communication patterns',
+      "name": translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz',
+      "description": translations?.meta?.communicationQuiz?.description || 'Discover your communication style and type',
       "educationalLevel": "general",
       "assesses": "Communication styles and relationship communication patterns"
     }

@@ -26,9 +26,9 @@ export async function generateMetadata({
   const meta = translations.meta || {};
   
   return {
-    title: meta.title || 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
-    description: meta.description || 'Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.',
-    keywords: meta.keywords || ['love calculator', 'name compatibility', 'love compatibility test', 'relationship quiz', 'fun love test'],
+    title: meta.title || 'Love Calculator - Free Love Percentage & Name Compatibility Test',
+    description: meta.description || 'Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you\'re a match! Try the #1 love tester online.',
+    keywords: meta.keywords || ['love calculator', 'love tester', 'love percentage calculator', 'name compatibility', 'love match', 'love meter', 'crush calculator'],
     alternates: {
       canonical: locale === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${locale}`,
       languages: Object.fromEntries(
@@ -36,8 +36,8 @@ export async function generateMetadata({
       )
     },
     openGraph: {
-      title: meta.title || 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
-      description: meta.description || 'Discover your love compatibility with our free Love Calculator!',
+      title: meta.title || 'Love Calculator - Free Love Percentage & Name Compatibility Test',
+      description: meta.description || 'Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you\'re a match!',
       url: locale === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${locale}`,
       siteName: meta.siteName || 'Love Calculator',
       locale: locale,
@@ -45,8 +45,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: meta.title || 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
-      description: meta.description || 'Discover your love compatibility with our free Love Calculator!',
+      title: meta.title || 'Love Calculator - Free Love Percentage & Name Compatibility Test',
+      description: meta.description || 'Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results!',
     },
   };
 }

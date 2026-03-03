@@ -26,16 +26,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
   
   return {
-    title: translations?.meta?.dobCalculator?.title || 'Date of Birth Compatibility Calculator - Test Birth Date Love Match',
-    description: translations?.meta?.dobCalculator?.description || 'Calculate love compatibility based on birth dates. Discover if your birthdays predict romantic compatibility with our fun date calculator.',
-    keywords: translations?.meta?.dobCalculator?.keywords || ['date of birth calculator', 'birth date compatibility', 'birthday love match', 'birth date love test'],
+    title: translations?.meta?.dobCalculator?.title || 'Love Calculator by Date of Birth - Birthday Compatibility Test',
+    description: translations?.meta?.dobCalculator?.description || 'Free love calculator by date of birth. Enter your birthday and your partner\'s to discover your romantic compatibility score. Fun birthday love match test with instant results!',
+    keywords: translations?.meta?.dobCalculator?.keywords || ['love calculator by date of birth', 'birthday compatibility', 'date of birth compatibility', 'birthday love match', 'love calculator birthday', 'birthday compatibility calculator'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.dobCalculator?.title || 'Date of Birth Compatibility Calculator',
-      description: translations?.meta?.dobCalculator?.description || 'Calculate love compatibility based on birth dates.',
+      title: translations?.meta?.dobCalculator?.title || 'Love Calculator by Date of Birth - Birthday Compatibility Test',
+      description: translations?.meta?.dobCalculator?.description || 'Free love calculator by date of birth. Enter your birthday and your partner\'s to discover your romantic compatibility score.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -54,8 +54,8 @@ export default async function DateOfBirthCalculatorPage({ params }: Props) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": translations?.meta?.dobCalculator?.title || 'Date of Birth Compatibility Calculator',
-    "description": translations?.meta?.dobCalculator?.description || 'Calculate love compatibility based on birth dates.',
+    "name": translations?.meta?.dobCalculator?.title || 'Love Calculator by Date of Birth - Birthday Compatibility Test',
+    "description": translations?.meta?.dobCalculator?.description || 'Free love calculator by date of birth. Enter your birthday and your partner\'s to discover your romantic compatibility score.',
     "url": currentUrl,
     "applicationCategory": "Entertainment",
     "operatingSystem": "Any",

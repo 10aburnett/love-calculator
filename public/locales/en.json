@@ -947,44 +947,56 @@
     "hi": "हिन्दी"
   },
   "meta": {
-    "title": "Love Calculator – Free Name Compatibility & Love Compatibility Test",
-    "description": "Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.",
+    "title": "Love Calculator - Free Love Percentage & Name Compatibility Test",
+    "description": "Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you're a match! Try the #1 love tester online.",
     "keywords": [
       "love calculator",
+      "love tester",
+      "love percentage calculator",
       "name compatibility",
-      "love compatibility test",
-      "relationship quiz",
-      "fun love test"
+      "love match",
+      "love meter",
+      "crush calculator"
     ],
     "author": "Love Calculator Team",
     "creator": "Love Calculator",
     "publisher": "Love Calculator",
     "siteName": "Love Calculator",
     "ogImageAlt": "Love Calculator - Test Your Compatibility",
+    "dobCalculator": {
+      "title": "Love Calculator by Date of Birth - Birthday Compatibility Test",
+      "description": "Free love calculator by date of birth. Enter your birthday and your partner's to discover your romantic compatibility score. Fun birthday love match test with instant results!",
+      "keywords": ["love calculator by date of birth", "birthday compatibility", "date of birth compatibility", "birthday love match", "love calculator birthday", "birthday compatibility calculator"]
+    },
+    "zodiacCalculator": {
+      "title": "Zodiac Sign Compatibility Calculator - Free Astrology Love Match",
+      "description": "Free zodiac sign compatibility calculator. Select your star sign and your partner's to see your astrological love match score. Discover your zodiac compatibility instantly!",
+      "keywords": ["zodiac compatibility calculator", "zodiac sign compatibility", "star sign compatibility", "horoscope compatibility", "zodiac love match", "astrology compatibility calculator"]
+    },
     "relationshipQuiz": {
-      "title": "Relationship Quiz - Are You Compatible? Free Couples Test | LoveCalcs",
-      "description": "Take our comprehensive 8-question relationship quiz to discover your compatibility score. Free couples test with personalized insights about your relationship strength and dynamics.",
-      "keywords": ["relationship quiz", "couples quiz", "compatibility quiz", "relationship test", "couples compatibility", "relationship assessment"]
+      "title": "Relationship Compatibility Quiz - Free Couples Test (8 Questions)",
+      "description": "Take our free 8-question relationship compatibility quiz. Get personalised insights about your relationship strengths, communication style, and compatibility score instantly.",
+      "keywords": ["relationship quiz", "relationship compatibility quiz", "couples quiz", "are we compatible quiz", "compatibility test for couples", "relationship test"]
     },
     "communicationQuiz": {
-      "title": "Communication Style Quiz - Discover Your Relationship Communication Patterns | LoveCalcs",
-      "description": "Take our communication style quiz to discover how you and your partner communicate. Learn your communication patterns, improve dialogue, and strengthen relationship dynamics.",
-      "keywords": ["communication quiz", "communication style test", "relationship communication", "communication patterns", "couples communication", "communication skills"]
+      "title": "Communication Style Quiz - What's Your Communication Type?",
+      "description": "Discover your communication style with our free quiz. Learn how you express yourself in relationships and get tips to communicate better with your partner.",
+      "keywords": ["communication style quiz", "communication styles test", "how do i communicate in relationships", "communication patterns quiz", "communication type quiz"]
     },
     "loveLanguageAssessment": {
-      "title": "Love Language Assessment - Discover How You Give and Receive Love | LoveCalcs",
-      "description": "Take our love language assessment to discover your primary love languages. Learn how you express and receive love in relationships with this comprehensive five love languages test.",
-      "keywords": ["love language quiz", "love language test", "five love languages", "relationship assessment", "love language assessment", "Gary Chapman love languages"]
+      "title": "Love Language Quiz - Discover Your 5 Love Languages Free",
+      "description": "Take the free love language quiz to find your primary love language. Discover how you give and receive love based on the 5 love languages. Quick, fun, and insightful!",
+      "keywords": ["love language quiz", "love language test", "5 love languages quiz", "what is my love language", "love languages test free", "love language quiz for couples"]
     },
     "futureGoalsCompatibility": {
-      "title": "Future Goals Compatibility Quiz - Test Life Goals Alignment | LoveCalcs",
-      "description": "Take our future goals compatibility quiz to see how aligned your life dreams and plans are with your partner. Test lifestyle compatibility, career goals, and relationship future planning.",
-      "keywords": ["future goals quiz", "life goals compatibility", "lifestyle compatibility", "relationship goals test", "life planning quiz", "couples future planning"]
+      "title": "Future Goals Compatibility Quiz - Are Your Life Goals Aligned?",
+      "description": "Are your life goals aligned with your partner? Take our free future goals compatibility quiz to discover if your dreams, values, and plans for the future match.",
+      "keywords": ["future goals compatibility quiz", "life goals compatibility", "couples goals quiz", "are we compatible life goals", "relationship goals test"]
     },
     "conflictResolutionQuiz": {
-      "title": "Conflict Resolution Style Quiz - Discover Your Approach to Conflicts | LoveCalcs",
-      "description": "Take our conflict resolution quiz to discover how you handle disagreements and conflicts in relationships. Learn your resolution style, improve communication, and strengthen partnerships.",
-      "keywords": ["conflict resolution quiz", "conflict style test", "relationship conflicts", "communication skills", "conflict management", "relationship problem solving"]
+      "title": "Conflict Resolution Style Quiz - Free Conflict Style Test",
+      "description": "What's your conflict resolution style? Take our free quiz to discover how you handle disagreements in relationships and get tips to resolve conflicts constructively.",
+      "keywords": ["conflict resolution style quiz", "conflict resolution quiz", "conflict style test", "how do you handle conflict quiz", "conflict management quiz"]
     }
   },
   "header": {

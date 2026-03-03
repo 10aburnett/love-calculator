@@ -26,16 +26,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
   
   return {
-    title: translations?.meta?.zodiacCalculator?.title || 'Zodiac Compatibility Calculator - Astrological Love Match Test',
-    description: translations?.meta?.zodiacCalculator?.description || 'Test zodiac sign compatibility for love and relationships. Discover astrological compatibility between your star signs with our fun zodiac calculator.',
-    keywords: translations?.meta?.zodiacCalculator?.keywords || ['zodiac compatibility', 'star sign compatibility', 'astrological love match', 'horoscope compatibility'],
+    title: translations?.meta?.zodiacCalculator?.title || 'Zodiac Sign Compatibility Calculator - Free Astrology Love Match',
+    description: translations?.meta?.zodiacCalculator?.description || 'Free zodiac sign compatibility calculator. Select your star sign and your partner\'s to see your astrological love match score. Discover your zodiac compatibility instantly!',
+    keywords: translations?.meta?.zodiacCalculator?.keywords || ['zodiac compatibility calculator', 'zodiac sign compatibility', 'star sign compatibility', 'horoscope compatibility', 'zodiac love match', 'astrology compatibility calculator'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.zodiacCalculator?.title || 'Zodiac Compatibility Calculator',
-      description: translations?.meta?.zodiacCalculator?.description || 'Test zodiac sign compatibility for love and relationships.',
+      title: translations?.meta?.zodiacCalculator?.title || 'Zodiac Sign Compatibility Calculator - Free Astrology Love Match',
+      description: translations?.meta?.zodiacCalculator?.description || 'Free zodiac sign compatibility calculator. Select your star sign and your partner\'s to see your astrological love match score.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -54,8 +54,8 @@ export default async function ZodiacCompatibilityCalculatorPage({ params }: Prop
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": translations?.meta?.zodiacCalculator?.title || 'Zodiac Compatibility Calculator',
-    "description": translations?.meta?.zodiacCalculator?.description || 'Test zodiac sign compatibility for love and relationships.',
+    "name": translations?.meta?.zodiacCalculator?.title || 'Zodiac Sign Compatibility Calculator - Free Astrology Love Match',
+    "description": translations?.meta?.zodiacCalculator?.description || 'Free zodiac sign compatibility calculator. Select your star sign and your partner\'s to see your astrological love match score.',
     "url": currentUrl,
     "applicationCategory": "Entertainment",
     "operatingSystem": "Any",

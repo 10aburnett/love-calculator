@@ -27,16 +27,16 @@ export async function generateMetadata({
   });
 
   return {
-    title: translations?.meta?.title || 'Love Calculator – Advanced Affinity Quotient Algorithm | Science-Based Compatibility',
-    description: translations?.meta?.description || 'Experience the world\'s most sophisticated Love Calculator powered by the Affinity Quotient algorithm. Get scientific compatibility analysis with detailed breakdowns, literature-based scoring, and premium insights.',
-    keywords: translations?.meta?.keywords || ['love calculator', 'affinity quotient', 'scientific compatibility test', 'advanced love algorithm', 'name compatibility analysis', 'relationship science'],
+    title: translations?.meta?.title || 'Love Calculator by Name - Free Love Percentage Test Online',
+    description: translations?.meta?.description || 'Calculate your love percentage by name with our free love calculator. Enter two names and instantly discover your compatibility score. The best love tester online!',
+    keywords: translations?.meta?.keywords || ['love calculator by name', 'love percentage calculator', 'love test by name', 'name love calculator', 'love compatibility by name', 'love percentage test'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.title || 'Love Calculator – Advanced Affinity Quotient Algorithm | Science-Based Compatibility',
-      description: translations?.meta?.description || 'The world\'s most sophisticated Love Calculator featuring the exclusive Affinity Quotient algorithm for scientific compatibility analysis.',
+      title: translations?.meta?.title || 'Love Calculator by Name - Free Love Percentage Test Online',
+      description: translations?.meta?.description || 'Calculate your love percentage by name with our free love calculator. Enter two names and instantly discover your compatibility score.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',

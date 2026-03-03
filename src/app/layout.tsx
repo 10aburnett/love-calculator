@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Love Calculator – Free Name Compatibility & Love Compatibility Test",
-  description: "Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.",
-  keywords: ["love calculator", "name compatibility", "love compatibility test", "relationship quiz", "fun love test"],
+  title: "Love Calculator - Free Love Percentage & Name Compatibility Test",
+  description: "Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you're a match! Try the #1 love tester online.",
+  keywords: ["love calculator", "love tester", "love percentage calculator", "name compatibility", "love match", "love meter", "crush calculator"],
   authors: [{ name: "Love Calculator Team" }],
   creator: "Love Calculator",
   publisher: "Love Calculator",
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.lovecalcs.com',
-    title: 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
-    description: 'Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.',
+    title: 'Love Calculator - Free Love Percentage & Name Compatibility Test',
+    description: 'Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you\'re a match! Try the #1 love tester online.',
     siteName: 'Love Calculator',
     images: [
       {
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
-    description: 'Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.',
+    title: 'Love Calculator - Free Love Percentage & Name Compatibility Test',
+    description: 'Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you\'re a match! Try the #1 love tester online.',
     images: ['/og-image.jpg'],
   },
   robots: {

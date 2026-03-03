@@ -25,16 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Quiz - Test Life Goals Alignment',
-    description: translations?.meta?.futureGoalsCompatibility?.description || 'Take our future goals compatibility quiz to see how aligned your life dreams and plans are with your partner. Test lifestyle and goal compatibility.',
-    keywords: translations?.meta?.futureGoalsCompatibility?.keywords || ['future goals quiz', 'life goals compatibility', 'lifestyle compatibility', 'relationship goals test'],
+    title: translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Quiz - Are Your Life Goals Aligned?',
+    description: translations?.meta?.futureGoalsCompatibility?.description || 'Are your life goals aligned with your partner? Take our free future goals compatibility quiz to discover if your dreams, values, and plans for the future match.',
+    keywords: translations?.meta?.futureGoalsCompatibility?.keywords || ['future goals compatibility quiz', 'life goals compatibility', 'couples goals quiz', 'are we compatible life goals', 'relationship goals test'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Quiz - Test Life Goals Alignment',
-      description: translations?.meta?.futureGoalsCompatibility?.description || 'See how aligned your life goals and dreams are for the future.',
+      title: translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Quiz - Are Your Life Goals Aligned?',
+      description: translations?.meta?.futureGoalsCompatibility?.description || 'Are your life goals aligned with your partner? Take our free future goals compatibility quiz.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -58,8 +58,8 @@ export default async function FutureGoalsCompatibilityLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Quiz',
-    "description": translations?.meta?.futureGoalsCompatibility?.description || 'Test how aligned your life goals and dreams are.',
+    "name": translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Quiz - Are Your Life Goals Aligned?',
+    "description": translations?.meta?.futureGoalsCompatibility?.description || 'Are your life goals aligned with your partner? Take our free quiz.',
     "url": currentUrl,
     "inLanguage": locale,
     "isPartOf": {
@@ -74,8 +74,8 @@ export default async function FutureGoalsCompatibilityLayout({
     },
     "mainEntity": {
       "@type": "Quiz",
-      "name": translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Assessment',
-      "description": translations?.meta?.futureGoalsCompatibility?.description || 'See how aligned your life goals are',
+      "name": translations?.meta?.futureGoalsCompatibility?.title || 'Future Goals Compatibility Quiz',
+      "description": translations?.meta?.futureGoalsCompatibility?.description || 'Discover if your life goals and dreams match',
       "educationalLevel": "general",
       "assesses": "Life goal compatibility and relationship future planning"
     }

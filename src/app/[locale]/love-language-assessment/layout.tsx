@@ -25,16 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: translations?.meta?.loveLanguageAssessment?.title || 'Love Language Assessment - Discover How You Give and Receive Love',
-    description: translations?.meta?.loveLanguageAssessment?.description || 'Take our love language assessment to discover your primary love languages. Learn how you express and receive love in relationships.',
-    keywords: translations?.meta?.loveLanguageAssessment?.keywords || ['love language quiz', 'love language test', 'five love languages', 'relationship assessment'],
+    title: translations?.meta?.loveLanguageAssessment?.title || 'Love Language Quiz - Discover Your 5 Love Languages Free',
+    description: translations?.meta?.loveLanguageAssessment?.description || 'Take the free love language quiz to find your primary love language. Discover how you give and receive love based on the 5 love languages. Quick, fun, and insightful!',
+    keywords: translations?.meta?.loveLanguageAssessment?.keywords || ['love language quiz', 'love language test', '5 love languages quiz', 'what is my love language', 'love languages test free', 'love language quiz for couples'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.loveLanguageAssessment?.title || 'Love Language Assessment - Discover Your Love Languages',
-      description: translations?.meta?.loveLanguageAssessment?.description || 'Find out your primary love languages and learn how to express love better.',
+      title: translations?.meta?.loveLanguageAssessment?.title || 'Love Language Quiz - Discover Your 5 Love Languages Free',
+      description: translations?.meta?.loveLanguageAssessment?.description || 'Take the free love language quiz to find your primary love language. Discover how you give and receive love.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -58,8 +58,8 @@ export default async function LoveLanguageAssessmentLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": translations?.meta?.loveLanguageAssessment?.title || 'Love Language Assessment',
-    "description": translations?.meta?.loveLanguageAssessment?.description || 'Discover your love languages and how you express love.',
+    "name": translations?.meta?.loveLanguageAssessment?.title || 'Love Language Quiz - Discover Your 5 Love Languages Free',
+    "description": translations?.meta?.loveLanguageAssessment?.description || 'Take the free love language quiz to find your primary love language.',
     "url": currentUrl,
     "inLanguage": locale,
     "isPartOf": {
@@ -74,8 +74,8 @@ export default async function LoveLanguageAssessmentLayout({
     },
     "mainEntity": {
       "@type": "Quiz",
-      "name": translations?.meta?.loveLanguageAssessment?.title || 'Love Language Assessment',
-      "description": translations?.meta?.loveLanguageAssessment?.description || 'Find out your primary love languages',
+      "name": translations?.meta?.loveLanguageAssessment?.title || 'Love Language Quiz',
+      "description": translations?.meta?.loveLanguageAssessment?.description || 'Discover your primary love language with our free quiz',
       "educationalLevel": "general",
       "assesses": "Primary love languages and relationship expression styles"
     }

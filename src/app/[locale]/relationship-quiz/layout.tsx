@@ -25,16 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: translations?.meta?.relationshipQuiz?.title || 'Relationship Quiz - Are You Compatible? Free Couples Test',
-    description: translations?.meta?.relationshipQuiz?.description || 'Take our comprehensive relationship quiz to discover your compatibility score. Free couples test with personalized insights about your relationship dynamics.',
-    keywords: translations?.meta?.relationshipQuiz?.keywords || ['relationship quiz', 'couples quiz', 'compatibility quiz', 'relationship test'],
+    title: translations?.meta?.relationshipQuiz?.title || 'Relationship Compatibility Quiz - Free Couples Test (8 Questions)',
+    description: translations?.meta?.relationshipQuiz?.description || 'Take our free 8-question relationship compatibility quiz. Get personalised insights about your relationship strengths, communication style, and compatibility score instantly.',
+    keywords: translations?.meta?.relationshipQuiz?.keywords || ['relationship quiz', 'relationship compatibility quiz', 'couples quiz', 'are we compatible quiz', 'compatibility test for couples', 'relationship test'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.relationshipQuiz?.title || 'Relationship Quiz - Are You Compatible? Free Couples Test',
-      description: translations?.meta?.relationshipQuiz?.description || 'Take our comprehensive relationship quiz to discover your compatibility score.',
+      title: translations?.meta?.relationshipQuiz?.title || 'Relationship Compatibility Quiz - Free Couples Test (8 Questions)',
+      description: translations?.meta?.relationshipQuiz?.description || 'Take our free 8-question relationship compatibility quiz. Get personalised insights about your relationship strengths and compatibility score.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -59,8 +59,8 @@ export default async function RelationshipQuizLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": translations?.meta?.relationshipQuiz?.title || 'Relationship Quiz - Are You Compatible?',
-    "description": translations?.meta?.relationshipQuiz?.description || 'Take our comprehensive relationship quiz to discover your compatibility score.',
+    "name": translations?.meta?.relationshipQuiz?.title || 'Relationship Compatibility Quiz - Free Couples Test',
+    "description": translations?.meta?.relationshipQuiz?.description || 'Take our free 8-question relationship compatibility quiz. Get personalised insights about your compatibility score.',
     "url": currentUrl,
     "inLanguage": locale,
     "isPartOf": {
@@ -75,8 +75,8 @@ export default async function RelationshipQuizLayout({
     },
     "mainEntity": {
       "@type": "Quiz",
-      "name": translations?.meta?.relationshipQuiz?.title || 'Relationship Compatibility Quiz',
-      "description": translations?.meta?.relationshipQuiz?.description || 'Comprehensive relationship assessment quiz',
+      "name": translations?.meta?.relationshipQuiz?.title || 'Relationship Compatibility Quiz - Free Couples Test',
+      "description": translations?.meta?.relationshipQuiz?.description || 'Free 8-question relationship compatibility quiz',
       "educationalLevel": "general",
       "assesses": "Relationship compatibility and communication patterns"
     }

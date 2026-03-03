@@ -25,16 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz - Discover Your Approach to Conflicts',
-    description: translations?.meta?.conflictResolutionQuiz?.description || 'Take our conflict resolution quiz to discover how you handle disagreements and conflicts in relationships. Learn your resolution style and improve communication.',
-    keywords: translations?.meta?.conflictResolutionQuiz?.keywords || ['conflict resolution quiz', 'conflict style test', 'relationship conflicts', 'communication skills'],
+    title: translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz - Free Conflict Style Test',
+    description: translations?.meta?.conflictResolutionQuiz?.description || 'What\'s your conflict resolution style? Take our free quiz to discover how you handle disagreements in relationships and get tips to resolve conflicts constructively.',
+    keywords: translations?.meta?.conflictResolutionQuiz?.keywords || ['conflict resolution style quiz', 'conflict resolution quiz', 'conflict style test', 'how do you handle conflict quiz', 'conflict management quiz'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz - Learn Your Approach',
-      description: translations?.meta?.conflictResolutionQuiz?.description || 'Learn how you handle disagreements and how to resolve conflicts better.',
+      title: translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz - Free Conflict Style Test',
+      description: translations?.meta?.conflictResolutionQuiz?.description || 'What\'s your conflict resolution style? Take our free quiz to discover how you handle disagreements in relationships.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -58,8 +58,8 @@ export default async function ConflictResolutionStyleLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz',
-    "description": translations?.meta?.conflictResolutionQuiz?.description || 'Discover how you handle conflicts and disagreements.',
+    "name": translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz - Free Conflict Style Test',
+    "description": translations?.meta?.conflictResolutionQuiz?.description || 'What\'s your conflict resolution style? Discover how you handle disagreements.',
     "url": currentUrl,
     "inLanguage": locale,
     "isPartOf": {
@@ -74,8 +74,8 @@ export default async function ConflictResolutionStyleLayout({
     },
     "mainEntity": {
       "@type": "Quiz",
-      "name": translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Assessment',
-      "description": translations?.meta?.conflictResolutionQuiz?.description || 'Learn your conflict resolution approach',
+      "name": translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz',
+      "description": translations?.meta?.conflictResolutionQuiz?.description || 'Discover your conflict resolution style',
       "educationalLevel": "general",
       "assesses": "Conflict resolution styles and relationship problem-solving approaches"
     }
