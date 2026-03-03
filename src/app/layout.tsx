@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://lovecalcs.com'),
+  metadataBase: new URL('https://www.lovecalcs.com'),
   alternates: {
     canonical: '/',
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://lovecalcs.com',
+    url: 'https://www.lovecalcs.com',
     title: 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
     description: 'Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.',
     siteName: 'Love Calculator',

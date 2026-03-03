@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/love-language-assessment';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/love-language-assessment';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/love-language-assessment`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/love-language-assessment`;
     }
   });
 
@@ -52,7 +52,7 @@ export default async function LoveLanguageAssessmentLayout({
   const { locale } = await params;
   const translations = await getTranslations(locale);
   
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/love-language-assessment` : `${baseUrl}/${locale}/love-language-assessment`;
   
   const structuredData = {

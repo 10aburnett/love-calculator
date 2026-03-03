@@ -19,9 +19,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/date-of-birth-calculator';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/date-of-birth-calculator';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/date-of-birth-calculator`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/date-of-birth-calculator`;
     }
   });
   
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonicalUrl,
       locale: locale,
       type: 'website',
-      images: [{ url: 'https://lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Date of Birth Compatibility Test' }],
+      images: [{ url: 'https://www.lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Date of Birth Compatibility Test' }],
     },
   };
 }
@@ -48,7 +48,7 @@ export default async function DateOfBirthCalculatorPage({ params }: Props) {
   const { locale } = await params;
   const translations = await getTranslations(locale);
 
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/date-of-birth-calculator` : `${baseUrl}/${locale}/date-of-birth-calculator`;
 
   const structuredData = {

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { locales, Locale } from '@/i18n/request'
 
-const baseUrl = 'https://lovecalcs.com'
+const baseUrl = 'https://www.lovecalcs.com'
 
 const routes = [
   '',

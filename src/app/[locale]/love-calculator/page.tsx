@@ -20,9 +20,9 @@ export async function generateMetadata({
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/love-calculator`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/love-calculator`;
     }
   });
 
@@ -40,7 +40,7 @@ export async function generateMetadata({
       url: canonicalUrl,
       locale: locale,
       type: 'website',
-      images: [{ url: 'https://lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Free Compatibility Test' }],
+      images: [{ url: 'https://www.lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Free Compatibility Test' }],
     },
   };
 }
@@ -53,7 +53,7 @@ export default async function LoveCalculatorPage({
   const { locale } = await params;
   const translations = await getTranslations(locale);
 
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}/love-calculator`;
 
   const structuredData = {

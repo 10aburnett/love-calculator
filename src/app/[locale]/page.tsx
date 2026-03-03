@@ -9,7 +9,7 @@ export default async function LocalePage({
   const { locale } = await params;
   const translations = await getTranslations(locale);
 
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}/love-calculator`;
 
   const structuredData = {

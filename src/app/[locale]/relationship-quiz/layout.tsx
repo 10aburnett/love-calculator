@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/relationship-quiz';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/relationship-quiz';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/relationship-quiz`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/relationship-quiz`;
     }
   });
 
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonicalUrl,
       locale: locale,
       type: 'website',
-      images: [{ url: 'https://lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Relationship Quiz' }],
+      images: [{ url: 'https://www.lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Relationship Quiz' }],
     },
   };
 }
@@ -53,7 +53,7 @@ export default async function RelationshipQuizLayout({
   const { locale } = await params;
   const translations = await getTranslations(locale);
   
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/relationship-quiz` : `${baseUrl}/${locale}/relationship-quiz`;
   
   const structuredData = {

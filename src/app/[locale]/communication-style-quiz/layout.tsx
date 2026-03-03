@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/communication-style-quiz';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/communication-style-quiz';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/communication-style-quiz`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/communication-style-quiz`;
     }
   });
 
@@ -52,7 +52,7 @@ export default async function CommunicationQuizLayout({
   const { locale } = await params;
   const translations = await getTranslations(locale);
   
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/communication-style-quiz` : `${baseUrl}/${locale}/communication-style-quiz`;
   
   const structuredData = {

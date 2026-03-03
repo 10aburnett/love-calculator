@@ -19,9 +19,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/zodiac-compatibility-calculator';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/zodiac-compatibility-calculator';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/zodiac-compatibility-calculator`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/zodiac-compatibility-calculator`;
     }
   });
   
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonicalUrl,
       locale: locale,
       type: 'website',
-      images: [{ url: 'https://lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Zodiac Compatibility Test' }],
+      images: [{ url: 'https://www.lovecalcs.com/opengraph-image', width: 1200, height: 630, alt: 'Love Calculator - Zodiac Compatibility Test' }],
     },
   };
 }
@@ -48,7 +48,7 @@ export default async function ZodiacCompatibilityCalculatorPage({ params }: Prop
   const { locale } = await params;
   const translations = await getTranslations(locale);
 
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/zodiac-compatibility-calculator` : `${baseUrl}/${locale}/zodiac-compatibility-calculator`;
 
   const structuredData = {

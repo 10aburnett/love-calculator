@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/future-goals-compatibility';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/future-goals-compatibility';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/future-goals-compatibility`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/future-goals-compatibility`;
     }
   });
 
@@ -52,7 +52,7 @@ export default async function FutureGoalsCompatibilityLayout({
   const { locale } = await params;
   const translations = await getTranslations(locale);
   
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/future-goals-compatibility` : `${baseUrl}/${locale}/future-goals-compatibility`;
   
   const structuredData = {

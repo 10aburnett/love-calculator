@@ -30,15 +30,15 @@ export async function generateMetadata({
     description: meta.description || 'Discover your love compatibility with our free Love Calculator! Test relationship compatibility, name match, and get fun personalized results to share.',
     keywords: meta.keywords || ['love calculator', 'name compatibility', 'love compatibility test', 'relationship quiz', 'fun love test'],
     alternates: {
-      canonical: `https://lovecalcs.com/${locale}`,
+      canonical: locale === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${locale}`,
       languages: Object.fromEntries(
-        locales.map(loc => [loc, `https://lovecalcs.com/${loc}`])
+        locales.map(loc => [loc, loc === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${loc}`])
       )
     },
     openGraph: {
       title: meta.title || 'Love Calculator – Free Name Compatibility & Love Compatibility Test',
       description: meta.description || 'Discover your love compatibility with our free Love Calculator!',
-      url: `https://lovecalcs.com/${locale}`,
+      url: locale === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${locale}`,
       siteName: meta.siteName || 'Love Calculator',
       locale: locale,
       type: 'website',
@@ -79,10 +79,10 @@ export default async function LocaleLayout({
             key={loc}
             rel="alternate"
             hrefLang={loc}
-            href={`https://lovecalcs.com/${loc}`}
+            href={loc === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${loc}`}
           />
         ))}
-        <link rel="alternate" hrefLang="x-default" href="https://lovecalcs.com/en" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.lovecalcs.com/" />
       </head>
       <body className={`${inter.className} ${playfair.variable}`} suppressHydrationWarning>
         <GoogleAnalytics measurementId="G-WX3SZWJN3R" />

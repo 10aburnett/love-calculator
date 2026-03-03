@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://lovecalcs.com/conflict-resolution-style';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/conflict-resolution-style';
     } else {
-      hreflangAlternates[supportedLocale] = `https://lovecalcs.com/${supportedLocale}/conflict-resolution-style`;
+      hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/conflict-resolution-style`;
     }
   });
 
@@ -52,7 +52,7 @@ export default async function ConflictResolutionStyleLayout({
   const { locale } = await params;
   const translations = await getTranslations(locale);
   
-  const baseUrl = 'https://lovecalcs.com';
+  const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/conflict-resolution-style` : `${baseUrl}/${locale}/conflict-resolution-style`;
   
   const structuredData = {

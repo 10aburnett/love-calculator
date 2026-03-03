@@ -1,6 +1,6 @@
 import { locales } from '@/i18n/request'
 
-const baseUrl = 'https://lovecalcs.com'
+const baseUrl = 'https://www.lovecalcs.com'
 
 export async function GET() {
   const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
