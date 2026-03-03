@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from 'next/font/google';
 import { locales } from '@/i18n/request';
 import { getTranslations } from '@/lib/translations';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import TranslationsProvider from '@/providers/TranslationsProvider';
 import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -85,9 +86,9 @@ export default async function LocaleLayout({
       </head>
       <body className={`${inter.className} ${playfair.variable}`} suppressHydrationWarning>
         <GoogleAnalytics measurementId="G-WX3SZWJN3R" />
-        <div data-locale={locale} data-translations={JSON.stringify(translations)}>
+        <TranslationsProvider translations={translations} locale={locale}>
           {children}
-        </div>
+        </TranslationsProvider>
       </body>
     </html>
   );
