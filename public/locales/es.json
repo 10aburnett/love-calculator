@@ -940,100 +940,105 @@
     "hi": "हिन्दी"
   },
   "meta": {
-    "title": "Calculadora de Amor – Prueba Gratuita de Compatibilidad de Nombres y Amor",
-    "description": "¡Descubre tu compatibilidad amorosa con nuestra Calculadora de Amor gratuita! Prueba la compatibilidad de relaciones, nombres y obtén resultados personalizados divertidos para compartir.",
+    "title": "Calculadora del Amor - Test de Compatibilidad de Nombres Gratis",
+    "description": "Calculadora del amor gratis para probar la compatibilidad de nombres. Descubre tu porcentaje de amor al instante. ¡El mejor test de amor online!",
     "keywords": [
+      "calculadora del amor",
       "calculadora de amor",
-      "compatibilidad de nombres",
-      "prueba de compatibilidad amorosa",
-      "cuestionario de relaciones",
-      "prueba de amor divertida"
+      "test de amor",
+      "porcentaje de amor",
+      "calculadora de amor por nombre",
+      "medidor de amor",
+      "compatibilidad de nombres"
     ],
     "author": "Equipo Calculadora de Amor",
     "creator": "Calculadora de Amor",
     "publisher": "Calculadora de Amor",
     "siteName": "Calculadora de Amor",
     "ogImageAlt": "Calculadora de Amor - Prueba Tu Compatibilidad",
-    "relationshipQuiz": {
-      "title": "Quiz de Relación - ¿Son Compatibles? Prueba Gratuita de Parejas | LoveCalcs",
-      "description": "Haz nuestro quiz integral de relación de 8 preguntas para descubrir tu puntuación de compatibilidad. Prueba gratuita de parejas con información personalizada sobre la fortaleza y dinámicas de tu relación.",
-      "keywords": [
-        "quiz de relación",
-        "cuestionario de parejas",
-        "quiz de compatibilidad",
-        "prueba de relación",
-        "compatibilidad de parejas",
-        "evaluación de relación"
-      ]
-    },
-    "communicationQuiz": {
-      "title": "Quiz de Estilo de Comunicación - Descubre Tus Patrones de Comunicación | LoveCalcs",
-      "description": "Haz nuestro quiz de estilo de comunicación para descubrir cómo te comunicas tú y tu pareja. Aprende tus patrones de comunicación, mejora el diálogo y fortalece las dinámicas de relación.",
-      "keywords": [
-        "quiz de comunicación",
-        "prueba de estilo de comunicación",
-        "comunicación en relaciones",
-        "patrones de comunicación",
-        "comunicación de parejas",
-        "habilidades de comunicación"
-      ]
-    },
-    "loveLanguageAssessment": {
-      "title": "Evaluación de Lenguajes del Amor - Descubre Cómo Das y Recibes Amor | LoveCalcs",
-      "description": "Haz nuestra evaluación de lenguajes del amor para descubrir tus lenguajes del amor principales. Aprende cómo expresas y recibes amor en relaciones con esta prueba integral de cinco lenguajes del amor.",
-      "keywords": [
-        "quiz de lenguajes del amor",
-        "prueba de lenguajes del amor",
-        "cinco lenguajes del amor",
-        "evaluación de relación",
-        "evaluación de lenguajes del amor",
-        "lenguajes del amor Gary Chapman"
-      ]
-    },
-    "futureGoalsCompatibility": {
-      "title": "Quiz de Compatibilidad de Metas Futuras - Prueba la Alineación de Objetivos de Vida | LoveCalcs",
-      "description": "Haz nuestro quiz de compatibilidad de metas futuras para ver qué tan alineados están tus sueños y planes de vida con tu pareja. Prueba la compatibilidad de estilo de vida, metas profesionales y planificación futura de relación.",
-      "keywords": [
-        "quiz de metas futuras",
-        "compatibilidad de objetivos de vida",
-        "compatibilidad de estilo de vida",
-        "prueba de metas de relación",
-        "quiz de planificación de vida",
-        "planificación futura de parejas"
-      ]
-    },
-    "conflictResolutionQuiz": {
-      "title": "Quiz de Estilo de Resolución de Conflictos - Descubre Tu Enfoque a los Conflictos | LoveCalcs",
-      "description": "Haz nuestro quiz de resolución de conflictos para descubrir cómo manejas desacuerdos y conflictos en relaciones. Aprende tu estilo de resolución, mejora la comunicación y fortalece las asociaciones.",
-      "keywords": [
-        "quiz de resolución de conflictos",
-        "prueba de estilo de conflicto",
-        "conflictos en relaciones",
-        "habilidades de comunicación",
-        "manejo de conflictos",
-        "resolución de problemas en relaciones"
-      ]
+    "loveCalculator": {
+      "title": "Calculadora de Amor por Nombre - Test de Porcentaje de Amor Gratis",
+      "description": "Calcula tu porcentaje de amor por nombre con nuestra calculadora de amor gratis. Introduce dos nombres y descubre al instante tu compatibilidad. ¡Pruébalo ahora!",
+      "keywords": ["calculadora de amor por nombre", "test de amor por nombre", "porcentaje de amor", "calculadora de compatibilidad", "prueba de amor por nombres", "calculador de amor"]
     },
     "dobCalculator": {
-      "title": "Calculadora de Compatibilidad por Fecha de Nacimiento - Prueba Compatibilidad de Cumpleaños | LoveCalcs",
-      "description": "Calcula la compatibilidad amorosa basada en fechas de nacimiento. Descubre si tus cumpleaños predicen compatibilidad romántica con nuestra divertida calculadora de fechas de nacimiento.",
+      "title": "Calculadora de Amor por Fecha de Nacimiento - Compatibilidad de Cumpleaños",
+      "description": "Calculadora de amor por fecha de nacimiento gratis. Introduce tu cumpleaños y el de tu pareja para descubrir tu compatibilidad romántica. ¡Test de amor por fecha de nacimiento!",
       "keywords": [
-        "calculadora de fecha de nacimiento",
+        "calculadora de amor por fecha de nacimiento",
+        "compatibilidad por fecha de nacimiento",
         "compatibilidad de cumpleaños",
-        "compatibilidad de fecha de nacimiento",
-        "prueba de amor por cumpleaños",
-        "numerología de fecha de nacimiento"
+        "test de amor por cumpleaños",
+        "calculadora de compatibilidad por nacimiento"
       ]
     },
     "zodiacCalculator": {
-      "title": "Calculadora de Compatibilidad Zodiacal - Prueba de Combinación Amorosa Astrológica | LoveCalcs",
-      "description": "Prueba la compatibilidad de signos zodiacales para amor y relaciones. Descubre la compatibilidad astrológica entre tus signos estelares con nuestra calculadora zodiacal divertida.",
+      "title": "Compatibilidad de Signos Zodiacales - Calculadora de Amor por Signo",
+      "description": "Calculadora de compatibilidad de signos zodiacales gratis. Selecciona tu signo y el de tu pareja para ver tu compatibilidad astrológica. ¡Descubre tu compatibilidad de signos!",
       "keywords": [
-        "compatibilidad zodiacal",
-        "compatibilidad de signos estelares",
-        "combinación amorosa astrológica",
-        "compatibilidad de horóscopo",
-        "astrología del amor"
+        "compatibilidad de signos",
+        "compatibilidad de signos zodiacales",
+        "compatibilidad de signos del zodiaco",
+        "calculadora de signos",
+        "horóscopo de compatibilidad",
+        "compatibilidad astrológica"
+      ]
+    },
+    "relationshipQuiz": {
+      "title": "Test de Compatibilidad de Pareja - Quiz de Relación Gratis",
+      "description": "Haz nuestro test de compatibilidad de pareja gratis con 8 preguntas. Descubre tus fortalezas como pareja y obtén consejos personalizados al instante.",
+      "keywords": [
+        "test de compatibilidad de pareja",
+        "test de pareja",
+        "quiz de pareja",
+        "test de relación",
+        "prueba de compatibilidad",
+        "test de amor para parejas"
+      ]
+    },
+    "communicationQuiz": {
+      "title": "Test de Comunicación en Pareja - Descubre tu Estilo de Comunicación",
+      "description": "Descubre tu estilo de comunicación en pareja con nuestro test gratis. Aprende cómo te expresas en tu relación y mejora la comunicación con tu pareja.",
+      "keywords": [
+        "test de comunicación en pareja",
+        "estilo de comunicación",
+        "quiz de comunicación",
+        "comunicación en pareja test",
+        "cómo mejorar la comunicación en pareja"
+      ]
+    },
+    "loveLanguageAssessment": {
+      "title": "Test de Lenguajes del Amor - Descubre tus 5 Lenguajes del Amor Gratis",
+      "description": "Haz el test de los 5 lenguajes del amor gratis. Descubre cómo das y recibes amor. Quiz rápido y divertido basado en los lenguajes del amor de Gary Chapman.",
+      "keywords": [
+        "test lenguajes del amor",
+        "lenguajes del amor test",
+        "5 lenguajes del amor quiz",
+        "cuál es mi lenguaje del amor",
+        "test de lenguaje del amor gratis",
+        "lenguajes del amor test para parejas"
+      ]
+    },
+    "futureGoalsCompatibility": {
+      "title": "Test de Compatibilidad de Metas - ¿Tienen los Mismos Objetivos de Vida?",
+      "description": "¿Están alineados tus objetivos de vida con los de tu pareja? Haz nuestro test de compatibilidad de metas gratis para descubrir si tus sueños y planes coinciden.",
+      "keywords": [
+        "test de compatibilidad de metas",
+        "objetivos de vida en pareja",
+        "metas de pareja quiz",
+        "compatibilidad de planes de vida",
+        "test de futuro en pareja"
+      ]
+    },
+    "conflictResolutionQuiz": {
+      "title": "Test de Resolución de Conflictos - Descubre tu Estilo de Conflicto",
+      "description": "¿Cómo manejas los conflictos en tu relación? Haz nuestro test gratis de resolución de conflictos y descubre tu estilo para resolver desacuerdos en pareja.",
+      "keywords": [
+        "test de resolución de conflictos",
+        "resolución de conflictos en pareja",
+        "estilo de conflicto quiz",
+        "cómo resolver conflictos en pareja",
+        "test de comunicación y conflictos"
       ]
     }
   },

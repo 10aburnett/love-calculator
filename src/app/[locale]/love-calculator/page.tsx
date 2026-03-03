@@ -12,7 +12,7 @@ export async function generateMetadata({
   const translations = await getTranslations(locale);
   
   // For English, use root path; for other languages, use locale prefix
-  const canonicalUrl = locale === 'en' ? '/' : `/${locale}/love-calculator`;
+  const canonicalUrl = locale === 'en' ? '/love-calculator' : `/${locale}/love-calculator`;
   
   // Generate hreflang alternates for all supported languages
   const supportedLocales = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ar', 'hi'];
@@ -20,23 +20,23 @@ export async function generateMetadata({
   
   supportedLocales.forEach(supportedLocale => {
     if (supportedLocale === 'en') {
-      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/';
+      hreflangAlternates[supportedLocale] = 'https://www.lovecalcs.com/love-calculator';
     } else {
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/love-calculator`;
     }
   });
 
   return {
-    title: translations?.meta?.title || 'Love Calculator by Name - Free Love Percentage Test Online',
-    description: translations?.meta?.description || 'Calculate your love percentage by name with our free love calculator. Enter two names and instantly discover your compatibility score. The best love tester online!',
-    keywords: translations?.meta?.keywords || ['love calculator by name', 'love percentage calculator', 'love test by name', 'name love calculator', 'love compatibility by name', 'love percentage test'],
+    title: translations?.meta?.loveCalculator?.title || 'Love Calculator by Name - Free Love Percentage Test Online',
+    description: translations?.meta?.loveCalculator?.description || 'Calculate your love percentage by name with our free love calculator. Enter two names and instantly discover your compatibility score. The best love tester online!',
+    keywords: translations?.meta?.loveCalculator?.keywords || ['love calculator by name', 'love percentage calculator', 'love test by name', 'name love calculator', 'love compatibility by name', 'love percentage test'],
     alternates: {
       canonical: canonicalUrl,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: translations?.meta?.title || 'Love Calculator by Name - Free Love Percentage Test Online',
-      description: translations?.meta?.description || 'Calculate your love percentage by name with our free love calculator. Enter two names and instantly discover your compatibility score.',
+      title: translations?.meta?.loveCalculator?.title || 'Love Calculator by Name - Free Love Percentage Test Online',
+      description: translations?.meta?.loveCalculator?.description || 'Calculate your love percentage by name with our free love calculator. Enter two names and instantly discover your compatibility score.',
       url: canonicalUrl,
       locale: locale,
       type: 'website',
@@ -54,13 +54,13 @@ export default async function LoveCalculatorPage({
   const translations = await getTranslations(locale);
 
   const baseUrl = 'https://www.lovecalcs.com';
-  const currentUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}/love-calculator`;
+  const currentUrl = locale === 'en' ? `${baseUrl}/love-calculator` : `${baseUrl}/${locale}/love-calculator`;
 
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": translations?.meta?.title || 'Love Calculator',
-    "description": translations?.meta?.description || 'Free Love Calculator for name compatibility and love compatibility testing.',
+    "name": translations?.meta?.loveCalculator?.title || 'Love Calculator by Name',
+    "description": translations?.meta?.loveCalculator?.description || 'Free Love Calculator for name compatibility and love compatibility testing.',
     "url": currentUrl,
     "applicationCategory": "Entertainment",
     "operatingSystem": "Any",
