@@ -28,14 +28,17 @@ export async function generateSitemaps() {
 export default async function sitemap({ id }: { id: string }): Promise<MetadataRoute.Sitemap> {
   const locale = id as Locale
 
+  const localeUrl = (lang: string, route: string) =>
+    lang === 'en' ? `${baseUrl}${route || '/'}` : `${baseUrl}/${lang}${route}`
+
   return routes.map((route) => ({
-    url: `${baseUrl}/${locale}${route}`,
+    url: localeUrl(locale, route),
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: route === '' ? 1.0 : route === '/love-calculator' ? 0.9 : 0.8,
     alternates: {
       languages: Object.fromEntries(
-        locales.map((lang) => [lang, `${baseUrl}/${lang}${route}`])
+        locales.map((lang) => [lang, localeUrl(lang, route)])
       ),
     },
   }))
