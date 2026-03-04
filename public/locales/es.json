@@ -957,12 +957,12 @@
     "siteName": "Calculadora de Amor",
     "ogImageAlt": "Calculadora de Amor - Prueba Tu Compatibilidad",
     "loveCalculator": {
-      "title": "Calculadora de Amor por Nombre - Test de Porcentaje de Amor Gratis",
+      "title": "Calculadora de Amor por Nombre - Porcentaje de Amor Gratis",
       "description": "Calcula tu porcentaje de amor por nombre con nuestra calculadora de amor gratis. Introduce dos nombres y descubre al instante tu compatibilidad. ¡Pruébalo ahora!",
       "keywords": ["calculadora de amor por nombre", "test de amor por nombre", "porcentaje de amor", "calculadora de compatibilidad", "prueba de amor por nombres", "calculador de amor"]
     },
     "dobCalculator": {
-      "title": "Calculadora de Amor por Fecha de Nacimiento - Compatibilidad de Cumpleaños",
+      "title": "Calculadora de Amor por Fecha de Nacimiento - Test Gratis",
       "description": "Calculadora de amor por fecha de nacimiento gratis. Introduce tu cumpleaños y el de tu pareja para descubrir tu compatibilidad romántica. ¡Test de amor por fecha de nacimiento!",
       "keywords": [
         "calculadora de amor por fecha de nacimiento",
@@ -973,7 +973,7 @@
       ]
     },
     "zodiacCalculator": {
-      "title": "Compatibilidad de Signos Zodiacales - Calculadora de Amor por Signo",
+      "title": "Compatibilidad de Signos - Calculadora Zodiacal Gratis",
       "description": "Calculadora de compatibilidad de signos zodiacales gratis. Selecciona tu signo y el de tu pareja para ver tu compatibilidad astrológica. ¡Descubre tu compatibilidad de signos!",
       "keywords": [
         "compatibilidad de signos",
@@ -997,7 +997,7 @@
       ]
     },
     "communicationQuiz": {
-      "title": "Test de Comunicación en Pareja - Descubre tu Estilo de Comunicación",
+      "title": "Test de Comunicación en Pareja - Tu Estilo Gratis",
       "description": "Descubre tu estilo de comunicación en pareja con nuestro test gratis. Aprende cómo te expresas en tu relación y mejora la comunicación con tu pareja.",
       "keywords": [
         "test de comunicación en pareja",
@@ -1008,7 +1008,7 @@
       ]
     },
     "loveLanguageAssessment": {
-      "title": "Test de Lenguajes del Amor - Descubre tus 5 Lenguajes del Amor Gratis",
+      "title": "Test 5 Lenguajes del Amor - Descubre el Tuyo Gratis",
       "description": "Haz el test de los 5 lenguajes del amor gratis. Descubre cómo das y recibes amor. Quiz rápido y divertido basado en los lenguajes del amor de Gary Chapman.",
       "keywords": [
         "test lenguajes del amor",
@@ -1020,7 +1020,7 @@
       ]
     },
     "futureGoalsCompatibility": {
-      "title": "Test de Compatibilidad de Metas - ¿Tienen los Mismos Objetivos de Vida?",
+      "title": "Test de Metas en Pareja - ¿Tienen los Mismos Objetivos?",
       "description": "¿Están alineados tus objetivos de vida con los de tu pareja? Haz nuestro test de compatibilidad de metas gratis para descubrir si tus sueños y planes coinciden.",
       "keywords": [
         "test de compatibilidad de metas",
@@ -1031,7 +1031,7 @@
       ]
     },
     "conflictResolutionQuiz": {
-      "title": "Test de Resolución de Conflictos - Descubre tu Estilo de Conflicto",
+      "title": "Test de Conflictos en Pareja - Tu Estilo de Resolución",
       "description": "¿Cómo manejas los conflictos en tu relación? Haz nuestro test gratis de resolución de conflictos y descubre tu estilo para resolver desacuerdos en pareja.",
       "keywords": [
         "test de resolución de conflictos",
