@@ -73,6 +73,12 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9231975345790814"
+          crossOrigin="anonymous"
+        />
         {/* Hreflang tags for SEO */}
         {locales.map((loc) => (
           <link
