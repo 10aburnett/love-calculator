@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { locales, Locale } from '@/i18n/request'
+import { getAllPosts } from '@/content/blog'
 
 const baseUrl = 'https://www.lovecalcs.com'
 
@@ -69,7 +70,7 @@ export default async function sitemap({ id }: { id: string }): Promise<MetadataR
   const localeUrl = (lang: string, route: string) =>
     lang === 'en' ? `${baseUrl}${route || '/'}` : `${baseUrl}/${lang}${route}`
 
-  return routes.map((route) => ({
+  const staticEntries: MetadataRoute.Sitemap = routes.map((route) => ({
     url: localeUrl(locale, route),
     lastModified: lastModFor(route),
     changeFrequency: (DAILY_ROUTES.has(route) ? 'daily' : 'weekly') as const,
@@ -80,4 +81,37 @@ export default async function sitemap({ id }: { id: string }): Promise<MetadataR
       ),
     },
   }))
+
+  const posts = getAllPosts()
+
+  // Blog index — lastmod tracks the most recent post.
+  const newestPost = posts.reduce(
+    (latest, p) => ((p.updated ?? p.date) > latest ? (p.updated ?? p.date) : latest),
+    '2026-01-01',
+  )
+  const blogIndexEntry: MetadataRoute.Sitemap[number] = {
+    url: localeUrl(locale, '/blog'),
+    lastModified: newestPost,
+    changeFrequency: 'weekly',
+    priority: 0.7,
+    alternates: {
+      languages: Object.fromEntries(locales.map((lang) => [lang, localeUrl(lang, '/blog')])),
+    },
+  }
+
+  // Individual posts — honest lastmod from each post's own date.
+  const postEntries: MetadataRoute.Sitemap = posts.map((post) => {
+    const route = `/blog/${post.slug}`
+    return {
+      url: localeUrl(locale, route),
+      lastModified: post.updated ?? post.date,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+      alternates: {
+        languages: Object.fromEntries(locales.map((lang) => [lang, localeUrl(lang, route)])),
+      },
+    }
+  })
+
+  return [...staticEntries, blogIndexEntry, ...postEntries]
 }

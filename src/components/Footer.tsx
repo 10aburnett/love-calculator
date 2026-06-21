@@ -3,12 +3,14 @@
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useTranslations } from '@/hooks/useTranslations';
+import { blogUi } from '@/content/blog/ui';
 import { Heart, Github, Mail } from 'lucide-react';
 
 export default function Footer() {
   const { t } = useTranslations();
   const params = useParams();
   const locale = params.locale as string;
+  const blogLabel = (blogUi[locale as keyof typeof blogUi] ?? blogUi.en).nav;
 
   const getLocalizedPath = (path: string) => {
     return locale === 'en' ? path : `/${locale}${path}`;
@@ -248,6 +250,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-900">{t('footer.company') || 'Company'}</h3>
             <ul className="space-y-2">
+              <li>
+                <Link href={getLocalizedPath('/blog')}
+                      className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">
+                  {blogLabel}
+                </Link>
+              </li>
               <li>
                 <Link href={getLocalizedPath('/about')}
                       className="text-gray-600 hover:text-[var(--love-pink)] transition-colors duration-200 text-sm">

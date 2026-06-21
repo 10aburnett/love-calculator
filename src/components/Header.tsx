@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { Heart, Menu, X, ChevronDown } from 'lucide-react';
 import { useParams } from 'next/navigation';
 import { useTranslations } from '@/hooks/useTranslations';
+import { blogUi } from '@/content/blog/ui';
 import LanguageToggle from './LanguageToggle';
 
 export default function Header() {
@@ -13,6 +14,7 @@ export default function Header() {
   const params = useParams();
   const locale = params.locale as string;
   const { t } = useTranslations();
+  const blogLabel = (blogUi[locale as keyof typeof blogUi] ?? blogUi.en).nav;
 
   useEffect(() => {
     // Close dropdown when clicking outside
@@ -90,7 +92,13 @@ export default function Header() {
               )}
             </div>
             
-            <Link 
+            <Link
+              href={`/${locale}/blog`}
+              className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform text-center"
+            >
+              {blogLabel}
+            </Link>
+            <Link
               href={`/${locale}/about`}
               className="text-gray-700 hover:text-[var(--love-pink)] font-medium transition-colors duration-200 hover:scale-105 transform text-center"
             >
@@ -154,6 +162,7 @@ export default function Header() {
             </div>
             
             {[
+              { href: `/${locale}/blog`, label: blogLabel },
               { href: `/${locale}/about`, label: t('header.about') || 'About' },
               { href: `/${locale}/contact`, label: t('header.contact') || 'Contact' }
             ].map((link) => (

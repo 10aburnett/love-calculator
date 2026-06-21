@@ -58,12 +58,19 @@ export default function LanguageToggle() {
   }, []);
 
   const handleLanguageChange = (newLocale: string) => {
-    // Get the current path without locale
-    const segments = pathname.split('/');
-    segments[1] = newLocale; // Replace the locale segment
-    const newPath = segments.join('/');
-    
-    router.push(newPath);
+    // Strip any existing locale prefix, then re-add the new one (English has
+    // none). This keeps the user on the SAME page when switching languages,
+    // whether the current URL is prefixed (e.g. /es/blog) or not (e.g. /blog).
+    const knownLocales = languages.map((l) => l.code) as string[];
+    const segments = pathname.split('/').filter(Boolean);
+    if (segments.length > 0 && knownLocales.includes(segments[0])) {
+      segments.shift();
+    }
+    const rest = segments.join('/');
+    const newPath =
+      newLocale === 'en' ? `/${rest}` : `/${newLocale}${rest ? `/${rest}` : ''}`;
+
+    router.push(newPath || '/');
     setIsOpen(false);
   };
 

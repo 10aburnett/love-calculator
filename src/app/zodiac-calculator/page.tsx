@@ -1,21 +1,8 @@
-import type { Metadata } from 'next';
-import ZodiacCompatibilityCalculatorPageContent from '../[locale]/zodiac-compatibility-calculator/ZodiacCompatibilityCalculatorPageContent';
+import { redirect } from 'next/navigation';
 
-export const metadata: Metadata = {
-  title: 'Zodiac Compatibility Calculator – Astrological Love Match Analysis',
-  description: 'Discover your zodiac compatibility with our advanced astrological calculator. Get detailed insights into your cosmic connection and love potential.',
-  keywords: ['zodiac compatibility', 'astrological love calculator', 'star signs compatibility', 'horoscope match', 'astrology relationship'],
-  alternates: {
-    canonical: '/zodiac-calculator',
-  },
-  openGraph: {
-    title: 'Zodiac Compatibility Calculator – Astrological Love Match Analysis',
-    description: 'Discover your zodiac compatibility with our advanced astrological calculator.',
-    url: '/zodiac-calculator',
-    type: 'website',
-  },
-};
-
-export default function ZodiacCalculatorPage() {
-  return <ZodiacCompatibilityCalculatorPageContent />;
+// Legacy alias. The canonical zodiac tool lives at /zodiac-compatibility-calculator
+// (served per-locale via the [locale] segment). Redirect so the old URL keeps
+// working without rendering under the html/body-less root layout.
+export default function ZodiacCalculatorRedirect() {
+  redirect('/zodiac-compatibility-calculator');
 }

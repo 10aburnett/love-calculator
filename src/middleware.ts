@@ -27,6 +27,7 @@ export const config = {
     // - … if they start with `/api`, `/_next` or `/_vercel`
     // - … the ones containing a dot (e.g. `favicon.ico`)
     // - … opengraph-image (generated OG images)
-    '/((?!api|_next|_vercel|opengraph-image|.*\\..*).*)'
+    // - … zodiac-calculator (legacy alias handled by a redirect page)
+    '/((?!api|_next|_vercel|opengraph-image|zodiac-calculator|.*\\..*).*)'
   ]
 }; 
