@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { locales } from '@/i18n/request';
 import { getAllPosts, getLocalizedContent, readingMinutes } from '@/content/blog';
 import { blogUi } from '@/content/blog/ui';
-import { blogIndexSchema, breadcrumbSchema, localeUrl, SITE_URL } from '@/lib/blogSchema';
+import { blogIndexSchema, breadcrumbSchema, localeUrl } from '@/lib/blogSchema';
+import { buildAlternates } from '@/lib/hreflang';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/blog/Breadcrumbs';
@@ -24,10 +25,7 @@ export async function generateMetadata({
   return {
     title: `${ui.indexTitle} — Love, Attraction & Compatibility`,
     description: ui.indexSubtitle,
-    alternates: {
-      canonical: url,
-      languages: Object.fromEntries(locales.map((loc) => [loc, localeUrl(loc, '/blog')])),
-    },
+    alternates: buildAlternates(locale, '/blog'),
     openGraph: {
       title: ui.indexTitle,
       description: ui.indexSubtitle,

@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/communication-style-quiz`;
     }
   });
+  hreflangAlternates['x-default'] = 'https://www.lovecalcs.com/communication-style-quiz';
 
   return {
     title: translations?.meta?.communicationQuiz?.title || 'Communication Style Quiz - What\'s Your Communication Type?',

@@ -29,6 +29,7 @@ export async function generateMetadata({
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/love-calculator`;
     }
   });
+  hreflangAlternates['x-default'] = 'https://www.lovecalcs.com/love-calculator';
 
   return {
     title: translations?.meta?.loveCalculator?.title || 'Love Calculator by Name - Free Love Percentage Test Online',

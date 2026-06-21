@@ -4,6 +4,10 @@ import { getAllPosts } from '@/content/blog'
 
 const baseUrl = 'https://www.lovecalcs.com'
 
+// Regenerate the sitemaps periodically so the daily-rotating pages' lastmod
+// advances each day (otherwise it would be frozen at build time).
+export const revalidate = 3600
+
 const routes = [
   '',
   '/love-calculator',

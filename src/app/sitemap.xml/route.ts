@@ -2,6 +2,9 @@ import { locales } from '@/i18n/request'
 
 const baseUrl = 'https://www.lovecalcs.com'
 
+// Regenerate hourly so the index <lastmod> advances with each daily rotation.
+export const revalidate = 3600
+
 export async function GET() {
   // Each per-locale sitemap contains the daily-rotating home and love-calculator
   // pages, so the index legitimately changes every day — report today's UTC date

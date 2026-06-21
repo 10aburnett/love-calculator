@@ -31,6 +31,7 @@ import {
   breadcrumbSchema,
   localeUrl,
 } from '@/lib/blogSchema';
+import { buildAlternates } from '@/lib/hreflang';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/blog/Breadcrumbs';
@@ -57,10 +58,7 @@ export async function generateMetadata({
     title: content.title,
     description: content.description,
     authors: [{ name: post.author }],
-    alternates: {
-      canonical: url,
-      languages: Object.fromEntries(locales.map((loc) => [loc, localeUrl(loc, `/blog/${slug}`)])),
-    },
+    alternates: buildAlternates(locale, `/blog/${slug}`),
     openGraph: {
       title: content.title,
       description: content.description,

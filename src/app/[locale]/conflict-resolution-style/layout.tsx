@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/conflict-resolution-style`;
     }
   });
+  hreflangAlternates['x-default'] = 'https://www.lovecalcs.com/conflict-resolution-style';
 
   return {
     title: translations?.meta?.conflictResolutionQuiz?.title || 'Conflict Resolution Style Quiz - Free Conflict Style Test',

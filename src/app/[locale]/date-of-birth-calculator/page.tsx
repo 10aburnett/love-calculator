@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/date-of-birth-calculator`;
     }
   });
+  hreflangAlternates['x-default'] = 'https://www.lovecalcs.com/date-of-birth-calculator';
   
   return {
     title: translations?.meta?.dobCalculator?.title || 'Love Calculator by Date of Birth - Birthday Compatibility Test',

@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Inter, Playfair_Display } from 'next/font/google';
 import { locales } from '@/i18n/request';
 import { getTranslations } from '@/lib/translations';
+import { buildAlternates } from '@/lib/hreflang';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import TranslationsProvider from '@/providers/TranslationsProvider';
 import '../globals.css';
@@ -29,12 +30,7 @@ export async function generateMetadata({
     title: meta.title || 'Love Calculator - Free Love Percentage & Name Compatibility Test',
     description: meta.description || 'Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you\'re a match! Try the #1 love tester online.',
     keywords: meta.keywords || ['love calculator', 'love tester', 'love percentage calculator', 'name compatibility', 'love match', 'love meter', 'crush calculator'],
-    alternates: {
-      canonical: locale === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${locale}`,
-      languages: Object.fromEntries(
-        locales.map(loc => [loc, loc === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${loc}`])
-      )
-    },
+    alternates: buildAlternates(locale, ''),
     openGraph: {
       title: meta.title || 'Love Calculator - Free Love Percentage & Name Compatibility Test',
       description: meta.description || 'Free Love Calculator to test name compatibility and get your love percentage. Fun, instant results - find out if you\'re a match!',
@@ -79,16 +75,9 @@ export default async function LocaleLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9231975345790814"
           crossOrigin="anonymous"
         />
-        {/* Hreflang tags for SEO */}
-        {locales.map((loc) => (
-          <link
-            key={loc}
-            rel="alternate"
-            hrefLang={loc}
-            href={loc === 'en' ? 'https://www.lovecalcs.com/' : `https://www.lovecalcs.com/${loc}`}
-          />
-        ))}
-        <link rel="alternate" hrefLang="x-default" href="https://www.lovecalcs.com/" />
+        {/* Per-page hreflang/canonical are emitted via each route's metadata
+            (see generateMetadata + lib/hreflang). No hardcoded tags here, so
+            sub-pages don't inherit homepage-pointing hreflang. */}
       </head>
       <body className={`${inter.className} ${playfair.variable}`} suppressHydrationWarning>
         <GoogleAnalytics measurementId="G-WX3SZWJN3R" />

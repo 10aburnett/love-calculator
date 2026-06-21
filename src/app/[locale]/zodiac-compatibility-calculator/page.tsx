@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/zodiac-compatibility-calculator`;
     }
   });
+  hreflangAlternates['x-default'] = 'https://www.lovecalcs.com/zodiac-compatibility-calculator';
   
   return {
     title: translations?.meta?.zodiacCalculator?.title || 'Zodiac Sign Compatibility Calculator - Free Astrology Love Match',

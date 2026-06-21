@@ -1,9 +1,18 @@
 import type { Metadata } from 'next';
+import { buildAlternates } from '@/lib/hreflang';
 
-export const metadata: Metadata = {
-  title: 'About LoveCalcs - Free Love Calculator & Compatibility Tests',
-  description: 'Learn about LoveCalcs.com - the free love calculator and compatibility testing platform. Discover how our love calculators, zodiac tools, and relationship quizzes work.',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: 'About LoveCalcs - Free Love Calculator & Compatibility Tests',
+    description: 'Learn about LoveCalcs.com - the free love calculator and compatibility testing platform. Discover how our love calculators, zodiac tools, and relationship quizzes work.',
+    alternates: buildAlternates(locale, '/about'),
+  };
+}
 
 export default function AboutLayout({
   children,

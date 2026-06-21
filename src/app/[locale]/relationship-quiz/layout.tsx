@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/relationship-quiz`;
     }
   });
+  hreflangAlternates['x-default'] = 'https://www.lovecalcs.com/relationship-quiz';
 
   return {
     title: translations?.meta?.relationshipQuiz?.title || 'Relationship Compatibility Quiz - Free Couples Test (8 Questions)',

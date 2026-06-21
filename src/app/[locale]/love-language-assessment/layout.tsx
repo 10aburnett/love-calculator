@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       hreflangAlternates[supportedLocale] = `https://www.lovecalcs.com/${supportedLocale}/love-language-assessment`;
     }
   });
+  hreflangAlternates['x-default'] = 'https://www.lovecalcs.com/love-language-assessment';
 
   return {
     title: translations?.meta?.loveLanguageAssessment?.title || 'Love Language Quiz - Discover Your 5 Love Languages Free',
