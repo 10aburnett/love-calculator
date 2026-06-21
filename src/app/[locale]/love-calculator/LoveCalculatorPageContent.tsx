@@ -4,11 +4,17 @@ import { useTranslations } from '@/hooks/useTranslations';
 import LoveCalculator from '@/components/LoveCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import DailyLoveInsight from '@/components/DailyLoveInsight';
 import Link from 'next/link';
 import { Heart, ArrowRight, Users, Share2, MessageCircle, BarChart3, Microscope, Target, Download, Instagram, Twitter, Smile, Gift } from 'lucide-react';
 import { motion } from 'framer-motion';
+import type { DailyInsight } from '@/lib/dailyContentTypes';
 
-export default function LoveCalculatorPageContent() {
+interface LoveCalculatorPageContentProps {
+  dailyInsight?: DailyInsight;
+}
+
+export default function LoveCalculatorPageContent({ dailyInsight }: LoveCalculatorPageContentProps) {
   const { t } = useTranslations();
   const params = useParams();
   const locale = params.locale as string;
@@ -82,6 +88,9 @@ export default function LoveCalculatorPageContent() {
             </motion.div>
           </div>
         </motion.section>
+
+        {/* Daily Love Insight — rotates every day (real freshness signal) */}
+        {dailyInsight && <DailyLoveInsight insight={dailyInsight} />}
 
         {/* Fun Love Test to Share Section */}
         <section className="py-12 bg-gradient-to-r from-pink-50 to-purple-50">

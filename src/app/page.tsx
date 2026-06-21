@@ -1,6 +1,10 @@
 import type { Metadata } from 'next';
 import { getMessages } from 'next-intl/server';
+import { getDailyInsight } from '@/lib/dailyContent';
 import LoveCalculatorPageContent from './[locale]/love-calculator/LoveCalculatorPageContent';
+
+// Refresh hourly so the date-based Daily Love Insight rotates each day.
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Love Calculator – Advanced Affinity Quotient Algorithm | Science-Based Compatibility',
@@ -18,5 +22,5 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  return <LoveCalculatorPageContent />;
+  return <LoveCalculatorPageContent dailyInsight={getDailyInsight('en')} />;
 }

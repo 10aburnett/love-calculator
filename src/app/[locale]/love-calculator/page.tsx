@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
 import { getMessages } from 'next-intl/server';
 import { getTranslations } from '@/lib/translations';
+import { getDailyInsight } from '@/lib/dailyContent';
 import LoveCalculatorPageContent from './LoveCalculatorPageContent';
+
+// Refresh hourly so the date-based Daily Love Insight rotates each day.
+export const revalidate = 3600;
 
 export async function generateMetadata({
   params
@@ -52,6 +56,7 @@ export default async function LoveCalculatorPage({
 }) {
   const { locale } = await params;
   const translations = await getTranslations(locale);
+  const dailyInsight = getDailyInsight(locale);
 
   const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? `${baseUrl}/love-calculator` : `${baseUrl}/${locale}/love-calculator`;
@@ -83,7 +88,7 @@ export default async function LoveCalculatorPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <LoveCalculatorPageContent />
+      <LoveCalculatorPageContent dailyInsight={dailyInsight} />
     </>
   );
 } 

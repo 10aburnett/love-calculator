@@ -1,5 +1,10 @@
 import { getTranslations } from '@/lib/translations';
+import { getDailyInsight } from '@/lib/dailyContent';
 import LoveCalculatorPageContent from './love-calculator/LoveCalculatorPageContent';
+
+// Regenerate at most hourly so the date-based Daily Love Insight rotates each
+// day while pages stay statically cached (fast) the rest of the time.
+export const revalidate = 3600;
 
 export default async function LocalePage({
   params
@@ -8,6 +13,7 @@ export default async function LocalePage({
 }) {
   const { locale } = await params;
   const translations = await getTranslations(locale);
+  const dailyInsight = getDailyInsight(locale);
 
   const baseUrl = 'https://www.lovecalcs.com';
   const currentUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}/love-calculator`;
@@ -39,7 +45,7 @@ export default async function LocalePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <LoveCalculatorPageContent />
+      <LoveCalculatorPageContent dailyInsight={dailyInsight} />
     </>
   );
 }
